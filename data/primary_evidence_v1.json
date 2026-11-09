@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "records": {
+    "gs-001": {
+      "status": "verified",
+      "metadata": {
+        "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+        "year": 2008,
+        "doi": null,
+        "venue": null,
+        "url": "https://bitcoin.org/bitcoin.pdf",
+        "authors": [
+          {
+            "name": "Satoshi Nakamoto",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "source_ids": {},
+        "kind": "whitepaper"
+      },
+      "evidence": [
+        {
+          "source": "original",
+          "source_url": "https://bitcoin.org/bitcoin.pdf",
+          "fields": [
+            "title",
+            "authors",
+            "url"
+          ],
+          "locator": "Page 1",
+          "retrieved_at": "2026-11-06"
+        },
+        {
+          "source": "original-announcement",
+          "source_url": "https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html",
+          "fields": [
+            "title",
+            "authors",
+            "year"
+          ],
+          "locator": "Announcement dated October 31, 2008",
+          "retrieved_at": "2026-11-06"
+        }
+      ],
+      "conflicts": [
+        {
+          "field": "edition",
+          "reason": "Index records for later reposts do not establish the original edition, author identity or affiliation."
+        }
+      ],
+      "versions": []
+    },
+    "gs-005": {
+      "status": "verified",
+      "metadata": {
+        "title": "Bitcoin-NG: A Scalable Blockchain Protocol",
+        "year": 2016,
+        "doi": null,
+        "venue": "USENIX Symposium on Networked Systems Design and Implementation (NSDI)",
+        "url": "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/eyal",
+        "authors": [
+          {
+            "name": "Ittay Eyal",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Adem Efe Gencer",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Emin Gün Sirer",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Robbert van Renesse",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "source_ids": {
+          "dblp": "conf/nsdi/EyalGSR16"
+        },
+        "kind": "conference-paper"
+      },
+      "evidence": [
+        {
+          "source": "publisher",
+          "source_url": "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/eyal",
+          "fields": [
+            "title",
+            "authors",
+            "year",
+            "venue",
+            "url"
+          ],
+          "locator": "Proceedings BibTeX and byline",
+          "retrieved_at": "2026-11-06"
+        },
+        {
+          "source": "dblp",
+          "source_id": "conf/nsdi/EyalGSR16",
+          "source_url": "https://dblp.org/rec/conf/nsdi/EyalGSR16.html",
+          "fields": [
+            "title",
+            "authors",
+            "year",
+            "venue"
+          ],
+          "locator": "Details and bibliographic citation",
+          "retrieved_at": "2026-11-06"
+        }
+      ],
+      "conflicts": [],
+      "versions": []
+    },
+    "gs-015": {
+      "status": "verified",
+      "metadata": {
+        "title": "Bitcoin: A Natural Oligopoly",
+        "year": 2019,
+        "doi": "10.4230/lipics.itcs.2019.5",
+        "venue": "ITCS 2019",
+        "url": "https://doi.org/10.4230/lipics.itcs.2019.5",
+        "authors": [
+          {
+            "name": "Nick Arnosti",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "S. Matthew Weinberg",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "source_ids": {},
+        "kind": "conference-abstract"
+      },
+      "evidence": [
+        {
+          "source": "publisher",
+          "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2019.5",
+          "fields": [
+            "title",
+            "authors",
+            "year",
+            "doi",
+            "venue"
+          ],
+          "locator": "Dagstuhl Publishing proceedings record",
+          "retrieved_at": "2026-11-06"
+        }
+      ],
+      "conflicts": [],
+      "versions": []
+    },
+    "gs-050": {
+      "status": "verified",
+      "metadata": {
+        "title": "What Can Cryptography Do for Decentralized Mechanism Design?",
+        "year": 2023,
+        "doi": "10.4230/lipics.itcs.2023.97",
+        "venue": "ITCS 2023",
+        "url": "https://doi.org/10.4230/lipics.itcs.2023.97",
+        "authors": [
+          {
+            "name": "Elaine Shi",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Hao Chung",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Ke Wu",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "source_ids": {},
+        "kind": "conference-paper"
+      },
+      "evidence": [
+        {
+          "source": "publisher",
+          "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2023.97",
+          "fields": [
+            "title",
+            "authors",
+            "year",
+            "doi",
+            "venue"
+          ],
+          "locator": "Dagstuhl Publishing proceedings record",
+          "retrieved_at": "2026-11-06"
+        }
+      ],
+      "conflicts": [],
+      "versions": []
+    },
+    "gs-023": {
+      "status": "verified",
+      "metadata": {
+        "title": "Flash Boys 2.0: Frontrunning in Decentralized Exchanges, Miner Extractable Value, and Consensus Instability",
+        "year": 2020,
+        "doi": "10.1109/sp40000.2020.00040",
+        "venue": "IEEE Symposium on Security and Privacy (SP)",
+        "url": "https://doi.org/10.1109/sp40000.2020.00040",
+        "authors": [
+          {
+            "name": "Philip Daian",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Steven Goldfeder",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Tyler Kell",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Yunqi Li",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Xueyuan Zhao",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Iddo Bentov",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Lorenz Breidenbach",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Ari Juels",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "source_ids": {},
+        "kind": "conference-paper"
+      },
+      "evidence": [
+        {
+          "source": "publisher",
+          "source_url": "https://ieeexplore.ieee.org/abstract/document/9152675",
+          "fields": [
+            "title",
+            "doi",
+            "year",
+            "venue"
+          ],
+          "locator": "IEEE Xplore proceedings record",
+          "retrieved_at": "2026-11-06"
+        },
+        {
+          "source": "conference",
+          "source_url": "https://www.ieee-security.org/TC/SP2020/program-papers.html",
+          "fields": [
+            "title",
+            "authors",
+            "year",
+            "venue"
+          ],
+          "locator": "Program entry and byline",
+          "retrieved_at": "2026-11-06"
+        }
+      ],
+      "conflicts": [
+        {
+          "field": "title",
+          "reason": "Publisher and program use a different subtitle. Raw user citation is retained."
+        }
+      ],
+      "versions": []
+    }
+  }
+}

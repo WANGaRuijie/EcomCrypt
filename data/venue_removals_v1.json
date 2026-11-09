@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-08",
+  "basis": "User decision 2026-11-08 (MDPI + IEEE Access + Hindawi). Applied at build time from data/venue_policy_v2.json; ledger records are retained so removal is reversible.",
+  "removed": [
+    {
+      "work_id": "discovered-23b0f6ad71357a43c21db56f",
+      "title": "Dynamic Fee Markets at Sub-Second Timescales: Adapting EIP-1559 for High-Throughput Blockchains",
+      "year": 2026,
+      "venue": "Mathematics",
+      "doi": "10.3390/math14071232",
+      "rule": "mdpi",
+      "reason": "Publisher-level exclusion chosen by the user (low selectivity / volume model)."
+    },
+    {
+      "work_id": "discovered-b2d6c057d4a52f3917a077cc",
+      "title": "Mining Pool Manipulation in Blockchain Network Over Evolutionary Block Withholding Attack",
+      "year": 2019,
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2019.2945600",
+      "rule": "ieee-access",
+      "reason": "Megajournal; excluded by user decision 2026-11-08."
+    },
+    {
+      "work_id": "discovered-89a8ced600384a731f023390",
+      "title": "Game-Theoretic Analysis of MEV Attacks and Mitigation Strategies in Decentralized Finance",
+      "year": 2025,
+      "venue": "Analytics",
+      "doi": "10.3390/analytics4030023",
+      "rule": "mdpi",
+      "reason": "Publisher-level exclusion chosen by the user (low selectivity / volume model)."
+    },
+    {
+      "work_id": "discovered-145d5541f5cf802e7174bc3a",
+      "title": "A Study on Blockchain Sandwich Attack Strategies Based on Mechanism Design Game Theory",
+      "year": 2023,
+      "venue": "Electronics",
+      "doi": "10.3390/electronics12214417",
+      "rule": "mdpi",
+      "reason": "Publisher-level exclusion chosen by the user (low selectivity / volume model)."
+    },
+    {
+      "work_id": "discovered-a24b05baf4c58fa0b21c18e8",
+      "title": "A Blockchain Based Truthful Incentive Mechanism for Distributed P2P Applications",
+      "year": 2018,
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2018.2821705",
+      "rule": "ieee-access",
+      "reason": "Megajournal; excluded by user decision 2026-11-08."
+    },
+    {
+      "work_id": "discovered-28677ff48ee2fe1906ef03be",
+      "title": "Optimal Gas Fee Minimization in DeFi: Enhancing Efficiency and Security on the Ethereum Blockchain",
+      "year": 2024,
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2024.3495714",
+      "rule": "ieee-access",
+      "reason": "Megajournal; excluded by user decision 2026-11-08."
+    }
+  ],
+  "after_this_step": {
+    "works": 576,
+    "publications": 584
+  },
+  "before_this_step": {
+    "works": 582,
+    "publications": 590
+  },
+  "note": "Scope removals of the same day are in data/scope_removals_v2.json; final directory after both steps: 568 works, 576 publication records."
+}

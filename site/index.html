@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A collection of research papers in the interplay of economics, blockchain, cryptography, and security.">
+  <title>EcomCrypt</title>
+  <link rel="stylesheet" href="./styles.css?v=ecomcrypt-2">
+  <script type="module" src="./app.mjs?v=ecomcrypt-6"></script>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <a class="dataset" href="./data/directory.json">Dataset</a>
+      <h1>EcomCrypt</h1>
+      <p>A collection of research papers in the interplay of economics, blockchain, cryptography, and security.</p>
+      <p class="research-note"><em>This is neither precise, nor comprehensive, and indeed suspicious.</em></p>
+    </header>
+    <p id="load-state" role="status">Loading the directory…</p>
+    <div id="directory" class="directory" hidden>
+      <form id="filters" class="filters" role="search">
+        <div class="bar"><h2>Filters</h2><button type="reset">Clear</button></div>
+        <label class="search-label" for="search">Search</label>
+        <input id="search" type="search" placeholder="Paper, author, or venue">
+        <fieldset>
+          <legend>Publication years</legend>
+          <div class="year-values"><output id="from-value" for="from"></output><span aria-hidden="true">–</span><output id="to-value" for="to"></output></div>
+          <div id="year-range" class="year-range">
+            <div class="year-track" aria-hidden="true"></div>
+            <label class="sr-only" for="from">First publication year</label>
+            <input id="from" type="range">
+            <label class="sr-only" for="to">Last publication year</label>
+            <input id="to" type="range">
+          </div>
+        </fieldset>
+        <fieldset class="topic-filter"><legend>Topics</legend><div class="selection-actions"><button type="button" data-selection="topic" data-checked="true">Select All</button><button type="button" data-selection="topic" data-checked="false">Deselect All</button></div><div id="topics" class="topic-options"></div></fieldset>
+        <fieldset class="venue-filter"><legend>Venues</legend><div class="selection-actions"><button type="button" data-selection="venue" data-checked="true">Select All</button><button type="button" data-selection="venue" data-checked="false">Deselect All</button></div><div id="venues"></div></fieldset>
+      </form>
+      <section aria-label="Research directory">
+        <div class="bar results-bar"><div class="view-buttons" role="group" aria-label="Browse directory"><button type="button" data-view="author" aria-pressed="true">By Author</button><button type="button" data-view="paper" aria-pressed="false">By Paper</button></div><select id="browse-mode" hidden aria-hidden="true"><option value="author">By Author</option><option value="paper">By Paper</option></select><p id="result-summary" aria-live="polite"></p></div>
+        <div id="results"></div>
+      </section>
+    </div>
+    <noscript><p>Enable JavaScript to browse, or open the dataset above.</p></noscript>
+    <footer>Since November 6, 2026. All rights reserved by Ruijie Wang.</footer>
+  </main>
+</body>
+</html>

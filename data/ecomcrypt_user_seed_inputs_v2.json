@@ -1,0 +1,1768 @@
+{
+  "schema_version": 1,
+  "policy": "Eight user-nominated papers; original inputs, canonical publication verification and bounded editorial reviews retained. No paid calls and no automation restart.",
+  "records": [
+    {
+      "work_id": "discovered-48b024b0115afb92a80494ac",
+      "topic_ids": [
+        "tfm"
+      ],
+      "raw_input": {
+        "source": "user",
+        "source_id": "ecomcrypt-eight-001",
+        "source_url": "https://dblp.org/db/conf/atal/aamas2024.html#conf/atal/DamlePG24",
+        "title": "Designing Redistribution Mechanisms for Reducing Transaction Fees in Blockchains",
+        "year": 2024,
+        "venue": "AAMAS",
+        "pages": "416–424",
+        "authors": [
+          {
+            "name": "Sankarshan Damle",
+            "ids": {},
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/228/8509.html"
+          },
+          {
+            "name": "Manisha Padala",
+            "ids": {},
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/213/8101.html"
+          },
+          {
+            "name": "Sujit Gujar",
+            "ids": {},
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/08/776.html"
+          }
+        ],
+        "annotation": "User nomination retained; not an automatically adopted discovery proposal."
+      },
+      "verification": {
+        "status": "verified",
+        "metadata": {
+          "source": "publisher",
+          "source_id": "https://ifmas.csc.liv.ac.uk/Proceedings/aamas2024/pdfs/p416.pdf",
+          "source_url": "https://ifmas.csc.liv.ac.uk/Proceedings/aamas2024/pdfs/p416.pdf",
+          "title": "Designing Redistribution Mechanisms for Reducing Transaction Fees in Blockchains",
+          "year": 2024,
+          "doi": null,
+          "venue": "AAMAS",
+          "kind": "conference-paper",
+          "pages": "416–424",
+          "authors": [
+            {
+              "name": "Sankarshan Damle",
+              "ids": {},
+              "institutions": []
+            },
+            {
+              "name": "Manisha Padala",
+              "ids": {},
+              "institutions": []
+            },
+            {
+              "name": "Sujit Gujar",
+              "ids": {},
+              "institutions": []
+            }
+          ],
+          "url": "https://ifmas.csc.liv.ac.uk/Proceedings/aamas2024/pdfs/p416.pdf"
+        },
+        "versions": [
+          {
+            "title": "Designing Redistribution Mechanisms for Reducing Transaction Fees in Blockchains",
+            "doi": "10.48550/arxiv.2401.13262",
+            "year": 2024,
+            "venue": "arXiv",
+            "kind": "preprint",
+            "url": "https://arxiv.org/abs/2401.13262",
+            "authors": [
+              {
+                "name": "Sankarshan Damle",
+                "ids": {},
+                "institutions": []
+              },
+              {
+                "name": "Manisha Padala",
+                "ids": {},
+                "institutions": []
+              },
+              {
+                "name": "Sujit Gujar",
+                "ids": {},
+                "institutions": []
+              }
+            ],
+            "relation_source": "https://ifmas.csc.liv.ac.uk/Proceedings/aamas2024/pdfs/p416.pdf",
+            "relation_note": "Official proceedings explicitly references full arXiv version, or institutional formal record links exact arXiv text. Hidden from duplicate preprint count."
+          }
+        ],
+        "conflicts": [],
+        "editorial_review": {
+          "reviewer": "supervisor",
+          "date": "2026-11-08",
+          "decision": "adopt",
+          "scope": "EconCS x Blockchain or cryptographic mechanism design/security",
+          "merit_reason": "Sections3–6 define miner-manipulable VCG redistribution and distinguish unrestricted from restricted user incentive compatibility. Positive rebates require relaxing constraints: R-TFRM compromises miner individual rationality; randomized R2-TFRM uses trusted randomness and restores it only in expectation. The worst-case linear rebate impossibility is not an unrestricted nonlinear impossibility; neural experiments do not prove one. Equal-size transactions and the included/confirmed distinction matter. Substantive TFM contribution, not a generic blockchain application. Some formal proofs are deferred to the related arXiv version.",
+          "review_depth": "Official9page proceedings model,Theorems2–7 and limitations; not all extended proofs audited.",
+          "sources": [
+            "https://ifmas.csc.liv.ac.uk/Proceedings/aamas2024/pdfs/p416.pdf",
+            "https://arxiv.org/abs/2401.13262"
+          ],
+          "topic_basis": {
+            "tfm": "See individual model/contribution assessment; no automatic topic inference from venue."
+          }
+        },
+        "index_result": {
+          "status": "publisher_and_exact_byline_verified",
+          "metadata": {
+            "source": "publisher",
+            "source_id": "https://ifmas.csc.liv.ac.uk/Proceedings/aamas2024/pdfs/p416.pdf",
+            "source_url": "https://ifmas.csc.liv.ac.uk/Proceedings/aamas2024/pdfs/p416.pdf",
+            "title": "Designing Redistribution Mechanisms for Reducing Transaction Fees in Blockchains",
+            "year": 2024,
+            "doi": null,
+            "venue": "AAMAS",
+            "kind": "conference-paper",
+            "pages": "416–424",
+            "authors": [
+              {
+                "name": "Sankarshan Damle",
+                "ids": {},
+                "institutions": []
+              },
+              {
+                "name": "Manisha Padala",
+                "ids": {},
+                "institutions": []
+              },
+              {
+                "name": "Sujit Gujar",
+                "ids": {},
+                "institutions": []
+              }
+            ],
+            "url": "https://ifmas.csc.liv.ac.uk/Proceedings/aamas2024/pdfs/p416.pdf"
+          }
+        },
+        "related_raw_inputs": [],
+        "evidence": [
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://ifmas.csc.liv.ac.uk/Proceedings/aamas2024/pdfs/p416.pdf",
+            "locator": "Official9page proceedings model,Theorems2–7 and limitations; not all extended proofs audited."
+          },
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://arxiv.org/abs/2401.13262",
+            "locator": "Official9page proceedings model,Theorems2–7 and limitations; not all extended proofs audited."
+          }
+        ]
+      }
+    },
+    {
+      "work_id": "discovered-ed341998ec1836e71b2de73f",
+      "topic_ids": [
+        "mining"
+      ],
+      "raw_input": {
+        "source": "user",
+        "source_id": "ecomcrypt-eight-002",
+        "source_url": "https://dblp.org/db/conf/fc/fc2016.html#conf/fc/SchrijversBBR16",
+        "title": "Incentive Compatibility of Bitcoin Mining Pool Reward Functions",
+        "year": 2016,
+        "venue": "FC",
+        "pages": "477–498",
+        "authors": [
+          {
+            "name": "Okke Schrijvers",
+            "ids": {},
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/02/10620.html"
+          },
+          {
+            "name": "Joseph Bonneau",
+            "ids": {},
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/27/3087.html"
+          },
+          {
+            "name": "Dan Boneh",
+            "ids": {},
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/b/DanBoneh.html"
+          },
+          {
+            "name": "Tim Roughgarden",
+            "ids": {},
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/r/TimRoughgarden.html"
+          }
+        ],
+        "annotation": "Exact user nomination; canonical publication metadata separately verified. User listed FC2016 event year, formal chapter published2017."
+      },
+      "verification": {
+        "status": "verified",
+        "metadata": {
+          "source": "publisher",
+          "source_id": "10.1007/978-3-662-54970-4_28",
+          "source_url": "https://link.springer.com/chapter/10.1007/978-3-662-54970-4_28",
+          "title": "Incentive Compatibility of Bitcoin Mining Pool Reward Functions",
+          "year": 2017,
+          "doi": "10.1007/978-3-662-54970-4_28",
+          "venue": "FC",
+          "kind": "conference-paper",
+          "pages": "477–498",
+          "authors": [
+            {
+              "name": "Okke Schrijvers",
+              "ids": {
+                "openalex": "A5046785442"
+              },
+              "institutions": [
+                {
+                  "name": "Stanford University",
+                  "ids": {
+                    "openalex": "I97018004",
+                    "ror": "00f54p054"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Joseph Bonneau",
+              "ids": {
+                "openalex": "A5057053404",
+                "orcid": "0000-0002-6349-0145"
+              },
+              "institutions": [
+                {
+                  "name": "Stanford University",
+                  "ids": {
+                    "openalex": "I97018004",
+                    "ror": "00f54p054"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Dan Boneh",
+              "ids": {
+                "openalex": "A5027798962",
+                "orcid": "0000-0003-0820-0421"
+              },
+              "institutions": [
+                {
+                  "name": "Stanford University",
+                  "ids": {
+                    "openalex": "I97018004",
+                    "ror": "00f54p054"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Tim Roughgarden",
+              "ids": {
+                "openalex": "A5022886322",
+                "orcid": "0000-0002-7163-8306"
+              },
+              "institutions": [
+                {
+                  "name": "Stanford University",
+                  "ids": {
+                    "openalex": "I97018004",
+                    "ror": "00f54p054"
+                  }
+                }
+              ]
+            }
+          ],
+          "url": "https://link.springer.com/chapter/10.1007/978-3-662-54970-4_28",
+          "event_year": 2016,
+          "source_ids": {
+            "openalex": "W2616147445"
+          },
+          "online_publication_date": "2017-05-17"
+        },
+        "versions": [],
+        "conflicts": [],
+        "editorial_review": {
+          "reviewer": "supervisor",
+          "date": "2026-11-08",
+          "decision": "adopt",
+          "scope": "EconCS x Blockchain or cryptographic mechanism design/security",
+          "merit_reason": "Author manuscript Sections2–6 models reporting versus delaying shares/solutions, gives incentive conditions, diagnoses proportional rewards and constructs an incentive-compatible reward. PPLNS uses ordered multi-round history and a binary immediate/one-share-delay strategy space; full-solution and share results require window/difficulty/miner-share conditions. This is not unconditional PPLNS robustness or coverage of pool hopping and every network strategy. Substantive pool reward mechanism analysis. Springer verifies FC2016 event but May2017 formal publication; preserve both.",
+          "review_depth": "Author manuscript model,Lemmas1–8 and Theorem1; formal bibliography independently verified, not a line-by-line final-edition proof audit.",
+          "sources": [
+            "https://theory.stanford.edu/~tim/papers/bitcoin.pdf",
+            "https://link.springer.com/chapter/10.1007/978-3-662-54970-4_28"
+          ],
+          "topic_basis": {
+            "mining": "See individual model/contribution assessment; no automatic topic inference from venue."
+          }
+        },
+        "index_result": {
+          "status": "publisher_and_exact_byline_verified",
+          "metadata": {
+            "source": "openalex",
+            "source_id": "W2616147445",
+            "source_url": "https://openalex.org/W2616147445",
+            "title": "Incentive Compatibility of Bitcoin Mining Pool Reward Functions",
+            "year": 2017,
+            "doi": "10.1007/978-3-662-54970-4_28",
+            "venue": "Lecture notes in computer science",
+            "primary_location_venue": "Lecture notes in computer science",
+            "authors": [
+              {
+                "name": "Okke Schrijvers",
+                "ids": {
+                  "openalex": "A5046785442"
+                },
+                "institutions": [
+                  {
+                    "name": "Stanford University",
+                    "ids": {
+                      "openalex": "I97018004",
+                      "ror": "00f54p054"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Joseph Bonneau",
+                "ids": {
+                  "openalex": "A5057053404",
+                  "orcid": "0000-0002-6349-0145"
+                },
+                "institutions": [
+                  {
+                    "name": "Stanford University",
+                    "ids": {
+                      "openalex": "I97018004",
+                      "ror": "00f54p054"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Dan Boneh",
+                "ids": {
+                  "openalex": "A5027798962",
+                  "orcid": "0000-0003-0820-0421"
+                },
+                "institutions": [
+                  {
+                    "name": "Stanford University",
+                    "ids": {
+                      "openalex": "I97018004",
+                      "ror": "00f54p054"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Tim Roughgarden",
+                "ids": {
+                  "openalex": "A5022886322",
+                  "orcid": "0000-0002-7163-8306"
+                },
+                "institutions": [
+                  {
+                    "name": "Stanford University",
+                    "ids": {
+                      "openalex": "I97018004",
+                      "ror": "00f54p054"
+                    }
+                  }
+                ]
+              }
+            ],
+            "url": "https://doi.org/10.1007/978-3-662-54970-4_28",
+            "kind": "conference-paper",
+            "related_dois": [],
+            "is_retracted": false,
+            "abstract": "",
+            "query_url": "https://api.openalex.org/works?cursor=IlsxNTAwMzM2MDAwMDAwLCAnLUluZmluaXR5JywgNDIsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjczODk5ODc2MyddIg%3D%3D&filter=authorships.author.id%3AA5037971575%7CA5027960285%7CA5108360806%7CA5036497037%7CA5081416898%7CA5078339613%7CA5065260419%7CA5055020244%7CA5020699288%7CA5055191549%7CA5043731494%7CA5029098755%7CA5030613484%7CA5105873232%7CA5017252483%7CA5043857512%7CA5057053404%7CA5036130379%7CA5074821339%7CA5059416296%7CA5108322252%7CA5065693795%7CA5040410978%7CA5043910558%7CA5034054081%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted%2Cabstract_inverted_index&sort=publication_date%3Adesc",
+            "retrieved_at": "2026-11-07"
+          }
+        },
+        "related_raw_inputs": [
+          {
+            "source": "openalex",
+            "source_id": "W2616147445",
+            "source_url": "https://openalex.org/W2616147445",
+            "title": "Incentive Compatibility of Bitcoin Mining Pool Reward Functions",
+            "year": 2017,
+            "doi": "10.1007/978-3-662-54970-4_28",
+            "venue": "Lecture notes in computer science",
+            "primary_location_venue": "Lecture notes in computer science",
+            "authors": [
+              {
+                "name": "Okke Schrijvers",
+                "ids": {
+                  "openalex": "A5046785442"
+                },
+                "institutions": [
+                  {
+                    "name": "Stanford University",
+                    "ids": {
+                      "openalex": "I97018004",
+                      "ror": "00f54p054"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Joseph Bonneau",
+                "ids": {
+                  "openalex": "A5057053404",
+                  "orcid": "0000-0002-6349-0145"
+                },
+                "institutions": [
+                  {
+                    "name": "Stanford University",
+                    "ids": {
+                      "openalex": "I97018004",
+                      "ror": "00f54p054"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Dan Boneh",
+                "ids": {
+                  "openalex": "A5027798962",
+                  "orcid": "0000-0003-0820-0421"
+                },
+                "institutions": [
+                  {
+                    "name": "Stanford University",
+                    "ids": {
+                      "openalex": "I97018004",
+                      "ror": "00f54p054"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Tim Roughgarden",
+                "ids": {
+                  "openalex": "A5022886322",
+                  "orcid": "0000-0002-7163-8306"
+                },
+                "institutions": [
+                  {
+                    "name": "Stanford University",
+                    "ids": {
+                      "openalex": "I97018004",
+                      "ror": "00f54p054"
+                    }
+                  }
+                ]
+              }
+            ],
+            "url": "https://doi.org/10.1007/978-3-662-54970-4_28",
+            "kind": "conference-paper",
+            "related_dois": [],
+            "is_retracted": false,
+            "abstract": "",
+            "query_url": "https://api.openalex.org/works?cursor=IlsxNTAwMzM2MDAwMDAwLCAnLUluZmluaXR5JywgNDIsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjczODk5ODc2MyddIg%3D%3D&filter=authorships.author.id%3AA5037971575%7CA5027960285%7CA5108360806%7CA5036497037%7CA5081416898%7CA5078339613%7CA5065260419%7CA5055020244%7CA5020699288%7CA5055191549%7CA5043731494%7CA5029098755%7CA5030613484%7CA5105873232%7CA5017252483%7CA5043857512%7CA5057053404%7CA5036130379%7CA5074821339%7CA5059416296%7CA5108322252%7CA5065693795%7CA5040410978%7CA5043910558%7CA5034054081%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted%2Cabstract_inverted_index&sort=publication_date%3Adesc",
+            "retrieved_at": "2026-11-07"
+          }
+        ],
+        "evidence": [
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://theory.stanford.edu/~tim/papers/bitcoin.pdf",
+            "locator": "Author manuscript model,Lemmas1–8 and Theorem1; formal bibliography independently verified, not a line-by-line final-edition proof audit."
+          },
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://link.springer.com/chapter/10.1007/978-3-662-54970-4_28",
+            "locator": "Author manuscript model,Lemmas1–8 and Theorem1; formal bibliography independently verified, not a line-by-line final-edition proof audit."
+          }
+        ]
+      }
+    },
+    {
+      "work_id": "discovered-cd678679b8561db0fb61d5a9",
+      "topic_ids": [
+        "mining",
+        "economic-security"
+      ],
+      "raw_input": {
+        "source": "user",
+        "source_id": "ecomcrypt-eight-003",
+        "source_url": "https://dblp.org/db/conf/esorics/esorics2019-1.html#conf/esorics/ZolotavkinK19",
+        "title": "Incentives for Harvesting Attack in Proof of Work Mining Pools",
+        "year": 2019,
+        "venue": "ESORICS",
+        "pages": "703–725",
+        "authors": [
+          {
+            "name": "Yevhen Zolotavkin",
+            "ids": {},
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/136/6744.html"
+          },
+          {
+            "name": "Veronika Kuchta",
+            "ids": {},
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/137/5239.html"
+          }
+        ],
+        "annotation": "User nomination retained; not an automatically adopted discovery proposal."
+      },
+      "verification": {
+        "status": "verified",
+        "metadata": {
+          "source": "publisher",
+          "source_id": "10.1007/978-3-030-29959-0_34",
+          "source_url": "https://doi.org/10.1007/978-3-030-29959-0_34",
+          "title": "Incentives for Harvesting Attack in Proof of Work Mining Pools",
+          "year": 2019,
+          "doi": "10.1007/978-3-030-29959-0_34",
+          "venue": "ESORICS",
+          "kind": "conference-paper",
+          "pages": "703–725",
+          "authors": [
+            {
+              "name": "Yevhen Zolotavkin",
+              "ids": {},
+              "institutions": []
+            },
+            {
+              "name": "Veronika Kuchta",
+              "ids": {},
+              "institutions": []
+            }
+          ],
+          "url": "https://doi.org/10.1007/978-3-030-29959-0_34",
+          "online_publication_date": "2019-09-15"
+        },
+        "versions": [],
+        "conflicts": [],
+        "editorial_review": {
+          "reviewer": "supervisor",
+          "date": "2026-11-08",
+          "decision": "adopt",
+          "scope": "EconCS x Blockchain or cryptographic mechanism design/security",
+          "merit_reason": "Read formal chapter Sections2–3 and theorem/experiment assumptions. A manager controlling PPS and PPLNS pools can fabricate a PPLNS miner and shift observed block production to harvest rewards. Expected-utility/discounted-wealth comparisons give sufficient profitability conditions; the exponential-discount heuristic and detection simulations rely on steady mining, chosen reward distributions and a common manager. Results do not imply every independent pool is exploitable or all managers attack. Meaningful miner/pool-manager incentive contribution.",
+          "review_depth": "Publisher-typeset chapter703–725 in research-centre hosted official volume;Sections2–3,Theorems1–2,Lemma1 and experiment assumptions.",
+          "sources": [
+            "https://research.monash.edu/en/publications/incentives-for-harvesting-attack-in-proof-of-work-mining-pools/",
+            "https://vetss.org.uk/wp-content/uploads/sites/165/2024/05/2019_8-D-Mitchell.pdf",
+            "https://link.springer.com/book/10.1007/978-3-030-29959-0?page=3"
+          ],
+          "topic_basis": {
+            "mining": "See individual model/contribution assessment; no automatic topic inference from venue.",
+            "economic-security": "See individual model/contribution assessment; no automatic topic inference from venue."
+          }
+        },
+        "index_result": {
+          "status": "publisher_and_exact_byline_verified",
+          "metadata": {
+            "source": "publisher",
+            "source_id": "10.1007/978-3-030-29959-0_34",
+            "source_url": "https://doi.org/10.1007/978-3-030-29959-0_34",
+            "title": "Incentives for Harvesting Attack in Proof of Work Mining Pools",
+            "year": 2019,
+            "doi": "10.1007/978-3-030-29959-0_34",
+            "venue": "ESORICS",
+            "kind": "conference-paper",
+            "pages": "703–725",
+            "authors": [
+              {
+                "name": "Yevhen Zolotavkin",
+                "ids": {},
+                "institutions": []
+              },
+              {
+                "name": "Veronika Kuchta",
+                "ids": {},
+                "institutions": []
+              }
+            ],
+            "url": "https://doi.org/10.1007/978-3-030-29959-0_34",
+            "online_publication_date": "2019-09-15"
+          }
+        },
+        "related_raw_inputs": [],
+        "evidence": [
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://research.monash.edu/en/publications/incentives-for-harvesting-attack-in-proof-of-work-mining-pools/",
+            "locator": "Publisher-typeset chapter703–725 in research-centre hosted official volume;Sections2–3,Theorems1–2,Lemma1 and experiment assumptions."
+          },
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://vetss.org.uk/wp-content/uploads/sites/165/2024/05/2019_8-D-Mitchell.pdf",
+            "locator": "Publisher-typeset chapter703–725 in research-centre hosted official volume;Sections2–3,Theorems1–2,Lemma1 and experiment assumptions."
+          },
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://link.springer.com/book/10.1007/978-3-030-29959-0?page=3",
+            "locator": "Publisher-typeset chapter703–725 in research-centre hosted official volume;Sections2–3,Theorems1–2,Lemma1 and experiment assumptions."
+          }
+        ]
+      }
+    },
+    {
+      "work_id": "discovered-65a263f8a1806fb7bd6df7b2",
+      "topic_ids": [
+        "amm",
+        "economic-security"
+      ],
+      "raw_input": {
+        "source": "user",
+        "source_id": "ecomcrypt-eight-004",
+        "source_url": "https://dblp.org/db/conf/uss/uss2026.html#conf/uss/LuLMZJW26",
+        "title": "Liquidity Mining as an Attack Surface: Incentive-Induced Liquidity Attacks in Concentrated Liquidity Market Makers",
+        "year": 2026,
+        "venue": "USENIX Security",
+        "pages": "1767–1786",
+        "authors": [
+          {
+            "name": "Nora Sinong Lu",
+            "ids": {},
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/403/0234.html"
+          },
+          {
+            "name": "Chon Kit Lao",
+            "ids": {},
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/358/0119.html"
+          },
+          {
+            "name": "Yunlong Mao",
+            "ids": {},
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/147/1311.html"
+          },
+          {
+            "name": "Xiaobo Zhou",
+            "ids": {},
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/13/6395-2.html"
+          },
+          {
+            "name": "Ruizhe Jia",
+            "ids": {},
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/245/4001.html"
+          },
+          {
+            "name": "Kanye Ye Wang",
+            "ids": {},
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/44/6292-17.html"
+          }
+        ],
+        "annotation": "User nomination retained; not an automatically adopted discovery proposal."
+      },
+      "verification": {
+        "status": "verified",
+        "metadata": {
+          "source": "publisher",
+          "source_id": "https://www.usenix.org/conference/usenixsecurity26/presentation/lu-sinong",
+          "source_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lu-sinong",
+          "title": "Liquidity Mining as an Attack Surface: Incentive-Induced Liquidity Attacks in Concentrated Liquidity Market Makers",
+          "year": 2026,
+          "doi": null,
+          "venue": "USENIX Security",
+          "kind": "conference-paper",
+          "pages": "1767–1786",
+          "authors": [
+            {
+              "name": "Nora Sinong Lu",
+              "ids": {},
+              "institutions": []
+            },
+            {
+              "name": "Chon Kit Lao",
+              "ids": {},
+              "institutions": []
+            },
+            {
+              "name": "Yunlong Mao",
+              "ids": {},
+              "institutions": []
+            },
+            {
+              "name": "Xiaobo Zhou",
+              "ids": {},
+              "institutions": []
+            },
+            {
+              "name": "Ruizhe Jia",
+              "ids": {},
+              "institutions": []
+            },
+            {
+              "name": "Kanye Ye Wang",
+              "ids": {},
+              "institutions": []
+            }
+          ],
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lu-sinong"
+        },
+        "versions": [],
+        "conflicts": [],
+        "editorial_review": {
+          "reviewer": "supervisor",
+          "date": "2026-11-08",
+          "decision": "adopt",
+          "scope": "EconCS x Blockchain or cryptographic mechanism design/security",
+          "merit_reason": "Official PDF Sections4–6 models sequential subsidy-driven trading, LP entry and attacker withdrawal/dumping. Closed-form thresholds use cap-binding and one-tick feasibility assumptions, with effective victim costs including expected crash risk. Measurement uses event replay and role heuristics on selected BSC Alpha pools; measured victim loss and attacker profit are distinct, not a zero-sum accounting identity. This is a substantive incentive-design attack surface for CLMMs. Do not generalize the threshold to all DEX pools or treat detected episodes as exhaustive causal identification.",
+          "review_depth": "OfficialPDF via web text:Sections4–6,Theorems1,3,6 and detection/measurement definitions; no independent proof/reproduction audit. Direct download403 recorded.",
+          "sources": [
+            "https://www.usenix.org/conference/usenixsecurity26/presentation/lu-sinong",
+            "https://www.usenix.org/system/files/usenixsecurity26-lu-sinong.pdf"
+          ],
+          "topic_basis": {
+            "amm": "See individual model/contribution assessment; no automatic topic inference from venue.",
+            "economic-security": "See individual model/contribution assessment; no automatic topic inference from venue."
+          }
+        },
+        "index_result": {
+          "status": "publisher_and_exact_byline_verified",
+          "metadata": {
+            "source": "publisher",
+            "source_id": "https://www.usenix.org/conference/usenixsecurity26/presentation/lu-sinong",
+            "source_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lu-sinong",
+            "title": "Liquidity Mining as an Attack Surface: Incentive-Induced Liquidity Attacks in Concentrated Liquidity Market Makers",
+            "year": 2026,
+            "doi": null,
+            "venue": "USENIX Security",
+            "kind": "conference-paper",
+            "pages": "1767–1786",
+            "authors": [
+              {
+                "name": "Nora Sinong Lu",
+                "ids": {},
+                "institutions": []
+              },
+              {
+                "name": "Chon Kit Lao",
+                "ids": {},
+                "institutions": []
+              },
+              {
+                "name": "Yunlong Mao",
+                "ids": {},
+                "institutions": []
+              },
+              {
+                "name": "Xiaobo Zhou",
+                "ids": {},
+                "institutions": []
+              },
+              {
+                "name": "Ruizhe Jia",
+                "ids": {},
+                "institutions": []
+              },
+              {
+                "name": "Kanye Ye Wang",
+                "ids": {},
+                "institutions": []
+              }
+            ],
+            "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lu-sinong"
+          }
+        },
+        "related_raw_inputs": [],
+        "evidence": [
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/lu-sinong",
+            "locator": "OfficialPDF via web text:Sections4–6,Theorems1,3,6 and detection/measurement definitions; no independent proof/reproduction audit. Direct download403 recorded."
+          },
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://www.usenix.org/system/files/usenixsecurity26-lu-sinong.pdf",
+            "locator": "OfficialPDF via web text:Sections4–6,Theorems1,3,6 and detection/measurement definitions; no independent proof/reproduction audit. Direct download403 recorded."
+          }
+        ]
+      }
+    },
+    {
+      "work_id": "discovered-f8c8cdce572434e533d576d9",
+      "topic_ids": [
+        "economic-security"
+      ],
+      "raw_input": {
+        "source": "user",
+        "source_id": "ecomcrypt-eight-005",
+        "source_url": "https://dblp.org/db/journals/cn/cn274.html#journals/cn/LiXL26",
+        "title": "Game theory based incentive mechanism for a bi-tiered public blockchain system",
+        "year": 2026,
+        "venue": "Computer Networks",
+        "pages": "111827",
+        "authors": [
+          {
+            "name": "Jing Li",
+            "ids": {
+              "orcid": "0009-0009-8916-1559"
+            },
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/181/2820.html"
+          },
+          {
+            "name": "Tao Xie",
+            "ids": {
+              "orcid": "0000-0002-0750-678X"
+            },
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/181/2328-12.html"
+          },
+          {
+            "name": "Yiwei Liu",
+            "ids": {},
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/18/6499.html"
+          }
+        ],
+        "annotation": "User nomination retained; not an automatically adopted discovery proposal."
+      },
+      "verification": {
+        "status": "verified",
+        "metadata": {
+          "source": "publisher",
+          "source_id": "10.1016/j.comnet.2025.111827",
+          "source_url": "https://www.sciencedirect.com/science/article/pii/S1389128625007935",
+          "title": "Game theory based incentive mechanism for a bi-tiered public blockchain system",
+          "year": 2026,
+          "doi": "10.1016/j.comnet.2025.111827",
+          "venue": "Computer Networks",
+          "kind": "journal-article",
+          "pages": "111827",
+          "authors": [
+            {
+              "name": "Jing Li",
+              "ids": {
+                "orcid": "0009-0009-8916-1559"
+              },
+              "institutions": [
+                {
+                  "name": "National University of Defense Technology",
+                  "ids": {
+                    "openalex": "I170215575",
+                    "ror": "05d2yfz11"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Tao Xie",
+              "ids": {
+                "orcid": "0000-0002-0750-678X"
+              },
+              "institutions": [
+                {
+                  "name": "National University of Defense Technology",
+                  "ids": {
+                    "openalex": "I170215575",
+                    "ror": "05d2yfz11"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Yiwei Liu",
+              "ids": {
+                "orcid": "0009-0008-9652-6459"
+              },
+              "institutions": [
+                {
+                  "name": "National University of Defense Technology",
+                  "ids": {
+                    "openalex": "I170215575",
+                    "ror": "05d2yfz11"
+                  }
+                }
+              ]
+            }
+          ],
+          "url": "https://www.sciencedirect.com/science/article/pii/S1389128625007935",
+          "volume": "274",
+          "source_ids": {
+            "openalex": "W4415896974"
+          }
+        },
+        "versions": [],
+        "conflicts": [],
+        "editorial_review": {
+          "reviewer": "supervisor",
+          "date": "2026-11-08",
+          "decision": "adopt",
+          "scope": "EconCS x Blockchain or cryptographic mechanism design/security",
+          "merit_reason": "Publisher-authored methods preview explicitly defines EVONIncentive monetary/reputation incentives, fee selection, delay compensation and supervisory penalties, with two Stackelberg games for node rewards and user fees. The intersection is direct economic design of public-blockchain participation, not an unrelated application. Adopt this user-selected paper on verified publisher methods/bibliography evidence; full utility equations and equilibrium derivations were unavailable and are not certified. Numerical comparisons to Ethereum1.0 are model-dependent illustrations, not live deployment or universal security/fairness evidence.",
+          "review_depth": "Bounded publisher methods/section preview plus exactCrossref byline/ORCIDs,volume274,January2026. Full model/proofs remain independently unaudited.",
+          "sources": [
+            "https://www.sciencedirect.com/science/article/pii/S1389128625007935",
+            "https://api.crossref.org/works/10.1016/j.comnet.2025.111827"
+          ],
+          "topic_basis": {
+            "economic-security": "See individual model/contribution assessment; no automatic topic inference from venue."
+          }
+        },
+        "index_result": {
+          "status": "publisher_and_exact_byline_verified",
+          "metadata": {
+            "source": "openalex",
+            "source_id": "W4415896974",
+            "source_url": "https://openalex.org/W4415896974",
+            "title": "Game theory based incentive mechanism for a bi-tiered public blockchain system",
+            "year": 2025,
+            "doi": "10.1016/j.comnet.2025.111827",
+            "venue": "Computer Networks",
+            "primary_location_venue": "Computer Networks",
+            "authors": [
+              {
+                "name": "Jing Li",
+                "ids": {
+                  "orcid": "0009-0009-8916-1559"
+                },
+                "institutions": [
+                  {
+                    "name": "National University of Defense Technology",
+                    "ids": {
+                      "openalex": "I170215575",
+                      "ror": "05d2yfz11"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Tao Xie",
+                "ids": {
+                  "openalex": "A5102786585",
+                  "orcid": "0000-0002-0750-678X"
+                },
+                "institutions": [
+                  {
+                    "name": "National University of Defense Technology",
+                    "ids": {
+                      "openalex": "I170215575",
+                      "ror": "05d2yfz11"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Yiwei Liu",
+                "ids": {
+                  "orcid": "0009-0008-9652-6459"
+                },
+                "institutions": [
+                  {
+                    "name": "National University of Defense Technology",
+                    "ids": {
+                      "openalex": "I170215575",
+                      "ror": "05d2yfz11"
+                    }
+                  }
+                ]
+              }
+            ],
+            "url": "https://doi.org/10.1016/j.comnet.2025.111827",
+            "kind": "article",
+            "related_dois": [
+              "10.21203/rs.3.rs-4290863/v1"
+            ],
+            "is_retracted": false,
+            "query_url": "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW3037810061&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+            "retrieved_at": "2026-11-07"
+          }
+        },
+        "related_raw_inputs": [
+          {
+            "source": "openalex",
+            "source_id": "W4415896974",
+            "source_url": "https://openalex.org/W4415896974",
+            "title": "Game theory based incentive mechanism for a bi-tiered public blockchain system",
+            "year": 2025,
+            "doi": "10.1016/j.comnet.2025.111827",
+            "venue": "Computer Networks",
+            "primary_location_venue": "Computer Networks",
+            "authors": [
+              {
+                "name": "Jing Li",
+                "ids": {
+                  "orcid": "0009-0009-8916-1559"
+                },
+                "institutions": [
+                  {
+                    "name": "National University of Defense Technology",
+                    "ids": {
+                      "openalex": "I170215575",
+                      "ror": "05d2yfz11"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Tao Xie",
+                "ids": {
+                  "openalex": "A5102786585",
+                  "orcid": "0000-0002-0750-678X"
+                },
+                "institutions": [
+                  {
+                    "name": "National University of Defense Technology",
+                    "ids": {
+                      "openalex": "I170215575",
+                      "ror": "05d2yfz11"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Yiwei Liu",
+                "ids": {
+                  "orcid": "0009-0008-9652-6459"
+                },
+                "institutions": [
+                  {
+                    "name": "National University of Defense Technology",
+                    "ids": {
+                      "openalex": "I170215575",
+                      "ror": "05d2yfz11"
+                    }
+                  }
+                ]
+              }
+            ],
+            "url": "https://doi.org/10.1016/j.comnet.2025.111827",
+            "kind": "article",
+            "related_dois": [
+              "10.21203/rs.3.rs-4290863/v1"
+            ],
+            "is_retracted": false,
+            "query_url": "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW3037810061&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+            "retrieved_at": "2026-11-07"
+          }
+        ],
+        "evidence": [
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://www.sciencedirect.com/science/article/pii/S1389128625007935",
+            "locator": "Bounded publisher methods/section preview plus exactCrossref byline/ORCIDs,volume274,January2026. Full model/proofs remain independently unaudited."
+          },
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://api.crossref.org/works/10.1016/j.comnet.2025.111827",
+            "locator": "Bounded publisher methods/section preview plus exactCrossref byline/ORCIDs,volume274,January2026. Full model/proofs remain independently unaudited."
+          }
+        ]
+      }
+    },
+    {
+      "work_id": "discovered-f58ba9e67e90acbb34bb06f5",
+      "topic_ids": [
+        "rational-cryptography",
+        "economics"
+      ],
+      "raw_input": {
+        "source": "user",
+        "source_id": "ecomcrypt-eight-006",
+        "source_url": "https://dblp.org/db/conf/sagt/sagt2021.html#conf/sagt/Hall-AndersenS21",
+        "title": "Game Theory on the Blockchain: A Model for Games with Smart Contracts",
+        "year": 2021,
+        "venue": "SAGT",
+        "pages": "156–170",
+        "authors": [
+          {
+            "name": "Mathias Hall-Andersen",
+            "ids": {},
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/225/9829.html"
+          },
+          {
+            "name": "Nikolaj I. Schwartzbach",
+            "ids": {},
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/261/5166.html"
+          }
+        ],
+        "annotation": "User nomination retained; not an automatically adopted discovery proposal."
+      },
+      "verification": {
+        "status": "verified",
+        "metadata": {
+          "source": "publisher",
+          "source_id": "10.1007/978-3-030-85947-3_11",
+          "source_url": "https://link.springer.com/chapter/10.1007/978-3-030-85947-3_11",
+          "title": "Game Theory on the Blockchain: A Model for Games with Smart Contracts",
+          "year": 2021,
+          "doi": "10.1007/978-3-030-85947-3_11",
+          "venue": "SAGT",
+          "kind": "conference-paper",
+          "pages": "156–170",
+          "authors": [
+            {
+              "name": "Mathias Hall-Andersen",
+              "ids": {
+                "openalex": "A5077381087",
+                "orcid": "0000-0002-0195-6659"
+              },
+              "institutions": [
+                {
+                  "name": "Aarhus University",
+                  "ids": {
+                    "openalex": "I204337017",
+                    "ror": "01aj84f44"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Nikolaj I. Schwartzbach",
+              "ids": {
+                "openalex": "A5042736720",
+                "orcid": "0000-0002-0610-4455"
+              },
+              "institutions": [
+                {
+                  "name": "Aarhus University",
+                  "ids": {
+                    "openalex": "I204337017",
+                    "ror": "01aj84f44"
+                  }
+                }
+              ]
+            }
+          ],
+          "url": "https://link.springer.com/chapter/10.1007/978-3-030-85947-3_11",
+          "source_ids": {
+            "openalex": "W3177868709"
+          },
+          "online_publication_date": "2021-09-14"
+        },
+        "versions": [
+          {
+            "title": "Game Theory on the Blockchain: A Model for Games with Smart Contracts",
+            "doi": "10.48550/arxiv.2107.04393",
+            "year": 2021,
+            "venue": "arXiv",
+            "kind": "preprint",
+            "url": "https://arxiv.org/abs/2107.04393",
+            "authors": [
+              {
+                "name": "Mathias Hall-Andersen",
+                "ids": {
+                  "openalex": "A5077381087",
+                  "orcid": "0000-0002-0195-6659"
+                },
+                "institutions": [
+                  {
+                    "name": "Aarhus University",
+                    "ids": {
+                      "openalex": "I204337017",
+                      "ror": "01aj84f44"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Nikolaj I. Schwartzbach",
+                "ids": {
+                  "openalex": "A5042736720",
+                  "orcid": "0000-0002-0610-4455"
+                },
+                "institutions": [
+                  {
+                    "name": "Aarhus University",
+                    "ids": {
+                      "openalex": "I204337017",
+                      "ror": "01aj84f44"
+                    }
+                  }
+                ]
+              }
+            ],
+            "relation_source": "https://pure.au.dk/portal/en/publications/game-theory-on-the-blockchain-a-model-for-games-with-smart-contra/",
+            "relation_note": "Official proceedings explicitly references full arXiv version, or institutional formal record links exact arXiv text. Hidden from duplicate preprint count."
+          }
+        ],
+        "conflicts": [],
+        "editorial_review": {
+          "reviewer": "supervisor",
+          "date": "2026-11-08",
+          "decision": "adopt",
+          "scope": "EconCS x Blockchain or cryptographic mechanism design/security",
+          "merit_reason": "Primary Sections2–4 model contract deployment as binding cuts in finite extensive-form games, relating commitment to Stackelberg/reverse-Stackelberg outcomes and deriving equilibrium-computation complexity bounds. Baseline uses pure strategies and generic/tie-broken utilities; perfect/imperfect-information and contract-count restrictions differ across results. An abstract commitment model, not proof of arbitrary deployed smart-contract behavior, gas feasibility or mixed-strategy coverage. A clear blockchain mechanism/game-theory contribution. Three-contract NP-completeness is a conjecture, not established theorem.",
+          "review_depth": "Official arXiv manuscript model,Proposition1 and complexity theorem statements, separately checked formal SAGT bibliography.",
+          "sources": [
+            "https://arxiv.org/abs/2107.04393",
+            "https://arxiv.org/pdf/2107.04393",
+            "https://link.springer.com/chapter/10.1007/978-3-030-85947-3_11",
+            "https://pure.au.dk/portal/en/publications/game-theory-on-the-blockchain-a-model-for-games-with-smart-contra/"
+          ],
+          "topic_basis": {
+            "rational-cryptography": "See individual model/contribution assessment; no automatic topic inference from venue.",
+            "economics": "See individual model/contribution assessment; no automatic topic inference from venue."
+          }
+        },
+        "index_result": {
+          "status": "publisher_and_exact_byline_verified",
+          "metadata": {
+            "source": "openalex",
+            "source_id": "W3177868709",
+            "source_url": "https://openalex.org/W3177868709",
+            "title": "Game Theory on the Blockchain: A Model for Games with Smart Contracts",
+            "year": 2021,
+            "doi": "10.1007/978-3-030-85947-3_11",
+            "venue": "Lecture notes in computer science",
+            "primary_location_venue": "Lecture notes in computer science",
+            "authors": [
+              {
+                "name": "Mathias Hall-Andersen",
+                "ids": {
+                  "openalex": "A5077381087",
+                  "orcid": "0000-0002-0195-6659"
+                },
+                "institutions": [
+                  {
+                    "name": "Aarhus University",
+                    "ids": {
+                      "openalex": "I204337017",
+                      "ror": "01aj84f44"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Nikolaj I. Schwartzbach",
+                "ids": {
+                  "openalex": "A5042736720",
+                  "orcid": "0000-0002-0610-4455"
+                },
+                "institutions": [
+                  {
+                    "name": "Aarhus University",
+                    "ids": {
+                      "openalex": "I204337017",
+                      "ror": "01aj84f44"
+                    }
+                  }
+                ]
+              }
+            ],
+            "url": "https://doi.org/10.1007/978-3-030-85947-3_11",
+            "kind": "conference-paper",
+            "related_dois": [],
+            "is_retracted": false,
+            "abstract": "We propose a model for games in which the players have shared access to a blockchain that allows them to deploy smart contracts to act on their behalf. This changes fundamental game-theoretic assumptions about rationality since a contract can commit a player to act irrationally in specific subgames, making credible otherwise non-credible threats. This is further complicated by considering the interaction between multiple contracts which can reason about each other. This changes the nature of the game in a nontrivial way as choosing which contract to play can itself be considered a move in the game. Our model generalizes known notions of equilibria, with a single contract being equivalent to a Stackelberg equilibrium, and two contracts being equivalent to a reverse Stackelberg equilibrium. We prove a number of bounds on the complexity of computing SPE in such games with smart contracts. We show that computing an SPE is \\(\\textsf {PSPACE}\\)-hard in the general case. Specifically, in games with k contracts, we show that computing an SPE is \\(\\varSigma _k^\\textsf {P}\\)-hard for games of imperfect information. We show that computing an SPE remains \\(\\textsf {PSPACE}\\)-hard in games of perfect information if we allow for an unbounded number of contracts. We give an algorithm for computing an SPE in two-contract games of perfect information that runs in time \\(O(m\\ell )\\) where m is the size of the game tree and \\(\\ell \\) is the number of terminal nodes. Finally, we conjecture the problem to be \\(\\textsf {NP}\\)-complete for three contracts.",
+            "query_url": "https://api.openalex.org/works?cursor=IlsxNjEyMjI0MDAwMDAwLCAxMDAuMCwgNTksICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzEyNzQ5MDgwNSddIg%3D%3D&filter=authorships.author.id%3AA5059657156%7CA5079192213%7CA5006707923%7CA5076026636%7CA5088559960%7CA5060534829%7CA5003473501%7CA5077270486%7CA5095761913%7CA5093818645%7CA5080094737%7CA5001746807%7CA5065423139%7CA5080547297%7CA5066748845%7CA5014505212%7CA5006565823%7CA5072929507%7CA5013488149%7CA5078075278%7CA5042736720%7CA5054420804%7CA5033547692%7CA5116013946%7CA5035588934%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted%2Cabstract_inverted_index&sort=publication_date%3Adesc",
+            "retrieved_at": "2026-11-07"
+          }
+        },
+        "related_raw_inputs": [
+          {
+            "source": "openalex",
+            "source_id": "W3177868709",
+            "source_url": "https://openalex.org/W3177868709",
+            "title": "Game Theory on the Blockchain: A Model for Games with Smart Contracts",
+            "year": 2021,
+            "doi": "10.1007/978-3-030-85947-3_11",
+            "venue": "Lecture notes in computer science",
+            "primary_location_venue": "Lecture notes in computer science",
+            "authors": [
+              {
+                "name": "Mathias Hall-Andersen",
+                "ids": {
+                  "openalex": "A5077381087",
+                  "orcid": "0000-0002-0195-6659"
+                },
+                "institutions": [
+                  {
+                    "name": "Aarhus University",
+                    "ids": {
+                      "openalex": "I204337017",
+                      "ror": "01aj84f44"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Nikolaj I. Schwartzbach",
+                "ids": {
+                  "openalex": "A5042736720",
+                  "orcid": "0000-0002-0610-4455"
+                },
+                "institutions": [
+                  {
+                    "name": "Aarhus University",
+                    "ids": {
+                      "openalex": "I204337017",
+                      "ror": "01aj84f44"
+                    }
+                  }
+                ]
+              }
+            ],
+            "url": "https://doi.org/10.1007/978-3-030-85947-3_11",
+            "kind": "conference-paper",
+            "related_dois": [],
+            "is_retracted": false,
+            "abstract": "We propose a model for games in which the players have shared access to a blockchain that allows them to deploy smart contracts to act on their behalf. This changes fundamental game-theoretic assumptions about rationality since a contract can commit a player to act irrationally in specific subgames, making credible otherwise non-credible threats. This is further complicated by considering the interaction between multiple contracts which can reason about each other. This changes the nature of the game in a nontrivial way as choosing which contract to play can itself be considered a move in the game. Our model generalizes known notions of equilibria, with a single contract being equivalent to a Stackelberg equilibrium, and two contracts being equivalent to a reverse Stackelberg equilibrium. We prove a number of bounds on the complexity of computing SPE in such games with smart contracts. We show that computing an SPE is \\(\\textsf {PSPACE}\\)-hard in the general case. Specifically, in games with k contracts, we show that computing an SPE is \\(\\varSigma _k^\\textsf {P}\\)-hard for games of imperfect information. We show that computing an SPE remains \\(\\textsf {PSPACE}\\)-hard in games of perfect information if we allow for an unbounded number of contracts. We give an algorithm for computing an SPE in two-contract games of perfect information that runs in time \\(O(m\\ell )\\) where m is the size of the game tree and \\(\\ell \\) is the number of terminal nodes. Finally, we conjecture the problem to be \\(\\textsf {NP}\\)-complete for three contracts.",
+            "query_url": "https://api.openalex.org/works?cursor=IlsxNjEyMjI0MDAwMDAwLCAxMDAuMCwgNTksICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzEyNzQ5MDgwNSddIg%3D%3D&filter=authorships.author.id%3AA5059657156%7CA5079192213%7CA5006707923%7CA5076026636%7CA5088559960%7CA5060534829%7CA5003473501%7CA5077270486%7CA5095761913%7CA5093818645%7CA5080094737%7CA5001746807%7CA5065423139%7CA5080547297%7CA5066748845%7CA5014505212%7CA5006565823%7CA5072929507%7CA5013488149%7CA5078075278%7CA5042736720%7CA5054420804%7CA5033547692%7CA5116013946%7CA5035588934%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted%2Cabstract_inverted_index&sort=publication_date%3Adesc",
+            "retrieved_at": "2026-11-07"
+          }
+        ],
+        "evidence": [
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://arxiv.org/abs/2107.04393",
+            "locator": "Official arXiv manuscript model,Proposition1 and complexity theorem statements, separately checked formal SAGT bibliography."
+          },
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://arxiv.org/pdf/2107.04393",
+            "locator": "Official arXiv manuscript model,Proposition1 and complexity theorem statements, separately checked formal SAGT bibliography."
+          },
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://link.springer.com/chapter/10.1007/978-3-030-85947-3_11",
+            "locator": "Official arXiv manuscript model,Proposition1 and complexity theorem statements, separately checked formal SAGT bibliography."
+          },
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://pure.au.dk/portal/en/publications/game-theory-on-the-blockchain-a-model-for-games-with-smart-contra/",
+            "locator": "Official arXiv manuscript model,Proposition1 and complexity theorem statements, separately checked formal SAGT bibliography."
+          }
+        ]
+      }
+    },
+    {
+      "work_id": "discovered-3227725fb67b99d923cb0fc6",
+      "topic_ids": [
+        "economic-security"
+      ],
+      "raw_input": {
+        "source": "user",
+        "source_id": "ecomcrypt-eight-007",
+        "source_url": "https://dblp.org/db/conf/gamesec/gamesec2018.html#conf/gamesec/AlzahraniB18",
+        "title": "Towards True Decentralization: A Blockchain Consensus Protocol Based on Game Theory and Randomness",
+        "year": 2018,
+        "venue": "GameSec",
+        "pages": "465–485",
+        "authors": [
+          {
+            "name": "Naif Alzahrani",
+            "ids": {},
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/182/9343.html"
+          },
+          {
+            "name": "Nirupama Bulusu",
+            "ids": {},
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/04/6227.html"
+          }
+        ],
+        "annotation": "User nomination retained; not an automatically adopted discovery proposal."
+      },
+      "verification": {
+        "status": "verified",
+        "metadata": {
+          "source": "publisher",
+          "source_id": "10.1007/978-3-030-01554-1_27",
+          "source_url": "https://link.springer.com/chapter/10.1007/978-3-030-01554-1_27",
+          "title": "Towards True Decentralization: A Blockchain Consensus Protocol Based on Game Theory and Randomness",
+          "year": 2018,
+          "doi": "10.1007/978-3-030-01554-1_27",
+          "venue": "GameSec",
+          "kind": "conference-paper",
+          "pages": "465–485",
+          "authors": [
+            {
+              "name": "Naif Alzahrani",
+              "ids": {
+                "openalex": "A5029131302",
+                "orcid": "0000-0002-0413-9136"
+              },
+              "institutions": [
+                {
+                  "name": "Portland State University",
+                  "ids": {
+                    "openalex": "I126345244",
+                    "ror": "00yn2fy02"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Nirupama Bulusu",
+              "ids": {
+                "openalex": "A5014974612",
+                "orcid": "0000-0003-4351-1217"
+              },
+              "institutions": [
+                {
+                  "name": "Portland State University",
+                  "ids": {
+                    "openalex": "I126345244",
+                    "ror": "00yn2fy02"
+                  }
+                }
+              ]
+            }
+          ],
+          "url": "https://link.springer.com/chapter/10.1007/978-3-030-01554-1_27",
+          "source_ids": {
+            "openalex": "W2894261967"
+          },
+          "online_publication_date": "2018-09-26"
+        },
+        "versions": [],
+        "conflicts": [],
+        "editorial_review": {
+          "reviewer": "supervisor",
+          "date": "2026-11-08",
+          "decision": "adopt",
+          "scope": "EconCS x Blockchain or cryptographic mechanism design/security",
+          "merit_reason": "Author paper gives two-stage Bayesian games for proposer cheating, validator selection and validation effort, with explicit payoffs and mixed-strategy thresholds. This is substantive strategic participation beyond consensus engineering. Independent one-to-four leader games, assumed rationality, exogenous attack beliefs and proposer importance parameters constrain results; the importance estimator is not specified. Reward/penalty calibration and randomness assumptions do not establish universal honest behavior, decentralization or resistance to all attacks. Admit for the model contribution, without endorsing the title as a measured guarantee.",
+          "review_depth": "Author manuscript first/second-stage Bayesian-game payoff tables and BNE derivations; formal GameSec metadata corroborated.",
+          "sources": [
+            "https://web.cecs.pdx.edu/~nbulusu/papers/gamesec18.pdf",
+            "https://link.springer.com/chapter/10.1007/978-3-030-01554-1_27"
+          ],
+          "topic_basis": {
+            "economic-security": "See individual model/contribution assessment; no automatic topic inference from venue."
+          }
+        },
+        "index_result": {
+          "status": "publisher_and_exact_byline_verified",
+          "metadata": {
+            "source": "openalex",
+            "source_id": "W2894261967",
+            "source_url": "https://openalex.org/W2894261967",
+            "title": "Towards True Decentralization: A Blockchain Consensus Protocol Based on Game Theory and Randomness",
+            "year": 2018,
+            "doi": "10.1007/978-3-030-01554-1_27",
+            "venue": "Lecture notes in computer science",
+            "primary_location_venue": "Lecture notes in computer science",
+            "authors": [
+              {
+                "name": "Naif Alzahrani",
+                "ids": {
+                  "openalex": "A5029131302",
+                  "orcid": "0000-0002-0413-9136"
+                },
+                "institutions": [
+                  {
+                    "name": "Portland State University",
+                    "ids": {
+                      "openalex": "I126345244",
+                      "ror": "00yn2fy02"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Nirupama Bulusu",
+                "ids": {
+                  "openalex": "A5014974612",
+                  "orcid": "0000-0003-4351-1217"
+                },
+                "institutions": [
+                  {
+                    "name": "Portland State University",
+                    "ids": {
+                      "openalex": "I126345244",
+                      "ror": "00yn2fy02"
+                    }
+                  }
+                ]
+              }
+            ],
+            "url": "https://doi.org/10.1007/978-3-030-01554-1_27",
+            "kind": "conference-paper",
+            "related_dois": [],
+            "is_retracted": false,
+            "query_url": "https://api.openalex.org/works?cursor=IlsxMDAuMCwgNjgsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzExMzY3MzMxOSddIg%3D%3D&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW1820692873&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+            "retrieved_at": "2026-11-07"
+          }
+        },
+        "related_raw_inputs": [
+          {
+            "source": "openalex",
+            "source_id": "W2894261967",
+            "source_url": "https://openalex.org/W2894261967",
+            "title": "Towards True Decentralization: A Blockchain Consensus Protocol Based on Game Theory and Randomness",
+            "year": 2018,
+            "doi": "10.1007/978-3-030-01554-1_27",
+            "venue": "Lecture notes in computer science",
+            "primary_location_venue": "Lecture notes in computer science",
+            "authors": [
+              {
+                "name": "Naif Alzahrani",
+                "ids": {
+                  "openalex": "A5029131302",
+                  "orcid": "0000-0002-0413-9136"
+                },
+                "institutions": [
+                  {
+                    "name": "Portland State University",
+                    "ids": {
+                      "openalex": "I126345244",
+                      "ror": "00yn2fy02"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Nirupama Bulusu",
+                "ids": {
+                  "openalex": "A5014974612",
+                  "orcid": "0000-0003-4351-1217"
+                },
+                "institutions": [
+                  {
+                    "name": "Portland State University",
+                    "ids": {
+                      "openalex": "I126345244",
+                      "ror": "00yn2fy02"
+                    }
+                  }
+                ]
+              }
+            ],
+            "url": "https://doi.org/10.1007/978-3-030-01554-1_27",
+            "kind": "conference-paper",
+            "related_dois": [],
+            "is_retracted": false,
+            "query_url": "https://api.openalex.org/works?cursor=IlsxMDAuMCwgNjgsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzExMzY3MzMxOSddIg%3D%3D&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW1820692873&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+            "retrieved_at": "2026-11-07"
+          }
+        ],
+        "evidence": [
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://web.cecs.pdx.edu/~nbulusu/papers/gamesec18.pdf",
+            "locator": "Author manuscript first/second-stage Bayesian-game payoff tables and BNE derivations; formal GameSec metadata corroborated."
+          },
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://link.springer.com/chapter/10.1007/978-3-030-01554-1_27",
+            "locator": "Author manuscript first/second-stage Bayesian-game payoff tables and BNE derivations; formal GameSec metadata corroborated."
+          }
+        ]
+      }
+    },
+    {
+      "work_id": "discovered-e8c9faa51ee2e1ce36ef89ad",
+      "topic_ids": [
+        "rational-cryptography",
+        "economics"
+      ],
+      "raw_input": {
+        "source": "user",
+        "source_id": "ecomcrypt-eight-008",
+        "source_url": "https://dblp.org/db/conf/esorics/esorics2018-1.html#conf/esorics/BlassK18",
+        "title": "Strain: A Secure Auction for Blockchains",
+        "year": 2018,
+        "venue": "ESORICS",
+        "pages": "87–110",
+        "authors": [
+          {
+            "name": "Erik-Oliver Blass",
+            "ids": {},
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/14/2769.html"
+          },
+          {
+            "name": "Florian Kerschbaum",
+            "ids": {},
+            "institutions": [],
+            "source_url": "https://dblp.org/pid/26/5304.html"
+          }
+        ],
+        "annotation": "User nomination retained; not an automatically adopted discovery proposal."
+      },
+      "verification": {
+        "status": "verified",
+        "metadata": {
+          "source": "publisher",
+          "source_id": "10.1007/978-3-319-99073-6_5",
+          "source_url": "https://link.springer.com/chapter/10.1007/978-3-319-99073-6_5",
+          "title": "Strain: A Secure Auction for Blockchains",
+          "year": 2018,
+          "doi": "10.1007/978-3-319-99073-6_5",
+          "venue": "ESORICS",
+          "kind": "conference-paper",
+          "pages": "87–110",
+          "authors": [
+            {
+              "name": "Erik-Oliver Blass",
+              "ids": {},
+              "institutions": []
+            },
+            {
+              "name": "Florian Kerschbaum",
+              "ids": {
+                "openalex": "A5102985450",
+                "orcid": "0000-0003-4288-2286"
+              },
+              "institutions": [
+                {
+                  "name": "University of Waterloo",
+                  "ids": {
+                    "openalex": "I151746483",
+                    "ror": "01aff2v68"
+                  }
+                }
+              ]
+            }
+          ],
+          "url": "https://link.springer.com/chapter/10.1007/978-3-319-99073-6_5",
+          "source_ids": {
+            "openalex": "W2795048425"
+          },
+          "online_publication_date": "2018-08-08"
+        },
+        "versions": [],
+        "conflicts": [],
+        "editorial_review": {
+          "reviewer": "supervisor",
+          "date": "2026-11-08",
+          "decision": "adopt",
+          "scope": "EconCS x Blockchain or cryptographic mechanism design/security",
+          "merit_reason": "Publisher abstract and primary-indexed protocol description establish sealed-bid blockchain auction realization with binding/non-retractable bids and verifiable comparisons. This is cryptographic implementation of an economic mechanism. Its weaker-than-general-MPC model requires a semi-honest non-colluding judge and honest-majority opening after abort; order of bids leaks. Do not label it fully trustless, value-order hiding, or an incentive-compatible bidding-equilibrium theorem. Admit this user-selected contribution with bounded evidence; full proof review was unavailable due to IACR403.",
+          "review_depth": "Publisher abstract/footnote and primary IACR-indexed introduction/setup description; directfullPDF403, no full proof review claimed.",
+          "sources": [
+            "https://link.springer.com/chapter/10.1007/978-3-319-99073-6_5",
+            "https://eprint.iacr.org/2017/1044.pdf"
+          ],
+          "topic_basis": {
+            "rational-cryptography": "See individual model/contribution assessment; no automatic topic inference from venue.",
+            "economics": "See individual model/contribution assessment; no automatic topic inference from venue."
+          }
+        },
+        "index_result": {
+          "status": "publisher_and_exact_byline_verified",
+          "metadata": {
+            "source": "openalex",
+            "source_id": "W2795048425",
+            "source_url": "https://openalex.org/W2795048425",
+            "title": "Strain: A Secure Auction for Blockchains",
+            "year": 2018,
+            "doi": "10.1007/978-3-319-99073-6_5",
+            "venue": "Lecture notes in computer science",
+            "primary_location_venue": "Lecture notes in computer science",
+            "authors": [
+              {
+                "name": "Erik-Oliver Blaß",
+                "ids": {
+                  "openalex": "A5045932031",
+                  "orcid": "0009-0008-2791-1564"
+                },
+                "institutions": [
+                  {
+                    "name": "Airbus (Germany)",
+                    "ids": {
+                      "openalex": "I4210136903",
+                      "ror": "04a3akw68"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Florian Kerschbaum",
+                "ids": {
+                  "openalex": "A5102985450",
+                  "orcid": "0000-0003-4288-2286"
+                },
+                "institutions": [
+                  {
+                    "name": "University of Waterloo",
+                    "ids": {
+                      "openalex": "I151746483",
+                      "ror": "01aff2v68"
+                    }
+                  }
+                ]
+              }
+            ],
+            "url": "https://doi.org/10.1007/978-3-319-99073-6_5",
+            "kind": "conference-paper",
+            "related_dois": [],
+            "is_retracted": false,
+            "query_url": "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Copenalex%3AW4180724%7CW198033559%7CW1440872534%7CW1499934958%7CW1566345534%7CW1595357546%7CW1997859100%7CW2015007620%7CW2029050771%7CW2038107109%7CW2038704326%7CW2040168265%7CW2054904172%7CW2058231031%7CW2067596507%7CW2074233882%7CW2076458424%7CW2087900794%7CW2496543269%7CW2508573783%7CW2517744317%7CW2754395460%7CW2794501668%7CW2795048425%7CW2898776076%7CW2929975740%7CW2942400797%7CW2953738495%7CW2954625838%7CW2968027060%7CW2982474429%7CW3004414681%7CW3027941239%7CW3082860856%7CW3117640534%7CW3168113290%7CW3211582955%7CW4297166689%7CW4318718895%7CW4362475188%7CW4365808257%7CW4367663829%7CW4388858742%7CW4391871487%7CW4404901166%7CW4405279384%7CW7223752309&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+            "retrieved_at": "2026-11-07"
+          }
+        },
+        "related_raw_inputs": [
+          {
+            "source": "openalex",
+            "source_id": "W2795048425",
+            "source_url": "https://openalex.org/W2795048425",
+            "title": "Strain: A Secure Auction for Blockchains",
+            "year": 2018,
+            "doi": "10.1007/978-3-319-99073-6_5",
+            "venue": "Lecture notes in computer science",
+            "primary_location_venue": "Lecture notes in computer science",
+            "authors": [
+              {
+                "name": "Erik-Oliver Blaß",
+                "ids": {
+                  "openalex": "A5045932031",
+                  "orcid": "0009-0008-2791-1564"
+                },
+                "institutions": [
+                  {
+                    "name": "Airbus (Germany)",
+                    "ids": {
+                      "openalex": "I4210136903",
+                      "ror": "04a3akw68"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Florian Kerschbaum",
+                "ids": {
+                  "openalex": "A5102985450",
+                  "orcid": "0000-0003-4288-2286"
+                },
+                "institutions": [
+                  {
+                    "name": "University of Waterloo",
+                    "ids": {
+                      "openalex": "I151746483",
+                      "ror": "01aff2v68"
+                    }
+                  }
+                ]
+              }
+            ],
+            "url": "https://doi.org/10.1007/978-3-319-99073-6_5",
+            "kind": "conference-paper",
+            "related_dois": [],
+            "is_retracted": false,
+            "query_url": "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Copenalex%3AW4180724%7CW198033559%7CW1440872534%7CW1499934958%7CW1566345534%7CW1595357546%7CW1997859100%7CW2015007620%7CW2029050771%7CW2038107109%7CW2038704326%7CW2040168265%7CW2054904172%7CW2058231031%7CW2067596507%7CW2074233882%7CW2076458424%7CW2087900794%7CW2496543269%7CW2508573783%7CW2517744317%7CW2754395460%7CW2794501668%7CW2795048425%7CW2898776076%7CW2929975740%7CW2942400797%7CW2953738495%7CW2954625838%7CW2968027060%7CW2982474429%7CW3004414681%7CW3027941239%7CW3082860856%7CW3117640534%7CW3168113290%7CW3211582955%7CW4297166689%7CW4318718895%7CW4362475188%7CW4365808257%7CW4367663829%7CW4388858742%7CW4391871487%7CW4404901166%7CW4405279384%7CW7223752309&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+            "retrieved_at": "2026-11-07"
+          }
+        ],
+        "evidence": [
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://link.springer.com/chapter/10.1007/978-3-319-99073-6_5",
+            "locator": "Publisher abstract/footnote and primary IACR-indexed introduction/setup description; directfullPDF403, no full proof review claimed."
+          },
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://eprint.iacr.org/2017/1044.pdf",
+            "locator": "Publisher abstract/footnote and primary IACR-indexed introduction/setup description; directfullPDF403, no full proof review claimed."
+          }
+        ]
+      }
+    }
+  ]
+}

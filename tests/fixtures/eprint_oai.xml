@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+<responseDate>2026-11-08T00:00:00Z</responseDate>
+<request verb="ListRecords">https://eprint.iacr.org/oai</request>
+<ListRecords>
+<record><header><identifier>oai:eprint.iacr.org:2024/123</identifier><datestamp>2024-01-30T00:00:00Z</datestamp></header>
+<metadata><oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title>Fair Exchange with Rational Parties</dc:title><dc:creator>Jane Roe</dc:creator><dc:creator>John Doe</dc:creator>
+<dc:description>We construct fair exchange protocols secure against rational adversaries with utilities over outputs.</dc:description>
+<dc:date>2024-01-30</dc:date><dc:identifier>https://eprint.iacr.org/2024/123</dc:identifier>
+</oai_dc:dc></metadata></record>
+<record><header status="deleted"><identifier>oai:eprint.iacr.org:2024/124</identifier><datestamp>2024-01-30T00:00:00Z</datestamp></header></record>
+<resumptionToken>tok123</resumptionToken>
+</ListRecords></OAI-PMH>

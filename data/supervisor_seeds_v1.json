@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-07",
+  "selection_basis": "Recent work with explicit blockchain fee-market or allocation mechanism contribution; independently screened before adoption.",
+  "records": [
+    {
+      "source": "arxiv",
+      "source_id": "2610.26570",
+      "title": "Bayesian Analysis of Inclusion Transaction Fee Mechanisms with Multiple Concurrent Proposers",
+      "year": 2026,
+      "venue": "arXiv",
+      "kind": "preprint",
+      "doi": null,
+      "published_doi": null,
+      "related_dois": [],
+      "url": "https://arxiv.org/abs/2610.26570",
+      "source_url": "https://arxiv.org/abs/2610.26570",
+      "abstract": "The goal of this paper is to distill insight around the trade-offs present on Bayesian equilibria of transaction fee mechanism (TFM) design under $n$ multiple concurrent proposers (MCP). We conceptualize a technical toolkit that unlocks the analysis of hard-to-characterize equilibria of finite Bayesian MCP TFM games by examining sequences of joint user--proposer mixed equilibria as the number of users increases and keeping the relative congestion $ρ$ that they cause fixed in the sequence limit. We first consider the popular mechanisms of \"pay-once\" (which charges transactions its bid only once regardless of the duplicate copies that end up being included by proposers) and \"pay-per-inclusion\" (PPI in short, which charges a transaction for each copy that appears). We prove that PPI is efficient in the limit of equilibria sequences, and incentivizes users to route to only one proposer. We characterize $m$ users' asymptotic behavior in PPI even in finite markets varying with $O(\\sqrt{m})$, where we show users in a $Θ(n\\sqrt{ρ(1-ρ)/m})$ window near an efficient cutoff exhibit fixed inclusion probability akin to a normal distribution's CDF. We additionally show that on a value-dependent basis, pay-once exhibits a higher degree of duplication and lower probability of inclusion for higher-value transactions than PPI. Pay-once's inefficiency persists even in the large market limit and even in regimes with ample blockspace where all transactions fit across all blocks. We study interpolations between these two mechanisms proving that some higher coefficients (towards PPI) reduce duplication and increase inclusion probability. We then use our tools to show that exclusive proposer payments yield inefficient equilibria (in fact, with maximal possible duplication), even if users still pay multiple times when included more than once and their payment is burnt when non-exclusive.",
+      "is_retracted": false,
+      "authors": [
+        {
+          "name": "Jason Milionis",
+          "ids": {},
+          "institutions": []
+        },
+        {
+          "name": "Kushal Babel",
+          "ids": {},
+          "institutions": []
+        }
+      ],
+      "categories": [
+        "cs.GT"
+      ],
+      "journal_ref": "",
+      "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Bayesian+Analysis+of+Inclusion%22+OR+ti%3A%22Bandwidth+Fee+Mechanisms%22+OR+ti%3A%22A+Model+and+Estimation+of+the+Bitcoin+Transaction+Fee%22&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+      "retrieved_at": "2026-11-07T06:09:12.088554+00:00"
+    },
+    {
+      "source": "arxiv",
+      "source_id": "2610.00697",
+      "title": "Bandwidth Fee Mechanisms for Certified Transaction Dissemination",
+      "year": 2026,
+      "venue": "arXiv",
+      "kind": "preprint",
+      "doi": null,
+      "published_doi": null,
+      "related_dois": [],
+      "url": "https://arxiv.org/abs/2610.00697",
+      "source_url": "https://arxiv.org/abs/2610.00697",
+      "abstract": "We study bandwidth fee mechanisms (BFMs) for pricing threshold-certified transaction dissemination before consensus. Analogous to transaction fee mechanisms for computation, BFMs price blockchain communication, which is especially relevant when dissemination is separated from consensus and execution. We model BFMs as two-sided procurement auctions between users submitting transactions and validators receiving and forwarding them. Any validator may serve as a transaction's source and forward it to a threshold of attesters. The model accounts for receipt from the user and subsequent transfers between validators, while abstracting away unrestricted multi-hop gossip and network topology. We establish limits on myopic incentive compatibility: no nontrivial transcript-based BFM prevents profitable collusion between two validators, and no nontrivial BFM simultaneously satisfies incentive compatibility for individual users, individual validators, and coalitions of one validator and one user. On the feasibility side, we give a greedy-route posted-price mechanism that is incentive compatible for every individual user and validator. We also study bandwidth pricing across blocks. Assuming honest validator execution, we propose an EIP-1559-style price-update rule whose fluid approximation has a unique fixed point that is locally stable for sufficiently small step sizes. In large markets, prices starting near this point remain nearby with high probability over any fixed time horizon.",
+      "is_retracted": false,
+      "authors": [
+        {
+          "name": "Eleftheria Fassman",
+          "ids": {},
+          "institutions": []
+        },
+        {
+          "name": "Mahimna Kelkar",
+          "ids": {},
+          "institutions": []
+        },
+        {
+          "name": "Benjamin Marsh",
+          "ids": {},
+          "institutions": []
+        },
+        {
+          "name": "Ke Wu",
+          "ids": {},
+          "institutions": []
+        }
+      ],
+      "categories": [
+        "cs.GT"
+      ],
+      "journal_ref": "",
+      "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Bayesian+Analysis+of+Inclusion%22+OR+ti%3A%22Bandwidth+Fee+Mechanisms%22+OR+ti%3A%22A+Model+and+Estimation+of+the+Bitcoin+Transaction+Fee%22&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+      "retrieved_at": "2026-11-07T06:09:12.088554+00:00"
+    },
+    {
+      "source": "arxiv",
+      "source_id": "2604.17183",
+      "title": "A Model and Estimation of the Bitcoin Transaction Fee",
+      "year": 2026,
+      "venue": "arXiv",
+      "kind": "preprint",
+      "doi": null,
+      "published_doi": null,
+      "related_dois": [],
+      "url": "https://arxiv.org/abs/2604.17183",
+      "source_url": "https://arxiv.org/abs/2604.17183",
+      "abstract": "Bitcoin transaction fees will become more important as the block subsidy declines, but fee formation is hard to study with blockchain data alone because the relevant queueing environment is unobserved. We develop and estimate a structural model of Bitcoin fee choice that treats the mempool as a market for scarce blockspace. We assemble a novel, high-frequency mempool panel, from a self-run Bitcoin node that records transaction arrivals, exits, block inclusion, fee-bumping events, and congestion snapshots. We characterize the fee market as a Vickery-Clarke-Groves mechanism and derive an equation to estimate fees. In the first-stage we estimate a monotone delay technology linking fee-rate priority and network state to expected confirmation delay. We then estimate how fees respond to that delay technology and to transaction characteristics. We find that congestion is the main determinant of delay; that the marginal value of priority is priced in fees, which is increasing in the gradient of confirmation time reduction per movement up in the fee queue; and that transactor choice of RBF, CPFP, and block conditions have economically important effects on fees.",
+      "is_retracted": false,
+      "authors": [
+        {
+          "name": "Daniel Aronoff",
+          "ids": {},
+          "institutions": []
+        },
+        {
+          "name": "Kristian Praizner",
+          "ids": {},
+          "institutions": []
+        },
+        {
+          "name": "Armin Sabouri",
+          "ids": {},
+          "institutions": []
+        }
+      ],
+      "categories": [
+        "cs.CE",
+        "cs.LG",
+        "econ.EM"
+      ],
+      "journal_ref": "",
+      "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Bayesian+Analysis+of+Inclusion%22+OR+ti%3A%22Bandwidth+Fee+Mechanisms%22+OR+ti%3A%22A+Model+and+Estimation+of+the+Bitcoin+Transaction+Fee%22&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+      "retrieved_at": "2026-11-07T06:09:12.088554+00:00"
+    }
+  ],
+  "selection_notes": [
+    {
+      "title": "Bayesian Analysis of Inclusion Transaction Fee Mechanisms with Multiple Concurrent Proposers",
+      "reason": "Bayesian equilibria under concurrent proposer fee allocation."
+    },
+    {
+      "title": "Bandwidth Fee Mechanisms for Certified Transaction Dissemination",
+      "reason": "Mechanism design for communication resource prices and validator incentives."
+    },
+    {
+      "title": "A Model and Estimation of the Bitcoin Transaction Fee",
+      "reason": "Explicit fee-market mechanism and queueing economics."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:arxiv="http://arxiv.org/schemas/atom">
+<entry><id>http://arxiv.org/abs/2401.01234v2</id><published>2024-01-03T00:00:00Z</published>
+<title>Transaction Fee Mechanism Design
+ for Rollups</title><summary>We study incentive-compatible transaction fee mechanisms for rollups.</summary>
+<author><name>A. Author</name></author><arxiv:doi>10.1145/1234.5678</arxiv:doi><arxiv:journal_ref>EC 2024</arxiv:journal_ref>
+<category term="cs.GT"/></entry>
+</feed>

@@ -1,0 +1,5935 @@
+{
+  "authors": [
+    {
+      "id": "A5022886322",
+      "name": "Tim Roughgarden",
+      "score": 15,
+      "evidence": [
+        "gs-018",
+        "gs-022",
+        "gs-031",
+        "gs-045",
+        "discovered-086731a14362d007691d2b29",
+        "discovered-6ffbacf139e9c449dd00e948",
+        "discovered-b1a3e2cbc665ae1845f54355"
+      ],
+      "status": "indexed_relevant_author"
+    },
+    {
+      "id": "A5063253761",
+      "name": "Arthur Gervais",
+      "score": 14,
+      "evidence": [
+        "gs-024",
+        "gs-025",
+        "gs-035",
+        "gs-037",
+        "discovered-59ad890295aece7f5eda392e",
+        "discovered-c25f4fc489d4e18ce156a101"
+      ],
+      "status": "indexed_relevant_author"
+    },
+    {
+      "id": "A5089202539",
+      "name": "Elaine Shi",
+      "score": 14,
+      "evidence": [
+        "gs-019",
+        "gs-050",
+        "extra-005",
+        "discovered-086731a14362d007691d2b29",
+        "discovered-b11ac11343470346062ee78c",
+        "discovered-7be0183839c3e045aa6ab285",
+        "discovered-84c81deeadca99144d087c37",
+        "discovered-ed7c3b8ad0420e0fb075f549"
+      ],
+      "status": "indexed_relevant_author"
+    },
+    {
+      "id": "A5075388037",
+      "name": "S. Matthew Weinberg",
+      "score": 14,
+      "evidence": [
+        "gs-011",
+        "gs-042",
+        "gs-043",
+        "discovered-99b48ba69656608d07359ace",
+        "discovered-078e40ab27e5bdf598d041ba",
+        "discovered-8fd00b116cdbf7c640beb089",
+        "discovered-3ed038224c4c0734173b2195",
+        "discovered-a8bb3bb3077e0ca3389db24a"
+      ],
+      "status": "indexed_relevant_author"
+    },
+    {
+      "id": "A5018049608",
+      "name": "Matheus V. X. Ferreira",
+      "score": 13,
+      "evidence": [
+        "gs-020",
+        "gs-028",
+        "gs-043",
+        "discovered-078e40ab27e5bdf598d041ba",
+        "discovered-8fd00b116cdbf7c640beb089",
+        "discovered-ca77aefd85076d4f91bc16d4",
+        "discovered-dac189c64261213b73749a43"
+      ],
+      "status": "indexed_relevant_author"
+    },
+    {
+      "id": "A5029249775",
+      "name": "Ari Juels",
+      "score": 12,
+      "evidence": [
+        "gs-023",
+        "gs-026",
+        "gs-027",
+        "discovered-be4bec2df1c37d192d43ac29",
+        "discovered-e74da4f97329b8989a99e24a",
+        "discovered-7be0183839c3e045aa6ab285"
+      ],
+      "status": "indexed_relevant_author"
+    },
+    {
+      "id": "A5015458414",
+      "name": "Aviv Zohar",
+      "score": 12,
+      "evidence": [
+        "gs-004",
+        "gs-006",
+        "gs-008",
+        "gs-017"
+      ],
+      "status": "indexed_relevant_author"
+    },
+    {
+      "id": "A5005281401",
+      "name": "Juan Garay",
+      "score": 10,
+      "evidence": [
+        "gs-003",
+        "gs-047",
+        "gs-048",
+        "discovered-374d291ce22ffd3250c10099"
+      ],
+      "status": "indexed_relevant_author"
+    },
+    {
+      "id": "A5047509636",
+      "name": "Kaihua Qin",
+      "score": 10,
+      "evidence": [
+        "gs-024",
+        "gs-025",
+        "gs-037",
+        "discovered-59ad890295aece7f5eda392e"
+      ],
+      "status": "indexed_relevant_author"
+    },
+    {
+      "id": "A5103275698",
+      "name": "Ke Wu",
+      "score": 10,
+      "evidence": [
+        "gs-050",
+        "extra-005",
+        "extra-007",
+        "discovered-ed7c3b8ad0420e0fb075f549"
+      ],
+      "status": "indexed_relevant_author"
+    },
+    {
+      "id": "A5037118069",
+      "name": "Liyi Zhou",
+      "score": 10,
+      "evidence": [
+        "gs-024",
+        "gs-025",
+        "gs-037",
+        "discovered-59ad890295aece7f5eda392e"
+      ],
+      "status": "indexed_relevant_author"
+    },
+    {
+      "id": "A5073753740",
+      "name": "Aggelos Kiayias",
+      "score": 9,
+      "evidence": [
+        "gs-003",
+        "gs-010",
+        "discovered-57164f76ec9f60c30dbbf915",
+        "discovered-54b617cc851b7f38a1750b02",
+        "discovered-e57cd392e7617e9068adef67"
+      ],
+      "status": "indexed_relevant_author"
+    }
+  ],
+  "coverage": [
+    {
+      "lane": "author:A5022886322",
+      "status": "ok",
+      "pages": 2,
+      "records": 100,
+      "complete": false,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5022886322%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc",
+        "https://api.openalex.org/works?cursor=IlsxNjAwNTYwMDAwMDAwLCAnLUluZmluaXR5JywgMSwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1czMDg3NDQ3MzM4J10i&filter=authorships.author.id%3AA5022886322%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": "IlsxNDc1MjgwMDAwMDAwLCAxMDAuMCwgMzAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjU2MzI0ODkwNyddIg=="
+    },
+    {
+      "lane": "author:A5063253761",
+      "status": "ok",
+      "pages": 2,
+      "records": 84,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5063253761%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc",
+        "https://api.openalex.org/works?cursor=IlsxNjE5ODI3MjAwMDAwLCAxMDAuMCwgMjE3LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxNTU4NTQ5MTcnXSI%3D&filter=authorships.author.id%3AA5063253761%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "author:A5089202539",
+      "status": "ok",
+      "pages": 2,
+      "records": 100,
+      "complete": false,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5089202539%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc",
+        "https://api.openalex.org/works?cursor=IlsxNjU4Mjc1MjAwMDAwLCA5NS4wLCA0LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyODY1MDMyNTUnXSI%3D&filter=authorships.author.id%3AA5089202539%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": "IlsxNTc3MDU5MjAwMDAwLCA5NS4wLCAyLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI5ODE0MDk3MjYnXSI="
+    },
+    {
+      "lane": "author:A5075388037",
+      "status": "ok",
+      "pages": 2,
+      "records": 100,
+      "complete": false,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5075388037%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc",
+        "https://api.openalex.org/works?cursor=IlsxNjA1NzQ0MDAwMDAwLCAnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1czMDk5OTgxNDc2J10i&filter=authorships.author.id%3AA5075388037%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": "IlsxNDY1NTE2ODAwMDAwLCAxMDAuMCwgMTA1LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI0MDkwMTU1OTQnXSI="
+    },
+    {
+      "lane": "author:A5018049608",
+      "status": "ok",
+      "pages": 1,
+      "records": 11,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5018049608%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "author:A5029249775",
+      "status": "ok",
+      "pages": 2,
+      "records": 100,
+      "complete": false,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5029249775%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc",
+        "https://api.openalex.org/works?cursor=IlsxNTA2Mzg0MDAwMDAwLCAnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0NDEzNjE1MTgyJ10i&filter=authorships.author.id%3AA5029249775%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": "IlsxMzU0NDkyODAwMDAwLCAxMDAuMCwgMTM4LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIwMjY0NTA3ODQnXSI="
+    },
+    {
+      "lane": "author:A5015458414",
+      "status": "ok",
+      "pages": 2,
+      "records": 88,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5015458414%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc",
+        "https://api.openalex.org/works?cursor=IlsxNDIzNDQwMDAwMDAwLCA5Ny4wLCA4LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIyOTMxMjQ1MjYnXSI%3D&filter=authorships.author.id%3AA5015458414%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "author:A5005281401",
+      "status": "ok",
+      "pages": 2,
+      "records": 100,
+      "complete": false,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5005281401%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc",
+        "https://api.openalex.org/works?cursor=IlsxNTE0NzY0ODAwMDAwLCA5OS4wLCAzOSwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cyNzkxNzcwNTY1J10i&filter=authorships.author.id%3AA5005281401%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": "IlsxMjkzODQwMDAwMDAwLCA5Ni4wLCAxNCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cyNDAyNTcxNDkzJ10i"
+    },
+    {
+      "lane": "author:A5047509636",
+      "status": "ok",
+      "pages": 1,
+      "records": 37,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5047509636%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "author:A5103275698",
+      "status": "ok",
+      "pages": 1,
+      "records": 26,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5103275698%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "author:A5037118069",
+      "status": "ok",
+      "pages": 1,
+      "records": 27,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5037118069%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "author:A5073753740",
+      "status": "ok",
+      "pages": 2,
+      "records": 100,
+      "complete": false,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5073753740%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc",
+        "https://api.openalex.org/works?cursor=IlsxNjY3Nzc5MjAwMDAwLCAxMDAuMCwgNDUsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDMwODY0MjA5MCddIg%3D%3D&filter=authorships.author.id%3AA5073753740%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": "IlsxNTc3ODM2ODAwMDAwLCA5Ny4wLCA5LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMwMTM3NDgzMDAnXSI="
+    }
+  ],
+  "collected": 794,
+  "new_candidates": 718,
+  "nominated_authors": [
+    {
+      "id": "A5046785442",
+      "name": "Okke Schrijvers",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-662-54970-4_28"
+      ]
+    },
+    {
+      "id": "A5027798962",
+      "name": "Dan Boneh",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-662-54970-4_28"
+      ]
+    },
+    {
+      "id": "A5062047625",
+      "name": "B. Sriman",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-981-15-5566-4_34"
+      ]
+    },
+    {
+      "id": "A5101416673",
+      "name": "S. Ganesh Kumar",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-981-15-5566-4_34"
+      ]
+    },
+    {
+      "id": "A5043551609",
+      "name": "P. Shamili",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-981-15-5566-4_34"
+      ]
+    },
+    {
+      "id": "A5006580009",
+      "name": "P. Rajitha Nair",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icicv50876.2021.9388487"
+      ]
+    },
+    {
+      "id": "A5034198710",
+      "name": "D. Ramya Dorai.",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icicv50876.2021.9388487"
+      ]
+    },
+    {
+      "id": "A5059087800",
+      "name": "Ghassan Karame",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/2382196.2382292"
+      ]
+    },
+    {
+      "id": "A5009566302",
+      "name": "Elli Androulaki",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/2382196.2382292"
+      ]
+    },
+    {
+      "id": "A5077290467",
+      "name": "Srđjan Čapkun",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/2382196.2382292"
+      ]
+    },
+    {
+      "id": "A5089194215",
+      "name": "Benjamin Johnson",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-662-44774-1_6",
+        "doi:10.1007/978-3-662-48051-9_5"
+      ]
+    },
+    {
+      "id": "A5049435924",
+      "name": "Áron Lászka",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-662-44774-1_6",
+        "doi:10.1007/978-3-662-48051-9_5"
+      ]
+    },
+    {
+      "id": "A5063714878",
+      "name": "Jens Großklags",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-662-44774-1_6",
+        "doi:10.1007/978-3-662-48051-9_5"
+      ]
+    },
+    {
+      "id": "A5029043055",
+      "name": "Marie Vasek",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-662-44774-1_6"
+      ]
+    },
+    {
+      "id": "A5073243028",
+      "name": "Tyler Moore",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-662-44774-1_6"
+      ]
+    },
+    {
+      "id": "A5009302735",
+      "name": "Malte Möser",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-662-48051-9_2"
+      ]
+    },
+    {
+      "id": "A5029455813",
+      "name": "Rainer Böhme",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-662-48051-9_2"
+      ]
+    },
+    {
+      "id": "A5038163110",
+      "name": "Sunny King",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "openalex:W2183126124"
+      ]
+    },
+    {
+      "id": "A5003328631",
+      "name": "Scott Nadal",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "openalex:W2183126124"
+      ]
+    },
+    {
+      "id": "A5114948624",
+      "name": "Charles Lee",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "openalex:W2293624543"
+      ]
+    },
+    {
+      "id": "A5004298814",
+      "name": "Alex Mizrahi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "openalex:W2293624543"
+      ]
+    },
+    {
+      "id": "A5028990564",
+      "name": "Meni Rosenfeld",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "openalex:W2293624543"
+      ]
+    },
+    {
+      "id": "A5085287860",
+      "name": "Nicolas T. Courtois",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.1405.0534",
+        "doi:10.48550/arxiv.1402.1718"
+      ]
+    },
+    {
+      "id": "A5116482679",
+      "name": "Shujaatali Badami",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icbats66542.2025.11258220"
+      ]
+    },
+    {
+      "id": "A5092437854",
+      "name": "Naga Sravanthi Puppala",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1002/cpe.70077"
+      ]
+    },
+    {
+      "id": "A5082112162",
+      "name": "R. Manoharan",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1002/cpe.70077"
+      ]
+    },
+    {
+      "id": "A5038193682",
+      "name": "Shriniwas Pramod Patil",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s12083-025-02064-y"
+      ]
+    },
+    {
+      "id": "A5051193073",
+      "name": "Keyur Parmar",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s12083-025-02064-y"
+      ]
+    },
+    {
+      "id": "A5047709001",
+      "name": "Roberto Saltini",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.1909.10194"
+      ]
+    },
+    {
+      "id": "A5068773337",
+      "name": "David Hyland-Wood",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.1909.10194"
+      ]
+    },
+    {
+      "id": "A5002519367",
+      "name": "Ling Ren",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.3946686"
+      ]
+    },
+    {
+      "id": "A5100380072",
+      "name": "Chuan Zhang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/iwqos65803.2025.11143512"
+      ]
+    },
+    {
+      "id": "A5015277898",
+      "name": "Mingyang Zhao",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/iwqos65803.2025.11143512"
+      ]
+    },
+    {
+      "id": "A5100634361",
+      "name": "Liehuang Zhu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/iwqos65803.2025.11143512"
+      ]
+    },
+    {
+      "id": "A5114513960",
+      "name": "Frédéric Mirindi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-032-13377-9_6"
+      ]
+    },
+    {
+      "id": "A5105099603",
+      "name": "Derrick Mirindi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-032-13377-9_6"
+      ]
+    },
+    {
+      "id": "A5018847162",
+      "name": "Sascha Hägele",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.24251/hicss.2026.661"
+      ]
+    },
+    {
+      "id": "A5144438836",
+      "name": "Yi Zhang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-981-92-1884-4_14"
+      ]
+    },
+    {
+      "id": "A5144394966",
+      "name": "Xin Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-981-92-1884-4_14"
+      ]
+    },
+    {
+      "id": "A5028958315",
+      "name": "Yongdong Wu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-981-92-1884-4_14"
+      ]
+    },
+    {
+      "id": "A5088846595",
+      "name": "Alexander C. Russell",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-319-63688-7_12",
+        "doi:10.1007/978-3-319-78375-8_3",
+        "doi:10.1109/cvcbt.2018.00015",
+        "doi:10.1137/1.9781611975994.69",
+        "doi:10.48550/arxiv.1911.10187"
+      ]
+    },
+    {
+      "id": "A5060580234",
+      "name": "Bernardo David",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-319-63688-7_12",
+        "doi:10.1007/978-3-319-78375-8_3"
+      ]
+    },
+    {
+      "id": "A5064862686",
+      "name": "Roman Oliynykov",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-319-63688-7_12"
+      ]
+    },
+    {
+      "id": "A5051578427",
+      "name": "Peter Gaži",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-319-78375-8_3",
+        "doi:10.1109/sp.2019.00040",
+        "doi:10.1109/cvcbt.2018.00015"
+      ]
+    },
+    {
+      "id": "A5021027776",
+      "name": "Dionysis Zindros",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/sp.2019.00040"
+      ]
+    },
+    {
+      "id": "A5081609749",
+      "name": "Rafael Pass",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-32101-7_2"
+      ]
+    },
+    {
+      "id": "A5100669784",
+      "name": "Shijie Zhang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tii.2019.2921566"
+      ]
+    },
+    {
+      "id": "A5110149496",
+      "name": "Jong-Hyouk Lee",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tii.2019.2921566"
+      ]
+    },
+    {
+      "id": "A5101792429",
+      "name": "Xiaojun Liu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/lwc.2018.2820009"
+      ]
+    },
+    {
+      "id": "A5046054684",
+      "name": "Wenbo Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/lwc.2018.2820009"
+      ]
+    },
+    {
+      "id": "A5091266202",
+      "name": "Dusit Tao Niyato",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/lwc.2018.2820009"
+      ]
+    },
+    {
+      "id": "A5046686236",
+      "name": "Narisa Zhao",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/lwc.2018.2820009"
+      ]
+    },
+    {
+      "id": "A5100338634",
+      "name": "Ping Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/lwc.2018.2820009"
+      ]
+    },
+    {
+      "id": "A5076891624",
+      "name": "Muhammad Saad",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tpds.2020.3048853"
+      ]
+    },
+    {
+      "id": "A5043524348",
+      "name": "Zhan Qin",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tpds.2020.3048853"
+      ]
+    },
+    {
+      "id": "A5105297718",
+      "name": "Kui Ren",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tpds.2020.3048853"
+      ]
+    },
+    {
+      "id": "A5079230730",
+      "name": "DaeHun Nyang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tpds.2020.3048853"
+      ]
+    },
+    {
+      "id": "A5077402873",
+      "name": "Aziz Mohaisen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tpds.2020.3048853"
+      ]
+    },
+    {
+      "id": "A5005793557",
+      "name": "Yoad Lewenberg",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.5555/2772879.2773270"
+      ]
+    },
+    {
+      "id": "A5062949033",
+      "name": "Yoram Bachrach",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.5555/2772879.2773270"
+      ]
+    },
+    {
+      "id": "A5091010876",
+      "name": "Jeffrey S. Rosenschein",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.5555/2772879.2773270"
+      ]
+    },
+    {
+      "id": "A5101845600",
+      "name": "Canhui Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/bigcom51056.2020.00032"
+      ]
+    },
+    {
+      "id": "A5100730785",
+      "name": "Xiaowen Chu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/bigcom51056.2020.00032"
+      ]
+    },
+    {
+      "id": "A5052758633",
+      "name": "Yang Qin",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/bigcom51056.2020.00032"
+      ]
+    },
+    {
+      "id": "A5066750506",
+      "name": "Xuewen Dong",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.cose.2019.101584"
+      ]
+    },
+    {
+      "id": "A5103150943",
+      "name": "Feng He Wu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.cose.2019.101584"
+      ]
+    },
+    {
+      "id": "A5028599206",
+      "name": "Anter Faree",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.cose.2019.101584"
+      ]
+    },
+    {
+      "id": "A5032623398",
+      "name": "Deke Guo",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.cose.2019.101584"
+      ]
+    },
+    {
+      "id": "A5043356063",
+      "name": "Yulong Shen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.cose.2019.101584"
+      ]
+    },
+    {
+      "id": "A5012016098",
+      "name": "Jianfeng Ma",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.cose.2019.101584"
+      ]
+    },
+    {
+      "id": "A5045945081",
+      "name": "Riccardo Longo",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/computation8030067"
+      ]
+    },
+    {
+      "id": "A5033462784",
+      "name": "Alessandro Sebastian Podda",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/computation8030067",
+        "doi:10.1007/978-3-319-70278-0_36"
+      ]
+    },
+    {
+      "id": "A5076632223",
+      "name": "Roberto Saia",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/computation8030067"
+      ]
+    },
+    {
+      "id": "A5050606239",
+      "name": "Massimo Bartoletti",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-319-70278-0_36",
+        "doi:10.1007/978-3-031-18283-9_1",
+        "doi:10.46298/lmcs-18(4:12)2022",
+        "doi:10.1007/978-3-030-78142-2_11",
+        "doi:10.1007/978-3-031-78679-2_20"
+      ]
+    },
+    {
+      "id": "A5021056203",
+      "name": "Stefano Lande",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-319-70278-0_36"
+      ]
+    },
+    {
+      "id": "A5079023977",
+      "name": "Suhan Jiang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/blockchain.2019.00023"
+      ]
+    },
+    {
+      "id": "A5100600528",
+      "name": "Jie Wu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/blockchain.2019.00023"
+      ]
+    },
+    {
+      "id": "A5034492240",
+      "name": "Ali Nikhalat-Jahromi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.asoc.2024.112416"
+      ]
+    },
+    {
+      "id": "A5085887146",
+      "name": "Ali Mohammad Saghiri",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.asoc.2024.112416"
+      ]
+    },
+    {
+      "id": "A5008824437",
+      "name": "Mohammad Reza Meybodi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.asoc.2024.112416"
+      ]
+    },
+    {
+      "id": "A5089979539",
+      "name": "Zhihuai Chen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10878-021-00768-4"
+      ]
+    },
+    {
+      "id": "A5100374364",
+      "name": "Bo Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10878-021-00768-4"
+      ]
+    },
+    {
+      "id": "A5021453743",
+      "name": "Xiaohan Shan",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10878-021-00768-4"
+      ]
+    },
+    {
+      "id": "A5000241520",
+      "name": "Xiaoming Sun",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10878-021-00768-4"
+      ]
+    },
+    {
+      "id": "A5100333626",
+      "name": "Jialin Zhang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10878-021-00768-4"
+      ]
+    },
+    {
+      "id": "A5017669758",
+      "name": "David A. Easley",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.jfineco.2019.03.004",
+        "doi:10.1287/mnsc.2023.4735"
+      ]
+    },
+    {
+      "id": "A5013070084",
+      "name": "Maureen O’Hara",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.jfineco.2019.03.004",
+        "doi:10.1287/mnsc.2023.4735"
+      ]
+    },
+    {
+      "id": "A5065745202",
+      "name": "Deepak K. Tosh",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/ccgrid.2017.111"
+      ]
+    },
+    {
+      "id": "A5052787847",
+      "name": "Sachin S. Shetty",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/ccgrid.2017.111"
+      ]
+    },
+    {
+      "id": "A5062377042",
+      "name": "Xueping Liang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/ccgrid.2017.111"
+      ]
+    },
+    {
+      "id": "A5090126029",
+      "name": "Charles Kamhoua",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/ccgrid.2017.111"
+      ]
+    },
+    {
+      "id": "A5113694449",
+      "name": "Kevin A. Kwiat",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/ccgrid.2017.111"
+      ]
+    },
+    {
+      "id": "A5042072991",
+      "name": "Laurent Njilla",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/ccgrid.2017.111"
+      ]
+    },
+    {
+      "id": "A5053448585",
+      "name": "Nicolas Houy",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.5195/ledger.2016.13",
+        "doi:10.2139/ssrn.2400519"
+      ]
+    },
+    {
+      "id": "A5044219929",
+      "name": "Qianlan Bai",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icc.2019.8761240"
+      ]
+    },
+    {
+      "id": "A5035700332",
+      "name": "Xinyan Zhou",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icc.2019.8761240"
+      ]
+    },
+    {
+      "id": "A5101728051",
+      "name": "Xing Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icc.2019.8761240"
+      ]
+    },
+    {
+      "id": "A5063792608",
+      "name": "Yuedong Xu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icc.2019.8761240"
+      ]
+    },
+    {
+      "id": "A5100327905",
+      "name": "Xin Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icc.2019.8761240"
+      ]
+    },
+    {
+      "id": "A5083006127",
+      "name": "Leonid Kogan",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-32101-7_3"
+      ]
+    },
+    {
+      "id": "A5028243041",
+      "name": "Sewoong Oh",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-32101-7_3",
+        "doi:10.1145/3560829.3563559"
+      ]
+    },
+    {
+      "id": "A5002262221",
+      "name": "Kathleen Ruan",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-32101-7_3"
+      ]
+    },
+    {
+      "id": "A5053980484",
+      "name": "Pramod Viswanath",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-32101-7_3",
+        "doi:10.1145/3560829.3563559"
+      ]
+    },
+    {
+      "id": "A5087174570",
+      "name": "Gerui Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-32101-7_3"
+      ]
+    },
+    {
+      "id": "A5019195196",
+      "name": "Kervins Nicolas",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/access.2020.3047365",
+        "doi:10.1109/sarnoff47838.2019.9067821"
+      ]
+    },
+    {
+      "id": "A5101846189",
+      "name": "Yi Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/access.2020.3047365",
+        "doi:10.1109/sarnoff47838.2019.9067821"
+      ]
+    },
+    {
+      "id": "A5109917972",
+      "name": "George C. Giakos",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/access.2020.3047365",
+        "doi:10.1109/sarnoff47838.2019.9067821"
+      ]
+    },
+    {
+      "id": "A5057534129",
+      "name": "Bingyang Wei",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/access.2020.3047365"
+      ]
+    },
+    {
+      "id": "A5012923796",
+      "name": "Hongda Shen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/access.2020.3047365"
+      ]
+    },
+    {
+      "id": "A5041214228",
+      "name": "Vanessa R. L. Chicarino",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s12243-019-00746-2"
+      ]
+    },
+    {
+      "id": "A5066716326",
+      "name": "Célio V. N. Albuquerque",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s12243-019-00746-2"
+      ]
+    },
+    {
+      "id": "A5085354226",
+      "name": "Kevin Negy",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-51280-4_5"
+      ]
+    },
+    {
+      "id": "A5061603576",
+      "name": "Peter Rizun",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-51280-4_5"
+      ]
+    },
+    {
+      "id": "A5016093552",
+      "name": "Yaron Velner",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-319-70278-0_19"
+      ]
+    },
+    {
+      "id": "A5068087474",
+      "name": "Tuyet Duong",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-59013-0_34"
+      ]
+    },
+    {
+      "id": "A5103006695",
+      "name": "Lei Fan",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-59013-0_34",
+        "openalex:W3173317896",
+        "doi:10.1109/eurosp63326.2025.00035"
+      ]
+    },
+    {
+      "id": "A5043007826",
+      "name": "Phuc D. Thai",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-59013-0_34",
+        "openalex:W3173317896",
+        "doi:10.1109/eurosp63326.2025.00035"
+      ]
+    },
+    {
+      "id": "A5030233265",
+      "name": "Hong-Sheng Zhou",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-59013-0_34",
+        "openalex:W3173317896",
+        "doi:10.1109/eurosp63326.2025.00035"
+      ]
+    },
+    {
+      "id": "A5009050006",
+      "name": "Yang Xiao",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/infocom41043.2020.9155451"
+      ]
+    },
+    {
+      "id": "A5100404897",
+      "name": "Ning Zhang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/infocom41043.2020.9155451"
+      ]
+    },
+    {
+      "id": "A5001879281",
+      "name": "Wenjing Lou",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/infocom41043.2020.9155451"
+      ]
+    },
+    {
+      "id": "A5059824798",
+      "name": "Y. Thomas Hou",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/infocom41043.2020.9155451"
+      ]
+    },
+    {
+      "id": "A5025389734",
+      "name": "Sang‐Yoon Chang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-21568-2_12",
+        "doi:10.1109/iccnc.2019.8685563"
+      ]
+    },
+    {
+      "id": "A5101477975",
+      "name": "Younghee Park",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-21568-2_12",
+        "doi:10.1109/iccnc.2019.8685563"
+      ]
+    },
+    {
+      "id": "A5080519285",
+      "name": "Simeon Wuthier",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-21568-2_12"
+      ]
+    },
+    {
+      "id": "A5022800503",
+      "name": "Chang-Wu Chen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-21568-2_12"
+      ]
+    },
+    {
+      "id": "A5101633478",
+      "name": "Guoyu Yang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1002/int.22270",
+        "doi:10.1002/int.22428",
+        "doi:10.1016/j.ins.2020.03.098"
+      ]
+    },
+    {
+      "id": "A5101991804",
+      "name": "Zhaojie Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1002/int.22270",
+        "doi:10.1016/j.ins.2022.04.008",
+        "doi:10.1002/int.22428",
+        "doi:10.1002/int.22656"
+      ]
+    },
+    {
+      "id": "A5052363813",
+      "name": "Youliang Tian",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1002/int.22270",
+        "doi:10.1007/s11432-019-2858-8"
+      ]
+    },
+    {
+      "id": "A5101565134",
+      "name": "Xiaomei Yu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1002/int.22270",
+        "doi:10.1016/j.ins.2020.03.098"
+      ]
+    },
+    {
+      "id": "A5103262136",
+      "name": "Shouzhe Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1002/int.22270"
+      ]
+    },
+    {
+      "id": "A5020699288",
+      "name": "Aviv Tamar",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3419614.3423264"
+      ]
+    },
+    {
+      "id": "A5037267035",
+      "name": "Yilei Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.ins.2022.04.008",
+        "doi:10.1109/jiot.2024.3367689"
+      ]
+    },
+    {
+      "id": "A5002117529",
+      "name": "Minghao Zhao",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.ins.2022.04.008"
+      ]
+    },
+    {
+      "id": "A5005286889",
+      "name": "Xueyang Han",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.ins.2022.04.008"
+      ]
+    },
+    {
+      "id": "A5066119228",
+      "name": "Huiyu Zhou",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.ins.2022.04.008"
+      ]
+    },
+    {
+      "id": "A5100700838",
+      "name": "Xiaoying Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.ins.2022.04.008"
+      ]
+    },
+    {
+      "id": "A5023098158",
+      "name": "Arthur Sandor Voundi Koe",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.ins.2022.04.008"
+      ]
+    },
+    {
+      "id": "A5100359468",
+      "name": "Shengnan Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1038/s41598-024-55348-3",
+        "doi:10.31219/osf.io/6ceuz"
+      ]
+    },
+    {
+      "id": "A5035257828",
+      "name": "Carlo Campajola",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1038/s41598-024-55348-3"
+      ]
+    },
+    {
+      "id": "A5081084556",
+      "name": "Lear Bahack",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.1402.1718"
+      ]
+    },
+    {
+      "id": "A5070635421",
+      "name": "Samiran Bag",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tifs.2016.2623588",
+        "doi:10.1007/978-3-319-45871-7_11"
+      ]
+    },
+    {
+      "id": "A5032506814",
+      "name": "Sushmita Ruj",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tifs.2016.2623588"
+      ]
+    },
+    {
+      "id": "A5001126368",
+      "name": "Kouichi Sakurai",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tifs.2016.2623588",
+        "doi:10.1007/978-3-319-45871-7_11"
+      ]
+    },
+    {
+      "id": "A5100455282",
+      "name": "Tao Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1002/int.22428",
+        "doi:10.1002/int.22656",
+        "doi:10.1109/jiot.2024.3367689"
+      ]
+    },
+    {
+      "id": "A5048715599",
+      "name": "Yang Cui",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1002/int.22428"
+      ]
+    },
+    {
+      "id": "A5100722817",
+      "name": "Yuling Chen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1002/int.22428",
+        "doi:10.1002/int.22656"
+      ]
+    },
+    {
+      "id": "A5024488272",
+      "name": "Xiaomei Yu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1002/int.22428"
+      ]
+    },
+    {
+      "id": "A5100427224",
+      "name": "Chunmei Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1002/int.22656",
+        "doi:10.1109/jiot.2024.3367689"
+      ]
+    },
+    {
+      "id": "A5101758961",
+      "name": "Yanling Jia",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1002/int.22656"
+      ]
+    },
+    {
+      "id": "A5101885248",
+      "name": "Yixian Yang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1002/int.22656"
+      ]
+    },
+    {
+      "id": "A5029131302",
+      "name": "Naif Alzahrani",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-01554-1_27"
+      ]
+    },
+    {
+      "id": "A5014974612",
+      "name": "Nirupama Bulusu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-01554-1_27"
+      ]
+    },
+    {
+      "id": "A5049847485",
+      "name": "Shuangke Wu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tnet.2020.2973410"
+      ]
+    },
+    {
+      "id": "A5015275781",
+      "name": "Yanjiao Chen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tnet.2020.2973410"
+      ]
+    },
+    {
+      "id": "A5100400052",
+      "name": "Minghui Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tnet.2020.2973410"
+      ]
+    },
+    {
+      "id": "A5102018721",
+      "name": "Xiangyang Luo",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tnet.2020.2973410"
+      ]
+    },
+    {
+      "id": "A5100462347",
+      "name": "Zhe Liu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tnet.2020.2973410"
+      ]
+    },
+    {
+      "id": "A5004823670",
+      "name": "Lan Liu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tnet.2020.2973410"
+      ]
+    },
+    {
+      "id": "A5052600507",
+      "name": "Siamak Solat",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-319-69084-1_25"
+      ]
+    },
+    {
+      "id": "A5080217489",
+      "name": "Maria Potop-Butucaru",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-319-69084-1_25"
+      ]
+    },
+    {
+      "id": "A5001421911",
+      "name": "Rui Qin",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tcss.2020.2991097"
+      ]
+    },
+    {
+      "id": "A5110476655",
+      "name": "Yong Yuan",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tcss.2020.2991097",
+        "doi:10.1007/s10660-020-09414-3"
+      ]
+    },
+    {
+      "id": "A5113600509",
+      "name": "Fei–Yue Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tcss.2020.2991097",
+        "doi:10.1007/s10660-020-09414-3"
+      ]
+    },
+    {
+      "id": "A5054767356",
+      "name": "Seonggeun Kim",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/access.2019.2945600"
+      ]
+    },
+    {
+      "id": "A5024136393",
+      "name": "Sang-Geun Hahn",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/access.2019.2945600"
+      ]
+    },
+    {
+      "id": "A5095764962",
+      "name": "Nadisha Madhushanie",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10207-024-00849-5"
+      ]
+    },
+    {
+      "id": "A5014847381",
+      "name": "Sugandima Vidanagamachchi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10207-024-00849-5"
+      ]
+    },
+    {
+      "id": "A5081069489",
+      "name": "Nalin Asanka Gamagedara Arachchilage",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10207-024-00849-5"
+      ]
+    },
+    {
+      "id": "A5026789384",
+      "name": "Muoi Tran",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/sp54263.2024.00254"
+      ]
+    },
+    {
+      "id": "A5092404306",
+      "name": "Theo von Arx",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/sp54263.2024.00254"
+      ]
+    },
+    {
+      "id": "A5070110259",
+      "name": "Laurent Vanbever",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/sp54263.2024.00254"
+      ]
+    },
+    {
+      "id": "A5034200305",
+      "name": "Di Wu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.ress.2018.12.026"
+      ]
+    },
+    {
+      "id": "A5101454363",
+      "name": "Xiangdong Liu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.ress.2018.12.026"
+      ]
+    },
+    {
+      "id": "A5058377213",
+      "name": "Xiangbin Yan",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.ress.2018.12.026"
+      ]
+    },
+    {
+      "id": "A5081036659",
+      "name": "Rui Peng",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.ress.2018.12.026"
+      ]
+    },
+    {
+      "id": "A5100438769",
+      "name": "Gang Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.ress.2018.12.026"
+      ]
+    },
+    {
+      "id": "A5057966142",
+      "name": "Yean‐Fu Wen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/access.2022.3181186"
+      ]
+    },
+    {
+      "id": "A5024476523",
+      "name": "Alexei Zamyatin",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/mascots.2017.22",
+        "doi:10.48550/arxiv.1905.05999"
+      ]
+    },
+    {
+      "id": "A5048602679",
+      "name": "Katinka Wolter",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/mascots.2017.22"
+      ]
+    },
+    {
+      "id": "A5080155994",
+      "name": "Peter G. Harrison",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/mascots.2017.22"
+      ]
+    },
+    {
+      "id": "A5039826351",
+      "name": "Catherine E. A. Mulligan",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/mascots.2017.22"
+      ]
+    },
+    {
+      "id": "A5013487113",
+      "name": "Yourong Chen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/access.2020.3017716"
+      ]
+    },
+    {
+      "id": "A5101646889",
+      "name": "Hao Chen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/access.2020.3017716"
+      ]
+    },
+    {
+      "id": "A5100785901",
+      "name": "Meng Han",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/access.2020.3017716"
+      ]
+    },
+    {
+      "id": "A5082693020",
+      "name": "Banteng Liu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/access.2020.3017716"
+      ]
+    },
+    {
+      "id": "A5006572085",
+      "name": "Qiuxia Chen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/access.2020.3017716"
+      ]
+    },
+    {
+      "id": "A5031755287",
+      "name": "Tiaojuan Ren",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/access.2020.3017716"
+      ]
+    },
+    {
+      "id": "A5011517415",
+      "name": "Colleen Alkalay-Houlihan",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1609/aaai.v33i01.33011724"
+      ]
+    },
+    {
+      "id": "A5103285429",
+      "name": "Nisarg Shah",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1609/aaai.v33i01.33011724"
+      ]
+    },
+    {
+      "id": "A5033080607",
+      "name": "Yi Liu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/iscid.2017.184"
+      ]
+    },
+    {
+      "id": "A5005255620",
+      "name": "Xiayang Chen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/iscid.2017.184"
+      ]
+    },
+    {
+      "id": "A5100731323",
+      "name": "Lei Zhang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/iscid.2017.184"
+      ]
+    },
+    {
+      "id": "A5101867084",
+      "name": "Chaojing Tang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/iscid.2017.184"
+      ]
+    },
+    {
+      "id": "A5100985055",
+      "name": "Hongyan Kang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/iscid.2017.184"
+      ]
+    },
+    {
+      "id": "A5005621448",
+      "name": "Tianle Mai",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tcc.2021.3110965"
+      ]
+    },
+    {
+      "id": "A5100666106",
+      "name": "Haipeng Yao",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tcc.2021.3110965"
+      ]
+    },
+    {
+      "id": "A5100319346",
+      "name": "Ni Zhang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tcc.2021.3110965"
+      ]
+    },
+    {
+      "id": "A5061307388",
+      "name": "Lexi Xu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tcc.2021.3110965"
+      ]
+    },
+    {
+      "id": "A5057916222",
+      "name": "Mohsen Guizani",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tcc.2021.3110965"
+      ]
+    },
+    {
+      "id": "A5043464306",
+      "name": "Song Guo",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tcc.2021.3110965",
+        "doi:10.1109/tdsc.2023.3268668"
+      ]
+    },
+    {
+      "id": "A5013804006",
+      "name": "Gang Xue",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10796-020-10019-2"
+      ]
+    },
+    {
+      "id": "A5018815299",
+      "name": "Jia Hao Xu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10796-020-10019-2"
+      ]
+    },
+    {
+      "id": "A5012700660",
+      "name": "Hanwen Wu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10796-020-10019-2"
+      ]
+    },
+    {
+      "id": "A5102706010",
+      "name": "Weifeng Lu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10796-020-10019-2"
+      ]
+    },
+    {
+      "id": "A5102898387",
+      "name": "Lijie Xu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10796-020-10019-2"
+      ]
+    },
+    {
+      "id": "A5062999404",
+      "name": "Shiquan Zhang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/blockchain50366.2020.00013",
+        "doi:10.1109/icbc48266.2020.9169446"
+      ]
+    },
+    {
+      "id": "A5025108369",
+      "name": "Kaiwen Zhang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/blockchain50366.2020.00013",
+        "doi:10.1109/icbc48266.2020.9169446",
+        "doi:10.1109/bcca55292.2022.9922213",
+        "doi:10.1109/access.2024.3514375"
+      ]
+    },
+    {
+      "id": "A5000301016",
+      "name": "Bettina Kemme",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/blockchain50366.2020.00013",
+        "doi:10.1109/icbc48266.2020.9169446"
+      ]
+    },
+    {
+      "id": "A5100385486",
+      "name": "Chengyu Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tifs.2023.3326386"
+      ]
+    },
+    {
+      "id": "A5003840059",
+      "name": "Guoyan Zhang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tifs.2023.3326386"
+      ]
+    },
+    {
+      "id": "A5101409910",
+      "name": "Chengzhen Xu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icc40277.2020.9149279"
+      ]
+    },
+    {
+      "id": "A5000861569",
+      "name": "Kun Zhu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icc40277.2020.9149279"
+      ]
+    },
+    {
+      "id": "A5100447486",
+      "name": "Ran Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icc40277.2020.9149279"
+      ]
+    },
+    {
+      "id": "A5010707849",
+      "name": "Yuanyuan Xu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icc40277.2020.9149279"
+      ]
+    },
+    {
+      "id": "A5024465366",
+      "name": "Noyan Ilk",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.25300/misq/2021/15718"
+      ]
+    },
+    {
+      "id": "A5007516702",
+      "name": "Guangzhi Shang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.25300/misq/2021/15718",
+        "doi:10.1177/10591478251360474"
+      ]
+    },
+    {
+      "id": "A5110002236",
+      "name": "Shaokun Fan",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.25300/misq/2021/15718"
+      ]
+    },
+    {
+      "id": "A5103451834",
+      "name": "J. Leon Zhao",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.25300/misq/2021/15718"
+      ]
+    },
+    {
+      "id": "A5020247743",
+      "name": "Stratis Skoulakis",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/blockchain53845.2021.00034",
+        "doi:10.1145/3479722.3480993"
+      ]
+    },
+    {
+      "id": "A5090995947",
+      "name": "Christoph Müller-Bloch",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1080/0960085x.2022.2125840"
+      ]
+    },
+    {
+      "id": "A5076804839",
+      "name": "Jonas Valbjørn Andersen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1080/0960085x.2022.2125840"
+      ]
+    },
+    {
+      "id": "A5039085801",
+      "name": "Jason Spasovski",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1080/0960085x.2022.2125840"
+      ]
+    },
+    {
+      "id": "A5002220814",
+      "name": "Jungpil Hahn",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1080/0960085x.2022.2125840"
+      ]
+    },
+    {
+      "id": "A5025413673",
+      "name": "Damiano Azzolini",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/info10110335"
+      ]
+    },
+    {
+      "id": "A5086909487",
+      "name": "Fabrizio Riguzzi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/info10110335"
+      ]
+    },
+    {
+      "id": "A5028993591",
+      "name": "Evelina Lamma",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/info10110335"
+      ]
+    },
+    {
+      "id": "A5101938734",
+      "name": "Quan‐Lin Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s11518-021-5515-3"
+      ]
+    },
+    {
+      "id": "A5063230011",
+      "name": "Yan-Xia Chang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s11518-021-5515-3"
+      ]
+    },
+    {
+      "id": "A5010288958",
+      "name": "Xiaole Wu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s11518-021-5515-3"
+      ]
+    },
+    {
+      "id": "A5100419068",
+      "name": "Guoqing Zhang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s11518-021-5515-3"
+      ]
+    },
+    {
+      "id": "A5080507848",
+      "name": "Runkai Yang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tnsm.2022.3151083"
+      ]
+    },
+    {
+      "id": "A5024597522",
+      "name": "Xiaolin Chang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tnsm.2022.3151083"
+      ]
+    },
+    {
+      "id": "A5017004453",
+      "name": "Jelena Mišić",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tnsm.2022.3151083"
+      ]
+    },
+    {
+      "id": "A5019465701",
+      "name": "Vojislav B. Mišić",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tnsm.2022.3151083"
+      ]
+    },
+    {
+      "id": "A5050853831",
+      "name": "Hongyue Kang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tnsm.2022.3151083"
+      ]
+    },
+    {
+      "id": "A5090378788",
+      "name": "Aljosha Judmayer",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-32415-4_6",
+        "doi:10.48550/arxiv.1905.05999"
+      ]
+    },
+    {
+      "id": "A5001738405",
+      "name": "Nicholas Stifter",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-32415-4_6"
+      ]
+    },
+    {
+      "id": "A5083435816",
+      "name": "Edgar R. Weippl",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-32415-4_6"
+      ]
+    },
+    {
+      "id": "A5073405702",
+      "name": "Dominic Deuber",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-57808-4_16"
+      ]
+    },
+    {
+      "id": "A5051096181",
+      "name": "Nico Döttling",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-57808-4_16"
+      ]
+    },
+    {
+      "id": "A5067359936",
+      "name": "Bernardo Magri",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-57808-4_16",
+        "doi:10.1007/978-3-031-33491-7_25"
+      ]
+    },
+    {
+      "id": "A5007500399",
+      "name": "Giulio Malavolta",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-57808-4_16"
+      ]
+    },
+    {
+      "id": "A5053520687",
+      "name": "Sri Aravinda Krishnan Thyagarajan",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-030-57808-4_16"
+      ]
+    },
+    {
+      "id": "A5003768700",
+      "name": "Yiting Zhang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/jiot.2024.3367689"
+      ]
+    },
+    {
+      "id": "A5081596329",
+      "name": "Jianting Ning",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/jiot.2024.3367689"
+      ]
+    },
+    {
+      "id": "A5066465215",
+      "name": "Keke Gai",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/jiot.2024.3367689"
+      ]
+    },
+    {
+      "id": "A5114406692",
+      "name": "Zekai Liu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icws62655.2024.00181"
+      ]
+    },
+    {
+      "id": "A5100634702",
+      "name": "Xiaoqi Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icws62655.2024.00181"
+      ]
+    },
+    {
+      "id": "A5110319720",
+      "name": "Hong-Li Peng",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icws62655.2024.00181"
+      ]
+    },
+    {
+      "id": "A5100719769",
+      "name": "Wenkai Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icws62655.2024.00181"
+      ]
+    },
+    {
+      "id": "A5027009916",
+      "name": "Carla Piazza",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/a17040159"
+      ]
+    },
+    {
+      "id": "A5015760641",
+      "name": "Sabina Rossi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/a17040159",
+        "doi:10.1109/blockchain60715.2023.00058"
+      ]
+    },
+    {
+      "id": "A5061996265",
+      "name": "Daria Smuseva",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/a17040159",
+        "doi:10.1109/blockchain60715.2023.00058"
+      ]
+    },
+    {
+      "id": "A5057879100",
+      "name": "Arpit Nandwani",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-981-13-2324-9_3"
+      ]
+    },
+    {
+      "id": "A5080029260",
+      "name": "Narina Thakur",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-981-13-2324-9_3"
+      ]
+    },
+    {
+      "id": "A5011649578",
+      "name": "Xukang Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/electronics12214417"
+      ]
+    },
+    {
+      "id": "A5101363464",
+      "name": "Ying Cheng Wu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/electronics12214417"
+      ]
+    },
+    {
+      "id": "A5023527471",
+      "name": "Hongpeng Fu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/electronics12214417"
+      ]
+    },
+    {
+      "id": "A5103216060",
+      "name": "Mengjie Zhou",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/electronics12214417"
+      ]
+    },
+    {
+      "id": "A5007446880",
+      "name": "Jun Aoyagi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1086/732831"
+      ]
+    },
+    {
+      "id": "A5067840720",
+      "name": "Jian Zheng",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tdsc.2023.3268668"
+      ]
+    },
+    {
+      "id": "A5047931252",
+      "name": "Huawei Huang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tdsc.2023.3268668"
+      ]
+    },
+    {
+      "id": "A5000582109",
+      "name": "Zibin Zheng",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tdsc.2023.3268668"
+      ]
+    },
+    {
+      "id": "A5111168953",
+      "name": "Zhen Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/ecrime66972.2025.11327811"
+      ]
+    },
+    {
+      "id": "A5005972089",
+      "name": "Qi Liao",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/ecrime66972.2025.11327811"
+      ]
+    },
+    {
+      "id": "A5030045165",
+      "name": "Yun Kuen Cheung",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-18679-0_5"
+      ]
+    },
+    {
+      "id": "A5078719953",
+      "name": "Matteo Romiti",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.1905.05999"
+      ]
+    },
+    {
+      "id": "A5078932059",
+      "name": "Bernhard Haslhofer",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.1905.05999"
+      ]
+    },
+    {
+      "id": "A5101854134",
+      "name": "Daehan Kim",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.irfa.2023.102487"
+      ]
+    },
+    {
+      "id": "A5008162674",
+      "name": "Doojin Ryu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.irfa.2023.102487"
+      ]
+    },
+    {
+      "id": "A5024317115",
+      "name": "Robert I. Webb",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.irfa.2023.102487"
+      ]
+    },
+    {
+      "id": "A5055795427",
+      "name": "Joshua S. Gans",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-33083-4_5"
+      ]
+    },
+    {
+      "id": "A5110659752",
+      "name": "Craig Wright",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/fintech5030063"
+      ]
+    },
+    {
+      "id": "A5042235327",
+      "name": "Enchuan Shao",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.7175218"
+      ]
+    },
+    {
+      "id": "A5100664184",
+      "name": "Ze Chen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.7299418"
+      ]
+    },
+    {
+      "id": "A5127489537",
+      "name": "Yu Mao",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.7299418"
+      ]
+    },
+    {
+      "id": "A5147328587",
+      "name": "Ning Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.7299418"
+      ]
+    },
+    {
+      "id": "A5096908931",
+      "name": "Yinan Ying",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.7299418"
+      ]
+    },
+    {
+      "id": "A5031753527",
+      "name": "Fangyu Gai",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/sp46215.2023.10179426"
+      ]
+    },
+    {
+      "id": "A5100722219",
+      "name": "Sreeram Kannan",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/sp46215.2023.10179426",
+        "doi:10.1145/3560829.3563559",
+        "doi:10.48550/arxiv.2201.07946",
+        "doi:10.48550/arxiv.2401.05797"
+      ]
+    },
+    {
+      "id": "A5113662214",
+      "name": "Mohammad Ali Maddah-Ali",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/sp46215.2023.10179426"
+      ]
+    },
+    {
+      "id": "A5101596045",
+      "name": "Archana Jain",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.frl.2023.104507"
+      ]
+    },
+    {
+      "id": "A5070625214",
+      "name": "Chinmay Jain",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.frl.2023.104507"
+      ]
+    },
+    {
+      "id": "A5072107439",
+      "name": "Karolina Krystyniak",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.frl.2023.104507"
+      ]
+    },
+    {
+      "id": "A5022085688",
+      "name": "Giorgos Panagiotakos",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-68974-1_1"
+      ]
+    },
+    {
+      "id": "A5020881493",
+      "name": "Kanye Ye Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.jfineco.2025.104132",
+        "doi:10.1109/sp61157.2025.00042"
+      ]
+    },
+    {
+      "id": "A5082468260",
+      "name": "Zhicheng Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.frl.2023.104347"
+      ]
+    },
+    {
+      "id": "A5100708117",
+      "name": "Jialong Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.frl.2023.104347"
+      ]
+    },
+    {
+      "id": "A5102025950",
+      "name": "Fernando Barros",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.mathsocsci.2023.02.004"
+      ]
+    },
+    {
+      "id": "A5069454827",
+      "name": "Jefferson Donizeti Pereira Bertolai",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.mathsocsci.2023.02.004"
+      ]
+    },
+    {
+      "id": "A5072313182",
+      "name": "Matheus Carrijo",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.mathsocsci.2023.02.004"
+      ]
+    },
+    {
+      "id": "A5034668434",
+      "name": "Ioanid Roşu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1287/mnsc.2020.3791"
+      ]
+    },
+    {
+      "id": "A5076032307",
+      "name": "Iván Abellán Álvarez",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3605098.3635970"
+      ]
+    },
+    {
+      "id": "A5063694989",
+      "name": "Vincent Gramlich",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3605098.3635970",
+        "doi:10.1007/s12525-024-00727-x"
+      ]
+    },
+    {
+      "id": "A5028636384",
+      "name": "Johannes Sedlmeir",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3605098.3635970",
+        "doi:10.1007/s12525-024-00727-x"
+      ]
+    },
+    {
+      "id": "A5075716236",
+      "name": "Minyue Jin",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.tre.2025.104173"
+      ]
+    },
+    {
+      "id": "A5042824665",
+      "name": "Xiaohang Yue",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.tre.2025.104173"
+      ]
+    },
+    {
+      "id": "A5035222399",
+      "name": "Jiajia Nie",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.tre.2025.104173"
+      ]
+    },
+    {
+      "id": "A5100620746",
+      "name": "Zhuo Cai",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-48731-6_2"
+      ]
+    },
+    {
+      "id": "A5023681998",
+      "name": "Christina Ovezik",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3533271.3561787"
+      ]
+    },
+    {
+      "id": "A5058487048",
+      "name": "Wenpin Tang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1111/mafi.12403",
+        "doi:10.2139/ssrn.4124744",
+        "doi:10.2139/ssrn.4172486",
+        "doi:10.2139/ssrn.4552795"
+      ]
+    },
+    {
+      "id": "A5110433984",
+      "name": "David D. W. Yao",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1111/mafi.12403"
+      ]
+    },
+    {
+      "id": "A5110910717",
+      "name": "Alejandro Jofré",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.2107.08077"
+      ]
+    },
+    {
+      "id": "A5101446282",
+      "name": "Angel Pardo",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.2107.08077"
+      ]
+    },
+    {
+      "id": "A5047978518",
+      "name": "David Salas",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.2107.08077"
+      ]
+    },
+    {
+      "id": "A5049868915",
+      "name": "Víctor Verdugo",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.2107.08077"
+      ]
+    },
+    {
+      "id": "A5074002197",
+      "name": "José Verschae",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.2107.08077"
+      ]
+    },
+    {
+      "id": "A5100323236",
+      "name": "Chao Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.dss.2022.113909"
+      ]
+    },
+    {
+      "id": "A5116736541",
+      "name": "Li Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.dss.2022.113909"
+      ]
+    },
+    {
+      "id": "A5058675840",
+      "name": "Haijun Yang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.dss.2022.113909"
+      ]
+    },
+    {
+      "id": "A5038758126",
+      "name": "Kee-Youn Kang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s00199-021-01411-3"
+      ]
+    },
+    {
+      "id": "A5047607882",
+      "name": "Junhuan Zhang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1080/1351847x.2021.1886964",
+        "doi:10.2139/ssrn.5274901"
+      ]
+    },
+    {
+      "id": "A5101659207",
+      "name": "Yuqian Xu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1080/1351847x.2021.1886964"
+      ]
+    },
+    {
+      "id": "A5083497998",
+      "name": "Daniel E. Houser",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1080/1351847x.2021.1886964"
+      ]
+    },
+    {
+      "id": "A5078093823",
+      "name": "Nicola Dimitri",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.5195/ledger.2019.145",
+        "doi:10.3389/fbloc.2024.1455070",
+        "doi:10.3389/fbloc.2021.443966",
+        "doi:10.1145/3550197"
+      ]
+    },
+    {
+      "id": "A5071862135",
+      "name": "Daji Landis",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3233/faia230501"
+      ]
+    },
+    {
+      "id": "A5042736720",
+      "name": "Nikolaj I. Schwartzbach",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3233/faia230501"
+      ]
+    },
+    {
+      "id": "A5094035339",
+      "name": "Mohammad Sadegh Nourbakhsh",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-54204-6_20"
+      ]
+    },
+    {
+      "id": "A5100611635",
+      "name": "Feng Hao",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-54204-6_20"
+      ]
+    },
+    {
+      "id": "A5005426902",
+      "name": "Arshad Jhumka",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-54204-6_20"
+      ]
+    },
+    {
+      "id": "A5113179896",
+      "name": "Zishuo Zhao",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.4413816"
+      ]
+    },
+    {
+      "id": "A5100377502",
+      "name": "Kun Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-981-97-9412-6_20"
+      ]
+    },
+    {
+      "id": "A5024560479",
+      "name": "Guangpeng Qi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-981-97-9412-6_20"
+      ]
+    },
+    {
+      "id": "A5114184244",
+      "name": "Guangyong Shang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-981-97-9412-6_20"
+      ]
+    },
+    {
+      "id": "A5113270409",
+      "name": "Wanli Deng",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-981-97-9412-6_20"
+      ]
+    },
+    {
+      "id": "A5103077343",
+      "name": "Minghui Xu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-981-97-9412-6_20"
+      ]
+    },
+    {
+      "id": "A5100692488",
+      "name": "Xiuzhen Cheng",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-981-97-9412-6_20"
+      ]
+    },
+    {
+      "id": "A5087705954",
+      "name": "Juan Jesús Rico-Peña",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10614-026-11374-z"
+      ]
+    },
+    {
+      "id": "A5054860189",
+      "name": "Raquel Arguedas Sanz",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10614-026-11374-z"
+      ]
+    },
+    {
+      "id": "A5044591923",
+      "name": "Carmen López-Martín",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10614-026-11374-z"
+      ]
+    },
+    {
+      "id": "A5069593385",
+      "name": "Yiming Ding",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.tcs.2026.116175",
+        "doi:10.1007/978-981-95-4839-2_5"
+      ]
+    },
+    {
+      "id": "A5100406572",
+      "name": "Qi Qi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.tcs.2026.116175",
+        "doi:10.1007/978-981-95-4839-2_5"
+      ]
+    },
+    {
+      "id": "A5012979163",
+      "name": "Bingzhe Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.tcs.2026.116175",
+        "doi:10.1007/978-981-95-4839-2_5"
+      ]
+    },
+    {
+      "id": "A5100733037",
+      "name": "Juanjuan Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10660-020-09414-3"
+      ]
+    },
+    {
+      "id": "A5048887100",
+      "name": "Domagoj Sajter",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2478/zireb-2022-0025"
+      ]
+    },
+    {
+      "id": "A5004891578",
+      "name": "Edvinas Kruminis",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/access.2022.3140921"
+      ]
+    },
+    {
+      "id": "A5022880485",
+      "name": "Keivan Navaie",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/access.2022.3140921"
+      ]
+    },
+    {
+      "id": "A5100423435",
+      "name": "Ye Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3491102.3517585"
+      ]
+    },
+    {
+      "id": "A5093478086",
+      "name": "Patrick Züst",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3491102.3517585"
+      ]
+    },
+    {
+      "id": "A5071653402",
+      "name": "Yaxing Yao",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3491102.3517585"
+      ]
+    },
+    {
+      "id": "A5090335927",
+      "name": "Zhicong Lu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3491102.3517585"
+      ]
+    },
+    {
+      "id": "A5038645621",
+      "name": "Martin Crane",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/math11092212"
+      ]
+    },
+    {
+      "id": "A5120636135",
+      "name": "Abdel Badeeh M Salem",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.47738/jcrb.v2i4.46"
+      ]
+    },
+    {
+      "id": "A5002460091",
+      "name": "Petar Zhivkov",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/math14071232"
+      ]
+    },
+    {
+      "id": "A5133082524",
+      "name": "Eric Chen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/math14071232"
+      ]
+    },
+    {
+      "id": "A5100423460",
+      "name": "Ye Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.3997796"
+      ]
+    },
+    {
+      "id": "A5074505406",
+      "name": "Rong Zhao",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tsmc.2025.3573285"
+      ]
+    },
+    {
+      "id": "A5026897397",
+      "name": "Yunshu Liu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tsmc.2025.3573285"
+      ]
+    },
+    {
+      "id": "A5029331516",
+      "name": "Hong Kang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tsmc.2025.3573285"
+      ]
+    },
+    {
+      "id": "A5053432286",
+      "name": "Wei Cai",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tsmc.2025.3573285"
+      ]
+    },
+    {
+      "id": "A5004180353",
+      "name": "Huisu Jang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1038/s41598-026-46368-2",
+        "doi:10.1109/tnse.2025.3594281"
+      ]
+    },
+    {
+      "id": "A5041040006",
+      "name": "Jaewoong Shim",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1038/s41598-026-46368-2"
+      ]
+    },
+    {
+      "id": "A5144353291",
+      "name": "Rushikesh Ramteke",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icdca69396.2026.11620367"
+      ]
+    },
+    {
+      "id": "A5144364827",
+      "name": "Diksha Dani",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icdca69396.2026.11620367"
+      ]
+    },
+    {
+      "id": "A5044233783",
+      "name": "Xi Zhao",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1177/10591478251360474"
+      ]
+    },
+    {
+      "id": "A5034648353",
+      "name": "Peilin Ai",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1177/10591478251360474"
+      ]
+    },
+    {
+      "id": "A5104288245",
+      "name": "Koki Inami",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/math13061010"
+      ]
+    },
+    {
+      "id": "A5013398109",
+      "name": "Tuan Phung-Duc",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/math13061010"
+      ]
+    },
+    {
+      "id": "A5015653175",
+      "name": "Harshal Shridhar Kallurkar",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s42979-024-02976-1"
+      ]
+    },
+    {
+      "id": "A5009427723",
+      "name": "B. R. Chandavarkar",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s42979-024-02976-1"
+      ]
+    },
+    {
+      "id": "A5069252520",
+      "name": "O. L. Mokalusi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-981-19-5221-0_67"
+      ]
+    },
+    {
+      "id": "A5018742224",
+      "name": "Rangith Baby Kuriakose",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-981-19-5221-0_67"
+      ]
+    },
+    {
+      "id": "A5077430502",
+      "name": "H.J. Vermaak",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-981-19-5221-0_67"
+      ]
+    },
+    {
+      "id": "A5026545866",
+      "name": "Reza Nourmohammadi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/bcca55292.2022.9922213"
+      ]
+    },
+    {
+      "id": "A5100696148",
+      "name": "Zining Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.7152768"
+      ]
+    },
+    {
+      "id": "A5147752396",
+      "name": "Jiaxin Duan",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.7152768"
+      ]
+    },
+    {
+      "id": "A5092498468",
+      "name": "Fangyuan Kou",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.7152768"
+      ]
+    },
+    {
+      "id": "A5010704264",
+      "name": "Dennis Jelito",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s12525-024-00727-x"
+      ]
+    },
+    {
+      "id": "A5051256753",
+      "name": "James Hsin-yu Chiang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-18283-9_1",
+        "doi:10.46298/lmcs-18(4:12)2022",
+        "doi:10.1007/978-3-030-78142-2_11"
+      ]
+    },
+    {
+      "id": "A5054527006",
+      "name": "Alberto Lluch Lafuente",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-18283-9_1",
+        "doi:10.46298/lmcs-18(4:12)2022",
+        "doi:10.1007/978-3-030-78142-2_11"
+      ]
+    },
+    {
+      "id": "A5088559960",
+      "name": "Jiahua Xu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3570639"
+      ]
+    },
+    {
+      "id": "A5007005506",
+      "name": "Krzysztof Paruch",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3570639"
+      ]
+    },
+    {
+      "id": "A5107966193",
+      "name": "Simon Cousaert",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3570639"
+      ]
+    },
+    {
+      "id": "A5026905803",
+      "name": "Yebo Feng",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3570639"
+      ]
+    },
+    {
+      "id": "A5081532205",
+      "name": "Vijay Mohan",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1186/s40854-021-00314-5"
+      ]
+    },
+    {
+      "id": "A5065178474",
+      "name": "Lei Wu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3457977.3460301"
+      ]
+    },
+    {
+      "id": "A5088790914",
+      "name": "Yajin Zhou",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3457977.3460301"
+      ]
+    },
+    {
+      "id": "A5034620178",
+      "name": "Lennart Ante",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.techfore.2021.120851",
+        "doi:10.3390/jrfm17010019"
+      ]
+    },
+    {
+      "id": "A5088650836",
+      "name": "Ingo Fiedler",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.techfore.2021.120851"
+      ]
+    },
+    {
+      "id": "A5050553184",
+      "name": "Elias Strehle",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.techfore.2021.120851"
+      ]
+    },
+    {
+      "id": "A5054594335",
+      "name": "Lucianna Kiffer",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3618257.3624824"
+      ]
+    },
+    {
+      "id": "A5104133010",
+      "name": "Dominic Grandjean",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-69231-4_17"
+      ]
+    },
+    {
+      "id": "A5100342798",
+      "name": "Zihao Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3576915.3616590"
+      ]
+    },
+    {
+      "id": "A5100462018",
+      "name": "Jianfeng Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3576915.3616590"
+      ]
+    },
+    {
+      "id": "A5019899373",
+      "name": "Zheyuan He",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3576915.3616590"
+      ]
+    },
+    {
+      "id": "A5100400376",
+      "name": "Xiapu Luo",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3576915.3616590",
+        "openalex:W3197257641"
+      ]
+    },
+    {
+      "id": "A5100428026",
+      "name": "Ting Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3576915.3616590"
+      ]
+    },
+    {
+      "id": "A5062133525",
+      "name": "Xiaoze Ni",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3576915.3616590"
+      ]
+    },
+    {
+      "id": "A5103189317",
+      "name": "Wenwu Yang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3576915.3616590"
+      ]
+    },
+    {
+      "id": "A5100443178",
+      "name": "Ting Chen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3576915.3616590"
+      ]
+    },
+    {
+      "id": "A5067371540",
+      "name": "Jan Arvid Berg",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-32415-4_16"
+      ]
+    },
+    {
+      "id": "A5030443013",
+      "name": "Robin Fritsch",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-32415-4_16",
+        "doi:10.1145/3464967.3488590",
+        "doi:10.1145/3464967.3488589",
+        "doi:10.1007/978-3-031-68974-1_2"
+      ]
+    },
+    {
+      "id": "A5068688584",
+      "name": "Aman Saggu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/jrfm17010019"
+      ]
+    },
+    {
+      "id": "A5091305658",
+      "name": "Mohsen Alambardar Meybodi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/blockchain55522.2022.00044"
+      ]
+    },
+    {
+      "id": "A5015666782",
+      "name": "M. R. Hooshmandasl",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/blockchain55522.2022.00044"
+      ]
+    },
+    {
+      "id": "A5021278463",
+      "name": "Ali Shakiba",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/blockchain55522.2022.00044"
+      ]
+    },
+    {
+      "id": "A5106113032",
+      "name": "Zeinab Alipanahloo",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/access.2024.3514375"
+      ]
+    },
+    {
+      "id": "A5055329164",
+      "name": "Abdelhakim Senhaji Hafid",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/access.2024.3514375"
+      ]
+    },
+    {
+      "id": "A5073221979",
+      "name": "Henry Berg",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.5750/jpm.v3i1.451"
+      ]
+    },
+    {
+      "id": "A5089872957",
+      "name": "Todd A. Proebsting",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.5750/jpm.v3i1.451"
+      ]
+    },
+    {
+      "id": "A5027803514",
+      "name": "Austin Adams",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-78676-1_10"
+      ]
+    },
+    {
+      "id": "A5059723568",
+      "name": "Benjamin Y. Chan",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-78676-1_10"
+      ]
+    },
+    {
+      "id": "A5001472889",
+      "name": "Sarit Markovich",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-78676-1_10"
+      ]
+    },
+    {
+      "id": "A5000743461",
+      "name": "Xin Wan",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-78676-1_10"
+      ]
+    },
+    {
+      "id": "A5070005421",
+      "name": "Zihan Zhao",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/dapps57946.2023.00015"
+      ]
+    },
+    {
+      "id": "A5084186424",
+      "name": "Sidi Mohamed Beillahi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/dapps57946.2023.00015",
+        "doi:10.1145/3597503.3639190"
+      ]
+    },
+    {
+      "id": "A5017444322",
+      "name": "Han Du",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/dapps57946.2023.00015"
+      ]
+    },
+    {
+      "id": "A5071819177",
+      "name": "Cyrus Minwalla",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/dapps57946.2023.00015"
+      ]
+    },
+    {
+      "id": "A5063566849",
+      "name": "Keerthi Nelaturu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/dapps57946.2023.00015"
+      ]
+    },
+    {
+      "id": "A5009841786",
+      "name": "Andreas G. Veneris",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/dapps57946.2023.00015"
+      ]
+    },
+    {
+      "id": "A5080879279",
+      "name": "Fan Long",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/dapps57946.2023.00015",
+        "doi:10.1145/3597503.3639190"
+      ]
+    },
+    {
+      "id": "A5000901121",
+      "name": "Nakhoon Choi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/electronics13061098"
+      ]
+    },
+    {
+      "id": "A5048728860",
+      "name": "Heeyoul Kim",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/electronics13061098"
+      ]
+    },
+    {
+      "id": "A5106716072",
+      "name": "Dongze Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10791-024-09445-6",
+        "doi:10.1007/s10791-025-09694-z"
+      ]
+    },
+    {
+      "id": "A5100435882",
+      "name": "Lei Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10791-024-09445-6"
+      ]
+    },
+    {
+      "id": "A5043199156",
+      "name": "Nday Kabulo Sinai",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/access.2024.3351830"
+      ]
+    },
+    {
+      "id": "A5056381991",
+      "name": "Hoh Peter In",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/access.2024.3351830"
+      ]
+    },
+    {
+      "id": "A5063951151",
+      "name": "Benjamin Appiah",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/analytics4030023"
+      ]
+    },
+    {
+      "id": "A5092762627",
+      "name": "Daniel Commey",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/analytics4030023"
+      ]
+    },
+    {
+      "id": "A5119620683",
+      "name": "Winful Bagyl-Bac",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/analytics4030023"
+      ]
+    },
+    {
+      "id": "A5088558487",
+      "name": "Laurene Adjei",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/analytics4030023"
+      ]
+    },
+    {
+      "id": "A5073420580",
+      "name": "Ebenezer Owusu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/analytics4030023"
+      ]
+    },
+    {
+      "id": "A5071714089",
+      "name": "Xihan Xiong",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/brains59668.2023.10316935"
+      ]
+    },
+    {
+      "id": "A5100424172",
+      "name": "Zhipeng Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/brains59668.2023.10316935"
+      ]
+    },
+    {
+      "id": "A5105928180",
+      "name": "Michael Huth",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/brains59668.2023.10316935"
+      ]
+    },
+    {
+      "id": "A5010577433",
+      "name": "Barbara Guidi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.bcra.2025.100340"
+      ]
+    },
+    {
+      "id": "A5088118500",
+      "name": "Andrea Michienzi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.bcra.2025.100340"
+      ]
+    },
+    {
+      "id": "A5027335042",
+      "name": "Shunrong Jiang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/globecom54140.2023.10437668",
+        "doi:10.1109/tsc.2024.3376195"
+      ]
+    },
+    {
+      "id": "A5100614655",
+      "name": "Jingwei Chen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/globecom54140.2023.10437668",
+        "doi:10.1109/tsc.2024.3376195"
+      ]
+    },
+    {
+      "id": "A5010371999",
+      "name": "Fengjiao Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/globecom54140.2023.10437668"
+      ]
+    },
+    {
+      "id": "A5101413343",
+      "name": "Haijun Geng",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/globecom54140.2023.10437668"
+      ]
+    },
+    {
+      "id": "A5086115204",
+      "name": "Haotian Chi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/globecom54140.2023.10437668"
+      ]
+    },
+    {
+      "id": "A5039457645",
+      "name": "Jinyu Bai",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10791-025-09694-z"
+      ]
+    },
+    {
+      "id": "A5060810049",
+      "name": "Qing Xia",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icdcs57875.2023.00078"
+      ]
+    },
+    {
+      "id": "A5101017066",
+      "name": "Zhirong Huang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icdcs57875.2023.00078"
+      ]
+    },
+    {
+      "id": "A5023724495",
+      "name": "Wensheng Dou",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icdcs57875.2023.00078"
+      ]
+    },
+    {
+      "id": "A5101846515",
+      "name": "Fengjun Zhang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icdcs57875.2023.00078"
+      ]
+    },
+    {
+      "id": "A5110803955",
+      "name": "Geng Liang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icdcs57875.2023.00078"
+      ]
+    },
+    {
+      "id": "A5007121147",
+      "name": "Jinpeng Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tsc.2024.3376195"
+      ]
+    },
+    {
+      "id": "A5100364649",
+      "name": "Yonggang Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tsc.2024.3376195"
+      ]
+    },
+    {
+      "id": "A5090474885",
+      "name": "Filip Rezabek",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3605098.3635990",
+        "doi:10.1145/3771566"
+      ]
+    },
+    {
+      "id": "A5092645153",
+      "name": "Jonas Gebele",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3605098.3635990",
+        "doi:10.1145/3771566"
+      ]
+    },
+    {
+      "id": "A5092645154",
+      "name": "Felix Hoops",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3605098.3635990"
+      ]
+    },
+    {
+      "id": "A5041785111",
+      "name": "Huned Materwala",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tsc.2025.3620604"
+      ]
+    },
+    {
+      "id": "A5030736016",
+      "name": "Shraddha M. Naik",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tsc.2025.3620604"
+      ]
+    },
+    {
+      "id": "A5114638069",
+      "name": "Tala Abdulrahman Abed",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tsc.2025.3620604"
+      ]
+    },
+    {
+      "id": "A5049821727",
+      "name": "Davor Svetinović",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tsc.2025.3620604"
+      ]
+    },
+    {
+      "id": "A5068000434",
+      "name": "Jan Christoph Schlegel",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3771566",
+        "doi:10.1111/mafi.70041",
+        "doi:10.48550/arxiv.2210.00048"
+      ]
+    },
+    {
+      "id": "A5053915475",
+      "name": "Changhao Wu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3787205"
+      ]
+    },
+    {
+      "id": "A5123740462",
+      "name": "Luyu Chen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3787205"
+      ]
+    },
+    {
+      "id": "A5123741166",
+      "name": "Kai Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3787205"
+      ]
+    },
+    {
+      "id": "A5100939231",
+      "name": "Weili Han",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3787205"
+      ]
+    },
+    {
+      "id": "A5023897455",
+      "name": "Hongfeng Chai",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3787205"
+      ]
+    },
+    {
+      "id": "A5063198804",
+      "name": "Julien Piet",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icbc56567.2023.10174966"
+      ]
+    },
+    {
+      "id": "A5101806291",
+      "name": "Vivek C Nair",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icbc56567.2023.10174966"
+      ]
+    },
+    {
+      "id": "A5020117260",
+      "name": "Sanjay Subramanian",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icbc56567.2023.10174966"
+      ]
+    },
+    {
+      "id": "A5099128135",
+      "name": "Davide Mancino",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3672405"
+      ]
+    },
+    {
+      "id": "A5083297323",
+      "name": "Alberto Leporati",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3672405"
+      ]
+    },
+    {
+      "id": "A5074645479",
+      "name": "Marco Viviani",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3672405"
+      ]
+    },
+    {
+      "id": "A5038269238",
+      "name": "Giovanni Denaro",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3672405"
+      ]
+    },
+    {
+      "id": "A5092035134",
+      "name": "Fredrik Kamphuis",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-33491-7_25"
+      ]
+    },
+    {
+      "id": "A5063654695",
+      "name": "Ricky Lamberty",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-33491-7_25",
+        "doi:10.1145/3769669"
+      ]
+    },
+    {
+      "id": "A5066436044",
+      "name": "Sebastian Faust",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-33491-7_25"
+      ]
+    },
+    {
+      "id": "A5101938412",
+      "name": "N. S. Cherkas",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.23939/ujit2023.02.060",
+        "doi:10.1109/csit61576.2023.10324040"
+      ]
+    },
+    {
+      "id": "A5046461858",
+      "name": "Anatoliy Ye. Batyuk",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.23939/ujit2023.02.060",
+        "doi:10.1109/csit61576.2023.10324040"
+      ]
+    },
+    {
+      "id": "A5023124767",
+      "name": "Alejo Salles",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.2112.01472"
+      ]
+    },
+    {
+      "id": "A5023674059",
+      "name": "Lakshman Sankar",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.2112.01472"
+      ]
+    },
+    {
+      "id": "A5011698819",
+      "name": "Vaibhav Chellani",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.2112.01472"
+      ]
+    },
+    {
+      "id": "A5043443876",
+      "name": "David Yakira",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tnsm.2021.3052038"
+      ]
+    },
+    {
+      "id": "A5017077380",
+      "name": "Avi Asayag",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tnsm.2021.3052038"
+      ]
+    },
+    {
+      "id": "A5041697320",
+      "name": "Gad Cohen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tnsm.2021.3052038"
+      ]
+    },
+    {
+      "id": "A5043308309",
+      "name": "Ido Grayevsky",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tnsm.2021.3052038"
+      ]
+    },
+    {
+      "id": "A5008845803",
+      "name": "Maya Leshkowitz",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tnsm.2021.3052038"
+      ]
+    },
+    {
+      "id": "A5029113299",
+      "name": "Ronen Tamari",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tnsm.2021.3052038"
+      ]
+    },
+    {
+      "id": "A5087793409",
+      "name": "Primavera De Filippi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.4000/terminal.9006"
+      ]
+    },
+    {
+      "id": "A5063070079",
+      "name": "P De Filippi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.4000/terminal.9006"
+      ]
+    },
+    {
+      "id": "A5050338996",
+      "name": "Bruno Deffains",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.4000/terminal.9006"
+      ]
+    },
+    {
+      "id": "A5034236411",
+      "name": "Vinay J. Ribeiro",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/cvc65719.2025.00020"
+      ]
+    },
+    {
+      "id": "A5066579066",
+      "name": "Maksym Arzubov",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/csit61576.2023.10324040"
+      ]
+    },
+    {
+      "id": "A5110270348",
+      "name": "Aanchal Malhotra",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icbc59979.2024.10634393"
+      ]
+    },
+    {
+      "id": "A5120054224",
+      "name": "Benjamin Marsh",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3389/fbloc.2026.1782707"
+      ]
+    },
+    {
+      "id": "A5120054225",
+      "name": "Steven Landers",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3389/fbloc.2026.1782707"
+      ]
+    },
+    {
+      "id": "A5123018059",
+      "name": "S M Mostaq Hossain",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/percomworkshops68308.2026.11585217"
+      ]
+    },
+    {
+      "id": "A5060400318",
+      "name": "Amani Altarawneh",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/percomworkshops68308.2026.11585217"
+      ]
+    },
+    {
+      "id": "A5011176205",
+      "name": "Stephen Boyd",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3490486.3538336",
+        "doi:10.1007/978-3-031-07535-3_13"
+      ]
+    },
+    {
+      "id": "A5011024169",
+      "name": "Ben Altschuler",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3533271.3561775"
+      ]
+    },
+    {
+      "id": "A5041901782",
+      "name": "He Sun",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3533271.3561775"
+      ]
+    },
+    {
+      "id": "A5100783580",
+      "name": "Xintong Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3533271.3561775"
+      ]
+    },
+    {
+      "id": "A5112643057",
+      "name": "Akshay Agrawal",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-07535-3_13"
+      ]
+    },
+    {
+      "id": "A5053927963",
+      "name": "Daniel Kirste",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3769669",
+        "doi:10.1145/3672608.3707833",
+        "doi:10.1145/3716177"
+      ]
+    },
+    {
+      "id": "A5016863184",
+      "name": "Niclas Kannengießer",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3769669",
+        "doi:10.1145/3672608.3707833"
+      ]
+    },
+    {
+      "id": "A5058513170",
+      "name": "Ali Sunyaev",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3769669",
+        "doi:10.1145/3672608.3707833",
+        "doi:10.1145/3716177"
+      ]
+    },
+    {
+      "id": "A5086347882",
+      "name": "Maurice P. Herlihy",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3479722.3480987"
+      ]
+    },
+    {
+      "id": "A5019746169",
+      "name": "David Bouba",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s42521-023-00101-0"
+      ]
+    },
+    {
+      "id": "A5064980274",
+      "name": "Olivier Guéant",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s42521-023-00101-0"
+      ]
+    },
+    {
+      "id": "A5002829243",
+      "name": "Bikramaditya Ghosh",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/jrfm16050259"
+      ]
+    },
+    {
+      "id": "A5091895098",
+      "name": "Hayfa Kazouz",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/jrfm16050259"
+      ]
+    },
+    {
+      "id": "A5021559309",
+      "name": "Zaghum Umar",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/jrfm16050259"
+      ]
+    },
+    {
+      "id": "A5021887041",
+      "name": "Warodom Werapun",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/informatics10010003"
+      ]
+    },
+    {
+      "id": "A5055049520",
+      "name": "Tanakorn Karode",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/informatics10010003"
+      ]
+    },
+    {
+      "id": "A5078434020",
+      "name": "Tanwa Arpornthip",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/informatics10010003"
+      ]
+    },
+    {
+      "id": "A5013662206",
+      "name": "Jakapan Suaboot",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/informatics10010003"
+      ]
+    },
+    {
+      "id": "A5048130649",
+      "name": "Esther Sangiamkul",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/informatics10010003"
+      ]
+    },
+    {
+      "id": "A5019657479",
+      "name": "Pawita Boonrat",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/informatics10010003"
+      ]
+    },
+    {
+      "id": "A5078084812",
+      "name": "Carol Alexander",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1002/fut.22593",
+        "doi:10.2139/ssrn.4495589"
+      ]
+    },
+    {
+      "id": "A5100329923",
+      "name": "Xi Chen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1002/fut.22593",
+        "doi:10.2139/ssrn.4495589"
+      ]
+    },
+    {
+      "id": "A5101938417",
+      "name": "Jun Deng",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1002/fut.22593",
+        "doi:10.2139/ssrn.4495589"
+      ]
+    },
+    {
+      "id": "A5115902460",
+      "name": "Thanos Drossos",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3672608.3707833"
+      ]
+    },
+    {
+      "id": "A5020103649",
+      "name": "Riccardo Marchesin",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-78679-2_20"
+      ]
+    },
+    {
+      "id": "A5003560156",
+      "name": "Roberto Zunino",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-78679-2_20"
+      ]
+    },
+    {
+      "id": "A5037346986",
+      "name": "Deborah Miori",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s42521-024-00105-4",
+        "doi:10.1007/978-3-031-68974-1_9"
+      ]
+    },
+    {
+      "id": "A5039600886",
+      "name": "Mihai Cucuringu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s42521-024-00105-4"
+      ]
+    },
+    {
+      "id": "A5092074390",
+      "name": "Krzysztof M. Gogol",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-68974-1_2",
+        "doi:10.1007/978-3-031-68974-1_9"
+      ]
+    },
+    {
+      "id": "A5099099152",
+      "name": "Michele Fabi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.jcorpfin.2025.102737",
+        "doi:10.2139/ssrn.4170256"
+      ]
+    },
+    {
+      "id": "A5029133577",
+      "name": "Alessio Brini",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3768292.3770392"
+      ]
+    },
+    {
+      "id": "A5090424238",
+      "name": "Giorgos Felekis",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/blockchain55522.2022.00047"
+      ]
+    },
+    {
+      "id": "A5039207049",
+      "name": "Jesper Kristensen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/blockchain55522.2022.00047"
+      ]
+    },
+    {
+      "id": "A5045552463",
+      "name": "Francesco Spinoglio",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.46671/2521-2486.1032"
+      ]
+    },
+    {
+      "id": "A5075367351",
+      "name": "Alexander Poddey",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3716177"
+      ]
+    },
+    {
+      "id": "A5080425719",
+      "name": "Imon Palit",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3389/fbloc.2022.745101"
+      ]
+    },
+    {
+      "id": "A5113226141",
+      "name": "Emma Jorgensen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1038/s41597-024-04042-0"
+      ]
+    },
+    {
+      "id": "A5086639645",
+      "name": "David Šiška",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.4459177",
+        "doi:10.1287/moor.2024.0790"
+      ]
+    },
+    {
+      "id": "A5024045252",
+      "name": "Łukasz Szpruch",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.4459177",
+        "doi:10.1287/moor.2024.0790"
+      ]
+    },
+    {
+      "id": "A5043208856",
+      "name": "Johannes Rude Jensen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.2105.02782"
+      ]
+    },
+    {
+      "id": "A5012084592",
+      "name": "Kurt Nielsen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.2105.02782"
+      ]
+    },
+    {
+      "id": "A5036824623",
+      "name": "Omri Ross",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.2105.02782"
+      ]
+    },
+    {
+      "id": "A5013182841",
+      "name": "Xue Dong He",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.4801468"
+      ]
+    },
+    {
+      "id": "A5062956303",
+      "name": "Chen Yang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.4801468"
+      ]
+    },
+    {
+      "id": "A5108922336",
+      "name": "Yutian Zhou",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.4801468"
+      ]
+    },
+    {
+      "id": "A5028140487",
+      "name": "Chuck Fang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.4281293"
+      ]
+    },
+    {
+      "id": "A5018775340",
+      "name": "Hyoung Joong Kim",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.36227/techrxiv.19196960.v1"
+      ]
+    },
+    {
+      "id": "A5002244132",
+      "name": "Soohyuk Choi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.36227/techrxiv.19196960.v1"
+      ]
+    },
+    {
+      "id": "A5100888337",
+      "name": "Yong Tae Yoon",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.36227/techrxiv.19196960.v1"
+      ]
+    },
+    {
+      "id": "A5039058948",
+      "name": "Shiyong Yoo",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.36227/techrxiv.19196960.v1"
+      ]
+    },
+    {
+      "id": "A5078594716",
+      "name": "Abraham Othman",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/1807342.1807402",
+        "doi:10.1145/2509413.2509414"
+      ]
+    },
+    {
+      "id": "A5023571961",
+      "name": "Tüomas Sandholm",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/1807342.1807402",
+        "doi:10.1145/2509413.2509414"
+      ]
+    },
+    {
+      "id": "A5071634649",
+      "name": "David M. Pennock",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/1807342.1807402",
+        "doi:10.1145/2509413.2509414"
+      ]
+    },
+    {
+      "id": "A5112141456",
+      "name": "Daniel M. Reeves",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/1807342.1807402",
+        "doi:10.1145/2509413.2509414"
+      ]
+    },
+    {
+      "id": "A5014437950",
+      "name": "Joseph Najnudel",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3934/fmf.2024018"
+      ]
+    },
+    {
+      "id": "A5005778511",
+      "name": "Shen-Ning Tung",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3934/fmf.2024018"
+      ]
+    },
+    {
+      "id": "A5006852482",
+      "name": "Kazutoshi Yamazaki",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3934/fmf.2024018"
+      ]
+    },
+    {
+      "id": "A5048784137",
+      "name": "Ju-Yi Yen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3934/fmf.2024018"
+      ]
+    },
+    {
+      "id": "A5101285730",
+      "name": "Julian Ma",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-68974-1_3"
+      ]
+    },
+    {
+      "id": "A5092938847",
+      "name": "Davide Crapis",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-68974-1_3"
+      ]
+    },
+    {
+      "id": "A5002213956",
+      "name": "Leonardo Baggiani",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.5278863"
+      ]
+    },
+    {
+      "id": "A5005041681",
+      "name": "Martin Herdegen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.5278863"
+      ]
+    },
+    {
+      "id": "A5099339820",
+      "name": "Jan Pevzner",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.4865295"
+      ]
+    },
+    {
+      "id": "A5102904957",
+      "name": "Woojin Jeong",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.eswa.2025.129230",
+        "doi:10.1109/tnse.2025.3594281"
+      ]
+    },
+    {
+      "id": "A5103146449",
+      "name": "Seongwan Park",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.eswa.2025.129230",
+        "doi:10.1109/tnse.2025.3594281"
+      ]
+    },
+    {
+      "id": "A5100609339",
+      "name": "Jaewook Lee",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.eswa.2025.129230",
+        "doi:10.1109/tnse.2025.3594281"
+      ]
+    },
+    {
+      "id": "A5056761824",
+      "name": "Yunyoung Lee",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.eswa.2025.129230"
+      ]
+    },
+    {
+      "id": "A5136196719",
+      "name": "Régis Likassi",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.21203/rs.3.rs-9724880/v1",
+        "doi:10.33774/coe-2026-hwtzx"
+      ]
+    },
+    {
+      "id": "A5119720442",
+      "name": "Franco Farrugia",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.64030/3067-2457.03.01.02"
+      ]
+    },
+    {
+      "id": "A5007342542",
+      "name": "М. П. Коваленко",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.7499641"
+      ]
+    },
+    {
+      "id": "A5026396466",
+      "name": "Maksym Kovalenko",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.21203/rs.3.rs-11118453/v1"
+      ]
+    },
+    {
+      "id": "A5011782366",
+      "name": "Sean Foley",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.4459924"
+      ]
+    },
+    {
+      "id": "A5088515566",
+      "name": "Peter O’Neill",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.4459924"
+      ]
+    },
+    {
+      "id": "A5016831214",
+      "name": "Tālis J. Putniņš",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.4459924"
+      ]
+    },
+    {
+      "id": "A5058642247",
+      "name": "Brad Bachu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.5152215"
+      ]
+    },
+    {
+      "id": "A5048884547",
+      "name": "Marcel Nutz",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.5387290"
+      ]
+    },
+    {
+      "id": "A5059522782",
+      "name": "Haodong Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.5274901"
+      ]
+    },
+    {
+      "id": "A5031580225",
+      "name": "John R. Birge",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.5274901"
+      ]
+    },
+    {
+      "id": "A5115056427",
+      "name": "Zhengge Zhou",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.5038852"
+      ]
+    },
+    {
+      "id": "A5116830774",
+      "name": "S.G. Valentinov",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.26794/2587-5671-2027-31-4-2334-01"
+      ]
+    },
+    {
+      "id": "A5133561258",
+      "name": "T. Yu. Polkhovskaya",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.26794/2587-5671-2027-31-4-2334-01"
+      ]
+    },
+    {
+      "id": "A5026617597",
+      "name": "Philip Z. Maymin",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.6985022"
+      ]
+    },
+    {
+      "id": "A5042451868",
+      "name": "Matteo Loporchio",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/compsac69091.2026.00110"
+      ]
+    },
+    {
+      "id": "A5004602130",
+      "name": "Damiano Di Francesco Maesa",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/compsac69091.2026.00110"
+      ]
+    },
+    {
+      "id": "A5136758135",
+      "name": "Laura Ricci",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/compsac69091.2026.00110"
+      ]
+    },
+    {
+      "id": "A5150732576",
+      "name": "Wen-Ting Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.21203/rs.3.rs-11128970/v1"
+      ]
+    },
+    {
+      "id": "A5006481622",
+      "name": "Hisham Farag",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.jbankfin.2025.107411"
+      ]
+    },
+    {
+      "id": "A5041400177",
+      "name": "Di Luo",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.jbankfin.2025.107411"
+      ]
+    },
+    {
+      "id": "A5052979321",
+      "name": "Larisa Yarovaya",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.jbankfin.2025.107411"
+      ]
+    },
+    {
+      "id": "A5103144948",
+      "name": "Damian Zięba",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.jbankfin.2025.107411"
+      ]
+    },
+    {
+      "id": "A5019299561",
+      "name": "Katya Malinova",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.4531670"
+      ]
+    },
+    {
+      "id": "A5001823971",
+      "name": "Andreas Park",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.4531670"
+      ]
+    },
+    {
+      "id": "A5016731265",
+      "name": "Pengcheng Xia",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "openalex:W3197257641"
+      ]
+    },
+    {
+      "id": "A5115695530",
+      "name": "Haoyu Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "openalex:W3197257641"
+      ]
+    },
+    {
+      "id": "A5023552841",
+      "name": "Bingyu Gao",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "openalex:W3197257641"
+      ]
+    },
+    {
+      "id": "A5019662637",
+      "name": "Weihang Su",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "openalex:W3197257641"
+      ]
+    },
+    {
+      "id": "A5027701354",
+      "name": "Zhou Yu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "openalex:W3197257641"
+      ]
+    },
+    {
+      "id": "A5100460272",
+      "name": "Chao Zhang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "openalex:W3197257641"
+      ]
+    },
+    {
+      "id": "A5012621594",
+      "name": "Xusheng Xiao",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "openalex:W3197257641"
+      ]
+    },
+    {
+      "id": "A5102002679",
+      "name": "Guoai Xu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "openalex:W3197257641"
+      ]
+    },
+    {
+      "id": "A5005079203",
+      "name": "Mateusz Kwaśnicki",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1111/mafi.70041",
+        "doi:10.48550/arxiv.2210.00048"
+      ]
+    },
+    {
+      "id": "A5101990176",
+      "name": "Tuan Tran",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10614-025-11046-4"
+      ]
+    },
+    {
+      "id": "A5047070929",
+      "name": "Yogev Bar-On",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-48806-1_16"
+      ]
+    },
+    {
+      "id": "A5014637159",
+      "name": "Yishay Mansour",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-48806-1_16"
+      ]
+    },
+    {
+      "id": "A5112122295",
+      "name": "Maggie Yongqi Guan",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/sp61157.2025.00042"
+      ]
+    },
+    {
+      "id": "A5010794509",
+      "name": "Yaman Yu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/sp61157.2025.00042"
+      ]
+    },
+    {
+      "id": "A5019575644",
+      "name": "Tanusree Sharma",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/sp61157.2025.00042"
+      ]
+    },
+    {
+      "id": "A5065252864",
+      "name": "Yang Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/sp61157.2025.00042"
+      ]
+    },
+    {
+      "id": "A5024786113",
+      "name": "Shahin Ramezany",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/jcsse58229.2023.10201970"
+      ]
+    },
+    {
+      "id": "A5060109660",
+      "name": "Rachsuda Setthawong",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/jcsse58229.2023.10201970"
+      ]
+    },
+    {
+      "id": "A5073614387",
+      "name": "Pisal Setthawong",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/jcsse58229.2023.10201970"
+      ]
+    },
+    {
+      "id": "A5072625229",
+      "name": "Xin Kang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-23020-2_28"
+      ]
+    },
+    {
+      "id": "A5053806943",
+      "name": "Tieyan Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-23020-2_28"
+      ]
+    },
+    {
+      "id": "A5053684319",
+      "name": "Cheng‐Kang Chu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-23020-2_28"
+      ]
+    },
+    {
+      "id": "A5007464615",
+      "name": "Haiguang Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-23020-2_28"
+      ]
+    },
+    {
+      "id": "A5101488072",
+      "name": "Yixin Cao",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.2102.00626"
+      ]
+    },
+    {
+      "id": "A5085027441",
+      "name": "Chuanwei Zou",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.2102.00626"
+      ]
+    },
+    {
+      "id": "A5075649897",
+      "name": "Xianfeng Cheng",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.2102.00626"
+      ]
+    },
+    {
+      "id": "A5082450208",
+      "name": "Jean Barthélemy",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.4673325"
+      ]
+    },
+    {
+      "id": "A5068145107",
+      "name": "Benoît Nguyen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.4673325"
+      ]
+    },
+    {
+      "id": "A5103243198",
+      "name": "Zhiyang Chen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3597503.3639190"
+      ]
+    },
+    {
+      "id": "A5040624046",
+      "name": "Mishall Al-Zubaidie",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/app14146361"
+      ]
+    },
+    {
+      "id": "A5097335294",
+      "name": "Wid Alaa Jebbar",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/app14146361"
+      ]
+    },
+    {
+      "id": "A5003073286",
+      "name": "Peerapat Wattanasin",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.18502/kss.v9i29.17246"
+      ]
+    },
+    {
+      "id": "A5060855898",
+      "name": "Andrea Bracciali",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.ins.2020.03.098"
+      ]
+    },
+    {
+      "id": "A5022683388",
+      "name": "Ho-fung Leung",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.ins.2020.03.098"
+      ]
+    },
+    {
+      "id": "A5055254500",
+      "name": "Haibo Tian",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.ins.2020.03.098"
+      ]
+    },
+    {
+      "id": "A5044661002",
+      "name": "Lishan Ke",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.ins.2020.03.098"
+      ]
+    },
+    {
+      "id": "A5037430038",
+      "name": "Moritz Platt",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.comnet.2021.108424"
+      ]
+    },
+    {
+      "id": "A5075562557",
+      "name": "Peter McBurney",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.comnet.2021.108424"
+      ]
+    },
+    {
+      "id": "A5033594147",
+      "name": "Ivan Malakhov",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/blockchain60715.2023.00058"
+      ]
+    },
+    {
+      "id": "A5005581769",
+      "name": "Andrea Marin",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/blockchain60715.2023.00058"
+      ]
+    },
+    {
+      "id": "A5036176991",
+      "name": "Tong Cao",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-47751-5_9"
+      ]
+    },
+    {
+      "id": "A5087577380",
+      "name": "Jérémie Decouchant",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-47751-5_9"
+      ]
+    },
+    {
+      "id": "A5058901801",
+      "name": "Mahbub Alam Majumdar",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tensymp50017.2020.9230612"
+      ]
+    },
+    {
+      "id": "A5091785480",
+      "name": "Mobashir Monim",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tensymp50017.2020.9230612"
+      ]
+    },
+    {
+      "id": "A5090230718",
+      "name": "Mohammad Muhtasim Shahriyer",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tensymp50017.2020.9230612"
+      ]
+    },
+    {
+      "id": "A5054220744",
+      "name": "Paweł Szałachowski",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.14722/ndss.2021.24164",
+        "openalex:W3033338546"
+      ]
+    },
+    {
+      "id": "A5081169326",
+      "name": "Junming Ke",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.14722/ndss.2021.24164",
+        "openalex:W3033338546"
+      ]
+    },
+    {
+      "id": "A5082316109",
+      "name": "Zengpeng Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.14722/ndss.2021.24164",
+        "openalex:W3033338546"
+      ]
+    },
+    {
+      "id": "A5008266220",
+      "name": "Jianying Zhou",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.14722/ndss.2021.24164",
+        "openalex:W3033338546"
+      ]
+    },
+    {
+      "id": "A5075398205",
+      "name": "Erica Blum",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1137/1.9781611975994.69",
+        "doi:10.48550/arxiv.1911.10187"
+      ]
+    },
+    {
+      "id": "A5008033989",
+      "name": "Cristopher Moore",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1137/1.9781611975994.69",
+        "doi:10.48550/arxiv.1911.10187"
+      ]
+    },
+    {
+      "id": "A5024321175",
+      "name": "Saad Quader",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1137/1.9781611975994.69",
+        "doi:10.48550/arxiv.1911.10187"
+      ]
+    },
+    {
+      "id": "A5054600996",
+      "name": "Vivek Bagaria",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3560829.3563559"
+      ]
+    },
+    {
+      "id": "A5019243217",
+      "name": "Amir Dembo",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3560829.3563559"
+      ]
+    },
+    {
+      "id": "A5000594503",
+      "name": "Ofer Zeitouni",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3560829.3563559"
+      ]
+    },
+    {
+      "id": "A5067200620",
+      "name": "Svetla Nikova⋆",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tifs.2024.3518090",
+        "doi:10.1007/978-3-031-78676-1_2"
+      ]
+    },
+    {
+      "id": "A5080902797",
+      "name": "Fayuan Zhu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-981-16-7993-3_22"
+      ]
+    },
+    {
+      "id": "A5101587445",
+      "name": "Jie Yin",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-981-16-7993-3_22"
+      ]
+    },
+    {
+      "id": "A5101907377",
+      "name": "Lei Liu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-981-16-7993-3_22"
+      ]
+    },
+    {
+      "id": "A5101709392",
+      "name": "Jie Feng",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-981-16-7993-3_22"
+      ]
+    },
+    {
+      "id": "A5000199694",
+      "name": "Zhangquan Wang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-981-16-7993-3_22"
+      ]
+    },
+    {
+      "id": "A5092513272",
+      "name": "Robin Linus",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/978-3-031-32415-4_1"
+      ]
+    },
+    {
+      "id": "A5067854725",
+      "name": "Zhenghao Lu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/eurosp63326.2025.00035"
+      ]
+    },
+    {
+      "id": "A5133290460",
+      "name": "Mingfei Zhang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3774904.3792560"
+      ]
+    },
+    {
+      "id": "A5051139802",
+      "name": "Rujia Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3774904.3792560"
+      ]
+    },
+    {
+      "id": "A5013666525",
+      "name": "Xinyu Lei",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3774904.3792560"
+      ]
+    },
+    {
+      "id": "A5039007125",
+      "name": "Sisi Duan",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3774904.3792560"
+      ]
+    },
+    {
+      "id": "A5044988415",
+      "name": "Maurantonio Caprolu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icbc67748.2026.11575543"
+      ]
+    },
+    {
+      "id": "A5035147508",
+      "name": "E. Onofri",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icbc67748.2026.11575543"
+      ]
+    },
+    {
+      "id": "A5093378195",
+      "name": "Omar Eldesouky",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icbc67748.2026.11575543"
+      ]
+    },
+    {
+      "id": "A5065932621",
+      "name": "Roberto Di Pietro",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/icbc67748.2026.11575543"
+      ]
+    },
+    {
+      "id": "A5097250716",
+      "name": "Bosul Mun",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tnse.2025.3594281"
+      ]
+    },
+    {
+      "id": "A5104297456",
+      "name": "Seungyun Lee",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tnse.2025.3594281"
+      ]
+    },
+    {
+      "id": "A5055059863",
+      "name": "Hyeonsang Eom",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/tnse.2025.3594281"
+      ]
+    },
+    {
+      "id": "A5011189605",
+      "name": "Faisal Haque Bappy",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/globecom52923.2024.10900961"
+      ]
+    },
+    {
+      "id": "A5101858826",
+      "name": "Tariqul Islam",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/globecom52923.2024.10900961"
+      ]
+    },
+    {
+      "id": "A5067871758",
+      "name": "Kamrul Hasan",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/globecom52923.2024.10900961"
+      ]
+    },
+    {
+      "id": "A5070866953",
+      "name": "Md Sajidul Islam Sajid",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/globecom52923.2024.10900961"
+      ]
+    },
+    {
+      "id": "A5048838140",
+      "name": "Mir Mehedi Ahsan Pritom",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/globecom52923.2024.10900961"
+      ]
+    },
+    {
+      "id": "A5004375212",
+      "name": "Stavros N. Shiaeles",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/network4010002"
+      ]
+    },
+    {
+      "id": "A5100654159",
+      "name": "Fudong Li",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.3390/network4010002"
+      ]
+    },
+    {
+      "id": "A5101996588",
+      "name": "Xinyu Tian",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/docs63458.2024.10704461"
+      ]
+    },
+    {
+      "id": "A5018102461",
+      "name": "Zesen Zhuang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/docs63458.2024.10704461"
+      ]
+    },
+    {
+      "id": "A5060665991",
+      "name": "Kanta Matsuura",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1109/acsacw65225.2024.00039"
+      ]
+    },
+    {
+      "id": "A5066754831",
+      "name": "Marco Aurélio Amaral Henriques",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.5753/sbseg_estendido.2023.235141"
+      ]
+    },
+    {
+      "id": "A5033729862",
+      "name": "Samuel J. Hempel",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.4760947"
+      ]
+    },
+    {
+      "id": "A5039612081",
+      "name": "Gregory Phelan",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.4760947"
+      ]
+    },
+    {
+      "id": "A5024683077",
+      "name": "THOMAS G. RUCHTI",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.2139/ssrn.4760947"
+      ]
+    },
+    {
+      "id": "A5020593115",
+      "name": "Abdulhadi Sahin",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3833388"
+      ]
+    },
+    {
+      "id": "A5078029373",
+      "name": "Kemal Akkaya",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3833388"
+      ]
+    },
+    {
+      "id": "A5028108461",
+      "name": "Sukumar Ganapati",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3833388"
+      ]
+    },
+    {
+      "id": "A5019145852",
+      "name": "Arif Selcuk Uluagac",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3833388"
+      ]
+    },
+    {
+      "id": "A5044829225",
+      "name": "Soubhik Deb",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.2401.05797"
+      ]
+    },
+    {
+      "id": "A5093713896",
+      "name": "Robert Raynor",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.2401.05797"
+      ]
+    },
+    {
+      "id": "A5006281061",
+      "name": "Zerui Chen",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s11432-019-2858-8"
+      ]
+    },
+    {
+      "id": "A5049380192",
+      "name": "Changgen Peng",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s11432-019-2858-8",
+        "doi:10.1016/j.comnet.2024.110260",
+        "doi:10.32604/cmc.2024.047975"
+      ]
+    },
+    {
+      "id": "A5028969683",
+      "name": "Zhimei Yang",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.comnet.2024.110260"
+      ]
+    },
+    {
+      "id": "A5062966682",
+      "name": "Chongyi Zhong",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.comnet.2024.110260"
+      ]
+    },
+    {
+      "id": "A5012456007",
+      "name": "Yangyang Long",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1016/j.comnet.2024.110260"
+      ]
+    },
+    {
+      "id": "A5101320898",
+      "name": "Xingfan Zhao",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.32604/cmc.2024.047975"
+      ]
+    },
+    {
+      "id": "A5067538819",
+      "name": "Weijie Tan",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.32604/cmc.2024.047975"
+      ]
+    },
+    {
+      "id": "A5010011160",
+      "name": "Kun Niu",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.32604/cmc.2024.047975"
+      ]
+    },
+    {
+      "id": "A5070399919",
+      "name": "Osman Biçer",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3616397"
+      ]
+    },
+    {
+      "id": "A5084813943",
+      "name": "Alptekın Küpçü",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1145/3616397"
+      ]
+    },
+    {
+      "id": "A5029556362",
+      "name": "George Xianzhi Yuan",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.48550/arxiv.2003.05067"
+      ]
+    },
+    {
+      "id": "A5036781685",
+      "name": "Cristina Pérez‐Solà",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10207-018-0422-4"
+      ]
+    },
+    {
+      "id": "A5084939071",
+      "name": "Sergi Delgado-Segura",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10207-018-0422-4"
+      ]
+    },
+    {
+      "id": "A5028745432",
+      "name": "Guillermo Navarro‐Arribas",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10207-018-0422-4"
+      ]
+    },
+    {
+      "id": "A5076439554",
+      "name": "Jordi Herrera‐Joancomartí",
+      "status": "nomination_requires_scope_and_identity_review",
+      "evidence": [
+        "doi:10.1007/s10207-018-0422-4"
+      ]
+    }
+  ],
+  "next_step": "Scope and substantive-contribution screening; quality and metadata review. Author membership is not acceptance."
+}

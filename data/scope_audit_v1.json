@@ -1,0 +1,1264 @@
+{
+  "model": "deepseek-flash",
+  "scope": "EconCS x Blockchain strict intersection",
+  "calls": 1,
+  "cost_upper_nanodollars": 1053300,
+  "campaign_cost_upper_nanodollars": 3621000,
+  "campaign_limit_nanodollars": 3000000000,
+  "accepted": 0,
+  "removed": 2,
+  "archived_records": [
+    {
+      "work_id": "discovered-6129595f3392c6419b53f73d",
+      "topic_ids": [
+        "rational-cryptography"
+      ],
+      "verification": {
+        "status": "verified",
+        "metadata": {
+          "title": "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "authors": [
+            {
+              "name": "Ahmed Kosba",
+              "ids": {
+                "openalex": "A5047499714"
+              },
+              "institutions": [
+                {
+                  "name": "Univ. of Maryland, College Park, MD, USA",
+                  "ids": {},
+                  "source": "crossref",
+                  "source_id": "10.1109/sp.2016.55",
+                  "year": 2016
+                },
+                {
+                  "name": "University of Maryland, College Park",
+                  "ids": {
+                    "openalex": "I66946132",
+                    "ror": "047s2c258"
+                  },
+                  "source": "openalex",
+                  "source_id": "W2517744317",
+                  "year": 2016
+                }
+              ]
+            },
+            {
+              "name": "Andrew Miller",
+              "ids": {
+                "openalex": "A5005295367",
+                "orcid": "0000-0003-4052-2359"
+              },
+              "institutions": [
+                {
+                  "name": "Univ. of Maryland, College Park, MD, USA",
+                  "ids": {},
+                  "source": "crossref",
+                  "source_id": "10.1109/sp.2016.55",
+                  "year": 2016
+                },
+                {
+                  "name": "University of Maryland, College Park",
+                  "ids": {
+                    "openalex": "I66946132",
+                    "ror": "047s2c258"
+                  },
+                  "source": "openalex",
+                  "source_id": "W2517744317",
+                  "year": 2016
+                }
+              ]
+            },
+            {
+              "name": "Elaine Shi",
+              "ids": {
+                "openalex": "A5089202539",
+                "orcid": "0000-0002-5605-1048"
+              },
+              "institutions": [
+                {
+                  "name": "Cornell Univ., Ithaca, NY, USA",
+                  "ids": {},
+                  "source": "crossref",
+                  "source_id": "10.1109/sp.2016.55",
+                  "year": 2016
+                },
+                {
+                  "name": "Cornell University",
+                  "ids": {
+                    "openalex": "I205783295",
+                    "ror": "05bnh6r87"
+                  },
+                  "source": "openalex",
+                  "source_id": "W2517744317",
+                  "year": 2016
+                }
+              ]
+            },
+            {
+              "name": "Zikai Wen",
+              "ids": {
+                "openalex": "A5080515725",
+                "orcid": "0000-0001-9163-7450"
+              },
+              "institutions": [
+                {
+                  "name": "Cornell Univ., Ithaca, NY, USA",
+                  "ids": {},
+                  "source": "crossref",
+                  "source_id": "10.1109/sp.2016.55",
+                  "year": 2016
+                },
+                {
+                  "name": "Cornell University",
+                  "ids": {
+                    "openalex": "I205783295",
+                    "ror": "05bnh6r87"
+                  },
+                  "source": "openalex",
+                  "source_id": "W2517744317",
+                  "year": 2016
+                }
+              ]
+            },
+            {
+              "name": "Charalampos Papamanthou",
+              "ids": {
+                "openalex": "A5056111614",
+                "orcid": "0000-0002-1905-9403"
+              },
+              "institutions": [
+                {
+                  "name": "Univ. of Maryland, College Park, MD, USA",
+                  "ids": {},
+                  "source": "crossref",
+                  "source_id": "10.1109/sp.2016.55",
+                  "year": 2016
+                },
+                {
+                  "name": "University of Maryland, College Park",
+                  "ids": {
+                    "openalex": "I66946132",
+                    "ror": "047s2c258"
+                  },
+                  "source": "openalex",
+                  "source_id": "W2517744317",
+                  "year": 2016
+                }
+              ]
+            }
+          ],
+          "year": 2016,
+          "doi": "10.1109/sp.2016.55",
+          "venue": "IEEE Symposium on Security and Privacy (S&P)",
+          "url": "https://doi.org/10.1109/sp.2016.55",
+          "kind": "conference-paper",
+          "source_ids": {
+            "crossref": "10.1109/sp.2016.55",
+            "openalex": "W2517744317"
+          },
+          "is_retracted": false
+        },
+        "evidence": [
+          {
+            "source": "openalex",
+            "source_id": "W2517744317",
+            "source_url": "https://openalex.org/W2517744317",
+            "title": "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+            "year": 2016,
+            "doi": "10.1109/sp.2016.55",
+            "venue": "IEEE Symposium on Security and Privacy (S&P)",
+            "primary_location_venue": "IEEE Symposium on Security and Privacy (S&P)",
+            "authors": [
+              {
+                "name": "Ahmed E. Kosba",
+                "ids": {
+                  "openalex": "A5047499714"
+                },
+                "institutions": [
+                  {
+                    "name": "University of Maryland, College Park",
+                    "ids": {
+                      "openalex": "I66946132",
+                      "ror": "047s2c258"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Andrew E. Miller",
+                "ids": {
+                  "openalex": "A5005295367",
+                  "orcid": "0000-0003-4052-2359"
+                },
+                "institutions": [
+                  {
+                    "name": "University of Maryland, College Park",
+                    "ids": {
+                      "openalex": "I66946132",
+                      "ror": "047s2c258"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Elaine Shi",
+                "ids": {
+                  "openalex": "A5089202539",
+                  "orcid": "0000-0002-5605-1048"
+                },
+                "institutions": [
+                  {
+                    "name": "Cornell University",
+                    "ids": {
+                      "openalex": "I205783295",
+                      "ror": "05bnh6r87"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Zikai Alex Wen",
+                "ids": {
+                  "openalex": "A5080515725",
+                  "orcid": "0000-0001-9163-7450"
+                },
+                "institutions": [
+                  {
+                    "name": "Cornell University",
+                    "ids": {
+                      "openalex": "I205783295",
+                      "ror": "05bnh6r87"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Charalampos Papamanthou",
+                "ids": {
+                  "openalex": "A5056111614",
+                  "orcid": "0000-0002-1905-9403"
+                },
+                "institutions": [
+                  {
+                    "name": "University of Maryland, College Park",
+                    "ids": {
+                      "openalex": "I66946132",
+                      "ror": "047s2c258"
+                    }
+                  }
+                ]
+              }
+            ],
+            "url": "https://doi.org/10.1109/sp.2016.55",
+            "kind": "conference-paper",
+            "related_dois": [],
+            "is_retracted": false,
+            "retrieved_at": "2026-11-07",
+            "query_url": "https://api.openalex.org/works?per_page=5&search=%22Hawk%3A+The+Blockchain+Model+of+Cryptography+and+Privacy-Preserving+Smart+Contracts%22&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+            "match": "exact_title"
+          },
+          {
+            "source": "crossref",
+            "source_id": "10.1109/sp.2016.55",
+            "source_url": "https://api.crossref.org/works/10.1109/sp.2016.55",
+            "title": "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+            "year": 2016,
+            "year_fields": {
+              "published-print": 2016,
+              "published": 2016,
+              "issued": 2016
+            },
+            "doi": "10.1109/sp.2016.55",
+            "venue": "2016 IEEE Symposium on Security and Privacy (SP)",
+            "authors": [
+              {
+                "name": "Ahmed Kosba",
+                "ids": {},
+                "institutions": [
+                  {
+                    "name": "Univ. of Maryland, College Park, MD, USA",
+                    "ids": {}
+                  }
+                ]
+              },
+              {
+                "name": "Andrew Miller",
+                "ids": {},
+                "institutions": [
+                  {
+                    "name": "Univ. of Maryland, College Park, MD, USA",
+                    "ids": {}
+                  }
+                ]
+              },
+              {
+                "name": "Elaine Shi",
+                "ids": {},
+                "institutions": [
+                  {
+                    "name": "Cornell Univ., Ithaca, NY, USA",
+                    "ids": {}
+                  }
+                ]
+              },
+              {
+                "name": "Zikai Wen",
+                "ids": {},
+                "institutions": [
+                  {
+                    "name": "Cornell Univ., Ithaca, NY, USA",
+                    "ids": {}
+                  }
+                ]
+              },
+              {
+                "name": "Charalampos Papamanthou",
+                "ids": {},
+                "institutions": [
+                  {
+                    "name": "Univ. of Maryland, College Park, MD, USA",
+                    "ids": {}
+                  }
+                ]
+              }
+            ],
+            "url": "https://doi.org/10.1109/sp.2016.55",
+            "kind": "proceedings-article",
+            "related_dois": [],
+            "is_retracted": null,
+            "retrieved_at": "2026-11-07",
+            "query_url": "https://api.crossref.org/works?query.bibliographic=Hawk%3A+The+Blockchain+Model+of+Cryptography+and+Privacy-Preserving+Smart+Contracts&rows=6&select=DOI%2Ctitle%2Cauthor%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cissued%2CURL%2Ctype%2Crelation%2Cevent",
+            "match": "exact_title"
+          }
+        ],
+        "conflicts": [],
+        "versions": [],
+        "queries": [
+          {
+            "source": "openalex",
+            "url": "https://api.openalex.org/works?per_page=5&search=%22Hawk%3A+The+Blockchain+Model+of+Cryptography+and+Privacy-Preserving+Smart+Contracts%22&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+            "status": "ok",
+            "records": 5,
+            "retrieved_at": "2026-11-07"
+          },
+          {
+            "source": "dblp",
+            "url": "https://dblp.org/search/publ/api?format=json&h=8&q=hawk+the+blockchain+model+of+cryptography+and+privacy+preserving+smart+contracts",
+            "status": "unavailable",
+            "reason": "invalid_json"
+          },
+          {
+            "source": "crossref",
+            "url": "https://api.crossref.org/works?query.bibliographic=Hawk%3A+The+Blockchain+Model+of+Cryptography+and+Privacy-Preserving+Smart+Contracts&rows=6&select=DOI%2Ctitle%2Cauthor%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cissued%2CURL%2Ctype%2Crelation%2Cevent",
+            "status": "ok",
+            "records": 6,
+            "retrieved_at": "2026-11-07"
+          }
+        ],
+        "scope_review": {
+          "model": "deepseek-flash",
+          "id": "W2517744317",
+          "decision": "core",
+          "topic": "rational-cryptography",
+          "reason": "Formalizes blockchain model of cryptography and provides privacy-preserving smart contract protocol with formal security definitions.",
+          "lanes": [
+            "citations:gs-002:W1907293129",
+            "citations:gs-003:W851575271",
+            "citations:gs-007:W2886706106",
+            "citations:gs-049:W111114747",
+            "references:gs-023:0",
+            "references:gs-024:0",
+            "references:gs-026:0",
+            "references:gs-040:0"
+          ]
+        }
+      },
+      "raw_input": {
+        "source": "openalex",
+        "source_id": "W2517744317",
+        "source_url": "https://openalex.org/W2517744317",
+        "title": "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+        "year": 2016,
+        "doi": "10.1109/sp.2016.55",
+        "venue": "IEEE Symposium on Security and Privacy (S&P)",
+        "primary_location_venue": "IEEE Symposium on Security and Privacy (S&P)",
+        "authors": [
+          {
+            "name": "Ahmed E. Kosba",
+            "ids": {
+              "openalex": "A5047499714"
+            },
+            "institutions": [
+              {
+                "name": "University of Maryland, College Park",
+                "ids": {
+                  "openalex": "I66946132",
+                  "ror": "047s2c258"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Andrew E. Miller",
+            "ids": {
+              "openalex": "A5005295367",
+              "orcid": "0000-0003-4052-2359"
+            },
+            "institutions": [
+              {
+                "name": "University of Maryland, College Park",
+                "ids": {
+                  "openalex": "I66946132",
+                  "ror": "047s2c258"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Elaine Shi",
+            "ids": {
+              "openalex": "A5089202539",
+              "orcid": "0000-0002-5605-1048"
+            },
+            "institutions": [
+              {
+                "name": "Cornell University",
+                "ids": {
+                  "openalex": "I205783295",
+                  "ror": "05bnh6r87"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Zikai Alex Wen",
+            "ids": {
+              "openalex": "A5080515725",
+              "orcid": "0000-0001-9163-7450"
+            },
+            "institutions": [
+              {
+                "name": "Cornell University",
+                "ids": {
+                  "openalex": "I205783295",
+                  "ror": "05bnh6r87"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Charalampos Papamanthou",
+            "ids": {
+              "openalex": "A5056111614",
+              "orcid": "0000-0002-1905-9403"
+            },
+            "institutions": [
+              {
+                "name": "University of Maryland, College Park",
+                "ids": {
+                  "openalex": "I66946132",
+                  "ror": "047s2c258"
+                }
+              }
+            ]
+          }
+        ],
+        "url": "https://doi.org/10.1109/sp.2016.55",
+        "kind": "conference-paper",
+        "related_dois": [],
+        "is_retracted": false,
+        "query_url": "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2004-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW111114747&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+        "retrieved_at": "2026-11-06"
+      }
+    },
+    {
+      "work_id": "discovered-440f16f6f27fdb4c4dd8f51d",
+      "topic_ids": [
+        "pos"
+      ],
+      "verification": {
+        "status": "verified",
+        "metadata": {
+          "title": "Algorand",
+          "authors": [
+            {
+              "name": "Yossi Gilad",
+              "ids": {
+                "openalex": "A5056985040",
+                "orcid": "0000-0003-3475-8322"
+              },
+              "institutions": [
+                {
+                  "name": "MIT CSAIL",
+                  "ids": {},
+                  "source": "crossref",
+                  "source_id": "10.1145/3132747.3132757",
+                  "year": 2017
+                },
+                {
+                  "name": "MIT Computer Science and Artificial Intelligence Laboratory",
+                  "ids": {
+                    "openalex": "I4405258931",
+                    "ror": "01e85r662"
+                  },
+                  "source": "openalex",
+                  "source_id": "W2763398287",
+                  "year": 2017
+                },
+                {
+                  "name": "Massachusetts Institute of Technology",
+                  "ids": {
+                    "openalex": "I63966007",
+                    "ror": "042nb2s44"
+                  },
+                  "source": "openalex",
+                  "source_id": "W2763398287",
+                  "year": 2017
+                }
+              ]
+            },
+            {
+              "name": "Rotem Hemo",
+              "ids": {
+                "openalex": "A5010668424"
+              },
+              "institutions": [
+                {
+                  "name": "MIT CSAIL",
+                  "ids": {},
+                  "source": "crossref",
+                  "source_id": "10.1145/3132747.3132757",
+                  "year": 2017
+                },
+                {
+                  "name": "MIT Computer Science and Artificial Intelligence Laboratory",
+                  "ids": {
+                    "openalex": "I4405258931",
+                    "ror": "01e85r662"
+                  },
+                  "source": "openalex",
+                  "source_id": "W2763398287",
+                  "year": 2017
+                },
+                {
+                  "name": "Massachusetts Institute of Technology",
+                  "ids": {
+                    "openalex": "I63966007",
+                    "ror": "042nb2s44"
+                  },
+                  "source": "openalex",
+                  "source_id": "W2763398287",
+                  "year": 2017
+                }
+              ]
+            },
+            {
+              "name": "Silvio Micali",
+              "ids": {
+                "openalex": "A5030198184"
+              },
+              "institutions": [
+                {
+                  "name": "MIT CSAIL",
+                  "ids": {},
+                  "source": "crossref",
+                  "source_id": "10.1145/3132747.3132757",
+                  "year": 2017
+                },
+                {
+                  "name": "MIT Computer Science and Artificial Intelligence Laboratory",
+                  "ids": {
+                    "openalex": "I4405258931",
+                    "ror": "01e85r662"
+                  },
+                  "source": "openalex",
+                  "source_id": "W2763398287",
+                  "year": 2017
+                },
+                {
+                  "name": "Massachusetts Institute of Technology",
+                  "ids": {
+                    "openalex": "I63966007",
+                    "ror": "042nb2s44"
+                  },
+                  "source": "openalex",
+                  "source_id": "W2763398287",
+                  "year": 2017
+                }
+              ]
+            },
+            {
+              "name": "Georgios Vlachos",
+              "ids": {
+                "openalex": "A5017585854"
+              },
+              "institutions": [
+                {
+                  "name": "MIT CSAIL",
+                  "ids": {},
+                  "source": "crossref",
+                  "source_id": "10.1145/3132747.3132757",
+                  "year": 2017
+                },
+                {
+                  "name": "MIT Computer Science and Artificial Intelligence Laboratory",
+                  "ids": {
+                    "openalex": "I4405258931",
+                    "ror": "01e85r662"
+                  },
+                  "source": "openalex",
+                  "source_id": "W2763398287",
+                  "year": 2017
+                },
+                {
+                  "name": "Massachusetts Institute of Technology",
+                  "ids": {
+                    "openalex": "I63966007",
+                    "ror": "042nb2s44"
+                  },
+                  "source": "openalex",
+                  "source_id": "W2763398287",
+                  "year": 2017
+                }
+              ]
+            },
+            {
+              "name": "Nickolai Zeldovich",
+              "ids": {
+                "openalex": "A5082808262",
+                "orcid": "0000-0003-0238-2703"
+              },
+              "institutions": [
+                {
+                  "name": "MIT CSAIL",
+                  "ids": {},
+                  "source": "crossref",
+                  "source_id": "10.1145/3132747.3132757",
+                  "year": 2017
+                },
+                {
+                  "name": "MIT Computer Science and Artificial Intelligence Laboratory",
+                  "ids": {
+                    "openalex": "I4405258931",
+                    "ror": "01e85r662"
+                  },
+                  "source": "openalex",
+                  "source_id": "W2763398287",
+                  "year": 2017
+                },
+                {
+                  "name": "Massachusetts Institute of Technology",
+                  "ids": {
+                    "openalex": "I63966007",
+                    "ror": "042nb2s44"
+                  },
+                  "source": "openalex",
+                  "source_id": "W2763398287",
+                  "year": 2017
+                }
+              ]
+            }
+          ],
+          "year": 2017,
+          "doi": "10.1145/3132747.3132757",
+          "venue": "ACM SIGOPS Symposium on Operating Systems Principles (SOSP)",
+          "url": "https://doi.org/10.1145/3132747.3132757",
+          "kind": "conference-paper",
+          "source_ids": {
+            "crossref": "10.1145/3132747.3132757",
+            "openalex": "W2763398287"
+          },
+          "is_retracted": false
+        },
+        "evidence": [
+          {
+            "source": "openalex",
+            "source_id": "W2763398287",
+            "source_url": "https://openalex.org/W2763398287",
+            "title": "Algorand",
+            "year": 2017,
+            "doi": "10.1145/3132747.3132757",
+            "venue": "ACM SIGOPS Symposium on Operating Systems Principles (SOSP)",
+            "primary_location_venue": "ACM SIGOPS Symposium on Operating Systems Principles (SOSP)",
+            "authors": [
+              {
+                "name": "Yossi Gilad",
+                "ids": {
+                  "openalex": "A5056985040",
+                  "orcid": "0000-0003-3475-8322"
+                },
+                "institutions": [
+                  {
+                    "name": "MIT Computer Science and Artificial Intelligence Laboratory",
+                    "ids": {
+                      "openalex": "I4405258931",
+                      "ror": "01e85r662"
+                    }
+                  },
+                  {
+                    "name": "Massachusetts Institute of Technology",
+                    "ids": {
+                      "openalex": "I63966007",
+                      "ror": "042nb2s44"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Rotem Hemo",
+                "ids": {
+                  "openalex": "A5010668424"
+                },
+                "institutions": [
+                  {
+                    "name": "MIT Computer Science and Artificial Intelligence Laboratory",
+                    "ids": {
+                      "openalex": "I4405258931",
+                      "ror": "01e85r662"
+                    }
+                  },
+                  {
+                    "name": "Massachusetts Institute of Technology",
+                    "ids": {
+                      "openalex": "I63966007",
+                      "ror": "042nb2s44"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Silvio M. Micali",
+                "ids": {
+                  "openalex": "A5030198184"
+                },
+                "institutions": [
+                  {
+                    "name": "MIT Computer Science and Artificial Intelligence Laboratory",
+                    "ids": {
+                      "openalex": "I4405258931",
+                      "ror": "01e85r662"
+                    }
+                  },
+                  {
+                    "name": "Massachusetts Institute of Technology",
+                    "ids": {
+                      "openalex": "I63966007",
+                      "ror": "042nb2s44"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Georgios Vlachos",
+                "ids": {
+                  "openalex": "A5017585854"
+                },
+                "institutions": [
+                  {
+                    "name": "MIT Computer Science and Artificial Intelligence Laboratory",
+                    "ids": {
+                      "openalex": "I4405258931",
+                      "ror": "01e85r662"
+                    }
+                  },
+                  {
+                    "name": "Massachusetts Institute of Technology",
+                    "ids": {
+                      "openalex": "I63966007",
+                      "ror": "042nb2s44"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Nickolai Zeldovich",
+                "ids": {
+                  "openalex": "A5082808262",
+                  "orcid": "0000-0003-0238-2703"
+                },
+                "institutions": [
+                  {
+                    "name": "MIT Computer Science and Artificial Intelligence Laboratory",
+                    "ids": {
+                      "openalex": "I4405258931",
+                      "ror": "01e85r662"
+                    }
+                  },
+                  {
+                    "name": "Massachusetts Institute of Technology",
+                    "ids": {
+                      "openalex": "I63966007",
+                      "ror": "042nb2s44"
+                    }
+                  }
+                ]
+              }
+            ],
+            "url": "https://doi.org/10.1145/3132747.3132757",
+            "kind": "conference-paper",
+            "related_dois": [],
+            "is_retracted": false,
+            "retrieved_at": "2026-11-07",
+            "query_url": "https://api.openalex.org/works?per_page=5&search=%22Algorand%22&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+            "match": "exact_title"
+          },
+          {
+            "source": "openalex",
+            "source_id": "W4394669318",
+            "source_url": "https://openalex.org/W4394669318",
+            "title": "Algorand",
+            "year": 2016,
+            "doi": "10.48550/arxiv.1607.01341",
+            "venue": "arXiv (Cornell University)",
+            "primary_location_venue": "arXiv (Cornell University)",
+            "authors": [
+              {
+                "name": "Jing Chen",
+                "ids": {
+                  "openalex": "A5159902951"
+                },
+                "institutions": [
+                  {
+                    "name": "Stony Brook University",
+                    "ids": {
+                      "openalex": "I59553526",
+                      "ror": "05qghxh33"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Silvio Micali",
+                "ids": {
+                  "openalex": "A5159964088"
+                },
+                "institutions": [
+                  {
+                    "name": "MIT Computer Science and Artificial Intelligence Laboratory",
+                    "ids": {
+                      "openalex": "I4405258931",
+                      "ror": "01e85r662"
+                    }
+                  },
+                  {
+                    "name": "Massachusetts Institute of Technology",
+                    "ids": {
+                      "openalex": "I63966007",
+                      "ror": "042nb2s44"
+                    }
+                  }
+                ]
+              }
+            ],
+            "url": "https://doi.org/10.48550/arxiv.1607.01341",
+            "kind": "preprint",
+            "related_dois": [],
+            "is_retracted": false,
+            "retrieved_at": "2026-11-07",
+            "query_url": "https://api.openalex.org/works?per_page=5&search=%22Algorand%22&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+            "match": "seed_author_mismatch"
+          },
+          {
+            "source": "crossref",
+            "source_id": "10.1145/3132747.3132757",
+            "source_url": "https://api.crossref.org/works/10.1145/3132747.3132757",
+            "title": "Algorand",
+            "year": 2017,
+            "year_fields": {
+              "published-print": 2017,
+              "published": 2017,
+              "published-online": 2017,
+              "issued": 2017
+            },
+            "doi": "10.1145/3132747.3132757",
+            "venue": "SOSP '17: ACM SIGOPS 26th Symposium on Operating Systems Principles",
+            "authors": [
+              {
+                "name": "Yossi Gilad",
+                "ids": {},
+                "institutions": [
+                  {
+                    "name": "MIT CSAIL",
+                    "ids": {}
+                  }
+                ]
+              },
+              {
+                "name": "Rotem Hemo",
+                "ids": {},
+                "institutions": [
+                  {
+                    "name": "MIT CSAIL",
+                    "ids": {}
+                  }
+                ]
+              },
+              {
+                "name": "Silvio Micali",
+                "ids": {},
+                "institutions": [
+                  {
+                    "name": "MIT CSAIL",
+                    "ids": {}
+                  }
+                ]
+              },
+              {
+                "name": "Georgios Vlachos",
+                "ids": {},
+                "institutions": [
+                  {
+                    "name": "MIT CSAIL",
+                    "ids": {}
+                  }
+                ]
+              },
+              {
+                "name": "Nickolai Zeldovich",
+                "ids": {},
+                "institutions": [
+                  {
+                    "name": "MIT CSAIL",
+                    "ids": {}
+                  }
+                ]
+              }
+            ],
+            "url": "https://doi.org/10.1145/3132747.3132757",
+            "kind": "proceedings-article",
+            "related_dois": [],
+            "is_retracted": null,
+            "retrieved_at": "2026-11-07",
+            "query_url": "https://api.crossref.org/works/10.1145/3132747.3132757",
+            "match": "exact_title"
+          }
+        ],
+        "conflicts": [],
+        "versions": [],
+        "queries": [
+          {
+            "source": "openalex",
+            "url": "https://api.openalex.org/works?per_page=5&search=%22Algorand%22&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+            "status": "ok",
+            "records": 5,
+            "retrieved_at": "2026-11-07"
+          },
+          {
+            "source": "dblp",
+            "url": "https://dblp.org/search/publ/api?format=json&h=8&q=algorand",
+            "status": "unavailable",
+            "reason": "invalid_json"
+          },
+          {
+            "source": "crossref",
+            "url": "https://api.crossref.org/works?query.bibliographic=Algorand&rows=6&select=DOI%2Ctitle%2Cauthor%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cissued%2CURL%2Ctype%2Crelation%2Cevent",
+            "status": "ok",
+            "records": 6,
+            "retrieved_at": "2026-11-07"
+          },
+          {
+            "source": "crossref",
+            "url": "https://api.crossref.org/works/10.1145/3132747.3132757",
+            "status": "ok",
+            "records": 1,
+            "retrieved_at": "2026-11-07"
+          }
+        ],
+        "scope_review": {
+          "model": "deepseek-flash",
+          "id": "W2763398287",
+          "decision": "core",
+          "topic": "pos",
+          "reason": "Proposes Algorand consensus protocol with formal guarantees on agreement and safety under adversarial users and partitions.",
+          "lanes": [
+            "citations:gs-004:W2295940006",
+            "citations:gs-007:W2886706106",
+            "citations:gs-049:W111114747",
+            "references:gs-013:0",
+            "references:gs-023:0",
+            "references:gs-027:0",
+            "references:gs-042:0",
+            "references:gs-043:0"
+          ]
+        }
+      },
+      "raw_input": {
+        "source": "openalex",
+        "source_id": "W2763398287",
+        "source_url": "https://openalex.org/W2763398287",
+        "title": "Algorand",
+        "year": 2017,
+        "doi": "10.1145/3132747.3132757",
+        "venue": "ACM SIGOPS Symposium on Operating Systems Principles (SOSP)",
+        "primary_location_venue": "ACM SIGOPS Symposium on Operating Systems Principles (SOSP)",
+        "authors": [
+          {
+            "name": "Yossi Gilad",
+            "ids": {
+              "openalex": "A5056985040",
+              "orcid": "0000-0003-3475-8322"
+            },
+            "institutions": [
+              {
+                "name": "MIT Computer Science and Artificial Intelligence Laboratory",
+                "ids": {
+                  "openalex": "I4405258931",
+                  "ror": "01e85r662"
+                }
+              },
+              {
+                "name": "Massachusetts Institute of Technology",
+                "ids": {
+                  "openalex": "I63966007",
+                  "ror": "042nb2s44"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Rotem Hemo",
+            "ids": {
+              "openalex": "A5010668424"
+            },
+            "institutions": [
+              {
+                "name": "MIT Computer Science and Artificial Intelligence Laboratory",
+                "ids": {
+                  "openalex": "I4405258931",
+                  "ror": "01e85r662"
+                }
+              },
+              {
+                "name": "Massachusetts Institute of Technology",
+                "ids": {
+                  "openalex": "I63966007",
+                  "ror": "042nb2s44"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Silvio M. Micali",
+            "ids": {
+              "openalex": "A5030198184"
+            },
+            "institutions": [
+              {
+                "name": "MIT Computer Science and Artificial Intelligence Laboratory",
+                "ids": {
+                  "openalex": "I4405258931",
+                  "ror": "01e85r662"
+                }
+              },
+              {
+                "name": "Massachusetts Institute of Technology",
+                "ids": {
+                  "openalex": "I63966007",
+                  "ror": "042nb2s44"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Georgios Vlachos",
+            "ids": {
+              "openalex": "A5017585854"
+            },
+            "institutions": [
+              {
+                "name": "MIT Computer Science and Artificial Intelligence Laboratory",
+                "ids": {
+                  "openalex": "I4405258931",
+                  "ror": "01e85r662"
+                }
+              },
+              {
+                "name": "Massachusetts Institute of Technology",
+                "ids": {
+                  "openalex": "I63966007",
+                  "ror": "042nb2s44"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Nickolai Zeldovich",
+            "ids": {
+              "openalex": "A5082808262",
+              "orcid": "0000-0003-0238-2703"
+            },
+            "institutions": [
+              {
+                "name": "MIT Computer Science and Artificial Intelligence Laboratory",
+                "ids": {
+                  "openalex": "I4405258931",
+                  "ror": "01e85r662"
+                }
+              },
+              {
+                "name": "Massachusetts Institute of Technology",
+                "ids": {
+                  "openalex": "I63966007",
+                  "ror": "042nb2s44"
+                }
+              }
+            ]
+          }
+        ],
+        "url": "https://doi.org/10.1145/3132747.3132757",
+        "kind": "conference-paper",
+        "related_dois": [],
+        "is_retracted": false,
+        "query_url": "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2004-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW111114747&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+        "retrieved_at": "2026-11-06"
+      }
+    }
+  ],
+  "applied": true,
+  "rows": [
+    {
+      "title": "Undetectable Selfish Mining",
+      "doi": "10.1145/3670865.3673485",
+      "classification": {
+        "id": "W4405464933",
+        "decision": "core",
+        "topic": "mining",
+        "reason": "Strategic miner deviation and profitability analysis is a canonical game-theoretic mining incentive result.",
+        "blockchain_evidence": "a strategic Bitcoin miner may strictly profit by deviating from the intended Bitcoin protocol, using a strategy now termed selfish mining",
+        "economics_evidence": "any miner with > 1/3 of the total hashrate can earn bitcoin at a faster rate by selfish mining than by following the intended protocol"
+      },
+      "status": "retained_core"
+    },
+    {
+      "title": "Computing Optimal Manipulations in Cryptographic Self-Selection Proof-of-Stake Protocols",
+      "doi": "10.1145/3670865.3673602",
+      "classification": {
+        "id": "W4399991231",
+        "decision": "core",
+        "topic": "pos",
+        "reason": "Computes optimal strategic manipulation of leader selection in PoS, a strategic/incentive analysis of validator behavior.",
+        "blockchain_evidence": "Cryptographic Self-Selection is a paradigm employed by modern Proof-of-Stake consensus protocols to select a block-proposing \"leader.\"",
+        "economics_evidence": "the maximum fraction of rounds a strategic player can lead as a function of their stake α and a network connectivity parameter β"
+      },
+      "status": "retained_core"
+    },
+    {
+      "title": "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+      "doi": "10.1109/sp.2016.55",
+      "classification": {
+        "id": "W2517744317",
+        "decision": "out",
+        "topic": null,
+        "reason": "Privacy-preserving smart contracts and cryptographic modeling; no substantive economic or strategic contribution.",
+        "blockchain_evidence": "Hawk, a decentralized smart contract system that does not store financial transactions in the clear on the blockchain",
+        "economics_evidence": ""
+      },
+      "status": "scope_removed"
+    },
+    {
+      "title": "Algorand",
+      "doi": "10.1145/3132747.3132757",
+      "classification": {
+        "id": "W2763398287",
+        "decision": "out",
+        "topic": null,
+        "reason": "Consensus/scalability protocol design; no economic or strategic analysis in abstract.",
+        "blockchain_evidence": "Algorand is a new cryptocurrency that confirms transactions with latency on the order of a minute while scaling to many users.",
+        "economics_evidence": ""
+      },
+      "status": "scope_removed"
+    },
+    {
+      "title": "Empirical Analysis of EIP-1559",
+      "doi": "10.1145/3548606.3559341",
+      "classification": {
+        "id": "W4221147467",
+        "decision": "core",
+        "topic": "tfm",
+        "reason": "Empirical study of a transaction fee mechanism (EIP-1559) departing from first-price auction, examining fee dynamics and consensus security.",
+        "blockchain_evidence": "we study the effect of EIP-1559, one of the earliest-deployed TFMs that depart from the traditional first-price auction paradigm",
+        "economics_evidence": "EIP-1559 improves the user experience by mitigating intrablock differences in the gas price paid and reducing users' waiting times"
+      },
+      "status": "retained_core"
+    },
+    {
+      "title": "Stablecoins 2.0",
+      "doi": "10.1145/3419614.3423261",
+      "classification": {
+        "id": "W4288079492",
+        "decision": "core",
+        "topic": "defi",
+        "reason": "Develops economic model framework for stablecoin structure and risks, applicable to DeFi systems.",
+        "blockchain_evidence": "characterize the unique risks that emerge in non-custodial stablecoins and develop a model framework that unifies existing models from economics and computer science",
+        "economics_evidence": "provide a sound foundation for stablecoin theory, with a risk-based functional characterization of the economic structure of stablecoins"
+      },
+      "status": "retained_core"
+    },
+    {
+      "title": "Blockchain without Waste: Proof-of-Stake",
+      "doi": "10.1093/rfs/hhaa075",
+      "classification": {
+        "id": "W3124927426",
+        "decision": "core",
+        "topic": "pos",
+        "reason": "Formal economic model of PoS consensus with equilibrium analysis and incentive conditions; both blockchain setting and game-theoretic economics are explicit.",
+        "blockchain_evidence": "This paper provides the first formal economic model of the most famous alternative, Proof-of-Stake (PoS), and establishes conditions under which PoS generates consensus.",
+        "economics_evidence": "A sufficiently modest reward schedule not only implies the existence of an equilibrium in which consensus obtains as soon as possible but also precludes a persistent forking equilibrium."
+      },
+      "status": "retained_core"
+    },
+    {
+      "title": "On the Just-In-Time Discovery of Profit-Generating Transactions in DeFi Protocols",
+      "doi": "10.1109/sp40001.2021.00113",
+      "classification": {
+        "id": "W3152829963",
+        "decision": "core",
+        "topic": "mev",
+        "reason": "Automated arbitrage/profit-generating transaction discovery in DeFi protocols; establishes both blockchain (DeFi) setting and economic contribution (arbitrage economics, MEV-style profit extraction).",
+        "blockchain_evidence": "Decentralized Finance (DeFi) is a blockchain-asset-enabled finance ecosystem with millions of daily USD transaction volume",
+        "economics_evidence": "we investigate two methods that allow us to automatically create profitable DeFi trades, one well-suited to arbitrage"
+      },
+      "status": "retained_core"
+    },
+    {
+      "title": "Collusion-Resilience in Transaction Fee Mechanism Design",
+      "doi": "10.1145/3670865.3673550",
+      "classification": {
+        "id": "W4391871487",
+        "decision": "core",
+        "topic": "tfm",
+        "reason": "Transaction fee mechanism design with incentive compatibility and collusion-resilience; explicit blockchain TFM setting plus game-theoretic mechanism design contribution.",
+        "blockchain_evidence": "Users bid in a transaction fee mechanism (TFM) to get their transactions included and confirmed by a blockchain protocol.",
+        "economics_evidence": "no TFM can satisfy UIC, MIC, and c-SCP for any c ≥ 1"
+      },
+      "status": "retained_core"
+    },
+    {
+      "title": "Stubborn Mining: Generalizing Selfish Mining and Combining with an Eclipse Attack",
+      "doi": "10.1109/eurosp.2016.32",
+      "classification": {
+        "id": "W2295506186",
+        "decision": "core",
+        "topic": "mining",
+        "reason": "Strategic miner behavior (stubborn/selfish mining) analyzed for revenue; explicit blockchain mining setting with game-theoretic strategic analysis.",
+        "blockchain_evidence": "Selfish mining, originally discovered by Eyal et al. [9], is a well-known attack where a selfish miner",
+        "economics_evidence": "expand the mining strategy space to include novel \"stubborn\" strategies that, for a large range of parameters, earn the miner more revenue"
+      },
+      "status": "retained_core"
+    },
+    {
+      "title": "BDoS: Blockchain Denial-of-Service",
+      "doi": "10.1145/3372297.3417247",
+      "classification": {
+        "id": "W2995930544",
+        "decision": "core",
+        "topic": "mining",
+        "reason": "Incentive-based DoS exploiting reward mechanism design; explicit PoW blockchain setting with game-theoretic incentive analysis of miner participation.",
+        "blockchain_evidence": "We present Blockchain DoS (BDoS), the first incentive-based DoS attack that targets PoW cryptocurrencies.",
+        "economics_evidence": "It exploits the reward mechanism to discourage miner participation."
+      },
+      "status": "retained_core"
+    }
+  ]
+}

@@ -1,0 +1,626 @@
+{
+  "policy": "User-authorized name-first display consolidation for this small research field. Same normalized full names merge despite provider-ID conflicts; missing middle names merge, conflicting full middle names require further evidence; initial expansions use coauthors. Raw metadata remains intact.",
+  "beforeDisplayGroups": 1051,
+  "afterDisplayGroups": 1026,
+  "redundantDisplayGroupsRemoved": 25,
+  "duplicateDisplayNames": [],
+  "merges": [
+    {
+      "key": "author:s matthew weinberg",
+      "name": "S. Matthew Weinberg",
+      "aliases": [
+        "S. Matthew Weinberg",
+        "Seth Matthew Weinberg"
+      ],
+      "sourceIds": [
+        "r-0c656643de2c2e557bbc"
+      ],
+      "paperIds": [
+        "discovered-568ea22f82ac308584fa6f9b",
+        "discovered-82493e3bea8daf71f38baea2",
+        "discovered-e3069eeeeb3c77b1a0d328e4",
+        "discovered-496efefbecd58ce90e89a6b2",
+        "discovered-a8bb3bb3077e0ca3389db24a",
+        "discovered-5445b6b12d323c227b680a95",
+        "discovered-078e40ab27e5bdf598d041ba",
+        "discovered-be9137a599271cdb2e61eb97",
+        "discovered-1e8a4843db8a647e95844b53",
+        "discovered-99b48ba69656608d07359ace",
+        "gs-015@10.1287/mnsc.2021.4095",
+        "discovered-18bac8a172ba45e4517642fb",
+        "discovered-8fd00b116cdbf7c640beb089",
+        "gs-043",
+        "discovered-3ed038224c4c0734173b2195",
+        "gs-015",
+        "gs-042",
+        "gs-011"
+      ]
+    },
+    {
+      "key": "author:elaine shi",
+      "name": "Elaine Shi",
+      "aliases": [
+        "Elaine Shi"
+      ],
+      "sourceIds": [
+        "r-56194ed040467e4c01ff",
+        "r-53e805445291c6220fbb"
+      ],
+      "paperIds": [
+        "discovered-ca91ea6e806f6a29527adb6a",
+        "discovered-fa30591e061461160610f12c",
+        "discovered-ed7c3b8ad0420e0fb075f549",
+        "discovered-086731a14362d007691d2b29",
+        "extra-005",
+        "discovered-f7552be419bf207c30fddb88",
+        "gs-019",
+        "gs-050",
+        "gs-041",
+        "discovered-b11ac11343470346062ee78c",
+        "discovered-84c81deeadca99144d087c37",
+        "discovered-7be0183839c3e045aa6ab285"
+      ]
+    },
+    {
+      "key": "author:matheus v x ferreira",
+      "name": "Matheus V. X. Ferreira",
+      "aliases": [
+        "Matheus V. X. Ferreira",
+        "Matheus V.X. Ferreira",
+        "Matheus Venturyne Xavier Ferreira"
+      ],
+      "sourceIds": [
+        "r-38b1d6c30f0b8204ccca"
+      ],
+      "paperIds": [
+        "discovered-dac189c64261213b73749a43",
+        "discovered-078e40ab27e5bdf598d041ba",
+        "discovered-ca77aefd85076d4f91bc16d4",
+        "gs-028",
+        "discovered-18bac8a172ba45e4517642fb",
+        "discovered-8fd00b116cdbf7c640beb089",
+        "gs-020",
+        "gs-043",
+        "discovered-3ed038224c4c0734173b2195"
+      ]
+    },
+    {
+      "key": "author:ciamac c moallemi",
+      "name": "Ciamac C. Moallemi",
+      "aliases": [
+        "Ciamac Moallemi",
+        "Ciamac C. Moallemi"
+      ],
+      "sourceIds": [
+        "r-30a391fa8b2a0013854c"
+      ],
+      "paperIds": [
+        "discovered-134b514fef0f66e2ba2baa03",
+        "discovered-d7a00a721ad60adaeaf5aaef",
+        "discovered-b1a3e2cbc665ae1845f54355",
+        "discovered-ace3f67b0171ab6f02b01cca",
+        "discovered-e1faa10bb88de478d747c0c7",
+        "discovered-a761e3513f1e8ed55314bd29",
+        "gs-031@10.1145/3560832.3563441",
+        "gs-013"
+      ]
+    },
+    {
+      "key": "author:fan zhang",
+      "name": "Fan Zhang",
+      "aliases": [
+        "Fan Zhang"
+      ],
+      "sourceIds": [
+        "r-cddec33b809b7be3fd7a",
+        "r-f30dec5e35203d97f23a",
+        "r-d479f092fe8e12da0c1a"
+      ],
+      "paperIds": [
+        "discovered-98e14854301239a079e4554b",
+        "extra-001",
+        "discovered-f55f6590df7098f7c80567d0",
+        "discovered-5cfb8c8386e017ccdfe852a3",
+        "discovered-cffbb459324bd2e8690e5252",
+        "discovered-c417e5e345a6e09c1767f446",
+        "discovered-ea1591e6dd0aa2ca0bbb2969",
+        "gs-027"
+      ]
+    },
+    {
+      "key": "author:ariah klages mundt",
+      "name": "Ariah Klages-Mundt",
+      "aliases": [
+        "Ariah Klages-Mundt",
+        "Ariah Klages‐Mundt"
+      ],
+      "sourceIds": [
+        "r-0bdb5a92e7985b6ec616"
+      ],
+      "paperIds": [
+        "discovered-785d2e6f77fbcb9d67491190",
+        "discovered-c08620b2788a10cc84a90687",
+        "gs-039",
+        "discovered-faac1a8eb61ba11155347e83",
+        "gs-038",
+        "discovered-be4bec2df1c37d192d43ac29",
+        "discovered-074e9e1373bdf717b0811aa5"
+      ]
+    },
+    {
+      "key": "author:david c parkes",
+      "name": "David C. Parkes",
+      "aliases": [
+        "David C. Parkes",
+        "David Parkes"
+      ],
+      "sourceIds": [
+        "r-71dc6ccc3f65a150f9e2"
+      ],
+      "paperIds": [
+        "gs-028",
+        "discovered-2a654108c2bed70c8dae8cc1",
+        "discovered-e67f8e57519cd5a5b243987d",
+        "gs-020",
+        "discovered-9e7e5c083494dc657be32728",
+        "discovered-64fcf6ef01ca5a4db21e9379"
+      ]
+    },
+    {
+      "key": "author:hao chung",
+      "name": "Hao Chung",
+      "aliases": [
+        "Hao Chung"
+      ],
+      "sourceIds": [
+        "r-852c5f3f932d286075e1",
+        "r-7654cb1ab133eb6793c4"
+      ],
+      "paperIds": [
+        "discovered-fa30591e061461160610f12c",
+        "discovered-e3ac800995613dac7fb62c7b",
+        "discovered-086731a14362d007691d2b29",
+        "extra-005",
+        "gs-019",
+        "gs-050"
+      ]
+    },
+    {
+      "key": "author:ke wu",
+      "name": "Ke Wu",
+      "aliases": [
+        "Ke Wu"
+      ],
+      "sourceIds": [
+        "r-f50e0f2992f796542aad",
+        "r-a7fe00dc029e712e4168",
+        "r-c306bf293e5bf24e1541"
+      ],
+      "paperIds": [
+        "discovered-00272f087a66331f09b92b03",
+        "extra-002",
+        "extra-007",
+        "discovered-ed7c3b8ad0420e0fb075f549",
+        "extra-005",
+        "gs-050"
+      ]
+    },
+    {
+      "key": "author:francisco j marmolejo cossio",
+      "name": "Francisco J. Marmolejo-Cossío",
+      "aliases": [
+        "Francisco J. Marmolejo-Cossío",
+        "Francisco Marmolejo-Cossio"
+      ],
+      "sourceIds": [
+        "r-e5c9242ab3b23e444fb6"
+      ],
+      "paperIds": [
+        "discovered-0b22d3a5504d4d7f50f2d555",
+        "discovered-2a654108c2bed70c8dae8cc1",
+        "discovered-e99c64fb3fbc77b6327688e1",
+        "discovered-e67f8e57519cd5a5b243987d",
+        "discovered-229c11a4caf0349ad8db5bde"
+      ]
+    },
+    {
+      "key": "author:mallesh m pai",
+      "name": "Mallesh M. Pai",
+      "aliases": [
+        "Mallesh M. Pai",
+        "Mallesh Pai"
+      ],
+      "sourceIds": [
+        "r-4596cd61249234a0aed2",
+        "r-3f82b4e7104a58984b1a"
+      ],
+      "paperIds": [
+        "discovered-12ec3cdf1ce0de47f585c68c",
+        "discovered-726e128828e8380b5a48e22e",
+        "discovered-55d803be210c802e750febe7",
+        "discovered-332db8062ea9fc7816a1bf9f",
+        "discovered-d0bd1795ae59085d2526dc3a"
+      ]
+    },
+    {
+      "key": "author:xi chen",
+      "name": "Xi Chen",
+      "aliases": [
+        "Xi Chen"
+      ],
+      "sourceIds": [
+        "r-0ea757c16050a9dc14bb",
+        "r-5a7cd9429bf134216e2c"
+      ],
+      "paperIds": [
+        "extra-004",
+        "discovered-dac17dc4e421e5f19618512c",
+        "discovered-12bf7a5a7e2ee5c163ce0921",
+        "discovered-5cab2e8ecd25d1ce27e9795b",
+        "discovered-6ffbacf139e9c449dd00e948"
+      ]
+    },
+    {
+      "key": "author:alex evans",
+      "name": "Alex Evans",
+      "aliases": [
+        "Alex Evans"
+      ],
+      "sourceIds": [
+        "r-2d8a99f30143b273d948",
+        "r-89a8f31c69d0d3c72ef2"
+      ],
+      "paperIds": [
+        "extra-008",
+        "discovered-979fc488cc5b3970d4fe8caf",
+        "discovered-bc20fefbadaf4a55bd32aba8",
+        "discovered-769d981e973be5ef0f13de8f"
+      ]
+    },
+    {
+      "key": "author:barnabe monnot",
+      "name": "Barnabé Monnot",
+      "aliases": [
+        "Barnabé Monnot",
+        "Barnabe Monnot"
+      ],
+      "sourceIds": [
+        "r-924621d25563d93f19cb"
+      ],
+      "paperIds": [
+        "discovered-0dbf83c5fc61d65c51bcbf05",
+        "gs-044",
+        "gs-021",
+        "discovered-f424229b45477c01f258b0a0"
+      ]
+    },
+    {
+      "key": "author:benjamin marsh",
+      "name": "Benjamin Marsh",
+      "aliases": [
+        "Benjamin Marsh"
+      ],
+      "sourceIds": [
+        "r-891c25e785792728c8d2",
+        "r-365aea70560b285fd3e8"
+      ],
+      "paperIds": [
+        "discovered-00272f087a66331f09b92b03",
+        "discovered-bb700d8e464a2e234beb2339",
+        "discovered-a71b5246b5fa0bc83071e766",
+        "discovered-29a0451217bd6b99f4a3d36a"
+      ]
+    },
+    {
+      "key": "author:craig s wright",
+      "name": "Craig S. Wright",
+      "aliases": [
+        "Craig Steven Wright",
+        "Craig S. Wright"
+      ],
+      "sourceIds": [
+        "r-561f6ec0c5ffa7ad2c8b"
+      ],
+      "paperIds": [
+        "discovered-c81550e5e77a82736c2be5f0",
+        "discovered-65e6671f76b03b4c743450c7",
+        "discovered-562673d7944e174112bb80e8",
+        "discovered-358f26669c89e81932805911"
+      ]
+    },
+    {
+      "key": "author:daniel j moroz",
+      "name": "Daniel J. Moroz",
+      "aliases": [
+        "Daniel J. Moroz",
+        "Daniel Moroz"
+      ],
+      "sourceIds": [
+        "r-db038d76e115d91e9e97"
+      ],
+      "paperIds": [
+        "discovered-2a654108c2bed70c8dae8cc1",
+        "gs-020",
+        "discovered-9e7e5c083494dc657be32728",
+        "discovered-64fcf6ef01ca5a4db21e9379"
+      ]
+    },
+    {
+      "key": "author:daniel reijsbergen",
+      "name": "Daniël Reijsbergen",
+      "aliases": [
+        "Daniël Reijsbergen",
+        "Daniel Reijsbergen"
+      ],
+      "sourceIds": [
+        "r-a44ae5959d3e3e036b7c"
+      ],
+      "paperIds": [
+        "gs-021",
+        "discovered-f424229b45477c01f258b0a0",
+        "discovered-abd4d2483a3556bb4296cee2",
+        "discovered-44b59372b63b1a0c861a362a"
+      ]
+    },
+    {
+      "key": "author:jacob d leshno",
+      "name": "Jacob D Leshno",
+      "aliases": [
+        "Jacob D Leshno",
+        "Jacob D. Leshno"
+      ],
+      "sourceIds": [
+        "r-82000a4d868b314eddee"
+      ],
+      "paperIds": [
+        "discovered-f7552be419bf207c30fddb88",
+        "gs-013",
+        "gs-014"
+      ]
+    },
+    {
+      "key": "author:joseph halpern",
+      "name": "Joseph Halpern",
+      "aliases": [
+        "Joseph Halpern",
+        "Joseph Y. Halpern"
+      ],
+      "sourceIds": [
+        "r-94d06846c88925635389"
+      ],
+      "paperIds": [
+        "discovered-1b5ded1b65eb85e6daa75b07",
+        "discovered-aac9a2a881b1eebca8767343",
+        "gs-046"
+      ]
+    },
+    {
+      "key": "author:qin wang",
+      "name": "Qin Wang",
+      "aliases": [
+        "Qin Wang"
+      ],
+      "sourceIds": [
+        "r-aeb9aeec6e08596b015c",
+        "r-b64af3c45ab80889670d"
+      ],
+      "paperIds": [
+        "discovered-b6a11aa7922bb580cbcccd31",
+        "discovered-da5bfed3b9497b04c3f3191b",
+        "discovered-a6f797510652713aa8fc85e6"
+      ]
+    },
+    {
+      "key": "author:sen yang",
+      "name": "Sen Yang",
+      "aliases": [
+        "Sen Yang"
+      ],
+      "sourceIds": [
+        "r-cfc16a6b2abfe86feb60",
+        "r-d8dc2e96b3d4fb8ef665"
+      ],
+      "paperIds": [
+        "discovered-1d1963630b8c4de6a9257316",
+        "discovered-f55f6590df7098f7c80567d0",
+        "discovered-5cfb8c8386e017ccdfe852a3"
+      ]
+    },
+    {
+      "key": "author:william j knottenbelt",
+      "name": "William J. Knottenbelt",
+      "aliases": [
+        "William Knottenbelt",
+        "William J. Knottenbelt"
+      ],
+      "sourceIds": [
+        "r-27e995193c97f3b7dd44"
+      ],
+      "paperIds": [
+        "gs-039",
+        "gs-036",
+        "discovered-c25f4fc489d4e18ce156a101"
+      ]
+    },
+    {
+      "key": "author:bjorn tackmann",
+      "name": "Bjorn Tackmann",
+      "aliases": [
+        "Bjorn Tackmann",
+        "Björn Tackmann"
+      ],
+      "sourceIds": [
+        "r-2d94f42f9944b16c8149"
+      ],
+      "paperIds": [
+        "discovered-374d291ce22ffd3250c10099",
+        "gs-047"
+      ]
+    },
+    {
+      "key": "author:catherine yu",
+      "name": "Catherine Yu",
+      "aliases": [
+        "Catherine Yu"
+      ],
+      "sourceIds": [
+        "r-d16c26db9993e7db1d84",
+        "r-8dacc50b1f63e1210a71"
+      ],
+      "paperIds": [
+        "discovered-078e40ab27e5bdf598d041ba",
+        "discovered-8fd00b116cdbf7c640beb089"
+      ]
+    },
+    {
+      "key": "author:christine parlour",
+      "name": "CHRISTINE PARLOUR",
+      "aliases": [
+        "CHRISTINE PARLOUR",
+        "Christine Parlour"
+      ],
+      "sourceIds": [
+        "r-187c707f49c8bd9c5d7b"
+      ],
+      "paperIds": [
+        "gs-032",
+        "discovered-785d2e6f77fbcb9d67491190"
+      ]
+    },
+    {
+      "key": "author:claudio juan tessone",
+      "name": "Claudio Juan Tessone",
+      "aliases": [
+        "Claudio Juan Tessone",
+        "Claudio Tessone"
+      ],
+      "sourceIds": [
+        "r-ceef8714f646aa63e147"
+      ],
+      "paperIds": [
+        "discovered-fc24ad66c134f29709b4d32f",
+        "discovered-04d9eaaf1e1a84ad03db9ae8"
+      ]
+    },
+    {
+      "key": "author:duc v le",
+      "name": "Duc V. Le",
+      "aliases": [
+        "Duc V. Le",
+        "Duc V Le"
+      ],
+      "sourceIds": [
+        "r-184d0a04f4460323ac4b"
+      ],
+      "paperIds": [
+        "discovered-9432230396a9e5111428342a",
+        "gs-024"
+      ]
+    },
+    {
+      "key": "author:jason d hartline",
+      "name": "Jason D. Hartline",
+      "aliases": [
+        "Jason D. Hartline",
+        "Jason Hartline"
+      ],
+      "sourceIds": [
+        "r-b03cdc3bd9016a956357"
+      ],
+      "paperIds": [
+        "discovered-1f1329f536b71c8eabfe4e13",
+        "discovered-74ec64a3c21e1d54939ce915"
+      ]
+    },
+    {
+      "key": "author:lin william cong",
+      "name": "Lin William Cong",
+      "aliases": [
+        "Lin William Cong"
+      ],
+      "sourceIds": [
+        "r-3a39e823801c3e1ef4ee",
+        "r-8176df4cbd62bb263cda"
+      ],
+      "paperIds": [
+        "discovered-d7382a3ee114bb79a5a44358",
+        "discovered-57c0f5a0e1cc4c7126d56e03"
+      ]
+    },
+    {
+      "key": "author:maurice herlihy",
+      "name": "Maurice P. Herlihy",
+      "aliases": [
+        "Maurice P. Herlihy",
+        "Maurice Herlihy"
+      ],
+      "sourceIds": [
+        "r-3411c8341dfe28f9a7ae"
+      ],
+      "paperIds": [
+        "discovered-8487fe3c9de792abf339988e",
+        "discovered-f7a4629b420f7a3464bf8c42"
+      ]
+    },
+    {
+      "key": "author:na ruan",
+      "name": "Na Ruan",
+      "aliases": [
+        "Na Ruan"
+      ],
+      "sourceIds": [
+        "r-baef375ef8306df4977e",
+        "r-6c46e7cc656bed912707"
+      ],
+      "paperIds": [
+        "discovered-2ce8a2a474e29cd888e3a9ec",
+        "discovered-d55f5b89b0cf767e0f698b26"
+      ]
+    },
+    {
+      "key": "author:nikolaj i schwartzbach",
+      "name": "Nikolaj Schwartzbach",
+      "aliases": [
+        "Nikolaj Schwartzbach",
+        "Nikolaj I. Schwartzbach"
+      ],
+      "sourceIds": [
+        "r-61058758702b7773b1a8"
+      ],
+      "paperIds": [
+        "discovered-40cedee6e0f32e16c025192f",
+        "discovered-a5a91b25ad25261bf72215ea"
+      ]
+    },
+    {
+      "key": "author:thomas j rivera",
+      "name": "Thomas J Rivera",
+      "aliases": [
+        "Thomas J Rivera",
+        "Thomas J. Rivera"
+      ],
+      "sourceIds": [
+        "r-af87063817689757828b"
+      ],
+      "paperIds": [
+        "discovered-e64efff8f1f824ed2f47fc83",
+        "discovered-d18173a5a6a6a679dbdc43e7"
+      ]
+    },
+    {
+      "key": "author:yuedong xu",
+      "name": "Yuedong Xu",
+      "aliases": [
+        "Yuedong Xu"
+      ],
+      "sourceIds": [
+        "r-bdf96ad5b5ada179bdb8",
+        "r-8f4da41593f4c2a956b0"
+      ],
+      "paperIds": [
+        "discovered-e929012b8c403a89cdc9ea43",
+        "discovered-0b7fa36ad39acd29e1e66abf"
+      ]
+    }
+  ]
+}

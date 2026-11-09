@@ -1,0 +1,192 @@
+{
+  "schema_version": 2,
+  "updated_at": "2026-11-08",
+  "basis": "User decision 2026-11-08: reject MDPI, IEEE Access and Hindawi (incl. former Wiley titles moved to Hindawi). Newer or small but reputable venues remain acceptable. Supersedes the 2026-11-07 'review, no blanket exclusion' preference for Electronics and IEEE Access.",
+  "decision_semantics": {
+    "deny": "Never adopted; existing directory works whose only formal edition is denied are removed at build time (ledger stays append-only, so the removal is reversible by editing this file).",
+    "allow": "Every venue in data/venue_registry_v1.json (core and targeted) plus preprint repositories. Scope screening still applies.",
+    "unknown": "Not in the registry and not denied. Records are parked, not screened by the LLM; the monthly report lists unknown venues by frequency so a venue is decided once, not paper by paper."
+  },
+  "deny": [
+    {
+      "id": "mdpi",
+      "publisher": "MDPI",
+      "doi_prefixes": [
+        "10.3390/"
+      ],
+      "venues": [
+        "Electronics",
+        "Mathematics",
+        "Blockchains",
+        "Analytics",
+        "Games",
+        "Future Internet",
+        "Sensors",
+        "Applied Sciences",
+        "Information",
+        "Computers",
+        "Symmetry",
+        "Entropy",
+        "Sustainability",
+        "Algorithms",
+        "Cryptography",
+        "Journal of Cybersecurity and Privacy",
+        "Journal of Risk and Financial Management",
+        "International Journal of Financial Studies",
+        "Economies",
+        "FinTech",
+        "Big Data and Cognitive Computing",
+        "Telecom",
+        "Network",
+        "Smart Cities",
+        "Energies",
+        "Systems",
+        "Risks",
+        "Axioms"
+      ],
+      "reason": "Publisher-level exclusion chosen by the user (low selectivity / volume model)."
+    },
+    {
+      "id": "ieee-access",
+      "publisher": "IEEE",
+      "doi_prefixes": [
+        "10.1109/access."
+      ],
+      "venues": [
+        "IEEE Access"
+      ],
+      "reason": "Megajournal; excluded by user decision 2026-11-08."
+    },
+    {
+      "id": "hindawi",
+      "publisher": "Hindawi / Wiley OA (Hindawi platform)",
+      "doi_prefixes": [
+        "10.1155/"
+      ],
+      "venues": [
+        "Security and Communication Networks",
+        "Wireless Communications and Mobile Computing",
+        "Mathematical Problems in Engineering",
+        "Complexity",
+        "Scientific Programming",
+        "Mobile Information Systems",
+        "Computational Intelligence and Neuroscience",
+        "Journal of Sensors",
+        "Discrete Dynamics in Nature and Society",
+        "Journal of Mathematics",
+        "Journal of Advanced Transportation",
+        "Security and Privacy"
+      ],
+      "reason": "Publisher-level exclusion chosen by the user; includes journals affected by the 2023 Hindawi paper-mill delistings."
+    },
+    {
+      "id": "documented-low-bar",
+      "publisher": "Widely documented low-bar publishers",
+      "doi_prefixes": [
+        "10.4236/",
+        "10.11648/",
+        "10.14569/"
+      ],
+      "venues": [],
+      "reason": "SCIRP, Science Publishing Group and IJACSA; extremely low acceptance threshold."
+    },
+    {
+      "id": "non-accepted-repositories",
+      "publisher": "General-purpose repositories and preprint servers",
+      "doi_prefixes": [
+        "10.5281/",
+        "10.6084/",
+        "10.21203/",
+        "10.20944/",
+        "10.31219/",
+        "10.31235/",
+        "10.31234/",
+        "10.35542/",
+        "10.36227/",
+        "10.22541/",
+        "10.26434/",
+        "10.1101/"
+      ],
+      "venues": [
+        "Zenodo",
+        "Zenodo (CERN European Organization for Nuclear Research)",
+        "Figshare",
+        "Research Square",
+        "Preprints.org",
+        "OSF Preprints",
+        "OSF Preprints (OSF Preprints)",
+        "SocArXiv (OSF Preprints)",
+        "bioRxiv (Cold Spring Harbor Laboratory)",
+        "HAL",
+        "ResearchGate",
+        "TechRxiv"
+      ],
+      "reason": "User decision 2026-11-09: only arXiv, IACR ePrint, SSRN, RePEc and registered economics/finance/OR working-paper series count as preprint channels."
+    },
+    {
+      "id": "low-quality-blockchain-ai",
+      "reason": "Low-threshold blockchain-plus-AI outlet (user decision 2026-11-09).",
+      "venues": [
+        "Blockchain Artificial Intelligence and Future Research",
+        "Scientific Journal of Artificial Intelligence and Blockchain Technologies",
+        "RIGGS Journal of Artificial Intelligence and Digital Business"
+      ]
+    }
+  ],
+  "preprint_policy": {
+    "basis": "User decision 2026-11-09. A preprint-typed record passes only if it comes from arXiv or IACR ePrint, has a DOI below, or names a venue in data/venue_registry_v1.json (which holds the accepted channels: arXiv, IACR ePrint, SSRN, RePEc, NBER, CEPR, CESifo, Cowles, BIS, ECB, IMF, Federal Reserve series, Optimization Online). A work with an accepted edition elsewhere is unaffected.",
+    "keep_doi_prefixes": [
+      "10.48550/arxiv.",
+      "10.2139/ssrn.",
+      "10.4230/lipics.",
+      "10.4230/oasics."
+    ],
+    "keep_doi_prefixes_note": "10.4230 is DROPS, which hosts formal LIPIcs/OASIcs proceedings (AFT, ITC, ICALP); it is a publisher, not a preprint server.",
+    "reason": "Not an accepted preprint channel (user decision 2026-11-09)."
+  },
+  "non_english_venues": {
+    "basis": "User decision 2026-11-09: reject venues whose name is not English. A name counts as non-English if it contains letters outside the Latin script, or a word below. Registered venues are exempt (e.g. the bilingual Canadian Journal of Economics/Revue canadienne d'economique).",
+    "foreign_words": [
+      "revista",
+      "revue",
+      "rivista",
+      "zeitschrift",
+      "jurnal",
+      "dergisi",
+      "tijdschrift",
+      "zeszyty",
+      "vestnik",
+      "cahiers",
+      "anais",
+      "anales",
+      "actas",
+      "zbornik",
+      "prosiding",
+      "für",
+      "und",
+      "della",
+      "computación",
+      "direito"
+    ],
+    "reason": "Venue name is not English (user decision 2026-11-09)."
+  },
+  "borderline_kept": [
+    {
+      "venue": "Frontiers in Blockchain",
+      "note": "Kept by user decision 2026-11-08 (small, young field journal)."
+    },
+    {
+      "venue": "International Journal of Intelligent Systems",
+      "note": "2022 article carries a Wiley subscription DOI (10.1002/int), before the Hindawi transfer; Hindawi-era DOIs (10.1155) are denied by prefix."
+    },
+    {
+      "venue": "Complex Systems Informatics and Modeling Quarterly",
+      "note": "Small regional journal; not denied, but its single directory paper is an introductory survey and is flagged in the scope audit."
+    },
+    {
+      "venue": "SmartNets / iThings joint congress",
+      "note": "High-volume IEEE conferences; kept, flagged for scope audit."
+    }
+  ],
+  "paper_overrides": []
+}

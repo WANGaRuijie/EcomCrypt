@@ -1,0 +1,685 @@
+{
+  "reason": "ID-less primary-archive bylines formerly used name: keys; indexed bylines used researcher IDs. Display now bridges a full name only when its indexed identity is unique.",
+  "ambiguous_names": [
+    {
+      "name": "hao chung",
+      "identities": [
+        {
+          "id": "r-852c5f3f932d286075e1",
+          "name": "Hao Chung",
+          "identity_ids": {
+            "openalex": "A5056778643",
+            "orcid": "0009-0001-7617-3560"
+          },
+          "affiliation_ids": [
+            "i-30c46a8c8411fcba0e32",
+            "i-6ce9084800b0711a6faa"
+          ],
+          "affiliation_evidence": [
+            {
+              "institution_id": "i-30c46a8c8411fcba0e32",
+              "paper_id": "gs-019",
+              "year": 2023,
+              "source_id": "W3211582955"
+            },
+            {
+              "institution_id": "i-6ce9084800b0711a6faa",
+              "paper_id": "gs-019",
+              "year": 2023,
+              "source_id": "W3211582955"
+            },
+            {
+              "institution_id": "i-6ce9084800b0711a6faa",
+              "paper_id": "gs-050",
+              "year": 2022,
+              "source_id": "W4298182915"
+            },
+            {
+              "institution_id": "i-6ce9084800b0711a6faa",
+              "paper_id": "extra-005",
+              "year": 2023,
+              "source_id": "W7223752309"
+            }
+          ]
+        },
+        {
+          "id": "r-7654cb1ab133eb6793c4",
+          "name": "Hao Chung",
+          "identity_ids": {
+            "orcid": "0009-0000-4154-0001"
+          },
+          "affiliation_ids": [
+            "i-6ce9084800b0711a6faa"
+          ],
+          "affiliation_evidence": [
+            {
+              "institution_id": "i-6ce9084800b0711a6faa",
+              "paper_id": "discovered-086731a14362d007691d2b29",
+              "year": 2024,
+              "source_id": "W4391871487"
+            }
+          ]
+        }
+      ],
+      "resolution": "keep separate; conflicting IDs require evidence"
+    },
+    {
+      "name": "elaine shi",
+      "identities": [
+        {
+          "id": "r-56194ed040467e4c01ff",
+          "name": "Elaine Shi",
+          "identity_ids": {
+            "openalex": "A5089202539",
+            "orcid": "0000-0002-5605-1048"
+          },
+          "affiliation_ids": [
+            "i-30c46a8c8411fcba0e32",
+            "i-6ce9084800b0711a6faa",
+            "i-24fff7fcb714d136cab3",
+            "i-0c275d68ff09daef961f"
+          ],
+          "affiliation_evidence": [
+            {
+              "institution_id": "i-30c46a8c8411fcba0e32",
+              "paper_id": "gs-019",
+              "year": 2023,
+              "source_id": "W3211582955"
+            },
+            {
+              "institution_id": "i-6ce9084800b0711a6faa",
+              "paper_id": "gs-019",
+              "year": 2023,
+              "source_id": "W3211582955"
+            },
+            {
+              "institution_id": "i-6ce9084800b0711a6faa",
+              "paper_id": "gs-050",
+              "year": 2022,
+              "source_id": "W4298182915"
+            },
+            {
+              "institution_id": "i-6ce9084800b0711a6faa",
+              "paper_id": "discovered-086731a14362d007691d2b29",
+              "year": 2024,
+              "source_id": "W4391871487"
+            },
+            {
+              "institution_id": "i-24fff7fcb714d136cab3",
+              "paper_id": "discovered-b11ac11343470346062ee78c",
+              "year": 2016,
+              "source_id": "W2295506186"
+            },
+            {
+              "institution_id": "i-0c275d68ff09daef961f",
+              "paper_id": "discovered-7be0183839c3e045aa6ab285",
+              "year": 2014,
+              "source_id": "W1978649650"
+            },
+            {
+              "institution_id": "i-24fff7fcb714d136cab3",
+              "paper_id": "discovered-84c81deeadca99144d087c37",
+              "year": 2015,
+              "source_id": "W2048642037"
+            },
+            {
+              "institution_id": "i-6ce9084800b0711a6faa",
+              "paper_id": "discovered-ed7c3b8ad0420e0fb075f549",
+              "year": 2024,
+              "source_id": "W4395064477"
+            },
+            {
+              "institution_id": "i-6ce9084800b0711a6faa",
+              "paper_id": "extra-005",
+              "year": 2023,
+              "source_id": "W7223752309"
+            }
+          ]
+        },
+        {
+          "id": "r-53e805445291c6220fbb",
+          "name": "Elaine Shi",
+          "identity_ids": {
+            "openalex": "A5130803057"
+          },
+          "affiliation_ids": [
+            "i-6ce9084800b0711a6faa"
+          ],
+          "affiliation_evidence": [
+            {
+              "institution_id": "i-6ce9084800b0711a6faa",
+              "paper_id": "discovered-fa30591e061461160610f12c",
+              "year": 2026,
+              "source_id": "W7208766913"
+            }
+          ]
+        }
+      ],
+      "resolution": "Display consolidated using author publication-list evidence; raw IDs retained.",
+      "evidence_url": "https://elaineshi.com/papers/"
+    },
+    {
+      "name": "fan zhang",
+      "identities": [
+        {
+          "id": "r-cddec33b809b7be3fd7a",
+          "name": "Fan Zhang",
+          "identity_ids": {
+            "openalex": "A5100690861",
+            "orcid": "0000-0002-5563-7688"
+          },
+          "affiliation_ids": [
+            "i-24fff7fcb714d136cab3",
+            "i-3627aa6258af72fed714"
+          ],
+          "affiliation_evidence": [
+            {
+              "institution_id": "i-24fff7fcb714d136cab3",
+              "paper_id": "gs-027",
+              "year": 2020,
+              "source_id": "W3013718028"
+            },
+            {
+              "institution_id": "i-3627aa6258af72fed714",
+              "paper_id": "gs-027",
+              "year": 2020,
+              "source_id": "W3013718028"
+            }
+          ]
+        },
+        {
+          "id": "r-f30dec5e35203d97f23a",
+          "name": "Fan Zhang",
+          "identity_ids": {
+            "openalex": "A5100403511",
+            "orcid": "0000-0002-8525-4514"
+          },
+          "affiliation_ids": [
+            "i-a2aebd39889796447120"
+          ],
+          "affiliation_evidence": [
+            {
+              "institution_id": "i-a2aebd39889796447120",
+              "paper_id": "discovered-ea1591e6dd0aa2ca0bbb2969",
+              "year": 2022,
+              "source_id": "W4221147467"
+            },
+            {
+              "institution_id": "i-a2aebd39889796447120",
+              "paper_id": "discovered-5cfb8c8386e017ccdfe852a3",
+              "year": 2025,
+              "source_id": "W7104664838"
+            },
+            {
+              "institution_id": "i-a2aebd39889796447120",
+              "paper_id": "discovered-c417e5e345a6e09c1767f446",
+              "year": 2024,
+              "source_id": "W4405182740"
+            }
+          ]
+        },
+        {
+          "id": "r-d479f092fe8e12da0c1a",
+          "name": "Fan Zhang",
+          "identity_ids": {
+            "openalex": "A5153416599"
+          },
+          "affiliation_ids": [
+            "i-a2aebd39889796447120"
+          ],
+          "affiliation_evidence": [
+            {
+              "institution_id": "i-a2aebd39889796447120",
+              "paper_id": "discovered-98e14854301239a079e4554b",
+              "year": 2026,
+              "source_id": "W7148583123"
+            }
+          ]
+        }
+      ],
+      "resolution": "keep separate; conflicting IDs require evidence"
+    },
+    {
+      "name": "ke wu",
+      "identities": [
+        {
+          "id": "r-f50e0f2992f796542aad",
+          "name": "Ke Wu",
+          "identity_ids": {
+            "openalex": "A5103275698",
+            "orcid": "0000-0002-2756-8750"
+          },
+          "affiliation_ids": [
+            "i-6ce9084800b0711a6faa",
+            "i-f2786e07959cde7887f4"
+          ],
+          "affiliation_evidence": [
+            {
+              "institution_id": "i-6ce9084800b0711a6faa",
+              "paper_id": "gs-050",
+              "year": 2022,
+              "source_id": "W4298182915"
+            },
+            {
+              "institution_id": "i-f2786e07959cde7887f4",
+              "paper_id": "discovered-ed7c3b8ad0420e0fb075f549",
+              "year": 2024,
+              "source_id": "W4395064477"
+            },
+            {
+              "institution_id": "i-6ce9084800b0711a6faa",
+              "paper_id": "discovered-ed7c3b8ad0420e0fb075f549",
+              "year": 2024,
+              "source_id": "W4395064477"
+            },
+            {
+              "institution_id": "i-6ce9084800b0711a6faa",
+              "paper_id": "extra-005",
+              "year": 2023,
+              "source_id": "W7223752309"
+            },
+            {
+              "institution_id": "i-f2786e07959cde7887f4",
+              "paper_id": "extra-007",
+              "year": 2025,
+              "source_id": "W4417090898"
+            }
+          ]
+        },
+        {
+          "id": "r-c306bf293e5bf24e1541",
+          "name": "Ke Wu",
+          "identity_ids": {
+            "openalex": "A5153506291"
+          },
+          "affiliation_ids": [
+            "i-f2786e07959cde7887f4"
+          ],
+          "affiliation_evidence": [
+            {
+              "institution_id": "i-f2786e07959cde7887f4",
+              "paper_id": "extra-002",
+              "year": 2026,
+              "source_id": "W7214795006"
+            }
+          ]
+        }
+      ],
+      "resolution": "keep separate; conflicting IDs require evidence"
+    },
+    {
+      "name": "catherine yu",
+      "identities": [
+        {
+          "id": "r-d16c26db9993e7db1d84",
+          "name": "Catherine Yu",
+          "identity_ids": {
+            "orcid": "0009-0007-4605-2964",
+            "openalex": "A5043896099"
+          },
+          "affiliation_ids": [
+            "i-393f232bb20307727302"
+          ],
+          "affiliation_evidence": [
+            {
+              "institution_id": "i-393f232bb20307727302",
+              "paper_id": "discovered-078e40ab27e5bdf598d041ba",
+              "year": 2024,
+              "source_id": "W4399991231"
+            }
+          ]
+        },
+        {
+          "id": "r-8dacc50b1f63e1210a71",
+          "name": "Catherine Yu",
+          "identity_ids": {
+            "openalex": "A5015669760",
+            "orcid": "0000-0002-2355-1046"
+          },
+          "affiliation_ids": [
+            "i-393f232bb20307727302"
+          ],
+          "affiliation_evidence": [
+            {
+              "institution_id": "i-393f232bb20307727302",
+              "paper_id": "discovered-8fd00b116cdbf7c640beb089",
+              "year": 2022,
+              "source_id": "W4285093610"
+            }
+          ]
+        }
+      ],
+      "resolution": "keep separate; conflicting IDs require evidence"
+    },
+    {
+      "name": "sen yang",
+      "identities": [
+        {
+          "id": "r-cfc16a6b2abfe86feb60",
+          "name": "Sen Yang",
+          "identity_ids": {
+            "orcid": "0000-0002-8866-2097"
+          },
+          "affiliation_ids": [
+            "i-a2aebd39889796447120"
+          ],
+          "affiliation_evidence": [
+            {
+              "institution_id": "i-a2aebd39889796447120",
+              "paper_id": "discovered-5cfb8c8386e017ccdfe852a3",
+              "year": 2025,
+              "source_id": "W7104664838"
+            }
+          ]
+        },
+        {
+          "id": "r-d8dc2e96b3d4fb8ef665",
+          "name": "Sen Yang",
+          "identity_ids": {
+            "openalex": "A5100319742",
+            "orcid": "0000-0002-0056-3052"
+          },
+          "affiliation_ids": [
+            "i-a2aebd39889796447120"
+          ],
+          "affiliation_evidence": [
+            {
+              "institution_id": "i-a2aebd39889796447120",
+              "paper_id": "discovered-f55f6590df7098f7c80567d0",
+              "year": 2025,
+              "source_id": "W4411337263"
+            }
+          ]
+        }
+      ],
+      "resolution": "keep separate; conflicting IDs require evidence"
+    },
+    {
+      "name": "xi chen",
+      "identities": [
+        {
+          "id": "r-0ea757c16050a9dc14bb",
+          "name": "Xi Chen",
+          "identity_ids": {
+            "openalex": "A5100329923",
+            "orcid": "0000-0002-2768-9683"
+          },
+          "affiliation_ids": [
+            "i-ae69226bafc13a4d61d7"
+          ],
+          "affiliation_evidence": [
+            {
+              "institution_id": "i-ae69226bafc13a4d61d7",
+              "paper_id": "discovered-dac17dc4e421e5f19618512c",
+              "year": 2025,
+              "source_id": "W4410756677"
+            }
+          ]
+        },
+        {
+          "id": "r-5a7cd9429bf134216e2c",
+          "name": "Xi Chen",
+          "identity_ids": {
+            "orcid": "0000-0002-9049-9452",
+            "openalex": "A5100329997"
+          },
+          "affiliation_ids": [
+            "i-ecc7bffefb8384952449"
+          ],
+          "affiliation_evidence": [
+            {
+              "institution_id": "i-ecc7bffefb8384952449",
+              "paper_id": "extra-004",
+              "year": 2025,
+              "source_id": "W4407103144"
+            }
+          ]
+        }
+      ],
+      "resolution": "keep separate; conflicting IDs require evidence"
+    },
+    {
+      "name": "alex evans",
+      "identities": [
+        {
+          "id": "r-2d8a99f30143b273d948",
+          "name": "Alex Evans",
+          "identity_ids": {
+            "openalex": "A5073041823",
+            "orcid": "0000-0002-9128-9502"
+          },
+          "affiliation_ids": [],
+          "affiliation_evidence": []
+        },
+        {
+          "id": "r-89a8f31c69d0d3c72ef2",
+          "name": "Alex Evans",
+          "identity_ids": {
+            "openalex": "A5101619865",
+            "orcid": "0000-0002-8549-0146"
+          },
+          "affiliation_ids": [],
+          "affiliation_evidence": []
+        }
+      ],
+      "resolution": "keep separate; conflicting IDs require evidence"
+    },
+    {
+      "name": "qin wang",
+      "identities": [
+        {
+          "id": "r-aeb9aeec6e08596b015c",
+          "name": "Qin Wang",
+          "identity_ids": {
+            "openalex": "A5139734530"
+          },
+          "affiliation_ids": [
+            "i-bb8b433d4b290942b5f8",
+            "i-aeae251d0c67d7b29236"
+          ],
+          "affiliation_evidence": [
+            {
+              "institution_id": "i-bb8b433d4b290942b5f8",
+              "paper_id": "discovered-b6a11aa7922bb580cbcccd31",
+              "year": 2026,
+              "source_id": "W7166884185"
+            },
+            {
+              "institution_id": "i-aeae251d0c67d7b29236",
+              "paper_id": "discovered-b6a11aa7922bb580cbcccd31",
+              "year": 2026,
+              "source_id": "W7166884185"
+            }
+          ]
+        },
+        {
+          "id": "r-b64af3c45ab80889670d",
+          "name": "Qin Wang",
+          "identity_ids": {
+            "openalex": "A5100422823",
+            "orcid": "0000-0003-2264-749X"
+          },
+          "affiliation_ids": [
+            "i-bb8b433d4b290942b5f8",
+            "i-aeae251d0c67d7b29236"
+          ],
+          "affiliation_evidence": [
+            {
+              "institution_id": "i-bb8b433d4b290942b5f8",
+              "paper_id": "discovered-da5bfed3b9497b04c3f3191b",
+              "year": 2023,
+              "source_id": "W4387687187"
+            },
+            {
+              "institution_id": "i-aeae251d0c67d7b29236",
+              "paper_id": "discovered-da5bfed3b9497b04c3f3191b",
+              "year": 2023,
+              "source_id": "W4387687187"
+            }
+          ]
+        }
+      ],
+      "resolution": "keep separate; conflicting IDs require evidence"
+    }
+  ],
+  "known_work_misattributions": [
+    {
+      "work_doi": "10.1093/rfs/hhac051",
+      "canonical_author": "Daniel Ferreira",
+      "rejected_index_observation": {
+        "name": "Daniel Henrique da Mota Ferreira",
+        "ids": {
+          "openalex": "A5011447725",
+          "orcid": "0000-0003-2129-6050"
+        },
+        "institutions": [
+          {
+            "name": "Centre for Economic Policy Research",
+            "ids": {
+              "openalex": "I4210140326",
+              "ror": "04jzmdh37"
+            }
+          },
+          {
+            "name": "London School of Economics and Political Science",
+            "ids": {
+              "openalex": "I909854389",
+              "ror": "0090zs177"
+            }
+          }
+        ]
+      },
+      "decision": "withhold_ids_for_this_work",
+      "reason": "ORCID0000-0003-2129-6050is explicitly tied to sociology/law researcherDanielHenriquedaMotaFerreira(UERJ),not theLSEfinanceauthor. Do not transplant either associatedOAIDorORCID to canonicalbyline.",
+      "sources": [
+        "https://www.lse.ac.uk/people/daniel-ferreira",
+        "https://accesstojusticeamericas.org/es/people/daniel-henrique-da-mota-ferreira/"
+      ]
+    },
+    {
+      "work_doi": "10.1093/rfs/hhac051",
+      "canonical_author": "Jin Li",
+      "rejected_index_observation": {
+        "name": "Jin Li",
+        "ids": {
+          "openalex": "A5100698658",
+          "orcid": "0000-0002-3534-524X"
+        },
+        "institutions": [
+          {
+            "name": "University of Hong Kong",
+            "ids": {
+              "openalex": "I889458895",
+              "ror": "02zhqgq86"
+            }
+          }
+        ]
+      },
+      "decision": "withhold_ids_for_this_work",
+      "reason": "ORCID0000-0002-3534-524XverifiesCyprusdomain/control/anomaly-detection papers,notHKUorganizational economistJinLi whose institutional publications include this title. Both indexedIDs remain unverified for thiswork.",
+      "sources": [
+        "https://orcid.org/0000-0002-3534-524X",
+        "https://www.hkubs.hku.hk/sc/people/jin-li-2/"
+      ]
+    }
+  ],
+  "primary_identity_resolutions": [
+    {
+      "name": "Bo Li",
+      "orcid": "0000-0001-7500-8355",
+      "openalex": "A5100374364",
+      "work_doi": "10.1007/s10878-021-00768-4",
+      "basis": "PolyUinstitutionalORCIDprofile/Oxfordhistory,publisherorderedbylineandcachedexactformalwork",
+      "sources": [
+        "https://research.polyu.edu.hk/en/persons/bo-li/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-bo/?sc_lang=en",
+        "https://link.springer.com/article/10.1007/s10878-021-00768-4"
+      ],
+      "previous_state": "FullyIDlessbylineomittedfromresearchertablecensus;nowlinkedwithprimaryidentityevidence."
+    }
+  ],
+  "targeted_followups": [
+    {
+      "date": "2026-11-08",
+      "name": "Lin William Cong",
+      "openalex_ids": [
+        "A5080547297",
+        "A5140621807"
+      ],
+      "decision": "Retain raw IDs. Exact-name display is already consolidated; do not globally merge provider bibliographies on name alone.",
+      "sources": [
+        "https://www.linwilliamcong.com/research",
+        "https://www.siguangli.com/research.html",
+        "https://arxiv.org/abs/2607.11240"
+      ],
+      "basis": "Coauthor primary page ties the recent ePBS paper to Lin William Cong and the Oracle Economics collaboration. Primary identity supports targeted review; new provider lane needs its own identity verification before full-list retrieval."
+    },
+    {
+      "date": "2026-11-08",
+      "name": "Yu Wei",
+      "indexed_byline": "Wei Yu",
+      "openalex": "A5068918323",
+      "decision": "Use primary ordered name Yu Wei for the exact Pseudo-Equilibria publication; preserve original indexed byline and IDs.",
+      "sources": [
+        "https://www.yuweii.com/",
+        "https://www.yuweii.com/publications/",
+        "https://link.springer.com/chapter/10.1007/978-3-032-35367-2_1"
+      ],
+      "basis": "ExactDOI/ordered4authors,GeorgiaTech and author self-identification Wei,Yu. No global name-reversal merge."
+    },
+    {
+      "date": "2026-11-08",
+      "work_doi": "10.1093/rfs/hhaa089",
+      "identity_holds": [
+        {
+          "name": "Neng Wang",
+          "decision": "withhold_conflicting_provider_ids_for_this_work",
+          "formal_index_ids": {
+            "openalex": "A5101563004",
+            "orcid": "0009-0005-3620-347X"
+          },
+          "working_paper_index_ids": {
+            "openalex": "A5024192453",
+            "orcid": "0000-0001-9854-8194"
+          },
+          "reason": "Columbia institutionalCV confirms exactwork/identity but does not establish whichORCID/OpenAlexID is correct. Preservebothrawobservations;do notgloballymerge."
+        },
+        {
+          "name": "Ye Li",
+          "decision": "retain_primary_byline_without_unverified_working_paper_ids",
+          "reason": "Formalindex hasnoID;NBERindexedIDnotindependentlyverifiedthisround."
+        }
+      ],
+      "sources": [
+        "https://www.linwilliamcong.com/_files/ugd/555f73_c11eda05cc144e688c772c612edf8158.pdf",
+        "https://www.linwilliamcong.com/research",
+        "https://business.columbia.edu/sites/default/files-efs/person/cv/CV_NengWang_0.pdf",
+        "https://www.nber.org/papers/w27222"
+      ],
+      "decision": "Primarythree-authorbylineconfirmed;conflictingNengWangindexIDsandunverifiedYeLiIDsnottransplanted. NBERimportedcitationeditorItayGoldsteinisnotanauthor."
+    },
+    {
+      "date": "2026-11-08",
+      "work_doi": "10.1007/978-3-642-31585-5_50",
+      "name": "Jonathan Katz",
+      "indexed_byline": "Jonathan I. Katz",
+      "decision": "Primaryorderedbylineusedforthisexactwork;indexedIDsretained,noglobalnamealiasmerge.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/978-3-642-31585-5_50",
+        "https://people.reed.edu/~agroce/ICALP2012.pdf",
+        "https://faculty.cc.gatech.edu/~vzikas/"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "work_doi": "10.1007/978-3-031-07689-3_31",
+      "decision": "PrimaryorderedbylineMuhammadIshaqandMalikMagdon-Ismailretainedforthisexactwork;indexedMuhammadHamzaIshaqandUnicodehyphenobservationspreserved.No globalaliasmerge.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/978-3-031-07689-3_31",
+        "https://web.cs.ucla.edu/~rafail/PUBLIC/266.pdf",
+        "https://web.cs.ucla.edu/~rafail/PUBLIC/266.html",
+        "https://www.research.ed.ac.uk/en/publications/fairmm-a-fast-andfrontrunning-resistant-crypto-market-maker/"
+      ]
+    }
+  ]
+}

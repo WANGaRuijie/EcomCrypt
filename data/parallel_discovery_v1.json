@@ -1,0 +1,375 @@
+{
+  "nodes": 1380,
+  "new_candidates": 1207,
+  "citation_edges": 1071,
+  "author_nominations": 177,
+  "coverage": [
+    {
+      "lane": "author:A5077247630",
+      "status": "ok",
+      "pages": 1,
+      "records": 14,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5077247630%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "author:A5058102069",
+      "status": "ok",
+      "pages": 2,
+      "records": 100,
+      "complete": false,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5058102069%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc",
+        "https://api.openalex.org/works?cursor=IlsxNzI1NTgwODAwMDAwLCA5NC4wLCAxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MDIzMDQ0MjknXSI%3D&filter=authorships.author.id%3AA5058102069%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": "IlsxNTcyOTk4NDAwMDAwLCAxMDAuMCwgNTgsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjk4Njk2Nzk0MyddIg=="
+    },
+    {
+      "lane": "author:A5056778643",
+      "status": "ok",
+      "pages": 1,
+      "records": 10,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5056778643%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "author:A5087255124",
+      "status": "ok",
+      "pages": 2,
+      "records": 79,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5087255124%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc",
+        "https://api.openalex.org/works?cursor=IlsxNTI4MDcwNDAwMDAwLCA5OS4wLCAyMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cyODAwODkwODEwJ10i&filter=authorships.author.id%3AA5087255124%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "author:A5004307349",
+      "status": "ok",
+      "pages": 1,
+      "records": 14,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5004307349%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "author:A5075906914",
+      "status": "ok",
+      "pages": 1,
+      "records": 43,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5075906914%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "author:A5069426854",
+      "status": "ok",
+      "pages": 1,
+      "records": 18,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5069426854%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "author:A5082358070",
+      "status": "ok",
+      "pages": 1,
+      "records": 42,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5082358070%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "author:A5069955491",
+      "status": "ok",
+      "pages": 1,
+      "records": 24,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5069955491%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "author:A5068390911",
+      "status": "ok",
+      "pages": 2,
+      "records": 100,
+      "complete": false,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5068390911%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc",
+        "https://api.openalex.org/works?cursor=IlsxNjA5NDU5MjAwMDAwLCAxMDAuMCwgMjc5LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMyMTEzMTQzMzUnXSI%3D&filter=authorships.author.id%3AA5068390911%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": "IlsxNDQwNTQ3MjAwMDAwLCA5OS4wLCAzOSwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cyMTQzNjAzMjA2J10i"
+    },
+    {
+      "lane": "author:A5026049014",
+      "status": "ok",
+      "pages": 2,
+      "records": 88,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5026049014%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc",
+        "https://api.openalex.org/works?cursor=IlsxNDIwMDcwNDAwMDAwLCAnLUluZmluaXR5JywgMjMsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjEwOTAxMTY4MyddIg%3D%3D&filter=authorships.author.id%3AA5026049014%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "author:A5086173064",
+      "status": "ok",
+      "pages": 2,
+      "records": 100,
+      "complete": false,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=authorships.author.id%3AA5086173064%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc",
+        "https://api.openalex.org/works?cursor=IlsxNjY2MTM3NjAwMDAwLCAnLUluZmluaXR5JywgMSwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0MzA3MjA2MTQyJ10i&filter=authorships.author.id%3AA5086173064%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted&sort=publication_date%3Adesc"
+      ],
+      "next_cursor": "IlsxNTc3ODM2ODAwMDAwLCA5My4wLCAxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxMzM2NDA2ODgnXSI="
+    },
+    {
+      "lane": "citations:gs-009:W1820692873",
+      "status": "ok",
+      "pages": 2,
+      "records": 100,
+      "complete": false,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW1820692873&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+        "https://api.openalex.org/works?cursor=IlsxMDAuMCwgNjgsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzExMzY3MzMxOSddIg%3D%3D&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW1820692873&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted"
+      ],
+      "next_cursor": "Ils5OS4wLCAzMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1czMTAwMTY1ODY2J10i"
+    },
+    {
+      "lane": "references:gs-009:0",
+      "status": "ok",
+      "pages": 1,
+      "records": 16,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Copenalex%3AW84523266%7CW151187442%7CW1490996126%7CW1528465758%7CW1553435762%7CW1581121707%7CW1851144268%7CW1978649650%7CW1979505449%7CW2029349492%7CW2051815842%7CW2057248704%7CW2129763443%7CW2273223219%7CW2886706106%7CW4211068006%7CW4214860385%7CW4232729966%7CW4248175462%7CW4285719527&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "citations:gs-010:W2465219533",
+      "status": "ok",
+      "pages": 2,
+      "records": 100,
+      "complete": false,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW2465219533&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+        "https://api.openalex.org/works?cursor=Ils5OS4wLCA0MywgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cyNzcyMjg3MTg5J10i&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW2465219533&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted"
+      ],
+      "next_cursor": "Ils5OC4wLCA3LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MDU0NjQ5MzMnXSI="
+    },
+    {
+      "lane": "references:gs-010:0",
+      "status": "ok",
+      "pages": 1,
+      "records": 25,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Copenalex%3AW118842186%7CW179922057%7CW851575271%7CW1523833175%7CW1581121707%7CW1593596963%7CW1601379374%7CW1632088469%7CW1851144268%7CW1907293129%7CW1988699025%7CW1995488889%7CW1997911919%7CW2022932831%7CW2066462806%7CW2126924915%7CW2181397138%7CW2188530018%7CW2263222003%7CW2295565785%7CW2295940006%7CW2335755599%7CW2762598207%7CW2886706106%7CW2949557113%7CW2950226614%7CW2950540282%7CW4245752474%7CW4248175462%7CW4295135191&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "citations:gs-011:W2535029869",
+      "status": "ok",
+      "pages": 2,
+      "records": 100,
+      "complete": false,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW2535029869&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+        "https://api.openalex.org/works?cursor=IlsxMDAuMCwgMzgsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDI4NTczMTc2NyddIg%3D%3D&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW2535029869&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted"
+      ],
+      "next_cursor": "Ils5OC4wLCAyOCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cyOTQxOTMxMTI2J10i"
+    },
+    {
+      "lane": "references:gs-011:0",
+      "status": "ok",
+      "pages": 1,
+      "records": 20,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Copenalex%3AW13439346%7CW151187442%7CW1175656452%7CW1454642304%7CW1523833175%7CW1579912628%7CW1581121707%7CW1820692873%7CW1851144268%7CW2073242866%7CW2075144441%7CW2077902449%7CW2093825590%7CW2126776273%7CW2150865801%7CW2188530018%7CW2207823432%7CW2295506186%7CW2465219533%7CW2614151058%7CW2886706106%7CW2998446700%7CW4248175462&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "citations:gs-012:W2808257503",
+      "status": "ok",
+      "pages": 2,
+      "records": 100,
+      "complete": false,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW2808257503&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+        "https://api.openalex.org/works?cursor=Ils5OS4wLCAyMSwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0MzEyMDU1ODAxJ10i&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW2808257503&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted"
+      ],
+      "next_cursor": "Ils5NS4wLCAzLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyMDUzOTY3NTEnXSI="
+    },
+    {
+      "lane": "references:gs-012:0",
+      "status": "ok",
+      "pages": 1,
+      "records": 25,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Copenalex%3AW1593596963%7CW2117178771%7CW2154505708%7CW2188530018%7CW2269520727%7CW2487793673%7CW2510870386%7CW2606569116%7CW2626692761%7CW2751010069%7CW2760630819%7CW2766209351%7CW2787016287%7CW2803836845%7CW2808852487%7CW2886706106%7CW2920549832%7CW2945978829%7CW3121737767%7CW3121805137%7CW3122067257%7CW3124927426%7CW3125655120%7CW4211068006%7CW4248175462&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "citations:gs-012:W4403500997",
+      "status": "ok",
+      "pages": 2,
+      "records": 78,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW4403500997&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+        "https://api.openalex.org/works?cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTE5NzU4NTA2J10i&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW4403500997&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "references:gs-012:0",
+      "status": "ok",
+      "pages": 1,
+      "records": 30,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Copenalex%3AW1158872149%7CW1530407286%7CW1572490578%7CW1580191282%7CW1593596963%7CW1965808745%7CW1994524956%7CW1997911919%7CW2003214215%7CW2034791526%7CW2035362408%7CW2046279784%7CW2056700716%7CW2074928461%7CW2123850572%7CW2124597406%7CW2126924915%7CW2128487291%7CW2131538393%7CW2153336256%7CW2154505708%7CW2156763099%7CW2160638522%7CW2188530018%7CW2189821821%7CW2327840979%7CW2493238591%7CW2508339054%7CW2535029869%7CW2592068898%7CW2626692761%7CW2766209351%7CW2787016287%7CW2793999899%7CW2803836845%7CW2808257503%7CW2886706106%7CW2903783225%7CW2910890442%7CW2945978829%7CW2996574800%7CW3005336078%7CW3006762792%7CW3009765502%7CW3121759882%7CW3122067257%7CW3122610594%7CW3123341871%7CW3123542774%7CW3123868249&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "references:gs-012:50",
+      "status": "ok",
+      "pages": 1,
+      "records": 20,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Copenalex%3AW3123890426%7CW3124183549%7CW3124719057%7CW3124927426%7CW3125655120%7CW3125698360%7CW3137092842%7CW3138950545%7CW3153029289%7CW3153426194%7CW3209850123%7CW4211068006%7CW4211239526%7CW4232545197%7CW4248175462%7CW4294287235%7CW4307124182%7CW4367626505%7CW4384501871%7CW4384948720%7CW4403662265%7CW4405487239%7CW6723413246&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "citations:gs-013:W3138950545",
+      "status": "ok",
+      "pages": 2,
+      "records": 100,
+      "complete": false,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW3138950545&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+        "https://api.openalex.org/works?cursor=Ils5OS4wLCAyMywgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0NDAzNjkwMTkzJ10i&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW3138950545&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted"
+      ],
+      "next_cursor": "Ils5Ny4wLCAyLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MDgwMzc1MzgnXSI="
+    },
+    {
+      "lane": "references:gs-013:0",
+      "status": "ok",
+      "pages": 1,
+      "records": 44,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Copenalex%3AW179922057%7CW1483061398%7CW1508143344%7CW1521183774%7CW1523833175%7CW1985655142%7CW1999260447%7CW2057811978%7CW2064319038%7CW2066462806%7CW2069869777%7CW2102591969%7CW2109933351%7CW2117455041%7CW2168963270%7CW2181397138%7CW2188530018%7CW2295940006%7CW2312784726%7CW2479830819%7CW2510870386%7CW2511446761%7CW2535029869%7CW2573050643%7CW2613387059%7CW2626692761%7CW2760072470%7CW2763398287%7CW2793999899%7CW2797891494%7CW2808257503%7CW2809373714%7CW2886706106%7CW2945920118%7CW2963649118%7CW2972976611%7CW2982187894%7CW3010182446%7CW3037810061%7CW3048473240%7CW3081888046%7CW3121502571%7CW3121805137%7CW3122067257%7CW3122302131%7CW3123292887%7CW3125099212%7CW3125334970%7CW3125698360%7CW3125774611&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "references:gs-013:50",
+      "status": "ok",
+      "pages": 1,
+      "records": 8,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Copenalex%3AW3150402146%7CW4211068006%7CW4229083642%7CW4233978664%7CW4244291778%7CW4248175462%7CW4299819080%7CW4362475188%7CW6756922192%7CW6774603742&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "citations:gs-014:W3081888046",
+      "status": "ok",
+      "pages": 2,
+      "records": 68,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW3081888046&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+        "https://api.openalex.org/works?cursor=IlsnLUluZmluaXR5JywgNSwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0Mjg1NTQ0MTQ5J10i&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW3081888046&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "references:gs-014:0",
+      "status": "ok",
+      "pages": 1,
+      "records": 9,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Copenalex%3AW1993729355%7CW2048715339%7CW2068491626%7CW2077143526%7CW2083174134%7CW2103863878%7CW2563986995%7CW2626692761%7CW2912416028%7CW2945920118%7CW2946037140%7CW3049483599%7CW3122067257%7CW3122472491%7CW3137092842&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "citations:gs-015:W2901107568",
+      "status": "ok",
+      "pages": 2,
+      "records": 100,
+      "complete": false,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW2901107568&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+        "https://api.openalex.org/works?cursor=Ils5Ni4wLCAxMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0NDA1ODAzMDM0J10i&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW2901107568&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted"
+      ],
+      "next_cursor": "IlsnLUluZmluaXR5JywgMSwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1czMDI1MTM2MjQ4J10i"
+    },
+    {
+      "lane": "references:gs-015:0",
+      "status": "ok",
+      "pages": 1,
+      "records": 13,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Copenalex%3AW1523833175%7CW1820692873%7CW1969872310%7CW1993729355%7CW2035362408%7CW2040892054%7CW2126924915%7CW2535029869%7CW2573050643%7CW2739845435%7CW2783808332%7CW2793999899%7CW2803836845%7CW2886706106%7CW3081888046%7CW3122067257%7CW3125698360%7CW3138950545&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted"
+      ],
+      "next_cursor": null
+    },
+    {
+      "lane": "citations:gs-016:W2626692761",
+      "status": "ok",
+      "pages": 2,
+      "records": 100,
+      "complete": false,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW2626692761&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+        "https://api.openalex.org/works?cursor=IlsxMDAuMCwgODAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQwMzUwMDk5NyddIg%3D%3D&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Ccites%3AW2626692761&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted"
+      ],
+      "next_cursor": "Ils5OS4wLCA0MSwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0MzIwNTE4ODA3J10i"
+    },
+    {
+      "lane": "references:gs-016:0",
+      "status": "ok",
+      "pages": 1,
+      "records": 30,
+      "complete": true,
+      "queries": [
+        "https://api.openalex.org/works?cursor=%2A&filter=from_publication_date%3A2000-01-01%2Cto_publication_date%3A2026-12-31%2Cis_retracted%3Afalse%2Copenalex%3AW851575271%7CW1569784531%7CW1601379374%7CW1907293129%7CW1996928649%7CW2006567420%7CW2065273716%7CW2094833625%7CW2126924915%7CW2188530018%7CW2234438048%7CW2347143350%7CW2487793673%7CW2527797060%7CW2535029869%7CW2613387059%7CW2615794775%7CW2734940320%7CW2752685521%7CW2794835353%7CW2886706106%7CW2891259924%7CW2891994623%7CW3021222613%7CW3122636688%7CW3123130758%7CW3123336377%7CW3123597155%7CW3123946675%7CW3124927426%7CW3137092842%7CW4211068006%7CW4238542302%7CW4248175462%7CW4253813917%7CW4353004773%7CW6635765730%7CW6835540395%7CW7021377813&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted"
+      ],
+      "next_cursor": null
+    }
+  ],
+  "policy": "Two concurrent bounded discovery branches; quality and identity review required before adoption."
+}

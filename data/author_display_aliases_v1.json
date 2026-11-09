@@ -1,0 +1,10 @@
+{
+  "groups": [{
+    "name": "Elaine Shi",
+    "canonical_id": "r-56194ed040467e4c01ff",
+    "ids": ["r-56194ed040467e4c01ff", "r-53e805445291c6220fbb"],
+    "evidence_url": "https://elaineshi.com/papers/",
+    "basis": "Author-maintained publication list confirms the AMM research and earlier cryptography/mechanism-design publications; preserve raw indexed IDs, consolidate display only.",
+    "checked_at": "2026-11-07"
+  }]
+}

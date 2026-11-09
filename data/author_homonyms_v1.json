@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "comment": "Different people who share a byline name. The site merges authors by name, so the listed works show the display name instead.",
+  "records": [
+    {
+      "name": "Bo Li",
+      "display": "Bo Li (UIUC)",
+      "work_ids": [
+        "discovered-3b5c5c649d22435dffd3fab2"
+      ],
+      "evidence": "Indexed affiliation University of Illinois Urbana-Champaign; the other Bo Li in the directory is at Hong Kong Polytechnic University (ORCID 0000-0001-7500-8355).",
+      "checked_at": "2026-11-09",
+      "coauthors_any": [
+        "Yevgeniy Vorobeychik",
+        "Chao Yan",
+        "Bradley Malin",
+        "Bradley A. Malin",
+        "Daniel Fabbri"
+      ]
+    }
+  ]
+}

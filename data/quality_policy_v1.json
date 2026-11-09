@@ -1,0 +1,241 @@
+{
+  "version": 1,
+  "policy": "Bibliographic verification does not establish scientific quality. Author identity and venue priority do not establish paper quality. Unknown and targeted venues and preprints require editorial review. Do not infer a predatory label from publisher, APC, indexing, or lack of prestige alone. Venue-level denials are maintained in data/venue_policy_v2.json (user decision 2026-11-08).",
+  "automatic_adoption": "priority venues only after scope and metadata gates; other sources remain reviewable candidates",
+  "overrides": [
+    {
+      "venue": "Electronics",
+      "decision": "exclude",
+      "reason": "Superseded 2026-11-08: user chose to reject MDPI, IEEE Access and Hindawi outright (data/venue_policy_v2.json).",
+      "basis": "User instruction 2026-11-08"
+    },
+    {
+      "venue": "IEEE Access",
+      "decision": "exclude",
+      "reason": "Superseded 2026-11-08: user chose to reject MDPI, IEEE Access and Hindawi outright (data/venue_policy_v2.json).",
+      "basis": "User instruction 2026-11-08"
+    }
+  ],
+  "paper_overrides": [
+    {
+      "doi": "10.5195/ledger.2017.96",
+      "decision": "review",
+      "reason": "Bibliography and scope established; editorial assessment of contribution/novelty relative to standard contest models remains unresolved. Published open review is context, not a verdict of invalidity or low quality. No automatic adoption.",
+      "basis": "Supervisor review 2026-11-07; requires full-paper and open-review assessment.",
+      "sources": [
+        "https://ledgerjournal.org/ojs/ledger/article/view/96",
+        "https://ledgerjournal.org/ojs/ledger/article/download/96/70/0"
+      ]
+    },
+    {
+      "doi": "10.21428/58320208.9ce1cd26",
+      "decision": "review",
+      "review_stage": "metadata",
+      "quality_judgment": "not_determined_by_this_hold",
+      "reason": "Publisher PDF prints30Nov2020 while publisher release page says5Apr2021. Registration/indexed metadata agreeing on2020 does not resolve these primary publication-date observations. Hold automatic adoption until release/issue chronology is documented; not a quality judgment.",
+      "basis": "Supervisor primary-source comparison2026-11-07",
+      "sources": [
+        "https://cryptoeconomicsystems.pubpub.org/pub/chitra-staking-lending-equilibria/download/pdf",
+        "https://cryptoeconomicsystems.pubpub.org/pub/chitra-staking-lending-equilibria/release/1"
+      ]
+    },
+    {
+      "doi": "10.1109/eurospw51379.2020.00056",
+      "decision": "review",
+      "review_stage": "metadata",
+      "quality_judgment": "not_determined_by_this_hold",
+      "reason": "Registration/index reconciliation gives10.1109/eurospw51379.2020.00056 but official arXiv related-resource field gives10.1109/EuroS&PW51379.2020.00055. Preserve both observations and defer until publisher DOI relationship is resolved; do not silently normalize different suffixes.",
+      "basis": "Supervisor primary archive comparison2026-11-07",
+      "sources": [
+        "https://arxiv.org/abs/2008.11362",
+        "https://arxiv.org/pdf/2008.11362",
+        "https://api.crossref.org/works/10.1109/eurospw51379.2020.00056"
+      ]
+    },
+    {
+      "doi": "10.48550/arxiv.2504.02077",
+      "decision": "review",
+      "review_stage": "metadata",
+      "quality_judgment": "not_determined_by_this_hold",
+      "reason": "Author explicitly reports acceptedFC2026; manuscript ordered three authors and their ORCIDs corroborate identity. Do not adopt as an unaccepted preprint. Official accepted/program pages inaccessible in this check and formal DOI not verified; retain accepted claim and uncertainty separately.",
+      "basis": "Supervisor primary author-list and manuscript comparison2026-11-07",
+      "sources": [
+        "https://www.moallemi.com/ciamac/research-interests.php",
+        "https://arxiv.org/abs/2504.02077",
+        "https://arxiv.org/pdf/2504.02077"
+      ]
+    },
+    {
+      "doi": "10.48550/arxiv.2603.15963",
+      "decision": "review",
+      "review_stage": "metadata",
+      "quality_judgment": "not_determined_by_this_hold",
+      "reason": "Author publication list explicitly reports acceptedACMEC2026; official archive and author manuscript establish four ordered authors and substantive loss-allocation optimization. Formal conference DOI/record not established in this check, so retain accepted status separately and do not count as an unaccepted preprint.",
+      "basis": "Supervisor primary author-list and manuscript comparison2026-11-07",
+      "sources": [
+        "https://moallemi.com/ciamac/research-interests.php?sort=topic",
+        "https://arxiv.org/abs/2603.15963",
+        "https://www.math.columbia.edu/~mnutz/docs/Risk_Based_ADL.pdf"
+      ]
+    },
+    {
+      "doi": "10.1137/23m1606149",
+      "decision": "review",
+      "reason": "Primary publisher verifies2026journal title,three authors and formal DOI; HALfulltext returnedAnubisaccess-denied and SIAMfulltext redirects to abstract. Contribution appears substantive, but bounded full-paper technical review deferred; do not bypass access challenge or treat incomplete access as a quality judgment.",
+      "basis": "Supervisor2026-11-07bounded merit review",
+      "sources": [
+        "https://epubs.siam.org/doi/abs/10.1137/23M1606149"
+      ]
+    },
+    {
+      "doi": "10.48550/arxiv.2306.09421",
+      "decision": "review",
+      "reason": "In-scope fee/capital competitiveness metric. Section3.2.1 substitutes Vi=fee/gamma then displays integral fee/(2fee/gamma)=integral2gamma,where ordinary algebra gives gamma/2. HTMLand fixedPDFtext agree; PDFvisual rendering unavailable. May be a local typo/normalization issue,not evidence that the metric is wholly invalid. Resolve before adopting. Figure2is explicitly synthetic; no empirical pool validation claimed. Official byline JasonMilionis/XinWan/AustinAdams; indexedAustinS.Adams remains raw.",
+      "basis": "Supervisor bounded technical/primary review2026-11-07",
+      "sources": [
+        "https://arxiv.org/html/2306.09421v1",
+        "https://arxiv.org/pdf/2306.09421v1",
+        "https://jasonmili.github.io/publications/"
+      ]
+    },
+    {
+      "doi": "10.1287/moor.2024.0790",
+      "decision": "review",
+      "reason": "Publisher confirms2026online publication,ordered5authors and DOI; suffix2024is not publication year. Official abstract establishes dynamic bonding-curve design but technical manuscript review remains incomplete: publisherPDFredirects to abstract,ORAandSSRNdirect fetch403. Do not bypass access controls or infer poor quality. Author links corroborate formal status; prior title AutomatedMarketMakersDesignsBeyondConstantFunctions needs version reconciliation before adoption. Publisher acceptance27Jun differs from repository28Jun; exact acceptance day not chosen.",
+      "basis": "Supervisor bounded technical/primary review2026-11-07",
+      "sources": [
+        "https://pubsonline.informs.org/doi/10.1287/moor.2024.0790",
+        "https://ora.ox.ac.uk/objects/uuid%3A435f8de7-856a-4b93-80c6-4279c2c29f88",
+        "https://webhomes.maths.ed.ac.uk/~dsiska/"
+      ]
+    },
+    {
+      "doi": "10.1145/3833393",
+      "decision": "review",
+      "reason": "Formal DOI and ordered4authors verified,indexed journal2026; institution explicitly labels accepted/in-press13Jul2026. PrimaryAAMfetch403 and ACM403; do not treat olderICAIF/ECAIextended papers as identical to the journal without section-level relationship and full technical review. Keep accepted status distinct from final publication date. Substantive game-theoretic relevance is not questioned.",
+      "basis": "Supervisor bounded review2026-11-07",
+      "sources": [
+        "https://kclpure.kcl.ac.uk/portal/en/publications/strategic-bidding-incentives-in-ethereum-block-building-auctions/",
+        "https://kclpure.kcl.ac.uk/portal/files/380414384/Fei_ACM_DLT_MEV_Boost.pdf"
+      ]
+    },
+    {
+      "doi": "10.1109/icbc56567.2023.10174867",
+      "decision": "review",
+      "reason": "Nine-page archive merits AMMmargin/collateral analysis,with model-derivedOHLCfee volume and selected2020-2021backtests; profitability and8Kcapital-efficiency claims are conditional,not realized risk-free returns. Formal indexedICBCedition is3pages; directofficialprogramme returned418 and primary publisherDOI/byline relation not independently completed. Do not attribute all9page results to3pageformal text. IndexFormulaLabs incorrectly mapped to GruppoFormulaItaly; author affiliation/ID corroboration remains pending.",
+      "basis": "Supervisor bounded review2026-11-07",
+      "sources": [
+        "https://arxiv.org/pdf/2212.10035",
+        "https://icbc2023.ieee-icbc.org/"
+      ],
+      "review_stage": "metadata"
+    },
+    {
+      "doi": "10.1109/cvcbt.2018.00015",
+      "decision": "review",
+      "reason": "Crossref corroborates2018CVCBTformalDOIandorderedbyline. PrimaryIOGentry explains fee-driven stake accumulation in no-checkpoint longest-chainPoS; this is a potential economic-security contribution. Full ePrint2018/248returned403; assumptions/theorem and edition content relation not fully read,so hold rather than infer a universalPoSbreak.",
+      "basis": "Supervisor primary review round26; unresolved scope/content, not author/venue reputation.",
+      "sources": [
+        "https://www.iog.io/papers/stake-bleeding-attacks-on-proof-of-stake-blockchains",
+        "https://eprint.iacr.org/2018/248.pdf"
+      ]
+    },
+    {
+      "doi": "10.1109/icbc67748.2026.11575537",
+      "decision": "review",
+      "reason": "Copula price-dependence/risk analysis may not establish a substantive strategic or mechanism contribution; inspect primary methods before inclusion.",
+      "basis": "Supervisor round25; automated accepted suggestion was not committed."
+    },
+    {
+      "doi": "10.1145/3716177",
+      "decision": "review",
+      "reason": "Crossref identifies DistributedLedgerTechnologies:ResearchandPractice,notTEAC/EC; year_fields give2026print and2025online/issued. Author annual report calls it2025. These are retained as separate observations. PrimaryACMpage403 and no primary full article recovered; no contribution/novelty approval from secondary previews. Keep potentialAMM/financing contribution reviewable; no reputation rejection.",
+      "basis": "Supervisor bounded primary review round27",
+      "sources": [
+        "https://dl.acm.org/doi/10.1145/3716177",
+        "https://www.cs.cit.tum.de/fileadmin/w00cfj/ii/_my_direct_uploads/AR_2025.pdf"
+      ],
+      "review_stage": "metadata"
+    },
+    {
+      "doi": "10.1109/bloc.2019.8751326",
+      "decision": "review",
+      "reason": "OfficialarXivexplicitly statesICBC2019acceptance; Crossref confirmsDOI/year/ordered3authors.10pagepaper has realgame-theoretic contribution:RBGquasi-strong mixed-strategy equilibrium and deposit/reveal mechanism. SectionsII,VI-IX inspected. Independence of mixed choices,correlatedcoalitions/external utilities,client-specified value bound and miner-censorship assumptions need closer scrutiny before endorsing the broad unmanipulatable claim. This is a proof/model review question,not a declared counterexample or invalidity finding; retain as high-potential rational-security candidate.",
+      "basis": "Supervisor bounded primary review round27",
+      "sources": [
+        "https://arxiv.org/abs/1902.07986",
+        "https://arxiv.org/pdf/1902.07986"
+      ]
+    },
+    {
+      "doi": "10.1145/3391403.3399533",
+      "decision": "review",
+      "reason": "Primary23pStanfordmanuscript and Crossref confirmEC2020,twoauthors,and substantive continuous-credit-network liquidity/matroid/sampling results. Transaction distributions are exogenous; several results assume symmetry. StrictEconCS scope needs independent judgment of economic-design contribution versus pure liquidity/routing algorithm analysis. ECvenue alone is insufficient; no quality rejection.",
+      "basis": "Supervisor primary review round26; unresolved scope/content, not author/venue reputation.",
+      "sources": [
+        "https://www.scs.stanford.edu/~geoff/papers/continuous_creditnets.pdf",
+        "https://arxiv.org/abs/2004.06167"
+      ]
+    },
+    {
+      "doi": "10.1145/3548606.3560706",
+      "decision": "review",
+      "reason": "OfficialCCS2022programme,authorIIScpublication pages andCrossref corroborate ordered3authors/formalDOI/year. Exacttitle and indexedprimaryePrintTOC indicate substantive rational-auction model; no missing-abstract exclusion. PrimaryPDFreturned403 and full model/assumptions not recovered this round. Retain high-potential primary-content review; do not substitute venue prestige or secondary paraphrases for contribution evidence.",
+      "basis": "Supervisor bounded primary review round28",
+      "sources": [
+        "https://www.sigsac.org/ccs/CCS2022/program/accepted-papers.html",
+        "https://www.csa.iisc.ac.in/~chaya/",
+        "https://eprint.iacr.org/2022/1541.pdf"
+      ]
+    },
+    {
+      "doi": "10.1080/1351847x.2023.2241883",
+      "decision": "review",
+      "reason": "Empirical trader typology/liquidity is not by itself evidence of a substantive mechanism,strategic behavior,or EconCS contribution. Review primary methods before deciding strict intersection scope.",
+      "basis": "Supervisor round29; model suggestion retained unchanged and not committed."
+    },
+    {
+      "doi": "10.1093/rfs/hhad051",
+      "decision": "review",
+      "reason": "CachedCrossref and publisher confirm RFS37(2),409-443,2024; online2023 retained. Read AEA34pageearliermanuscript sections4-5 and conditionaladversary/free-riding/PBE model. Finalpublisherabstract explicitly discusses slashing, and final35pagearticle unavailable. Do not equate earlier costparameter model with final slashing implementation without version reconciliation. High-potential,not excluded.",
+      "basis": "Supervisor primary review round30; source/version questions retained.",
+      "sources": [
+        "https://academic.oup.com/rfs/article-abstract/37/2/409/7199608",
+        "https://www.aeaweb.org/conference/2022/preliminary/paper/KE6NBerZ"
+      ]
+    },
+    {
+      "doi": "10.1109/icdcs54860.2022.00026",
+      "decision": "review",
+      "reason": "OfficialICDCSprogramme,2authorpages and cachedCrossref confirm7author2022conferenceedition. Bath13pagepeerreviewedTCC2024version has8authors, changedtitle and verifiedDOI10.1109/TCC.2024.3394973. Inspected welfareobjective,concavevalue/sufficientfunds assumptions,expertadvice andregretanalysis; no truthfulness/gametheoretic guarantee established by the read text. Needs scope/contribution review of onlinelearning for publicgoods allocation and original conferencecontent,not automatic governance tag. Relatedjournalversion is nominated,not substituted for the unread11pageconferenceedition.",
+      "basis": "Supervisor primary review round30; source/version questions retained.",
+      "sources": [
+        "https://icdcs2022.icdcs.org/programs/",
+        "https://limo923.github.io/",
+        "https://purehost.bath.ac.uk/ws/portalfiles/portal/329401170/Decentralized_Funding_of_Public_Goods_in_Blockchain_System_Leveraging_Expert_Advice.pdf"
+      ]
+    },
+    {
+      "doi": "10.1109/tdsc.2024.3368655",
+      "decision": "review",
+      "reason": "Blockchain crowdsensing auction application needs primary review of substantive mechanism novelty and blockchain necessity,not automatic acceptance from truthfulness terminology or venue.",
+      "basis": "Supervisor round29; model suggestion retained unchanged and not committed."
+    },
+    {
+      "doi": "10.1145/3538228",
+      "decision": "review",
+      "reason": "Digital-cardossier application needs primary review of strategic model,mechanism contribution and simulation assumptions; blockchain plus agent-based evaluation does not establish scope.",
+      "basis": "Supervisor round29; model suggestion retained unchanged and not committed."
+    },
+    {
+      "doi": "10.1007/978-3-031-25734-6_17",
+      "decision": "review",
+      "basis": "Supervisor primary model review round32",
+      "reason": "Substantive blockchaindelegation/briberygame confirmed from IOG15pworkingmanuscript sections3-5. Rewards/detection/moralutilityparameters are exogenous. DisplayedProposition1usesstrictiffconditionswhereweakNashallowsboundaryties; savedexplicit2x2diagnostic requiresnondegeneracy/formalversionclarification,not declaredmainresultinvalid. FormalCBT2022chapterpublished2023,19pages,ordered3authors verified bySpringer; do notclaimworking15pagesarefinal19pages. Retainqualifiedhighpotentialqueue pending targeted contribution/model/version review.",
+      "sources": [
+        "https://www.iog.io/api/research/pdf/CF7ZDQAK",
+        "https://link.springer.com/chapter/10.1007/978-3-031-25734-6_17"
+      ]
+    }
+  ]
+}

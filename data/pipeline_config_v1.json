@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "comment": "Monthly pipeline settings (scripts/monthly.py). Prices are per-million-token UPPER bounds used for reservations.",
+  "llm": {
+    "provider": "deepseek",
+    "model": "deepseek-flash",
+    "price_in_per_m_usd": 0.30,
+    "price_out_per_m_usd": 1.20,
+    "budget_usd_per_run": 2.00,
+    "concurrency": 8,
+    "title_batch": 80,
+    "abstract_batch": 12
+  },
+  "promotion": {
+    "min_confidence": "medium",
+    "comment": "Includes below this confidence go to the review queue instead of the directory."
+  },
+  "feeds": {
+    "initial_since": "2026-09-01",
+    "lookback_days": 45,
+    "eprint_initial_since": "2008-01-01",
+    "arxiv_categories": ["cs.GT", "cs.CR", "cs.DC", "cs.MA", "cs.DB", "econ.TH", "econ.GN", "econ.EM",
+                         "q-fin.TR", "q-fin.GN", "q-fin.PM", "q-fin.RM", "q-fin.CP", "q-fin.MF"]
+  },
+  "openalex": {
+    "date_filter": "from_publication_date",
+    "keyword_queries": [
+      "blockchain OR bitcoin OR ethereum OR cryptocurrency OR cryptocurrencies OR \"smart contract\" OR \"smart contracts\" OR \"decentralized finance\" OR DeFi OR stablecoin",
+      "\"automated market maker\" OR \"maximal extractable value\" OR \"transaction fee mechanism\" OR \"proof of stake\" OR \"proof-of-stake\" OR \"selfish mining\" OR \"mining pool\" OR restaking OR rollup",
+      "\"rational cryptography\" OR \"rational adversary\" OR \"rational adversaries\" OR \"rational secret sharing\" OR \"game-theoretic security\" OR \"security game\" OR \"security games\" OR \"incentive-compatible protocol\""
+    ],
+    "max_pages_per_lane": 1000
+  },
+  "dblp": {
+    "min_year": 2008,
+    "known_author_min_papers": 2,
+    "download_dir": ".cache/dblp"
+  },
+  "enrich": {
+    "crossref": true
+  }
+}

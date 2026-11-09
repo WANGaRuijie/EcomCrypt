@@ -1,0 +1,249 @@
+{
+  "records": {
+    "extra-001": {
+      "metadata": {
+        "title": "Perils of Parallelism: Transaction Fee Mechanisms under Execution Uncertainty",
+        "authors": [
+          {
+            "name": "Sarisht Wadhwa",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Aviv Yaish",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Fan Zhang",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Kartik Nayak",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "venue": "USENIX Security",
+        "year": 2026,
+        "doi": null,
+        "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/wadhwa",
+        "kind": "conference-paper",
+        "source_ids": {
+          "publisher": "https://www.usenix.org/conference/usenixsecurity26/presentation/wadhwa",
+          "arxiv": "2604.04193"
+        },
+        "is_retracted": false
+      },
+      "source": "https://www.usenix.org/conference/usenixsecurity26/presentation/wadhwa",
+      "checked_at": "2026-11-07"
+    },
+    "extra-003": {
+      "metadata": {
+        "title": "Auspex: Unveiling Inconsistency Bugs of Transaction Fee Mechanism in Blockchain",
+        "authors": [
+          {
+            "name": "Zheyuan He",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Zihao Li",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Jiahao Luo",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Feng Luo",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Junhan Duan",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Jingwei Li",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Shuwei Song",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Xiapu Luo",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Ting Chen",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Xiaosong Zhang",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "venue": "USENIX Security",
+        "year": 2025,
+        "doi": null,
+        "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/he-zheyuan",
+        "kind": "conference-paper",
+        "source_ids": {
+          "publisher": "https://www.usenix.org/conference/usenixsecurity25/presentation/he-zheyuan"
+        },
+        "is_retracted": false
+      },
+      "source": "https://www.usenix.org/conference/usenixsecurity25/presentation/he-zheyuan",
+      "checked_at": "2026-11-07"
+    },
+    "extra-005": {
+      "metadata": {
+        "title": "Maximizing Miner Revenue in Transaction Fee Mechanism Design",
+        "authors": [
+          {
+            "name": "Ke Wu",
+            "ids": {
+              "openalex": "A5103275698",
+              "orcid": "0000-0002-2756-8750"
+            },
+            "institutions": [
+              {
+                "name": "Carnegie Mellon University",
+                "ids": {
+                  "openalex": "I74973139",
+                  "ror": "05x2bcf33"
+                },
+                "source": "openalex",
+                "source_id": "W7223752309",
+                "year": 2023
+              }
+            ]
+          },
+          {
+            "name": "Elaine Shi",
+            "ids": {
+              "openalex": "A5089202539",
+              "orcid": "0000-0002-5605-1048"
+            },
+            "institutions": [
+              {
+                "name": "Carnegie Mellon University",
+                "ids": {
+                  "openalex": "I74973139",
+                  "ror": "05x2bcf33"
+                },
+                "source": "openalex",
+                "source_id": "W7223752309",
+                "year": 2023
+              }
+            ]
+          },
+          {
+            "name": "Hao Chung",
+            "ids": {
+              "openalex": "A5056778643",
+              "orcid": "0009-0001-7617-3560"
+            },
+            "institutions": [
+              {
+                "name": "Carnegie Mellon University",
+                "ids": {
+                  "openalex": "I74973139",
+                  "ror": "05x2bcf33"
+                },
+                "source": "openalex",
+                "source_id": "W7223752309",
+                "year": 2023
+              }
+            ]
+          }
+        ],
+        "venue": "ITCS",
+        "year": 2024,
+        "doi": "10.4230/lipics.itcs.2024.98",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2024.98",
+        "kind": "conference-paper",
+        "source_ids": {
+          "publisher": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2024.98",
+          "openalex": "W7223752309"
+        },
+        "is_retracted": false
+      },
+      "source": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2024.98",
+      "checked_at": "2026-11-07"
+    },
+    "extra-008": {
+      "metadata": {
+        "title": "Designing Multidimensional Blockchain Fee Markets",
+        "authors": [
+          {
+            "name": "Theo Diamandis",
+            "ids": {
+              "openalex": "A5090116188",
+              "orcid": "0000-0003-0657-5959"
+            },
+            "institutions": [
+              {
+                "name": "MIT Computer Science and Artificial Intelligence Laboratory",
+                "ids": {
+                  "openalex": "I4405258931",
+                  "ror": "01e85r662"
+                },
+                "source": "openalex",
+                "source_id": "W4297993368",
+                "year": 2022
+              }
+            ]
+          },
+          {
+            "name": "Alex Evans",
+            "ids": {
+              "openalex": "A5101619865",
+              "orcid": "0000-0002-8549-0146"
+            },
+            "institutions": []
+          },
+          {
+            "name": "Tarun Chitra",
+            "ids": {
+              "openalex": "A5082358070",
+              "orcid": "0000-0002-2298-4827"
+            },
+            "institutions": []
+          },
+          {
+            "name": "Guillermo Angeris",
+            "ids": {
+              "openalex": "A5027565638",
+              "orcid": "0000-0002-4950-3990"
+            },
+            "institutions": []
+          }
+        ],
+        "venue": "AFT",
+        "year": 2023,
+        "doi": "10.4230/lipics.aft.2023.4",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.4",
+        "kind": "conference-paper",
+        "source_ids": {
+          "publisher": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.4",
+          "openalex": "W4297993368"
+        },
+        "is_retracted": false
+      },
+      "source": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.4",
+      "checked_at": "2026-11-07"
+    }
+  }
+}

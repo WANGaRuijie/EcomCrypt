@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE dblp SYSTEM "dblp.dtd">
+<dblp>
+<inproceedings mdate="2024-01-02" key="conf/ccs/EyalS14">
+<author orcid="0000-0001-0000-0000">Ittay Eyal</author>
+<author>Emin G&uuml;n Sirer 0001</author>
+<title>Majority Is Not Enough: Bitcoin Mining Is Vulnerable.</title>
+<pages>436-454</pages>
+<year>2014</year>
+<booktitle>Financial Cryptography</booktitle>
+<ee>https://doi.org/10.1007/978-3-662-45472-5_28</ee>
+<crossref>conf/fc/2014</crossref>
+</inproceedings>
+<www mdate="2020-01-01" key="homepages/1/2"><author>X</author><title>Home Page</title></www>
+<article mdate="2023-05-01" key="journals/corr/abs-2301-00001" publtype="informal">
+<author>Alice Doe</author>
+<title>A <i>Game-Theoretic</i> Study of Rollup Sequencers</title>
+<journal>CoRR</journal><volume>abs/2301.00001</volume><year>2023</year>
+<ee type="oa">https://doi.org/10.48550/arXiv.2301.00001</ee>
+</article>
+<article mdate="2023-05-01" key="journals/access/Foo23">
+<author>Bob Roe</author>
+<title>Blockchain Incentives for Edge Computing.</title>
+<journal>IEEE Access</journal><year>2023</year>
+<ee>https://doi.org/10.1109/ACCESS.2023.1234567</ee>
+</article>
+<article mdate="2010-05-01" key="journals/tcs/Old05">
+<author>Carol</author><title>Old Paper on Blockchain.</title><journal>Theor. Comput. Sci.</journal><year>2005</year>
+</article>
+<proceedings mdate="2014-01-01" key="conf/fc/2014"><title>FC 2014</title><year>2014</year></proceedings>
+</dblp>

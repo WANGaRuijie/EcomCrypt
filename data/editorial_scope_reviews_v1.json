@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "policy": "Evidence-backed editorial scope exclusions or holds take precedence over automatic model adoption. These are scope decisions, not scientific-quality judgments. Match exact DOI or source identifier, never title alone. No rule can bypass metadata or quality checks.",
+  "records": [
+    {
+      "doi": "10.1145/3576915.3623194",
+      "source_ids": {
+        "openalex": "W4388858756"
+      },
+      "title": "Fait Accompli Committee Selection: Improving the Size-Security Tradeoff of Stake-Based Committees",
+      "decision": "exclude",
+      "reviewer": "supervisor",
+      "date": "2026-11-07",
+      "reason": "Primary contribution is low-variance committee sampling and probabilistic size-security bounds under an assumed corrupted stake fraction. The Cardano incentive discussion contextualizes observed stake distributions; it does not establish a substantive strategic/economic model, equilibrium or incentive-design result of this paper. Outside the current intersection; not a quality rejection.",
+      "sources": [
+        "https://www.pure.ed.ac.uk/ws/portalfiles/portal/442175307/Ga_iEtalCCS2023FaitAccompliCommitteeSelection.pdf"
+      ],
+      "locators": [
+        "Publisher PDF abstract and problem definition, pp.845-846",
+        "Empirical stake-distribution discussion, pp.856-857"
+      ]
+    },
+    {
+      "doi": "10.1145/1011767.1011781",
+      "source_ids": {
+        "openalex": "W2040940409"
+      },
+      "decision": "review",
+      "reason": "Primary paper establishes strategyproof distributed implementation and a rational-manipulation fault model, applied to interdomain routing. It is valuable distributed mechanism design, but whether this general compliance result meets the requested cryptography/security intersection remains unresolved. No automatic adoption or quality rejection; do not expand scope to all rational distributed algorithms based on venue or model label.",
+      "sources": [
+        "https://dash.harvard.edu/entities/publication/73120378-8b7e-6bd4-e053-0100007fdf3b",
+        "https://econcs.seas.harvard.edu/files/econcs/files/podc04.pdf"
+      ],
+      "reviewer": "supervisor",
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "doi": "10.5750/jpm.v3i1.451",
+      "source_ids": {
+        "openalex": "W1536126393"
+      },
+      "decision": "exclude",
+      "reason": "Primary publisher and paper describe an LMSR prediction-market implementation and corporate Microsoft markets. AMM formulae and numerical anti-cheating safeguards alone establish neither a blockchain application nor a substantive game-theory/cryptography/security intersection. Keep as an out-of-scope background reference, not a quality rejection or an unrequested foundational exception.",
+      "sources": [
+        "https://www.ubplj.org/index.php/jpm/article/view/451",
+        "https://www.ubplj.org/index.php/jpm/article/download/451/489/1429"
+      ],
+      "reviewer": "supervisor",
+      "reviewed_at": "2026-11-07",
+      "metadata_note": "Publisher page date2012andissue/PDF2009are retained as observations; no canonical year is selected for this excluded item."
+    },
+    {
+      "doi": "10.1142/s021902491850053x",
+      "source_ids": {
+        "openalex": "W2592068898"
+      },
+      "decision": "review",
+      "reviewer": "supervisor",
+      "reviewed_at": "2026-11-07",
+      "reason": "Primary manuscript derives double-spend success probabilities, incomplete-beta formulas, asymptotics and confirmation-time risk conditional on fixed attacker hashpower. This is mathematically substantive, but a payoff, incentive, equilibrium or economic-choice contribution has not been established. Current intersection requires that further evidence; do not admit solely because the venue is Finance or the attack involves money. No quality rejection or unrequested foundational exception.",
+      "sources": [
+        "https://webusers.imj-prg.fr/~ricardo.perez-marco/publications/articles/doublespend2.pdf",
+        "https://arxiv.org/abs/1702.02867"
+      ],
+      "locators": [
+        "Primary fulltext abstract/introduction/theorems1-6 and mining-race model, pp1-7. Further sections prove conditional probabilities and asymptotic bounds."
+      ]
+    },
+    {
+      "doi": "10.1016/j.jfds.2025.100171",
+      "source_ids": {
+        "openalex": "W4416028825"
+      },
+      "decision": "review",
+      "reviewer": "supervisor",
+      "reviewed_at": "2026-11-07",
+      "reason": "Primary paper is a dynamicDiDevent study of22crime events and governance-token prices,volumes and capitalization. No substantive incentive,mechanism,strategy or equilibrium contribution is established by the inspected abstract,problem framing and methods/results. Retain as adjacent background/scope-review rather than automatically broadening EconCS to all cryptoasset event studies. Not a quality rejection; original modelaccepted label retained.",
+      "sources": [
+        "https://arxiv.org/html/2510.00669v1"
+      ],
+      "locators": [
+        "Abstract and introduction contributions",
+        "Methods4;Results5"
+      ]
+    },
+    {
+      "doi": "10.1109/icbc67748.2026.11575537",
+      "source_ids": {
+        "openalex": "W7166823138",
+        "arxiv": "2603.23480"
+      },
+      "decision": "exclude",
+      "reviewer": "supervisor",
+      "reviewed_at": "2026-11-07",
+      "reason": "Inspected officialarXivabstract,SectionsIV-VI and institutional accepted-paper record. Contribution is statistical stablecoin/cryptocurrency volatility prediction and risk-targeting portfolio backtests using copulas/GARCH/XGBoost. No substantive mechanism design,strategic interaction,equilibrium or crypto/security-game contribution established. Outside the requested narrow intersection; not a judgment that the source or statistical research is low quality. Original modelcorelabel preserved.",
+      "sources": [
+        "https://arxiv.org/html/2603.23480v1",
+        "https://spiral.imperial.ac.uk/entities/publication/5d96b8b1-1dee-4c8a-b942-b73aa91b34ce"
+      ],
+      "locators": [
+        "Abstract and introduction",
+        "IVData",
+        "VMethodology",
+        "VIResults"
+      ]
+    },
+    {
+      "doi": "10.5195/ledger.2016.62",
+      "source_ids": {
+        "openalex": "W2563649753"
+      },
+      "title": "Governance in Blockchain Technologies & Social Contract Theories",
+      "decision": "exclude",
+      "reviewer": "supervisor",
+      "date": "2026-11-07",
+      "reason": "Read primary research objectives, governance justification, sovereignty comparison and conclusion (sections1,3-5). Contribution is a philosophical comparison of Hobbes/Rousseau/Rawls and Ethereum governance rhetoric. Game-theoretical presuppositions are discussed but no substantive strategic game, incentives mechanism, or equilibrium contribution is established. Outside requested intersection governance scope; no quality/reputation judgment. Missing indexed abstract was not treated as exclusion evidence.",
+      "sources": [
+        "https://ledgerjournal.org/ojs/ledger/article/view/62",
+        "https://ledgerjournal.org/ojs/ledger/article/download/62/51/381"
+      ],
+      "locators": [
+        "PDF pp134-135 research objectives",
+        "PDF p141 discussion of game-theoretical presuppositions",
+        "PDF pp147-148 conclusion and political-philosophy future agenda"
+      ],
+      "metadata_observations": {
+        "title_comparison": "Crossref &amp; versus literal & is an HTML-entity encoding difference; fixed normalization, raw observations preserved.",
+        "doi": "Landing page and Crossref agree10.5195/ledger.2016.62; PDF prints10.5915/LEDGER.2016.62, retained as conflicting printed observation, not silently corrected in raw input."
+      }
+    }
+  ]
+}

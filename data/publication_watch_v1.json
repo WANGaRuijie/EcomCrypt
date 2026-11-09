@@ -1,0 +1,2327 @@
+{
+  "records": {
+    "discovered-55d803be210c802e750febe7": {
+      "10.4230/lipics.aft.2024.20": {
+        "source": "publisher",
+        "source_id": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.20",
+        "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.20",
+        "title": "Optimizing Exit Queues for Proof-Of-Stake Blockchains: A Mechanism Design Approach",
+        "doi": "10.4230/lipics.aft.2024.20",
+        "year": 2024,
+        "venue": "6th Conference on Advances in Financial Technologies (AFT 2024)",
+        "kind": "conference-paper",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.20",
+        "authors": [
+          {
+            "name": "Michael Neuder",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Mallesh Pai",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Max Resnick",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "abstract": "Byzantine fault-tolerant consensus protocols have provable safety and liveness properties for static validator sets. In practice, however, the validator set changes over time, potentially eroding the protocol’s security guarantees. For example, systems with accountable safety may lose some of that accountability over time as adversarial validators exit. As a result, protocols must rate limit entry and exit so that the set changes slowly enough to ensure security. Here, the system designer faces a fundamental trade-off. The harder it is to exit the system, the less attractive staking becomes; alternatively, the easier it is to exit the system, the less secure the protocol will be.\r\nThis paper provides the first systematic study of exit queues for Proof-of-Stake blockchains. Given a collection of validator-set consistency constraints imposed by the protocol, the social planner’s goal is to provide a constrained-optimal mechanism that minimizes disutility for the participants. We introduce the MINSLACK mechanism, a dynamic capacity first-come-first-served queue in which the amount of stake that can exit in a period depends on the number of previous exits and the consistency constraints. We show that MINSLACK is optimal when stakers equally value the processing of their withdrawal. When stakers values are heterogeneous, the optimal mechanism resembles a priority queue with dynamic capacity. However, this mechanism must reserve exit capacity for the future in case a staker with a much higher need for liquidity arrives. We conclude with a survey of known consistency constraints and highlight the diversity of existing exit mechanisms.",
+        "related_dois": [],
+        "is_retracted": false
+      }
+    },
+    "discovered-08f3197385e6f8b2553feadc": {
+      "10.4230/lipics.aft.2023.13": {
+        "source": "publisher",
+        "source_id": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.13",
+        "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.13",
+        "title": "Decentralization Cheapens Corruptive Majority Attacks",
+        "doi": "10.4230/lipics.aft.2023.13",
+        "year": 2023,
+        "venue": "5th Conference on Advances in Financial Technologies (AFT 2023)",
+        "kind": "conference-paper",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.13",
+        "authors": [
+          {
+            "name": "Stephen H. Newman",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "abstract": "Corruptive majority attacks, in which mining power is distributed among miners and an attacker attempts to bribe a majority of miners into participation in a majority attack, pose a threat to blockchains. Budish bounded the cost of bribing miners to participate in an attack by their expected loss as a result of attack success. We show that this bound is loose. In particular, an attack may be structured so that under equilibrium play by most miners, a miner’s choice to participate only slightly affects the attack success chance. Combined with the fact that most of the cost of attack success is externalized by any given small miner, this implies that if most mining power is controlled by small miners, bribing miners to participate in such an attack is much cheaper than the Budish bound. We provide a scheme for a cheap corruptive majority attack and discuss practical concerns and consequences.",
+        "related_dois": [],
+        "is_retracted": false
+      }
+    },
+    "discovered-2a654108c2bed70c8dae8cc1": {
+      "10.4230/lipics.aft.2023.25": {
+        "source": "publisher",
+        "source_id": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.25",
+        "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.25",
+        "title": "Strategic Liquidity Provision in Uniswap V3",
+        "doi": "10.4230/lipics.aft.2023.25",
+        "year": 2023,
+        "venue": "5th Conference on Advances in Financial Technologies (AFT 2023)",
+        "kind": "conference-paper",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.25",
+        "authors": [
+          {
+            "name": "Zhou Fan",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Francisco Marmolejo-Cossio",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Daniel Moroz",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Michael Neuder",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Rithvik Rao",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "David C. Parkes",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "abstract": "Uniswap v3 is the largest decentralized exchange for digital currencies. A novelty of its design is that it allows a liquidity provider (LP) to allocate liquidity to one or more closed intervals of the price of an asset instead of the full range of possible prices. An LP earns fee rewards proportional to the amount of its liquidity allocation when prices move in this interval. This induces the problem of strategic liquidity provision: smaller intervals result in higher concentration of liquidity and correspondingly larger fees when the price remains in the interval, but with higher risk as prices may exit the interval leaving the LP with no fee rewards. Although reallocating liquidity to new intervals can mitigate this loss, it comes at a cost, as LPs must expend gas fees to do so. We formalize the dynamic liquidity provision problem and focus on a general class of strategies for which we provide a neural network-based optimization framework for maximizing LP earnings. We model a single LP that faces an exogenous sequence of price changes that arise from arbitrage and non-arbitrage trades in the decentralized exchange. We present experimental results informed by historical price data that demonstrate large improvements in LP earnings over existing allocation strategy baselines. Moreover we provide insight into qualitative differences in optimal LP behaviour in different economic environments.",
+        "related_dois": [],
+        "is_retracted": false
+      }
+    },
+    "discovered-b1a3e2cbc665ae1845f54355": {
+      "10.4230/lipics.itcs.2024.81": {
+        "source": "publisher",
+        "source_id": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2024.81",
+        "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2024.81",
+        "title": "A Myersonian Framework for Optimal Liquidity Provision in Automated Market Makers",
+        "doi": "10.4230/lipics.itcs.2024.81",
+        "year": 2024,
+        "venue": "15th Innovations in Theoretical Computer Science Conference (ITCS 2024)",
+        "kind": "conference-paper",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2024.81",
+        "authors": [
+          {
+            "name": "Jason Milionis",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Ciamac C. Moallemi",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Tim Roughgarden",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "abstract": "In decentralized finance (\"DeFi\"), automated market makers (AMMs) enable traders to programmatically exchange one asset for another. Such trades are enabled by the assets deposited by liquidity providers (LPs). The goal of this paper is to characterize and interpret the optimal (i.e., profit-maximizing) strategy of a monopolist liquidity provider, as a function of that LP’s beliefs about asset prices and trader behavior. We introduce a general framework for reasoning about AMMs based on a Bayesian-like belief inference framework, where LPs maintain an asset price estimate, which is updated by incorporating traders' price estimates. In this model, the market maker (i.e., LP) chooses a demand curve that specifies the quantity of a risky asset to be held at each dollar price. Traders arrive sequentially and submit a price bid that can be interpreted as their estimate of the risky asset price; the AMM responds to this submitted bid with an allocation of the risky asset to the trader, a payment that the trader must pay, and a revised internal estimate for the true asset price. We define an incentive-compatible (IC) AMM as one in which a trader’s optimal strategy is to submit its true estimate of the asset price, and characterize the IC AMMs as those with downward-sloping demand curves and payments defined by a formula familiar from Myerson’s optimal auction theory. We generalize Myerson’s virtual values, and characterize the profit-maximizing IC AMM. The optimal demand curve generally has a jump that can be interpreted as a \"bid-ask spread,\" which we show is caused by a combination of adverse selection risk (dominant when the degree of information asymmetry is large) and monopoly pricing (dominant when asymmetry is small). This work opens up new research directions into the study of automated exchange mechanisms from the lens of optimal auction theory and iterative belief inference, using tools of theoretical computer science in a novel way.",
+        "related_dois": [],
+        "is_retracted": false
+      }
+    },
+    "discovered-5e4fc03d83cc4bbdb9ff746a": {
+      "10.4230/lipics.aft.2025.23": {
+        "source": "publisher",
+        "source_id": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2025.23",
+        "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2025.23",
+        "title": "Transaction Fee Market Design for Parallel Execution",
+        "doi": "10.4230/lipics.aft.2025.23",
+        "year": 2025,
+        "venue": "7th Conference on Advances in Financial Technologies (AFT 2025)",
+        "kind": "conference-paper",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2025.23",
+        "authors": [
+          {
+            "name": "Bahar Acilan",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Andrei Constantinescu",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Lioba Heimbach",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Roger Wattenhofer",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "abstract": "Given the low throughput of blockchains like Bitcoin and Ethereum, scalability - the ability to process an increasing number of transactions - has become a central focus of blockchain research. One promising approach is the parallelization of transaction execution across multiple threads. However, achieving efficient parallelization requires a redesign of the incentive structure within the fee market. Currently, the fee market does not differentiate between transactions that access multiple high-demand storage keys (i.e., unique identifiers for individual data entries) versus a single low-demand one, as long as they require the same computational effort. Addressing this discrepancy is crucial for enabling more effective parallel execution.\n\nIn this work, we aim to bridge the gap between the current fee market and the need for parallel execution by exploring alternative fee market designs. To this end, we propose a framework consisting of two key components: a Gas Computation Mechanism (GCM), which quantifies the load a transaction places on the network in terms of parallelization and computation, measured in units of gas, and a Transaction Fee Mechanism (TFM), which assigns a price to each unit of gas. We additionally introduce a set of desirable properties for a GCM, propose several candidate mechanisms, and evaluate them against these criteria. Our analysis highlights two strong candidates: the weighted area GCM, which integrates smoothly with existing TFMs such as EIP‑1559 and satisfies a broad subset of the outlined properties, and the time-proportional makespan GCM, which assigns gas costs based on the context of the entire block’s schedule and, through this dependence on the overall execution outcome, captures the dynamics of parallel execution more accurately.",
+        "related_dois": [],
+        "is_retracted": false
+      }
+    },
+    "discovered-ed7c3b8ad0420e0fb075f549": {
+      "10.4230/lipics.aft.2025.7": {
+        "source": "publisher",
+        "source_id": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2025.7",
+        "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2025.7",
+        "title": "Mechanism Design for Automated Market Makers",
+        "doi": "10.4230/lipics.aft.2025.7",
+        "year": 2025,
+        "venue": "7th Conference on Advances in Financial Technologies (AFT 2025)",
+        "kind": "conference-paper",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2025.7",
+        "authors": [
+          {
+            "name": "T-H. Hubert Chan",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Ke Wu",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Elaine Shi",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "abstract": "Blockchains have popularized automated market makers (AMMs), applications that run on a blockchain, maintain a pool of crypto-assets, and execute trades with users governed by some pricing function. AMMs have also introduced a significant challenge known as the Miner Extractable Value (MEV). Specifically, miners who control the contents and sequencing of transactions in a block can extract value by front-running and back-running users' transactions, creating arbitrage opportunities that guarantee them risk-free returns. MEV not only harms ordinary users, but more critically, encourages miners to auction off favorable transaction placements to users and arbitragers. This has fostered a more centralized off-chain eco-system, departing from the decentralized equilibrium originally envisioned for the blockchain infrastructure layer. \n\nIn this paper, we consider how to design AMM mechanisms that eliminate MEV opportunities. Specifically, we propose a new AMM mechanism that processes all transactions contained within a block according to some pre-defined rules, ensuring that some constant potential function is maintained after processing the batch. We show that our new mechanism satisfies two tiers of guarantees. First, for legacy blockchains where each block is proposed by a single (possibly rotating) miner, we prove that our mechanism satisfies arbitrage resilience, i.e., a miner cannot gain risk-free profit. Second, for blockchains where the block proposal process is decentralized and offers sequencing-fairness, we prove a strictly stronger notion called strategy proofness - roughly speaking, we guarantee that any individual user’s best response is to follow the honest strategy. \n\nOur results complement prior works on MEV resilience in the following senses. First, prior works have shown impossibilities to address MEV entirely at the consensus level. Our work demonstrates a new paradigm of mechanism design at the application (i.e., smart contract) layer to ensure provable guarantees of strategy proofness. Second, many works have attempted to augment the underlying consensus protocol with extra properties such as sequencing fairness. While most previous works heuristically argued why these extra properties help to mitigate MEV, our work demonstrates in a mathematically formal manner how to leverage such consensus-level properties to aid the design of strategy-proof mechanisms.",
+        "related_dois": [],
+        "is_retracted": false
+      }
+    },
+    "discovered-dac189c64261213b73749a43": {
+      "10.4230/lipics.aft.2026.18": {
+        "source": "publisher",
+        "source_id": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.18",
+        "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.18",
+        "title": "Credible Auctions via MPC Gadgets: Bounding Information Leakage Under Abort",
+        "doi": "10.4230/lipics.aft.2026.18",
+        "year": 2026,
+        "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+        "kind": "conference-paper",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.18",
+        "authors": [
+          {
+            "name": "Matheus V. X. Ferreira",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "abstract": "The design of credible auctions - mechanisms where a revenue-maximizing auctioneer has no incentive to deviate from the protocol - faces a fundamental cryptographic barrier when the auctioneer controls shill bidders. While a natural approach is to use Secure Multi-Party Computation (MPC) to remove the trusted auctioneer, Cleve’s (1986) impossibility of fair coin flipping implies that monolithic MPC protocols grant the auctioneer a \"free option\": they can learn the auction’s outcome and unilaterally abort if the revenue is unsatisfactory. Previous attempts to mitigate this abort asymmetry using cryptographic commitments and ex-ante penalties fail for heavy-tailed distributions. We overcome this impossibility by introducing the MPC Decomposition Principle. Rather than encrypting the entire mechanism, we use MPC strictly as an information-restriction tool. We isolate the winner determination problem into a minimal MPC gadget that computes and reveals the winner’s identity but no payment information. This qualitative restriction mathematically bounds the information leaked upon an abort. By combining this gadget with sequential revelation and finite economic penalties, we design the Sequential Revelation Auction (SRA). We prove that bounding the information leakage strictly bounds the value of the free option, showing that a penalty of κ ≥ ∑_{i=1}^n Rev(F_i) is sufficient for credibility, and tight in the worst case: for the equal-revenue distribution - where this threshold coincides exactly with the optimal revenue - every smaller penalty admits a profitable deviation. Leveraging low-round-complexity MPC, the SRA resolves an open question of [Akbarpour and Li, 2020] and [Ferreira and Weinberg, 2020] by providing the first constant-round, incentive-compatible, revenue-optimal credible auction for all product distributions.",
+        "related_dois": [],
+        "is_retracted": false
+      }
+    },
+    "discovered-eadcde8a125ec53bbc89f00d": {
+      "10.4230/lipics.aft.2026.21": {
+        "source": "publisher",
+        "source_id": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.21",
+        "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.21",
+        "title": "Towards Decentralized Searcher Competition in MEV Markets",
+        "doi": "10.4230/lipics.aft.2026.21",
+        "year": 2026,
+        "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+        "kind": "conference-paper",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.21",
+        "authors": [
+          {
+            "name": "Roozbeh Sarenche",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Yunwen Liu",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "abstract": "Centralization in maximal extractable value (MEV) markets is a significant concern for blockchain systems, as persistent concentration of economic power can weaken competition, reduce openness, and undermine the decentralization goals of permissionless protocols. While much of the existing analysis has focused on builders, validators, and block-building markets, this paper studies centralization from the perspective of searcher competition. We develop a heterogeneous model in which searchers differ in opportunity coverage and execution efficiency, and we analyze how auction design affects fairness, decentralization, and security among searchers competing for the same MEV opportunity.\n\nTo evaluate searcher competition, we introduce two metrics: a Shapley-weighted Jain fairness index, which measures whether rewards are proportional to searchers' marginal contributions, and an expected-reward Herfindahl-Hirschman Index (HHI), which measures concentration in long-run searcher rewards. Using these metrics, we first analyze the standard first-price, winner-take-all auction as a benchmark. Our analysis shows that, under searcher heterogeneity, first-price competition can reward rank dominance rather than marginal contribution, leading to concentrated rewards and weaker contribution-adjusted fairness.\n\nMotivated by these limitations, we propose an entry-filtered Shapley-capped auction mechanism that distributes searcher rewards more fairly and broadly among admitted high-quality submissions. Designing such a mechanism in a permissionless blockchain environment is challenging: searchers may create Sybil identities by submitting copied or degraded versions of the same execution strategy, and validators may collude with searchers to increase joint payoff. We address these concerns through Bayesian security constraints for copied-code Sybil deviations and validator-searcher coalition deviations, and show that suitable parameter choices make the Shapley-capped mechanism secure against both.\n\nWe complement the theoretical analysis with numerical benchmarks and Ethereum on-chain data. The theoretical benchmarks show that the proposed mechanism is especially effective in centralized opportunity classes, where first-price competition concentrates rewards among a small set of searchers. They further indicate that the proposed mechanism is a potential improvement over first-price competition in empirically motivated opportunity types.",
+        "related_dois": [],
+        "is_retracted": false
+      }
+    },
+    "discovered-1d1963630b8c4de6a9257316": {
+      "10.4230/lipics.aft.2026.25": {
+        "source": "publisher",
+        "source_id": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.25",
+        "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.25",
+        "title": "The Price of Decentralization in Block Building",
+        "doi": "10.4230/lipics.aft.2026.25",
+        "year": 2026,
+        "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+        "kind": "conference-paper",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.25",
+        "authors": [
+          {
+            "name": "Burak Öz",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Fei Wu",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Luis Correia",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Sen Yang",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Bruno Mazorra",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Stefanos Leonardos",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "abstract": "Decentralized block building mechanisms replace the monopoly of a single proposer with multiple builders. However, their censorship-resistance and fair-access benefits depend not only on the number of builders, but also on where builders are geographically positioned to provide transaction coverage. We study this tension between builder location choice, user transaction coverage, and utility concentration by modeling decentralized block building as a stochastic coverage game. Builders choose regions, information sources emit transactions over a block construction round, and latency determines whether a transaction is received before the deadline.\n\nWe show that the game is an exact potential game and admits a pure Nash equilibrium. We prove an asymptotically tight factor-2 bound on the Price of Anarchy, which we interpret as the price of decentralization from uncoordinated builder placement. We also study builder utility concentration, showing that the lowest-utility builder earns at least half of the highest-utility builder’s payoff, and the utility-share HHI is at most 12.5% above the egalitarian benchmark. We complement the theory with simulations under richer latency and source environments and show that slot times, builder participation, and reward-sharing rules are important protocol design choices that can shape the price of decentralization.",
+        "related_dois": [],
+        "is_retracted": false
+      }
+    },
+    "discovered-3eb87392933e4d11eb574b13": {
+      "10.4230/lipics.aft.2026.26": {
+        "source": "publisher",
+        "source_id": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.26",
+        "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.26",
+        "title": "Price of Censorship: Censorship Resistance and Throughput Under Rational Concurrent Proposers",
+        "doi": "10.4230/lipics.aft.2026.26",
+        "year": 2026,
+        "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+        "kind": "conference-paper",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.26",
+        "authors": [
+          {
+            "name": "Aditya Saraf",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Ioannis Kaklamanis",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Sarisht Wadhwa",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Fatima Elsheimy",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "abstract": "Censorship resistance is the defining advantage of blockchains over their centralized counterparts. Yet block proposers censor transactions for many reasons, from legal consequences to economic incentives. We study economically-incentivized censorship, modeled by an adversary who bribes proposers to exclude a target transaction, and define the economic censorship resistance (eCR) of a transaction as the adversary’s expected cost of successful censorship divided by the user’s expected payment for inclusion. Single-proposer systems are structurally weak by this measure: under a first-price auction the adversary need only match the user’s bid, and fee burning pushes eCR to a few percent of what the user pays.\n\nWe therefore turn to multiple concurrent proposers (MCP), where block capacity is divided among n proposers and the block is the union of their sub-blocks.While MCP can substantially increase the cost of censorship by requiring the adversary to bribe many proposers, it also introduces transaction duplication, reducing throughput. The resulting trade-off depends critically on the transaction fee mechanism (TFM), which determines how fees are shared among competing proposers.\n\nWe create a game theoretic model where validators construct blocks from a shared mempool, subject to an adversary’s bribery attempt. We provide an algorithm that solves for the mixed equilibrium of a given mempool, which is characterized by the probability of including each transaction. This algorithm works for a wide class of TFMs, and allows us to calculate the expected throughput and censorship resistance for any bid distribution. We then use simulations to show how the eCR and throughput vary as the number of proposers increases. We compare three TFMs, finding that the duplication-penalizing TFM dominates the others across many settings. We also validate our findings with empirical Ethereum data.\n\nWe find that MCP systems enjoy much higher eCR than single proposer systems. While burnt user fees can significantly lower eCR, eCR scales linearly with the number of validators, and thus strong eCR can be achieved even in the presence of significant burn. Overall, our results show that MCP systems are, with the correct TFM, significantly more robust to censorship.",
+        "related_dois": [],
+        "is_retracted": false
+      }
+    },
+    "discovered-f3827fc381d925c667311a08": {
+      "10.4230/lipics.aft.2026.35": {
+        "source": "publisher",
+        "source_id": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.35",
+        "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.35",
+        "title": "Price Elasticity of Gas Demand on L1 and L2: Evidence from Ethereum and Arbitrum",
+        "doi": "10.4230/lipics.aft.2026.35",
+        "year": 2026,
+        "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+        "kind": "conference-paper",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.35",
+        "authors": [
+          {
+            "name": "Pranay Anchuri",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Akaki Mamageishvili",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "abstract": "We estimate the causal price elasticity of gas demand on Ethereum mainnet (L1) and Arbitrum One (L2), a quantity necessary for calibrating fee mechanism simulations, evaluating resource pricing reforms, and explaining observed usage patterns. A two-way fixed effects panel regression instrumented by each wallet’s own lagged base fee removes the congestion-driven endogeneity that causes naive regressions to substantially underestimate demand sensitivity. On Ethereum mainnet (full year 2025), the pooled IV elasticity is -0.006^{***}, near-inelastic: a 10% fee increase reduces total gas demand by approximately 0.06%. On Arbitrum One (October 2025-April 2026), the pooled IV elasticity is -0.036^{**}. Both chains are inelastic in the aggregate, with L2 measurably more responsive than L1. A per-resource decomposition of L2 demand reveals elasticities ranging from modestly elastic computation (-0.027^{*}) to -0.27^{***} for refunds, with storage growth (-0.15^{***}) and calldata (-0.06^{*}) in between. Behavioral clustering identifies always-on protocol wallets as near-inelastic and high-volume operators as substantially more responsive, with cluster-level elasticities up to roughly 6× the pooled estimate. These results establish an empirical foundation for downstream simulations and for evaluating fee mechanism designs.",
+        "related_dois": [],
+        "is_retracted": false
+      }
+    },
+    "discovered-5be1a267a36546ae47afc3d7": {
+      "10.4230/lipics.aft.2026.6": {
+        "source": "publisher",
+        "source_id": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.6",
+        "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.6",
+        "title": "Reserve Depletion and Security Runway in Proof-of-Stake Systems",
+        "doi": "10.4230/lipics.aft.2026.6",
+        "year": 2026,
+        "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+        "kind": "conference-paper",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.6",
+        "authors": [
+          {
+            "name": "Paolo Penna",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Manvir Schneider",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "abstract": "Many proof-of-stake protocols finance validator rewards from two sources: transaction fees and a finite reserve of native tokens. This creates a dynamic hand-off problem. Early in the life of the system, fees may be too small to fund the target level of security; later, fees may become sufficient. The central question is whether the reserve provides enough runway for the protocol to remain secure until this fee-only region is reached. We study this problem in a discrete-time stochastic model of validator participation. Token price and transaction demand fluctuate over time, while validators choose participation strategically in each state. We solve the validator entry game in closed form and derive an exact state-dependent reserve threshold: for every token price and demand state, the threshold is the minimal reserve stock necessary and sufficient to sustain a target security level. This threshold separates three regions: infeasibility, reserve-dependent security, and fee-only security. The threshold turns reserve adequacy into a hitting-time problem. Security fails when the reserve first falls below the state-dependent threshold, and a successful hand-off occurs exactly when the fee-only region is reached before that failure time. We derive conservative finite-horizon stress-test guarantees that convert lower confidence bands for token price and demand into reserve requirements, and under lognormal price-demand dynamics we obtain explicit failure-probability and expected hand-off-time bounds. Finally, we extend the model to forward-looking validators and derive the Markov participation condition that captures how current participation affects future reserve-funded rewards. The main implication is that reserve policy should not be evaluated by nominal depletion dates or steady-state reward ratios alone. A protocol can have a large nominal reserve and still be close to security failure after adverse price or demand shocks. Conversely, once demand crosses the fee-only threshold, the reserve becomes redundant for security. This paper provides a tractable equilibrium framework for stress-testing this transition.",
+        "related_dois": [],
+        "is_retracted": false
+      }
+    },
+    "discovered-ca77aefd85076d4f91bc16d4": {
+      "10.4230/lipics.aft.2024.19": {
+        "source": "publisher",
+        "source_id": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.19",
+        "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.19",
+        "title": "Credible, Optimal Auctions via Public Broadcast",
+        "doi": "10.4230/lipics.aft.2024.19",
+        "year": 2024,
+        "venue": "6th Conference on Advances in Financial Technologies (AFT 2024)",
+        "kind": "conference-paper",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.19",
+        "authors": [
+          {
+            "name": "Tarun Chitra",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Matheus V. X. Ferreira",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Kshitij Kulkarni",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "abstract": "We study auction design in a setting where agents can communicate over a censorship-resistant broadcast channel like the ones we can implement over a public blockchain. We seek to design credible, strategyproof auctions in a model that differs from the traditional mechanism design framework because communication is not centralized via the auctioneer. We prove this allows us to design a larger class of credible auctions where the auctioneer has no incentive to be strategic. Intuitively, a decentralized communication model weakens the auctioneer’s adversarial capabilities because they can only inject messages into the communication channel but not delete, delay, or modify the messages from legitimate buyers. Our main result is a separation in the following sense: we give the first instance of an auction that is credible only if communication is decentralized. Moreover, we construct the first two-round auction that is credible, strategyproof, and optimal when bidder valuations are α-strongly regular, for α > 0. Our result relies on mild assumptions - namely, the existence of a broadcast channel and cryptographic commitments.",
+        "related_dois": [],
+        "is_retracted": false
+      }
+    },
+    "discovered-332db8062ea9fc7816a1bf9f": {
+      "10.4230/lipics.aft.2023.19": {
+        "source": "publisher",
+        "source_id": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.19",
+        "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.19",
+        "title": "Censorship Resistance in On-Chain Auctions",
+        "doi": "10.4230/lipics.aft.2023.19",
+        "year": 2023,
+        "venue": "5th Conference on Advances in Financial Technologies (AFT 2023)",
+        "kind": "conference-paper",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.19",
+        "authors": [
+          {
+            "name": "Elijah Fox",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Mallesh M. Pai",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Max Resnick",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "abstract": "Modern blockchains guarantee that submitted transactions will be included eventually; a property formally known as liveness. But financial activity requires transactions to be included in a timely manner. Classical liveness does not guarantee this, particularly in the presence of a motivated adversary who benefits from censoring transactions. We define censorship resistance as the amount it would cost the adversary to censor a transaction for a fixed interval of time as a function of the associated tip. This definition has two advantages, first it captures the fact that transactions with a higher miner tip can be more costly to censor, and therefore are more likely to swiftly make their way onto the chain. Second, it applies to a finite time window, so it can be used to assess whether a blockchain is capable of hosting financial activity that relies on timely inclusion. \n\nWe apply this definition in the context of auctions. Auctions are a building block for many financial applications, and censoring competing bids offers an easy-to-model motivation for our adversary. Traditional proof-of-stake blockchains have poor enough censorship resistance that it is difficult to retain the integrity of an auction when bids can only be submitted in a single block. As the number of bidders n in a single block auction increases, the probability that the winner is not the adversary, and the economic efficiency of the auction, both decrease faster than 1/n. Running the auction over multiple blocks, each with a different proposer, alleviates the problem only if the number of blocks grows faster than the number of bidders. We argue that blockchains with more than one concurrent proposer can have strong censorship resistance. We achieve this by setting up a prisoner’s dilemma among the proposers using conditional tips.",
+        "related_dois": [],
+        "is_retracted": false
+      }
+    },
+    "discovered-0dbf83c5fc61d65c51bcbf05": {
+      "10.4230/lipics.aft.2023.30": {
+        "source": "publisher",
+        "source_id": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.30",
+        "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.30",
+        "title": "Time Is Money: Strategic Timing Games in Proof-Of-Stake Protocols",
+        "doi": "10.4230/lipics.aft.2023.30",
+        "year": 2023,
+        "venue": "5th Conference on Advances in Financial Technologies (AFT 2023)",
+        "kind": "conference-paper",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.30",
+        "authors": [
+          {
+            "name": "Caspar Schwarz-Schilling",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Fahad Saleh",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Thomas Thiery",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Jennifer Pan",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Nihar Shah",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Barnabé Monnot",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "abstract": "We propose a model suggesting that rational consensus participants may play timing games, and strategically delay their block proposal to optimize MEV capture, while still ensuring the proposal’s inclusion in the canonical chain. In this context, ensuring economic fairness among consensus participants is critical to preserving decentralization. We contend that a model grounded in rational consensus participation provides a more accurate portrayal of behavior in economically incentivized systems such as blockchain protocols. We empirically investigate timing games on the Ethereum network and demonstrate that while timing games are worth playing, they are not currently being exploited by consensus participants. By quantifying the marginal value of time, we uncover strong evidence pointing towards their future potential, despite the limited exploitation of MEV capture observed at present.",
+        "related_dois": [],
+        "is_retracted": false
+      }
+    },
+    "discovered-fdcc77b0260b2279f7943632": {
+      "10.4230/lipics.itcs.2024.51": {
+        "source": "publisher",
+        "source_id": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2024.51",
+        "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2024.51",
+        "title": "An Axiomatic Characterization of CFMMs and Equivalence to Prediction Markets",
+        "doi": "10.4230/lipics.itcs.2024.51",
+        "year": 2024,
+        "venue": "15th Innovations in Theoretical Computer Science Conference (ITCS 2024)",
+        "kind": "conference-paper",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2024.51",
+        "authors": [
+          {
+            "name": "Rafael Frongillo",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Maneesha Papireddygari",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Bo Waggoner",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "abstract": "Constant-function market makers (CFMMs), such as Uniswap, are automated exchanges offering trades among a set of assets. We study their technical relationship to another class of automated market makers, cost-function prediction markets. We first introduce axioms for market makers and show that CFMMs with concave potential functions characterize \"good\" market makers according to these axioms. We then show that every such CFMM on n assets is equivalent to a cost-function prediction market for events with n outcomes. Our construction directly converts a CFMM into a prediction market, and vice versa. Using this equivalence, we give another construction which can produce any 1-homogenous, increasing, and concave CFMM, as are typically used in practice, from a cost function.\n\nConceptually, our results show that desirable market-making axioms are equivalent to desirable information-elicitation axioms, i.e., markets are good at facilitating trade if and only if they are good at revealing beliefs. For example, we show that every CFMM implicitly defines a proper scoring rule for eliciting beliefs; the scoring rule for Uniswap is unusual, but known. From a technical standpoint, our results show how tools for prediction markets and CFMMs can interoperate. We illustrate this interoperability by showing how liquidity strategies from both literatures transfer to the other, yielding new market designs.",
+        "related_dois": [],
+        "is_retracted": false
+      }
+    },
+    "discovered-a761e3513f1e8ed55314bd29": {
+      "10.4230/lipics.aft.2025.24": {
+        "source": "publisher",
+        "source_id": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2025.24",
+        "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2025.24",
+        "title": "Multidimensional Blockchain Fees Are (Essentially) Optimal",
+        "doi": "10.4230/lipics.aft.2025.24",
+        "year": 2025,
+        "venue": "7th Conference on Advances in Financial Technologies (AFT 2025)",
+        "kind": "conference-paper",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2025.24",
+        "authors": [
+          {
+            "name": "Guillermo Angeris",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Theo Diamandis",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Ciamac C. Moallemi",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "primary_byline": [
+          "Guillermo Angeris",
+          "Theo Diamandis",
+          "Ciamac Moallemi"
+        ],
+        "byline_normalization": "Retain existing directory display Ciamac C. Moallemi for the same ordered third author of the same DOI/title; publisher byline without middle initial is preserved separately. No new identity IDs inferred.",
+        "editorial_review": {
+          "decision": "correct_existing_work_publication_metadata",
+          "basis": "Official publisher gives exact DOI/title, ordered three-author byline and publication date2025-10-06. Existing record had this same formal DOI but stale arXiv venue,2024 year and preprint type. Content adoption unchanged; this is a bibliographic correction, not a new work."
+        }
+      }
+    },
+    "discovered-cffbb459324bd2e8690e5252": {
+      "10.1007/978-3-032-07024-1_11": {
+        "source": "publisher",
+        "source_id": "https://link.springer.com/chapter/10.1007/978-3-032-07024-1_11",
+        "source_url": "https://link.springer.com/chapter/10.1007/978-3-032-07024-1_11",
+        "title": "Proophi: A ZKP Market Mechanism",
+        "primary_title": "Proo\\upvarphi: A ZKP Market Mechanism",
+        "doi": "10.1007/978-3-032-07024-1_11",
+        "year": 2026,
+        "event_year": 2025,
+        "venue": "FC",
+        "kind": "conference-paper",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-07024-1_11",
+        "authors": [
+          {
+            "name": "Wenhao Wang",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Lulu Zhou",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Aviv Yaish",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Fan Zhang",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Ben Fisch",
+            "ids": {},
+            "institutions": []
+          },
+          {
+            "name": "Benjamin Livshits",
+            "ids": {},
+            "institutions": []
+          }
+        ],
+        "editorial_review": {
+          "decision": "upgrade_preprint_of_existing_adopted_work",
+          "basis": "Author official bibliography links the formal Springer chapter. Ordered6-author byline and model/abstract match; publisher gives publication2026-01-02 forFC2025,pp180-196. Retain conference year2025 separately from publication year2026. This is not a new work or a claim of completed fresh merit review.",
+          "source": "https://aviv.yai.sh/"
+        }
+      }
+    }
+  },
+  "coverage": [
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-397",
+      "status": "ok",
+      "records": 66,
+      "pages_checked": 67
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-397",
+      "status": "ok",
+      "records": 66,
+      "pages_checked": 67
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-397",
+      "status": "ok",
+      "records": 66,
+      "pages_checked": 67
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-397",
+      "status": "ok",
+      "records": 66,
+      "pages_checked": 67
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-397",
+      "status": "ok",
+      "records": 66,
+      "pages_checked": 67
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-397",
+      "status": "ok",
+      "records": 66,
+      "pages_checked": 67
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-397",
+      "status": "ok",
+      "records": 66,
+      "pages_checked": 67
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-397",
+      "status": "ok",
+      "records": 66,
+      "pages_checked": 67
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-397",
+      "status": "ok",
+      "records": 66,
+      "pages_checked": 67
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-397",
+      "status": "ok",
+      "records": 66,
+      "pages_checked": 67
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-397",
+      "status": "ok",
+      "records": 66,
+      "pages_checked": 67
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-354",
+      "status": "ok",
+      "records": 35,
+      "pages_checked": 36
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-395",
+      "status": "ok",
+      "records": 36,
+      "pages_checked": 37
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-362",
+      "status": "ok",
+      "records": 118,
+      "pages_checked": 119
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-325",
+      "status": "ok",
+      "records": 96,
+      "pages_checked": 97
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316",
+      "status": "ok",
+      "records": 30,
+      "pages_checked": 31
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-282",
+      "status": "ok",
+      "records": 31,
+      "pages_checked": 32
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-397",
+      "status": "ok",
+      "records": 66,
+      "pages_checked": 67
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-287",
+      "status": "ok",
+      "records": 103,
+      "pages_checked": 104
+    }
+  ]
+}

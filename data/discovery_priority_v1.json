@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "policy": "User-prioritized identities first, then unfinished author cursors, then unvisited ranked authors. A visited first page is not a completed bibliography. Candidates still require independent scope, contribution and publication review.",
+  "authors": [
+    {
+      "name": "Bo Li",
+      "openalex": "A5100374364",
+      "orcid": "0000-0001-7500-8355",
+      "basis": "UseridentifiedJCOomission;PolyUprimaryprofileORCIDandOxfordhistorypluspublisherorderedbylinevalidatecachedjournalworkidentity.",
+      "source": "https://research.polyu.edu.hk/en/persons/bo-li/"
+    },
+    {
+      "name": "Aviv Yaish",
+      "openalex": "A5047798226",
+      "basis": "Existing ORCID0000-0002-7971-2494 and coauthored primary papers; user priority2026-11-07",
+      "source": "https://aviv.yai.sh/"
+    },
+    {
+      "name": "Ke Wu",
+      "openalex": "A5103275698",
+      "basis": "Existinggs050identity with Chung/Shi and ORCID0000-0002-2756-8750; do not select other same-name IDs",
+      "source": "https://kewucs.com/publications/"
+    },
+    {
+      "name": "Andrew Chi-Chih Yao",
+      "openalex": "A5076560802",
+      "basis": "Exact Bitcoin fee paper byline and indexed author identity; user priority2026-11-07",
+      "source": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2020.1"
+    },
+    {
+      "name": "Vassilis Zikas",
+      "openalex": "A5014862413",
+      "orcid": "0000-0002-5422-7572",
+      "basis": "Existing adopted RPD papers and ordered DISC2015 primary byline; Purdue bibliography independently confirms rational protocol, fairness and collusion research.",
+      "source": "https://www.cs.purdue.edu/homes/vzikas/"
+    },
+    {
+      "name": "Lin William Cong",
+      "openalex": "A5080547297",
+      "orcid": "0000-0002-2617-2367",
+      "basis": "Existing RFS mining-pool paper and official author bibliography; Cornell profile/ORCID support finance identity.",
+      "source": "https://www.linwilliamcong.com/research"
+    }
+  ],
+  "seed_work_ids": [
+    "extra-017",
+    "extra-018",
+    "extra-012",
+    "extra-013",
+    "extra-014",
+    "extra-015",
+    "discovered-6ec17700a4b44d1d642ea3ee",
+    "gs-050",
+    "discovered-edd2d2ea10f764c54808c72c",
+    "discovered-da5bfed3b9497b04c3f3191b",
+    "discovered-fc2eda68545b54384ab9ea40"
+  ],
+  "candidate_seeds": [
+    {
+      "title": "The Economics of Blockchain Governance: Evaluate Liquid Democracy on the Internet Computer",
+      "doi": "10.1109/qrs-c63300.2024.00038",
+      "source": "https://arxiv.org/abs/2404.13768",
+      "status": "formal_metadata_verified_contribution_review_pending",
+      "topic_ids": [
+        "governance"
+      ],
+      "reason": "Explicit blockchain staking-reward/cooperation model; inspect assumptions and incremental contribution before adopting."
+    },
+    {
+      "title": "Blockchain Governance and Liquid Democracy – Quantifying Decentralization in Gitcoin and Internet Computer",
+      "source": "https://schmiste.github.io/applied24.pdf",
+      "status": "discovery_only_strategic_contribution_review_pending",
+      "topic_ids": [
+        "governance"
+      ],
+      "reason": "Blockchain voting-power/delegation evidence; concentration measurement alone does not establish a strategic contribution."
+    },
+    {
+      "title": "When is liquid democracy possible? On the manipulation of variance.",
+      "doi": "10.1145/3732772.3733544",
+      "source": "https://eprint.iacr.org/2025/745",
+      "status": "discovery_only_scope_review_pending",
+      "topic_ids": [
+        "governance"
+      ],
+      "reason": "FormalPODC2025version identified; general delegation theory is a citation-discovery anchor,not automatically an EconCS-blockchain paper."
+    },
+    {
+      "title": "Perfect Implementation of Normal-Form Mechanisms",
+      "source": "https://people.csail.mit.edu/silvio/CV.pdf",
+      "status": "discovery_only_scope_and_version_review_pending",
+      "topic_ids": [
+        "rational-cryptography"
+      ],
+      "reason": "Related extended work appears in author references; exact formal version identity must be recovered."
+    },
+    {
+      "title": "Perfect Concrete Implementation of Arbitrary Mechanisms",
+      "source": "https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Mechanism%20Design/Perfect%20Concrete%20Implementation%20of%20Arbitrary%20Mechanisms.pdf",
+      "status": "discovery_only_scope_and_version_review_pending",
+      "topic_ids": [
+        "rational-cryptography"
+      ],
+      "reason": "Author-hosted related paper; contribution and publication metadata not yet reconciled."
+    },
+    {
+      "title": "Verifiably Secure Devices (and Correlated Equilibrium)",
+      "source": "https://people.csail.mit.edu/silvio/CV.pdf",
+      "status": "discovery_only_scope_and_version_review_pending",
+      "topic_ids": [
+        "rational-cryptography"
+      ],
+      "reason": "AuthorCVlistsTCC2008; references contain inconsistent year strings. Keep raw observation,do not infer canonical DOI or year."
+    },
+    {
+      "title": "How to Make Rational Arguments Practical and Extractable",
+      "source": "https://www.csa.iisc.ac.in/~chaya/",
+      "status": "discovery_only_scope_and_version_review_pending",
+      "topic_ids": [
+        "rational-cryptography"
+      ],
+      "reason": "Author page listsIACRCommunicationsinCryptology2024,Issue1. Candidate scope/content must still be reviewed; no automaticadoption."
+    },
+    {
+      "title": "Decentralized Funding of Public Goods in Blockchain System: Leveraging Expert Advice",
+      "doi": "10.1109/tcc.2024.3394973",
+      "year": 2024,
+      "venue": "IEEE Transactions on Cloud Computing",
+      "authors": [
+        "Jichen Li",
+        "Yukun Cheng",
+        "Wenhan Huang",
+        "Mengqian Zhang",
+        "Jiarui Fan",
+        "Xiaotie Deng",
+        "Jan Xie",
+        "Jie Zhang"
+      ],
+      "source": "https://purehost.bath.ac.uk/ws/portalfiles/portal/329401170/Decentralized_Funding_of_Public_Goods_in_Blockchain_System_Leveraging_Expert_Advice.pdf",
+      "reason": "Bath repository peer-reviewed manuscript and author publication list confirm8authorjournalversion,12(2):725-736. Separate scope/version review; not automatically adopted.",
+      "status": "primary_scope_and_version_review_pending",
+      "topic_ids": [
+        "economics"
+      ]
+    },
+    {
+      "title": "A Game-Theoretic Analysis of Delegation Incentives in Blockchain Governance",
+      "doi": "10.1007/978-3-031-25734-6_17",
+      "year": 2023,
+      "venue": "CBT",
+      "authors": [
+        "Lyudmila Kovalchuk",
+        "Mariia Rodinko",
+        "Roman Oliynykov"
+      ],
+      "source": "https://link.springer.com/chapter/10.1007/978-3-031-25734-6_17",
+      "primary_manuscript": "https://www.iog.io/api/research/pdf/CF7ZDQAK",
+      "status": "primary_model_and_targeted_venue_contribution_review_pending",
+      "reason": "Publisherverifiesformal2023CBT2022chapter,notLNCSvenue. IOG15pmanuscript has explicitdelegation/briberysequentialgameandmoral-utilityparameters;19pformalchapter/model/proofconditions stillneedreview. Nontransitivedelegationmodel should not be advertised as a general liquid-democracycyclegame.",
+      "topic_ids": [
+        "governance"
+      ]
+    },
+    {
+      "title": "Maximal information propagation via lotteries",
+      "doi": "10.55092/blockchain20230003",
+      "year": 2023,
+      "venue": "Blockchain",
+      "authors": [
+        "Jing Chen",
+        "Bo Li"
+      ],
+      "source": "https://www.elspub.com/doi/10.55092/blockchain20230003",
+      "primary_pdf": "https://pdf.elspublishing.com/paper/journal/open/BC/2023/blockchain20230003.pdf",
+      "status": "targeted_journal_edition_primary_contribution_review_pending",
+      "reason": "BoLiownhomepageandpublisherconfirmjournaledition;separateformalversioncountonlyafterindividualcontribution/versionreview,notautomaticfromconferenceacceptance.",
+      "topic_ids": [
+        "economics",
+        "economic-security"
+      ]
+    },
+    {
+      "title": "On the economics of anonymity",
+      "year": 2003,
+      "venue": "FC",
+      "doi": null,
+      "authors_raw": [
+        "Acquisti A.",
+        "Dingledine R.",
+        "Syverson P."
+      ],
+      "source": "https://academic.oup.com/cybersecurity/article-pdf/3/2/127/23721609/tyx007.pdf",
+      "locator": "Reference9,p134",
+      "discovery_lane": "citation_from_primary_reviewed_paper",
+      "status": "primary_scope_contribution_and_formal_metadata_review_pending",
+      "reason": "Primaryreviewedarticlecitesanonymityparticipationincentivesandadoptiondynamics;potentialgame-theoreticsecurityintersection. Citationyear/venueareunverifiedsearchhints,notfinalmetadata.",
+      "primary_followup": {
+        "title": "On the Economics of Anonymity",
+        "doi": "10.1007/978-3-540-45126-6_7",
+        "year": 2003,
+        "venue": "FC",
+        "status": "primary_model_and_formal_version_clarification_pending",
+        "scope": "Substantivegame-theoreticsecurityconfirmed:mix-net participation/free-riding/anonymouscommunication;notexcludedfornoBlockchain.",
+        "reason": "Read19pageFreeHavenauthorcopySections3-5andpublisherformalrecord. Conditionalparticipationgamehaspassiveadversary/fixedroutes/commonanonymitybeliefsimplifications. MyopicAgentsdisplayedcomparisonusesless-than fornegativepayoffwhileprosedescribespayoffchoice;needvisual/formal-versionclarificationbeforeendorsingspecificinequalities. Notproofmaincontributioninvalid;notqualityorscopeexclusion. Exactequilibrianeedsystem-specificanonymityfunctions;do not claim universaldeploymentguarantee.",
+        "sources": [
+          "https://www.freehaven.net/doc/fc03/econymics.pdf",
+          "https://link.springer.com/chapter/10.1007/978-3-540-45126-6_7"
+        ],
+        "locator": "Authorcopypp9-12:myopicandstrategiccases;publisherFC2003/pp84-102/byline/DOI"
+      }
+    },
+    {
+      "title": "Trends, tips, tolls: a longitudinal study of Bitcoin transaction fees",
+      "year": 2015,
+      "venue": "BITCOIN workshop at FC",
+      "doi": null,
+      "authors_raw": [
+        "Möser M.",
+        "Böhme R."
+      ],
+      "source": "https://informationsecurity.uibk.ac.at/people/malte-moeser/",
+      "locator": "Authorinstitutionpublicationlist;reviewedarticleReference43",
+      "discovery_lane": "author_bibliography_and_citation",
+      "status": "primary_scope_contribution_and_formal_metadata_review_pending",
+      "reason": "Directhistoricalfee-marketmeasurementcandidatefromauthorlistandcitation;scope/technicalcontributionandworkshopDOIrequireindependentreview. NotautomaticallyaTFMmechanismdesignpaper.",
+      "editorial_resolution": {
+        "decision": "adopted_primary_verified_formal",
+        "work_id": "discovered-3166c97bab9173af2c6434a2",
+        "evidence": ".out/scheduled-curation/round-040/primary-reviews.json"
+      }
+    },
+    {
+      "title": "Collusion-Preserving Computation without a Mediator",
+      "source": null,
+      "status": "bibliography_verified_primary_contribution_review_pending",
+      "topic_ids": [
+        "rational-cryptography"
+      ],
+      "reason": "User nomination; topic suggestions require substantive confirmation. No DOI, author or year inferred.",
+      "editorial_review_required": true,
+      "primary_followup": {
+        "source_id": "W3030905162",
+        "title": "Collusion-Preserving Computation without a Mediator",
+        "doi": "10.1109/csf54842.2022.9919678",
+        "venue": "CSF",
+        "year": 2022,
+        "status": "bibliography_verified_primary_contribution_review_pending",
+        "basis": "Edinburgh institutional record and author GT list establish formal16pageCSF2022 edition and ordered MicheleCiampi,YunLu,VassilisZikas byline. Indexed LuYun is a reversed name, not an additional identity.",
+        "sources": [
+          "https://www.research.ed.ac.uk/en/publications/collusion-preserving-computation-without-a-mediator/",
+          "https://www.cc.gatech.edu/cv/vzikas3",
+          "https://eprint.iacr.org/2020/497.pdf"
+        ],
+        "source_failure": {
+          "url": "https://eprint.iacr.org/2020/497.pdf",
+          "status": "403; not bypassed"
+        },
+        "next_step": "Read an accessible primary conference/manuscript copy; verify hardware setup, abort penalties and incentive definitions. Abstract alone not adopted."
+      }
+    },
+    {
+      "title": "A Rational Protocol Treatment of 51% Attacks",
+      "source": null,
+      "status": "adopted_primary_verified_formal",
+      "topic_ids": [
+        "economic-security"
+      ],
+      "reason": "User nomination; topic suggestions require substantive confirmation. No DOI, author or year inferred.",
+      "editorial_resolution": {
+        "decision": "adopt",
+        "work_id": "discovered-606a526e5ea9385f060cde5c",
+        "report": ".out\\scheduled-curation\\round-051\\primary-reviews.json"
+      }
+    },
+    {
+      "title": "Fair Distributed Computation of Reactive Functions",
+      "source": null,
+      "status": "adopted_primary_verified_formal",
+      "topic_ids": [
+        "rational-cryptography"
+      ],
+      "reason": "User nomination; topic suggestions require substantive confirmation. No DOI, author or year inferred.",
+      "editorial_resolution": {
+        "decision": "adopt",
+        "work_id": "discovered-0a3108568d8d8f28687b42f4",
+        "report": ".out\\scheduled-curation\\round-050\\primary-reviews.json"
+      }
+    },
+    {
+      "title": "Incoercible Multi-Party Computation and Universally Composable Receipt-Free Voting",
+      "source": null,
+      "status": "adopted_primary_verified_formal",
+      "topic_ids": [
+        "rational-cryptography"
+      ],
+      "reason": "User nomination; topic suggestions require substantive confirmation. No DOI, author or year inferred.",
+      "editorial_resolution": {
+        "decision": "adopt",
+        "work_id": "discovered-bc3efcf462188b546fa198aa",
+        "report": ".out\\scheduled-curation\\round-052\\primary-reviews.json"
+      }
+    },
+    {
+      "title": "Profitable manipulations of cryptographic self-selection are statistically detectable",
+      "source": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CBUpEcQAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=CBUpEcQAAAAJ:JoZmwDi-zQgC",
+      "status": "already_catalogued_formal_bibliography_confirmed",
+      "topic_ids": [
+        "pos",
+        "economic-security"
+      ],
+      "reason": "User nomination; topic suggestions require substantive confirmation. No DOI, author or year inferred.",
+      "editorial_resolution": {
+        "decision": "already_in_catalogue_no_duplicate",
+        "work_id": "discovered-1e8a4843db8a647e95844b53",
+        "report": ".out\\scheduled-curation\\round-052\\primary-reviews.json",
+        "fresh_full_contribution_review": false
+      }
+    },
+    {
+      "title": "Revisiting the Primitives of Transaction Fee Mechanism Design",
+      "source": null,
+      "status": "adopted_primary_verified_formal",
+      "topic_ids": [
+        "tfm",
+        "rational-cryptography"
+      ],
+      "reason": "User nomination; topic suggestions require substantive confirmation. No DOI, author or year inferred.",
+      "editorial_resolution": {
+        "decision": "adopt",
+        "work_id": "discovered-4ccb1cb885a335b9613de949",
+        "report": ".out\\scheduled-curation\\round-052\\primary-reviews.json"
+      }
+    }
+  ],
+  "cached_author_review_queue": {
+    "path": ".out\\scheduled-curation\\round-060\\priority-author-review-frontier.json",
+    "policy": "Read unreviewed cached bibliographies first for terminal authors. Provider list completion is not contribution completion. Preserve earlier out/adjacent decisions until independent primary review."
+  },
+  "official_proceedings_review_queue": {
+    "path": ".out\\scheduled-curation\\round-054\\proceedings-review-queue.json",
+    "coverage_path": ".out\\scheduled-curation\\round-054\\proceedings-springer-toc.json",
+    "editorial_review_required": true
+  },
+  "failed_classification_evidence_queue": ".out\\scheduled-curation\\round-056\\failed-paid-batch-held.json"
+}

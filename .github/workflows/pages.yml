@@ -1,0 +1,56 @@
+name: Publish standalone Scholar Directory
+
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Publish the committed Scholar Directory to this dedicated repository's Pages site
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: scholar-directory-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: >-
+      inputs.publish && vars.SCHOLAR_PAGES_REPOSITORY == github.repository &&
+      github.ref_type == 'branch' && github.ref_name == github.event.repository.default_branch &&
+      !endsWith(github.event.repository.name, '.github.io')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Validate the committed directory
+        run: |
+          python -m unittest discover -s tests
+          python scripts/build.py check
+          test -s site/index.html
+      - name: Upload site files
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site/
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,24 @@
+name: Review recent proceedings
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: python scripts/publication_watch.py --discover-latest
+      - run: python scripts/build.py build
+      - run: python -m unittest discover -s tests
+      - uses: actions/upload-artifact@v7
+        with:
+          name: publication-review
+          path: |
+            data/publication_watch_v1.json
+            .out/recent-proceedings/graph.json
+            site/data/directory.json

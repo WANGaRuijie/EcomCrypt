@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "rubric": "2026-11-v2",
+  "basis": "Scope audit 2026-11-08 under SCREENING.md: the E x T crossing applied to another domain is out of scope. Applied at build time; ledger records retained (reversible).",
+  "records": [
+    {
+      "work_id": "discovered-57818c0ef0f5fa51fe3866c0",
+      "title": "Incentive Mechanism for Edge-Computing-Based Blockchain",
+      "year": 2020,
+      "venue": "IEEE Transactions on Industrial Informatics",
+      "doi": "10.1109/tii.2020.2973248",
+      "code": "application_domain",
+      "reason": "Edge-computing resource purchase by miners (user example of an excluded application)."
+    },
+    {
+      "work_id": "discovered-1065930188bb836541d70435",
+      "title": "Auction Mechanisms in Cloud/Fog Computing Resource Allocation for Public Blockchain Networks",
+      "year": 2019,
+      "venue": "IEEE Transactions on Parallel and Distributed Systems",
+      "doi": "10.1109/tpds.2019.2900238",
+      "code": "application_domain",
+      "reason": "Cloud/fog resource-allocation auctions for mobile mining: edge/fog application."
+    },
+    {
+      "work_id": "discovered-b57ddad8343e48a841a1bd10",
+      "title": "Edge computing based incentivizing mechanism for mobile blockchain in IOT",
+      "year": 2020,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2006.08915",
+      "code": "application_domain",
+      "reason": "Edge-computing incentive mechanism for mobile blockchain in IoT: application domain."
+    },
+    {
+      "work_id": "discovered-e669089eadbac82ef6610974",
+      "title": "A Smart Contract based Crowdfunding Mechanism for Hierarchical Federated Learning",
+      "year": 2022,
+      "venue": "arXiv",
+      "doi": null,
+      "code": "application_domain",
+      "reason": "Blockchain crowdfunding for federated learning: application domain."
+    },
+    {
+      "work_id": "discovered-eaf5476bf57c36ddaf0bba70",
+      "title": "MLN-EIGS: A multilayer network framework for solving Stackelberg escape interdiction games on dynamic transportation networks",
+      "year": 2026,
+      "venue": "arXiv",
+      "doi": null,
+      "code": "application_domain",
+      "reason": "Interdiction games on transportation networks: physical/transport application, no cyber/crypto object."
+    },
+    {
+      "work_id": "discovered-784813d83e29bacb26757089",
+      "title": "Moving Target Defense for Robust Monitoring of Electric Grid Transformers in Adversarial Environments",
+      "year": 2020,
+      "venue": "arXiv",
+      "doi": null,
+      "code": "application_domain",
+      "reason": "Moving-target defense for electric-grid transformer monitoring: smart-grid application."
+    },
+    {
+      "work_id": "discovered-54ad3d03eced005a2670079a",
+      "title": "Resource Allocation and Pricing for Blockchain-enabled Metaverse: A Stackelberg Game Approach",
+      "year": 2025,
+      "venue": "arXiv",
+      "doi": null,
+      "code": "application_domain",
+      "reason": "Blockchain-enabled metaverse resource pricing: application domain."
+    },
+    {
+      "work_id": "discovered-f9c2a973453972cc402dc788",
+      "title": "Automated Market Making for Energy Sharing",
+      "year": 2025,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2512.24432",
+      "code": "application_domain",
+      "reason": "AMM theory applied to local energy-sharing markets: application domain."
+    },
+    {
+      "work_id": "discovered-7db81aa37a53b9877b3436c8",
+      "title": "Brief Announcement: Game Theoretical Framework for Analyzing Blockchains Robustness",
+      "year": 2020,
+      "venue": "DISC",
+      "doi": null,
+      "code": "duplicate",
+      "reason": "Brief announcement of the DISC 2021 full paper (ChatGPT review D1)."
+    },
+    {
+      "work_id": "discovered-7898631424b56ed145f97b6a",
+      "title": "Second Layer Network Impact on Bitcoin Mining Fees and Network Value",
+      "year": 2024,
+      "venue": "2024 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)",
+      "doi": null,
+      "code": "duplicate",
+      "reason": "Same study as the IEEE Blockchain 2024 paper on the Lightning Network and fees (ChatGPT review D3)."
+    },
+    {
+      "work_id": "discovered-17db6c22eab3a50fa6bcbad3",
+      "title": "Influence of Total Value Locked on the Yield Dynamics of Liquid Restaking Tokens",
+      "year": 2025,
+      "venue": "ICBC",
+      "doi": null,
+      "code": "duplicate",
+      "reason": "Three-page version of the ICBC 2025 paper on TVL and yield dynamics (ChatGPT review D4)."
+    }
+  ],
+  "kept_after_review": [
+    {
+      "title": "Queuing Without Patience: A Novel Transaction Selection Mechanism in Blockchain for IoT Enhancement",
+      "note": "Transaction-fee/selection mechanism for the blockchain itself; IoT is motivation only. Kept, borderline."
+    },
+    {
+      "title": "A Game Theoretic Model for Strategic Coopetition in Business Networks",
+      "note": "Economics of consortium blockchains themselves. Kept."
+    },
+    {
+      "title": "An Introduction to Decentralized Finance (DeFi)",
+      "note": "Introductory survey in a small journal; candidate for no_contribution. Kept pending user decision."
+    },
+    {
+      "title": "Cryptoeconomics and Tokenomics as Economics: A Survey with Opinions",
+      "note": "Survey with original positions at ICBC; kept pending user decision."
+    }
+  ]
+}

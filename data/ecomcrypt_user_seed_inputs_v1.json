@@ -1,0 +1,997 @@
+{
+  "schema_version": 1,
+  "policy": "Preserve user input and suggested topics. These are unverified discovery seeds, not automatically projected into the public catalog.",
+  "records": [
+    {
+      "work_id": "user-ecomcrypt-001",
+      "topic_ids": [
+        "rational-cryptography"
+      ],
+      "raw_input": {
+        "title": "Collusion-Preserving Computation without a Mediator",
+        "source_url": null,
+        "annotation": "User-provided seed; exact original title retained. Await primary bibliographic and scope verification."
+      },
+      "verification": {
+        "status": "unverified",
+        "metadata": null,
+        "queries": [],
+        "evidence": [],
+        "conflicts": []
+      },
+      "primary_source_nominations": [
+        "https://eprint.iacr.org/2020/497",
+        "https://www.research.ed.ac.uk/en/publications/collusion-preserving-computation-without-a-mediator/"
+      ],
+      "review_status": "bibliography_verified_primary_contribution_review_pending",
+      "editorial_review_required": true,
+      "primary_followup": {
+        "source_id": "W3030905162",
+        "title": "Collusion-Preserving Computation without a Mediator",
+        "doi": "10.1109/csf54842.2022.9919678",
+        "venue": "CSF",
+        "year": 2022,
+        "status": "bibliography_verified_primary_contribution_review_pending",
+        "basis": "Edinburgh institutional record and author GT list establish formal16pageCSF2022 edition and ordered MicheleCiampi,YunLu,VassilisZikas byline. Indexed LuYun is a reversed name, not an additional identity.",
+        "sources": [
+          "https://www.research.ed.ac.uk/en/publications/collusion-preserving-computation-without-a-mediator/",
+          "https://www.cc.gatech.edu/cv/vzikas3",
+          "https://eprint.iacr.org/2020/497.pdf"
+        ],
+        "source_failure": {
+          "url": "https://eprint.iacr.org/2020/497.pdf",
+          "status": "403; not bypassed"
+        },
+        "next_step": "Read an accessible primary conference/manuscript copy; verify hardware setup, abort penalties and incentive definitions. Abstract alone not adopted."
+      }
+    },
+    {
+      "work_id": "user-ecomcrypt-002",
+      "topic_ids": [
+        "economic-security"
+      ],
+      "raw_input": {
+        "title": "A Rational Protocol Treatment of 51% Attacks",
+        "source_url": null,
+        "annotation": "User-provided seed; exact original title retained. Await primary bibliographic and scope verification."
+      },
+      "verification": {
+        "status": "verified",
+        "metadata": {
+          "source": "publisher",
+          "source_id": "10.1007/978-3-030-84252-9_1",
+          "source_url": "https://link.springer.com/chapter/10.1007/978-3-030-84252-9_1",
+          "source_ids": {
+            "openalex": "W3184292106"
+          },
+          "title": "A Rational Protocol Treatment of 51% Attacks",
+          "year": 2021,
+          "doi": "10.1007/978-3-030-84252-9_1",
+          "venue": "CRYPTO",
+          "kind": "conference-paper",
+          "url": "https://doi.org/10.1007/978-3-030-84252-9_1",
+          "formal_publication": true,
+          "authors": [
+            {
+              "name": "Christian Badertscher",
+              "ids": {
+                "openalex": "A5055514533",
+                "orcid": "0000-0002-1353-1922"
+              },
+              "institutions": []
+            },
+            {
+              "name": "Yun Lu",
+              "ids": {
+                "orcid": "0000-0002-0098-0577"
+              },
+              "institutions": []
+            },
+            {
+              "name": "Vassilis Zikas",
+              "ids": {
+                "openalex": "A5014862413",
+                "orcid": "0000-0002-5422-7572"
+              },
+              "institutions": []
+            }
+          ]
+        },
+        "versions": [],
+        "conflicts": [],
+        "editorial_review": {
+          "reviewer": "supervisor",
+          "date": "2026-11-08",
+          "decision": "adopt",
+          "scope": "blockchain_economic_security",
+          "merit_reason": "Read the official CRYPTO conference text, focusing on Sections2–6, utility definitions and attack/mitigation theorem statements. It identifies a long-horizon payoff artifact, constructs bounded-horizon mining incentives and derives conditional double-spend profitability and confirmation-depth bounds. Assumptions include fixed-difficulty, bounded-delay mining, modeled costs/payoffs and eventual unprofitability. The mitigation provides attack-payoff security, explicitly not its strong variant, and trades longer confirmation delay for robustness. Ethereum Classic examples illustrate chosen parameters rather than independently validate all real attacks. This is substantive game-theoretic cryptographic security, not a pure consensus-engineering paper. Complete proofs are deferred to the full version; no proof audit or universal majority-attack protection is claimed.",
+          "metadata_source": "https://link.springer.com/chapter/10.1007/978-3-030-84252-9_1",
+          "sources": [
+            "https://link.springer.com/chapter/10.1007/978-3-030-84252-9_1",
+            "https://iacr.org/archive/crypto2021/12826137/12826137.pdf"
+          ],
+          "locators": [
+            "Conference paper Sections2–6; Definition5; Theorems1–4; final distinction between strong and ordinary attack-payoff security",
+            "Springer formal CRYPTO2021 metadata: ordered3authors,11Aug2021,pp3–32"
+          ],
+          "review_depth": "Model, contribution and theorem/assumption review of conference text; not full-version proof certification"
+        },
+        "index_result": {
+          "status": "source_observation_with_resolved_discrepancies",
+          "metadata": {
+            "source": "openalex",
+            "source_id": "W3184292106",
+            "source_url": "https://openalex.org/W3184292106",
+            "title": "A Rational Protocol Treatment of 51% Attacks",
+            "year": 2021,
+            "doi": "10.1007/978-3-030-84252-9_1",
+            "venue": "Lecture notes in computer science",
+            "primary_location_venue": "Lecture notes in computer science",
+            "authors": [
+              {
+                "name": "Christian Badertscher",
+                "ids": {
+                  "openalex": "A5055514533",
+                  "orcid": "0000-0002-1353-1922"
+                },
+                "institutions": []
+              },
+              {
+                "name": "Yun Lu",
+                "ids": {
+                  "orcid": "0000-0002-0098-0577"
+                },
+                "institutions": [
+                  {
+                    "name": "University of Edinburgh",
+                    "ids": {
+                      "openalex": "I98677209",
+                      "ror": "01nrxwf90"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Vassilis Zikas",
+                "ids": {
+                  "openalex": "A5014862413",
+                  "orcid": "0000-0002-5422-7572"
+                },
+                "institutions": [
+                  {
+                    "name": "Purdue University West Lafayette",
+                    "ids": {
+                      "openalex": "I219193219",
+                      "ror": "02dqehb95"
+                    }
+                  }
+                ]
+              }
+            ],
+            "url": "https://doi.org/10.1007/978-3-030-84252-9_1",
+            "kind": "conference-paper",
+            "related_dois": [],
+            "is_retracted": false,
+            "abstract": "",
+            "query_url": "https://api.openalex.org/works?cursor=IlsxNjA5NDU5MjAwMDAwLCAxMDAuMCwgOTQsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzAxMzc4NzIyNyddIg%3D%3D&filter=authorships.author.id%3AA5075388037%7CA5089202539%7CA5022886322%7CA5029249775%7CA5027565638%7CA5073753740%7CA5068390911%7CA5086173064%7CA5005281401%7CA5048295129%7CA5058102069%7CA5090116188%7CA5085074451%7CA5053223081%7CA5079345097%7CA5074815438%7CA5014862413%7CA5005295367%7CA5018068523%7CA5040510553%7CA5079969658%7CA5090426330%7CA5064085132%7CA5056234812%7CA5041916584%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted%2Cabstract_inverted_index&sort=publication_date%3Adesc",
+            "retrieved_at": "2026-11-07"
+          }
+        },
+        "evidence": [
+          {
+            "source": "primary-publisher-or-author-copy",
+            "source_url": "https://link.springer.com/chapter/10.1007/978-3-030-84252-9_1",
+            "locator": "Conference paper Sections2–6; Definition5; Theorems1–4; final distinction between strong and ordinary attack-payoff security; Springer formal CRYPTO2021 metadata: ordered3authors,11Aug2021,pp3–32"
+          },
+          {
+            "source": "primary-publisher-or-author-copy",
+            "source_url": "https://iacr.org/archive/crypto2021/12826137/12826137.pdf",
+            "locator": "Conference paper Sections2–6; Definition5; Theorems1–4; final distinction between strong and ordinary attack-payoff security; Springer formal CRYPTO2021 metadata: ordered3authors,11Aug2021,pp3–32"
+          }
+        ],
+        "resolved_source_discrepancies": [
+          {
+            "field": "venue",
+            "indexed": "Lecture notes in computer science",
+            "resolved": "CRYPTO",
+            "basis": "https://link.springer.com/chapter/10.1007/978-3-030-84252-9_1"
+          }
+        ]
+      },
+      "primary_source_nominations": [
+        "https://eprint.iacr.org/2021/897"
+      ],
+      "review_status": "adopted_primary_verified_formal",
+      "editorial_resolution": {
+        "decision": "adopt",
+        "work_id": "discovered-606a526e5ea9385f060cde5c",
+        "report": ".out\\scheduled-curation\\round-051\\primary-reviews.json"
+      }
+    },
+    {
+      "work_id": "user-ecomcrypt-003",
+      "topic_ids": [
+        "rational-cryptography"
+      ],
+      "raw_input": {
+        "title": "Fair Distributed Computation of Reactive Functions",
+        "source_url": null,
+        "annotation": "User-provided seed; exact original title retained. Await primary bibliographic and scope verification."
+      },
+      "verification": {
+        "status": "verified",
+        "metadata": {
+          "source": "publisher",
+          "source_id": "10.1007/978-3-662-48653-5_33",
+          "source_url": "https://link.springer.com/chapter/10.1007/978-3-662-48653-5_33",
+          "title": "Fair Distributed Computation of Reactive Functions",
+          "year": 2015,
+          "doi": "10.1007/978-3-662-48653-5_33",
+          "venue": "DISC",
+          "kind": "conference-paper",
+          "url": "https://doi.org/10.1007/978-3-662-48653-5_33",
+          "formal_publication": true,
+          "authors": [
+            {
+              "name": "Juan Garay",
+              "ids": {
+                "openalex": "A5005281401",
+                "orcid": "0000-0003-0366-7110"
+              },
+              "institutions": []
+            },
+            {
+              "name": "Björn Tackmann",
+              "ids": {
+                "openalex": "A5055191549"
+              },
+              "institutions": []
+            },
+            {
+              "name": "Vassilis Zikas",
+              "ids": {
+                "openalex": "A5014862413",
+                "orcid": "0000-0002-5422-7572"
+              },
+              "institutions": []
+            }
+          ]
+        },
+        "versions": [],
+        "conflicts": [],
+        "editorial_review": {
+          "reviewer": "supervisor",
+          "date": "2026-11-08",
+          "decision": "adopt",
+          "scope": "game_theory_cryptographic_security",
+          "topic_ids": [
+            "rational-cryptography"
+          ],
+          "merit_reason": "Read the author-hosted conference paper Sections 2–4, construction and bound statements; Edinburgh and Springer establish DISC 2015, ordered byline and pages 497–512. A designer–attacker game extends utility-based fairness to stateful reactive computation, with authenticated shared state and randomized output reconstruction. The construction is two-party, synchronous and sequentially composed; this is not an equilibrium among all rational participants. Optimality is parameter-dependent, with a non-tight regime. The conference text defers theorem proofs to the full ePrint, which returned 403; no proof audit is claimed. Corollary 1 and the preceding theorem print different threshold expressions, so no blanket optimality claim is endorsed. The substantive contribution fits game theory × cryptographic security independently of blockchain applications.",
+          "sources": [
+            "https://cseweb.ucsd.edu/~btackmann/papers/GaTaZi15.pdf",
+            "https://link.springer.com/chapter/10.1007/978-3-662-48653-5_33",
+            "https://www.research.ed.ac.uk/en/publications/fair-distributed-computation-of-reactive-functions/"
+          ],
+          "locators": [
+            "Author conference copy Sections 2–4; Theorem 1, Lemmas 1–2 and Corollary 1",
+            "Institutional record: formal DISC 2015 metadata and DOI"
+          ],
+          "identity_enrichment": "Same DOI, ordered three-person byline and publication affiliations support indexed Juan A. Garay versus primary Juan Garay; primary short name retained. No general middle-initial inference.",
+          "review_depth": "conference text and model/contribution review; not full-version proof verification",
+          "unavailable_source": {
+            "url": "https://eprint.iacr.org/2015/807.pdf",
+            "status": "403; not bypassed"
+          }
+        },
+        "evidence": [
+          {
+            "source": "publisher-and-author",
+            "source_url": "https://cseweb.ucsd.edu/~btackmann/papers/GaTaZi15.pdf",
+            "locator": [
+              "Author conference copy Sections 2–4; Theorem 1, Lemmas 1–2 and Corollary 1",
+              "Institutional record: formal DISC 2015 metadata and DOI"
+            ]
+          },
+          {
+            "source": "publisher-and-author",
+            "source_url": "https://link.springer.com/chapter/10.1007/978-3-662-48653-5_33",
+            "locator": [
+              "Author conference copy Sections 2–4; Theorem 1, Lemmas 1–2 and Corollary 1",
+              "Institutional record: formal DISC 2015 metadata and DOI"
+            ]
+          },
+          {
+            "source": "publisher-and-author",
+            "source_url": "https://www.research.ed.ac.uk/en/publications/fair-distributed-computation-of-reactive-functions/",
+            "locator": [
+              "Author conference copy Sections 2–4; Theorem 1, Lemmas 1–2 and Corollary 1",
+              "Institutional record: formal DISC 2015 metadata and DOI"
+            ]
+          }
+        ]
+      },
+      "primary_source_nominations": [
+        "https://eprint.iacr.org/2015/807",
+        "https://www.research.ed.ac.uk/en/publications/fair-distributed-computation-of-reactive-functions/"
+      ],
+      "review_status": "adopted_primary_verified_formal",
+      "editorial_resolution": {
+        "decision": "adopt",
+        "work_id": "discovered-0a3108568d8d8f28687b42f4",
+        "report": ".out\\scheduled-curation\\round-050\\primary-reviews.json"
+      }
+    },
+    {
+      "work_id": "user-ecomcrypt-004",
+      "topic_ids": [
+        "rational-cryptography"
+      ],
+      "raw_input": {
+        "title": "Incoercible Multi-Party Computation and Universally Composable Receipt-Free Voting",
+        "source_url": null,
+        "annotation": "User-provided seed; exact original title retained. Await primary bibliographic and scope verification."
+      },
+      "verification": {
+        "status": "verified",
+        "metadata": {
+          "source": "publisher",
+          "source_id": "10.1007/978-3-662-48000-7_37",
+          "source_url": "https://research-explorer.ista.ac.at/record/1672",
+          "source_ids": {
+            "openalex": "W2295268597"
+          },
+          "title": "Incoercible Multi-Party Computation and Universally Composable Receipt-Free Voting",
+          "year": 2015,
+          "doi": "10.1007/978-3-662-48000-7_37",
+          "venue": "CRYPTO",
+          "kind": "conference-paper",
+          "url": "https://doi.org/10.1007/978-3-662-48000-7_37",
+          "authors": [
+            {
+              "name": "Joël Alwen",
+              "ids": {
+                "openalex": "A5049577191",
+                "orcid": "0000-0002-4473-903X"
+              },
+              "institutions": [
+                {
+                  "name": "Institute of Science and Technology Austria",
+                  "ids": {
+                    "openalex": "I157556583",
+                    "ror": "03gnh5541"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Rafail Ostrovsky",
+              "ids": {
+                "openalex": "A5020375635",
+                "orcid": "0000-0002-1501-1330"
+              },
+              "institutions": [
+                {
+                  "name": "University of California, Los Angeles",
+                  "ids": {
+                    "openalex": "I161318765",
+                    "ror": "046rm7j60"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Hong-Sheng Zhou",
+              "ids": {
+                "openalex": "A5030233265",
+                "orcid": "0000-0003-3534-6629"
+              },
+              "institutions": [
+                {
+                  "name": "Virginia Commonwealth University",
+                  "ids": {
+                    "openalex": "I184840846",
+                    "ror": "02nkdxk79"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Vassilis Zikas",
+              "ids": {
+                "openalex": "A5014862413",
+                "orcid": "0000-0002-5422-7572"
+              },
+              "institutions": [
+                {
+                  "name": "ETH Zurich",
+                  "ids": {
+                    "openalex": "I35440088",
+                    "ror": "05a28rw58"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "versions": [],
+        "conflicts": [],
+        "index_result": {
+          "status": "indexed_bibliographic_observation",
+          "metadata": {
+            "source": "openalex",
+            "source_id": "W2295268597",
+            "source_url": "https://openalex.org/W2295268597",
+            "title": "Incoercible Multi-party Computation and Universally Composable Receipt-Free Voting",
+            "year": 2015,
+            "doi": "10.1007/978-3-662-48000-7_37",
+            "venue": "Lecture notes in computer science",
+            "primary_location_venue": "Lecture notes in computer science",
+            "authors": [
+              {
+                "name": "Joël Alwen",
+                "ids": {
+                  "openalex": "A5049577191",
+                  "orcid": "0000-0002-4473-903X"
+                },
+                "institutions": [
+                  {
+                    "name": "Institute of Science and Technology Austria",
+                    "ids": {
+                      "openalex": "I157556583",
+                      "ror": "03gnh5541"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Rafail Ostrovsky",
+                "ids": {
+                  "openalex": "A5020375635",
+                  "orcid": "0000-0002-1501-1330"
+                },
+                "institutions": [
+                  {
+                    "name": "University of California, Los Angeles",
+                    "ids": {
+                      "openalex": "I161318765",
+                      "ror": "046rm7j60"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Hong-Sheng Zhou",
+                "ids": {
+                  "openalex": "A5030233265",
+                  "orcid": "0000-0003-3534-6629"
+                },
+                "institutions": [
+                  {
+                    "name": "Virginia Commonwealth University",
+                    "ids": {
+                      "openalex": "I184840846",
+                      "ror": "02nkdxk79"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Vassilis Zikas",
+                "ids": {
+                  "openalex": "A5014862413",
+                  "orcid": "0000-0002-5422-7572"
+                },
+                "institutions": [
+                  {
+                    "name": "ETH Zurich",
+                    "ids": {
+                      "openalex": "I35440088",
+                      "ror": "05a28rw58"
+                    }
+                  }
+                ]
+              }
+            ],
+            "url": "https://doi.org/10.1007/978-3-662-48000-7_37",
+            "kind": "conference-paper",
+            "related_dois": [],
+            "is_retracted": false,
+            "abstract": "",
+            "query_url": "https://api.openalex.org/works?cursor=IlsxNDI0OTA4ODAwMDAwLCA5Ni4wLCA2LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzIwMDk1MTgyNzQnXSI%3D&filter=authorships.author.id%3AA5075388037%7CA5089202539%7CA5022886322%7CA5029249775%7CA5027565638%7CA5073753740%7CA5068390911%7CA5086173064%7CA5005281401%7CA5048295129%7CA5058102069%7CA5090116188%7CA5085074451%7CA5053223081%7CA5079345097%7CA5074815438%7CA5014862413%7CA5005295367%7CA5018068523%7CA5040510553%7CA5079969658%7CA5090426330%7CA5064085132%7CA5056234812%7CA5041916584%2Cis_retracted%3Afalse&per_page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted%2Cabstract_inverted_index&sort=publication_date%3Adesc",
+            "retrieved_at": "2026-11-07"
+          }
+        },
+        "editorial_review": {
+          "reviewer": "supervisor",
+          "date": "2026-11-08",
+          "decision": "adopt",
+          "scope": "strategic_coercion_cryptographic_security",
+          "merit_reason": "Read the institutional18-page manuscript, especially coercion/deception definitions, composition and constructions. It formalizes local counterstrategies against vote buyers/coercers and informants, without requiring coerced parties to coordinate or know the corrupt set. This user-nominated work is a strategic-security foundation for preventing enforceable vote buying, not a generic encryption application. It uses simulation-based coercion resistance rather than a utility-maximizing Nash analysis; no rational-participation equilibrium is claimed. Construction assumptions include honest tamper-resistant encryption tokens, broadcast, static coercion/corruption and t+t′<n; security permits abort, and inherent output leakage remains. Proofs are deferred to the full version, so this review does not certify them.",
+          "sources": [
+            "https://research-explorer.ista.ac.at/record/1672",
+            "https://research-explorer.ista.ac.at/download/1672/7853/2015_CRYPTO_Alwen.pdf",
+            "https://link.springer.com/chapter/10.1007/978-3-662-48000-7_37"
+          ],
+          "locators": [
+            "Manuscript Sections2–5,Definition1,Theorems2–4",
+            "ISTA formal CRYPTO2015 record:ordered4authors,DOI,pp763–780"
+          ],
+          "review_depth": "Strategic coercion scope and model/contribution review; not full-proof verification",
+          "version_limit": "Institutional file explicitly labeled Submitted Version; formal publication identified independently, not asserted byte-identical."
+        },
+        "evidence": [
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://research-explorer.ista.ac.at/record/1672",
+            "locator": "Manuscript Sections2–5,Definition1,Theorems2–4; ISTA formal CRYPTO2015 record:ordered4authors,DOI,pp763–780"
+          },
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://research-explorer.ista.ac.at/download/1672/7853/2015_CRYPTO_Alwen.pdf",
+            "locator": "Manuscript Sections2–5,Definition1,Theorems2–4; ISTA formal CRYPTO2015 record:ordered4authors,DOI,pp763–780"
+          },
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://link.springer.com/chapter/10.1007/978-3-662-48000-7_37",
+            "locator": "Manuscript Sections2–5,Definition1,Theorems2–4; ISTA formal CRYPTO2015 record:ordered4authors,DOI,pp763–780"
+          }
+        ]
+      },
+      "primary_source_nominations": [
+        "https://www.iacr.org/archive/crypto2015/92160298/92160298.pdf"
+      ],
+      "review_status": "adopted_primary_verified_formal",
+      "editorial_resolution": {
+        "decision": "adopt",
+        "work_id": "discovered-bc3efcf462188b546fa198aa",
+        "report": ".out\\scheduled-curation\\round-052\\primary-reviews.json"
+      }
+    },
+    {
+      "work_id": "user-ecomcrypt-005",
+      "topic_ids": [
+        "pos",
+        "economic-security"
+      ],
+      "raw_input": {
+        "title": "Profitable manipulations of cryptographic self-selection are statistically detectable",
+        "source_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CBUpEcQAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=CBUpEcQAAAAJ:JoZmwDi-zQgC",
+        "annotation": "User-provided seed; exact original title retained. Await primary bibliographic and scope verification."
+      },
+      "verification": {
+        "status": "verified",
+        "metadata": {
+          "source": "publisher",
+          "source_id": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.30",
+          "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.30",
+          "title": "Profitable Manipulations of Cryptographic Self-Selection Are Statistically Detectable",
+          "doi": "10.4230/lipics.aft.2024.30",
+          "year": 2024,
+          "venue": "6th Conference on Advances in Financial Technologies (AFT 2024)",
+          "kind": "conference-paper",
+          "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.30",
+          "authors": [
+            {
+              "name": "Linda Cai",
+              "ids": {},
+              "institutions": []
+            },
+            {
+              "name": "Jingyi Liu",
+              "ids": {},
+              "institutions": []
+            },
+            {
+              "name": "S. Matthew Weinberg",
+              "ids": {},
+              "institutions": []
+            },
+            {
+              "name": "Chenghan Zhou",
+              "ids": {},
+              "institutions": []
+            }
+          ],
+          "abstract": "Cryptographic Self-Selection is a common primitive underlying leader-selection for Proof-of-Stake blockchain protocols. The concept was first popularized in Algorand [Jing Chen and Silvio Micali, 2019], who also observed that the protocol might be manipulable. [Matheus V. X. Ferreira et al., 2022] provide a concrete manipulation that is strictly profitable for a staker of any size (and also prove upper bounds on the gains from manipulation).\n\nSeparately, [Maryam Bahrani and S. Matthew Weinberg, 2024; Aviv Yaish et al., 2023] initiate the study of undetectable profitable manipulations of consensus protocols with a focus on the seminal Selfish Mining strategy [Eyal and Sirer, 2014] for Bitcoin’s Proof-of-Work longest-chain protocol. They design a Selfish Mining variant that, for sufficiently large miners, is strictly profitable yet also indistinguishable to an onlooker from routine latency (that is, a sufficiently large profit-maximizing miner could use their strategy to strictly profit over being honest in a way that still appears to the rest of the network as though everyone is honest but experiencing mildly higher latency. This avoids any risk of negatively impacting the value of the underlying cryptocurrency due to attack detection).\n\nWe investigate the detectability of profitable manipulations of the canonical cryptographic self-selection leader selection protocol introduced in [Jing Chen and Silvio Micali, 2019] and studied in [Matheus V. X. Ferreira et al., 2022], and establish that for any player with α < (3-√5)/2 ≈ 0.38 fraction of the total stake, every strictly profitable manipulation is statistically detectable. Specifically, we consider an onlooker who sees only the random seed of each round (and does not need to see any other broadcasts by any other players). We show that the distribution of the sequence of random seeds when any player is profitably manipulating the protocol is inconsistent with any distribution that could arise by honest stakers being offline or timing out (for a natural stylized model of honest timeouts).",
+          "related_dois": [],
+          "is_retracted": false,
+          "source_ids": {
+            "publisher": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.30"
+          }
+        },
+        "evidence": [
+          {
+            "source": "publisher",
+            "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.30",
+            "locator": "Official proceedings citation metadata"
+          }
+        ],
+        "versions": [],
+        "conflicts": [],
+        "index_result": {
+          "status": "partial",
+          "metadata": {
+            "title": "Profitable Manipulations of Cryptographic Self-Selection Are Statistically Detectable",
+            "authors": [
+              {
+                "name": "Linda Cai",
+                "ids": {},
+                "institutions": []
+              },
+              {
+                "name": "Jingyi Liu",
+                "ids": {},
+                "institutions": []
+              },
+              {
+                "name": "S. Matthew Weinberg",
+                "ids": {},
+                "institutions": []
+              },
+              {
+                "name": "Chenghan Zhou",
+                "ids": {},
+                "institutions": []
+              }
+            ],
+            "year": 2024,
+            "doi": "10.4230/lipics.aft.2024.30",
+            "venue": "6th Conference on Advances in Financial Technologies (AFT 2024)",
+            "url": "https://doi.org/10.4230/lipics.aft.2024.30",
+            "kind": "conference-paper",
+            "source_ids": {
+              "publisher": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.30"
+            },
+            "is_retracted": false
+          },
+          "evidence": [
+            {
+              "source": "publisher",
+              "source_id": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.30",
+              "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.30",
+              "title": "Profitable Manipulations of Cryptographic Self-Selection Are Statistically Detectable",
+              "doi": "10.4230/lipics.aft.2024.30",
+              "year": 2024,
+              "venue": "6th Conference on Advances in Financial Technologies (AFT 2024)",
+              "kind": "conference-paper",
+              "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.30",
+              "authors": [
+                {
+                  "name": "Linda Cai",
+                  "ids": {},
+                  "institutions": []
+                },
+                {
+                  "name": "Jingyi Liu",
+                  "ids": {},
+                  "institutions": []
+                },
+                {
+                  "name": "S. Matthew Weinberg",
+                  "ids": {},
+                  "institutions": []
+                },
+                {
+                  "name": "Chenghan Zhou",
+                  "ids": {},
+                  "institutions": []
+                }
+              ],
+              "abstract": "Cryptographic Self-Selection is a common primitive underlying leader-selection for Proof-of-Stake blockchain protocols. The concept was first popularized in Algorand [Jing Chen and Silvio Micali, 2019], who also observed that the protocol might be manipulable. [Matheus V. X. Ferreira et al., 2022] provide a concrete manipulation that is strictly profitable for a staker of any size (and also prove upper bounds on the gains from manipulation).\n\nSeparately, [Maryam Bahrani and S. Matthew Weinberg, 2024; Aviv Yaish et al., 2023] initiate the study of undetectable profitable manipulations of consensus protocols with a focus on the seminal Selfish Mining strategy [Eyal and Sirer, 2014] for Bitcoin’s Proof-of-Work longest-chain protocol. They design a Selfish Mining variant that, for sufficiently large miners, is strictly profitable yet also indistinguishable to an onlooker from routine latency (that is, a sufficiently large profit-maximizing miner could use their strategy to strictly profit over being honest in a way that still appears to the rest of the network as though everyone is honest but experiencing mildly higher latency. This avoids any risk of negatively impacting the value of the underlying cryptocurrency due to attack detection).\n\nWe investigate the detectability of profitable manipulations of the canonical cryptographic self-selection leader selection protocol introduced in [Jing Chen and Silvio Micali, 2019] and studied in [Matheus V. X. Ferreira et al., 2022], and establish that for any player with α < (3-√5)/2 ≈ 0.38 fraction of the total stake, every strictly profitable manipulation is statistically detectable. Specifically, we consider an onlooker who sees only the random seed of each round (and does not need to see any other broadcasts by any other players). We show that the distribution of the sequence of random seeds when any player is profitably manipulating the protocol is inconsistent with any distribution that could arise by honest stakers being offline or timing out (for a natural stylized model of honest timeouts).",
+              "related_dois": [],
+              "is_retracted": false,
+              "match": "exact_title"
+            }
+          ],
+          "conflicts": [],
+          "versions": [],
+          "queries": [
+            {
+              "source": "openalex",
+              "url": "https://api.openalex.org/works?per_page=5&search=%22Profitable+Manipulations+of+Cryptographic+Self-Selection+Are+Statistically+Detectable%22&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Clocations%2Ctype%2Cauthorships%2Cis_retracted",
+              "status": "ok",
+              "records": 5,
+              "retrieved_at": "2026-11-07"
+            },
+            {
+              "source": "dblp",
+              "url": "https://dblp.org/search/publ/api?format=json&h=8&q=profitable+manipulations+of+cryptographic+self+selection+are+statistically+detectable",
+              "status": "unavailable",
+              "reason": "http_429_session_backoff"
+            },
+            {
+              "source": "crossref",
+              "url": "https://api.crossref.org/works?query.bibliographic=Profitable+Manipulations+of+Cryptographic+Self-Selection+Are+Statistically+Detectable&rows=6&select=DOI%2Ctitle%2Cauthor%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cissued%2CURL%2Ctype%2Crelation%2Cevent",
+              "status": "unavailable",
+              "reason": "http_429_session_backoff"
+            },
+            {
+              "source": "crossref",
+              "url": "https://api.crossref.org/works/10.4230/lipics.aft.2024.30",
+              "status": "unavailable",
+              "reason": "http_429_session_backoff"
+            }
+          ]
+        },
+        "scope_review": {
+          "model": "deepseek-flash",
+          "id": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.30",
+          "decision": "core",
+          "topic": "pos",
+          "topics": [
+            "pos",
+            "economics"
+          ],
+          "reason": "Analyzes detectability of profitable manipulations in PoS leader selection—strategic staker incentives and equilibrium manipulation economics.",
+          "scope": "blockchain_economics",
+          "blockchain_evidence": "Cryptographic Self-Selection is a common primitive underlying leader-selection for Proof-of-Stake blockchain protocols.",
+          "economics_evidence": "every strictly profitable manipulation is statistically detectable",
+          "lanes": [
+            "proceedings:https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-316"
+          ]
+        }
+      },
+      "primary_source_nominations": [
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.30",
+        "https://arxiv.org/abs/2407.16949"
+      ],
+      "review_status": "already_catalogued_formal_bibliography_confirmed",
+      "editorial_resolution": {
+        "decision": "already_in_catalogue_no_duplicate",
+        "work_id": "discovered-1e8a4843db8a647e95844b53",
+        "report": ".out\\scheduled-curation\\round-052\\primary-reviews.json",
+        "fresh_full_contribution_review": false
+      }
+    },
+    {
+      "work_id": "user-ecomcrypt-006",
+      "topic_ids": [
+        "tfm",
+        "rational-cryptography"
+      ],
+      "raw_input": {
+        "title": "Revisiting the Primitives of Transaction Fee Mechanism Design",
+        "source_url": null,
+        "annotation": "User-provided seed; exact original title retained. Await primary bibliographic and scope verification."
+      },
+      "verification": {
+        "status": "verified",
+        "metadata": {
+          "source": "publisher",
+          "source_id": "10.1145/3670865.3673621",
+          "source_url": "https://sigecom.org/proceedings24.html",
+          "title": "Revisiting the Primitives of Transaction Fee Mechanism Design",
+          "year": 2024,
+          "year_fields": {
+            "published-print": 2024,
+            "published": 2024,
+            "published-online": 2024,
+            "issued": 2024
+          },
+          "doi": "10.1145/3670865.3673621",
+          "venue": "EC",
+          "authors": [
+            {
+              "name": "Aadityan Ganesh",
+              "ids": {
+                "orcid": "0009-0000-3567-8178"
+              },
+              "institutions": [
+                {
+                  "name": "Computer Science, Princeton University, Princeton, New Jersey, USA",
+                  "ids": {}
+                }
+              ]
+            },
+            {
+              "name": "Clayton Thomas",
+              "ids": {
+                "orcid": "0000-0003-0337-0560"
+              },
+              "institutions": [
+                {
+                  "name": "Microsoft Research, Boston, Massachusetts, United States of America",
+                  "ids": {}
+                }
+              ]
+            },
+            {
+              "name": "S. Matthew Weinberg",
+              "ids": {
+                "orcid": "0000-0001-7744-795X"
+              },
+              "institutions": [
+                {
+                  "name": "Computer Science, Princeton University, Princeton, New Jersey, United States of America",
+                  "ids": {}
+                }
+              ]
+            }
+          ],
+          "url": "https://doi.org/10.1145/3670865.3673621",
+          "kind": "conference-abstract",
+          "related_dois": [],
+          "is_retracted": null,
+          "retrieved_at": "2026-11-08",
+          "query_url": "https://api.crossref.org/works/10.1145/3670865.3673621",
+          "source_ids": {
+            "crossref": "10.1145/3670865.3673621"
+          },
+          "pages": "703–703",
+          "publication_date": "2024-07-08"
+        },
+        "versions": [
+          {
+            "title": "Revisiting the Primitives of Transaction Fee Mechanism Design",
+            "authors": [
+              {
+                "name": "Aadityan Ganesh",
+                "ids": {
+                  "orcid": "0009-0000-3567-8178"
+                },
+                "institutions": [
+                  {
+                    "name": "Computer Science, Princeton University, Princeton, New Jersey, USA",
+                    "ids": {}
+                  }
+                ]
+              },
+              {
+                "name": "Clayton Thomas",
+                "ids": {
+                  "orcid": "0000-0003-0337-0560"
+                },
+                "institutions": [
+                  {
+                    "name": "Microsoft Research, Boston, Massachusetts, United States of America",
+                    "ids": {}
+                  }
+                ]
+              },
+              {
+                "name": "S. Matthew Weinberg",
+                "ids": {
+                  "orcid": "0000-0001-7744-795X"
+                },
+                "institutions": [
+                  {
+                    "name": "Computer Science, Princeton University, Princeton, New Jersey, United States of America",
+                    "ids": {}
+                  }
+                ]
+              }
+            ],
+            "year": 2024,
+            "venue": "arXiv",
+            "doi": "10.48550/arxiv.2410.07566",
+            "kind": "preprint",
+            "url": "https://arxiv.org/abs/2410.07566",
+            "source_ids": {
+              "arxiv": "2410.07566"
+            },
+            "relation_source": "https://arxiv.org/abs/2410.07566"
+          }
+        ],
+        "conflicts": [],
+        "index_result": {
+          "status": "indexed_bibliographic_observation",
+          "metadata": {
+            "source": "crossref",
+            "source_id": "10.1145/3670865.3673621",
+            "source_url": "https://api.crossref.org/works/10.1145/3670865.3673621",
+            "title": "Revisiting the Primitives of Transaction Fee Mechanism Design",
+            "year": 2024,
+            "year_fields": {
+              "published-print": 2024,
+              "published": 2024,
+              "published-online": 2024,
+              "issued": 2024
+            },
+            "doi": "10.1145/3670865.3673621",
+            "venue": "EC '24: 25th ACM Conference on Economics and Computation",
+            "authors": [
+              {
+                "name": "Aadityan Ganesh",
+                "ids": {
+                  "orcid": "0009-0000-3567-8178"
+                },
+                "institutions": [
+                  {
+                    "name": "Computer Science, Princeton University, Princeton, New Jersey, USA",
+                    "ids": {}
+                  }
+                ]
+              },
+              {
+                "name": "Clayton Thomas",
+                "ids": {
+                  "orcid": "0000-0003-0337-0560"
+                },
+                "institutions": [
+                  {
+                    "name": "Microsoft Research, Boston, Massachusetts, United States of America",
+                    "ids": {}
+                  }
+                ]
+              },
+              {
+                "name": "S. Matthew Weinberg",
+                "ids": {
+                  "orcid": "0000-0001-7744-795X"
+                },
+                "institutions": [
+                  {
+                    "name": "Computer Science, Princeton University, Princeton, New Jersey, United States of America",
+                    "ids": {}
+                  }
+                ]
+              }
+            ],
+            "url": "https://doi.org/10.1145/3670865.3673621",
+            "kind": "proceedings-article",
+            "related_dois": [],
+            "is_retracted": null,
+            "retrieved_at": "2026-11-08",
+            "query_url": "https://api.crossref.org/works/10.1145/3670865.3673621"
+          }
+        },
+        "editorial_review": {
+          "reviewer": "supervisor",
+          "date": "2026-11-08",
+          "decision": "adopt",
+          "scope": "blockchain_mechanism_design",
+          "merit_reason": "Reviewed selected model, equilibrium, construction and impossibility sections of the author extended manuscript. It models a miner committing to off-chain auctions and users responding in Bayesian equilibrium, distinguishes on-chain simplicity from influence-proofness, and analyzes encrypted bids with miner-set reserves. Positive results rely on i.i.d. regular values, monopoly reserve and miner blindness to bid contents; they do not provide unconditional collusion resistance. Impossibility statements depend on the stipulated equilibrium/property combination. Cryptography is an abstract restriction on strategies, not a proved deployed MPC implementation. SIGecom and Crossref establish an EC2024 one-page abstract; the46-page author text supplies substantive review evidence and is not attributed wholesale to that page.",
+          "sources": [
+            "https://sigecom.org/proceedings24.html",
+            "https://clathomasprime.github.io/papers/RevisitingPrimitiveOfTFMD.pdf",
+            "https://api.crossref.org/works/10.1145/3670865.3673621",
+            "https://arxiv.org/abs/2410.07566"
+          ],
+          "locators": [
+            "Author manuscript Sections3–6;Definitions3.1,4.1,4.4;Theorems5.4,5.6,6.5–6.6",
+            "SIGecom exact3-author entry and DOI;Crossref date/page703;official arXiv related DOI"
+          ],
+          "review_depth": "Selected primary extended-text contribution review, not an independent proof audit",
+          "version_limit": "Formal EC edition is a one-page proceedings abstract; arXiv is related extended text, not a second countable preprint.",
+          "source_failure": {
+            "url": "https://dl.acm.org/doi/10.1145/3670865.3673621",
+            "status": "403;notbypassed;officialSIGecomandCrossrefused"
+          }
+        },
+        "evidence": [
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://sigecom.org/proceedings24.html",
+            "locator": "Author manuscript Sections3–6;Definitions3.1,4.1,4.4;Theorems5.4,5.6,6.5–6.6; SIGecom exact3-author entry and DOI;Crossref date/page703;official arXiv related DOI"
+          },
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://clathomasprime.github.io/papers/RevisitingPrimitiveOfTFMD.pdf",
+            "locator": "Author manuscript Sections3–6;Definitions3.1,4.1,4.4;Theorems5.4,5.6,6.5–6.6; SIGecom exact3-author entry and DOI;Crossref date/page703;official arXiv related DOI"
+          },
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://api.crossref.org/works/10.1145/3670865.3673621",
+            "locator": "Author manuscript Sections3–6;Definitions3.1,4.1,4.4;Theorems5.4,5.6,6.5–6.6; SIGecom exact3-author entry and DOI;Crossref date/page703;official arXiv related DOI"
+          },
+          {
+            "source": "primary-publisher-or-author",
+            "source_url": "https://arxiv.org/abs/2410.07566",
+            "locator": "Author manuscript Sections3–6;Definitions3.1,4.1,4.4;Theorems5.4,5.6,6.5–6.6; SIGecom exact3-author entry and DOI;Crossref date/page703;official arXiv related DOI"
+          }
+        ]
+      },
+      "primary_source_nominations": [
+        "https://arxiv.org/abs/2410.07566",
+        "https://clathomasprime.github.io/papers/RevisitingPrimitiveOfTFMD.pdf"
+      ],
+      "review_status": "adopted_primary_verified_formal",
+      "editorial_resolution": {
+        "decision": "adopt",
+        "work_id": "discovered-4ccb1cb885a335b9613de949",
+        "report": ".out\\scheduled-curation\\round-052\\primary-reviews.json"
+      }
+    }
+  ]
+}

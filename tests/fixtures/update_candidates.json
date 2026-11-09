@@ -1,0 +1,47 @@
+[
+  {
+    "candidate": {
+      "source": "openalex",
+      "source_id": "fixture-fees-openalex",
+      "title": "Ethereum Transaction Fee Mechanisms (Synthetic Test Fixture)",
+      "year": 2026,
+      "doi": null,
+      "venue": "EC",
+      "authors": [{"name": "Fixture Author", "ids": {}, "institutions": []}],
+      "kind": "article",
+      "is_retracted": false,
+      "url": "https://example.invalid/fixtures/ethereum-fees",
+      "source_url": "https://example.invalid/fixtures/openalex/fees"
+    },
+    "evidence": [
+      {
+        "source": "dblp",
+        "source_id": "fixture-fees-dblp",
+        "title": "Ethereum Transaction Fee Mechanisms (Synthetic Test Fixture)",
+        "year": 2026,
+        "doi": null,
+        "venue": "EC",
+        "authors": [{"name": "Fixture Author", "ids": {}, "institutions": []}],
+        "kind": "proceedings-article",
+        "url": "https://example.invalid/fixtures/ethereum-fees",
+        "source_url": "https://example.invalid/fixtures/dblp/fees"
+      }
+    ]
+  },
+  {
+    "candidate": {
+      "source": "openalex",
+      "source_id": "fixture-mining-openalex",
+      "title": "Selfish Mining Under New Conditions (Synthetic Test Fixture)",
+      "year": 2026,
+      "doi": null,
+      "venue": "EC",
+      "authors": [{"name": "Fixture Author", "ids": {}, "institutions": []}],
+      "kind": "article",
+      "is_retracted": false,
+      "url": "https://example.invalid/fixtures/selfish-mining",
+      "source_url": "https://example.invalid/fixtures/openalex/mining"
+    },
+    "evidence": []
+  }
+]

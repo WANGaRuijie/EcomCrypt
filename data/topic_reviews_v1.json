@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "work_id": "gs-050",
+      "add_topic_ids": [
+        "tfm",
+        "rational-cryptography"
+      ],
+      "reason": "User correction2026-11-07: cryptographic decentralized TFMdesign belongs to bothTFMand rational cryptography. Golden original category remains preserved.",
+      "source": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2023.97"
+    },
+    {
+      "work_id": "discovered-edd2d2ea10f764c54808c72c",
+      "add_topic_ids": [
+        "governance"
+      ],
+      "reason": "Reviewed model explicitly studies private voter preferences,costly voting and misbehavior in blockchain validation/governance; existing accepted evidence retained.",
+      "source": "https://arxiv.org/abs/2102.08823"
+    },
+    {
+      "work_id": "discovered-fc2eda68545b54384ab9ea40",
+      "add_topic_ids": [
+        "governance"
+      ],
+      "reason": "Existing accepted blockchain vote-delegation model is a governance discovery anchor; retain original economics classification as well.",
+      "source": "https://arxiv.org/abs/2408.05410"
+    },
+    {
+      "work_id": "discovered-1e8a4843db8a647e95844b53",
+      "add_topic_ids": [
+        "economic-security"
+      ],
+      "reason": "OfficialAFT2024 abstract explicitly links profitable proof-of-stake manipulation and statistical detection; economic-security tag supplements existingPoS/Markets tags. This is a topical annotation, not a new contribution review.",
+      "source": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.30"
+    },
+    {
+      "work_id": "discovered-0b9bdefdf82b9d69e02762c1",
+      "add_topic_ids": [
+        "incentive-systems"
+      ],
+      "reason": "Rubric 2026-11-v2 new topic: Game-theoretic analysis of P2P peering topology: incentive-aware design of the overlay network itself.",
+      "source": "Editorial topic review 2026-11-08 (title and accepted scope evidence)"
+    },
+    {
+      "work_id": "discovered-8502c527edf97ec54bdd2383",
+      "add_topic_ids": [
+        "incentive-systems"
+      ],
+      "reason": "Rubric 2026-11-v2 new topic: Game-theoretic P2P overlay construction: incentive-aware distributed-system design.",
+      "source": "Editorial topic review 2026-11-08 (title and accepted scope evidence)"
+    },
+    {
+      "work_id": "discovered-8b0233a4309af0a486a0a53c",
+      "add_topic_ids": [
+        "incentive-systems"
+      ],
+      "reason": "Rubric 2026-11-v2 new topic: Incentive-compatibility proof for a decentralized storage network protocol.",
+      "source": "Editorial topic review 2026-11-08 (title and accepted scope evidence)"
+    },
+    {
+      "work_id": "discovered-d9d0f19d362c1cf9d0f8e41f",
+      "add_topic_ids": [
+        "incentive-systems"
+      ],
+      "reason": "Rubric 2026-11-v2 new topic: Incentive-compatible distributed computing protocol design.",
+      "source": "Editorial topic review 2026-11-08 (title and accepted scope evidence)"
+    },
+    {
+      "work_id": "discovered-6e1edee84c92db7f70b3d704",
+      "add_topic_ids": [
+        "incentive-systems"
+      ],
+      "reason": "Rubric 2026-11-v2 new topic: State machine replication designed for rational (not honest) players.",
+      "source": "Editorial topic review 2026-11-08 (title and accepted scope evidence)"
+    },
+    {
+      "work_id": "discovered-aac9a2a881b1eebca8767343",
+      "add_topic_ids": [
+        "incentive-systems"
+      ],
+      "reason": "Rubric 2026-11-v2 new topic: Implementing mediators in asynchronous distributed systems with rational agents.",
+      "source": "Editorial topic review 2026-11-08 (title and accepted scope evidence)"
+    }
+  ]
+}

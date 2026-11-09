@@ -1,0 +1,159 @@
+{
+  "venues": {
+    "10.1007/978-3-662-46803-6_10": {
+      "name": "EUROCRYPT",
+      "source": "https://link.springer.com/book/10.1007/978-3-662-46803-6"
+    },
+    "10.1007/978-3-662-47854-7_32": {
+      "name": "FC",
+      "source": "https://link.springer.com/book/10.1007/978-3-662-47854-7"
+    },
+    "10.1007/978-3-662-45472-5_28": {
+      "name": "FC",
+      "source": "https://link.springer.com/book/10.1007/978-3-662-45472-5"
+    },
+    "10.1007/978-3-662-54970-4_30": {
+      "name": "FC",
+      "source": "https://link.springer.com/book/10.1007/978-3-662-54970-4"
+    },
+    "10.1007/978-3-031-69231-4_6": {
+      "name": "FC Workshops",
+      "source": "https://link.springer.com/book/10.1007/978-3-031-69231-4"
+    },
+    "10.1007/978-3-030-56877-1_16": {
+      "name": "CRYPTO",
+      "source": "https://link.springer.com/book/10.1007/978-3-030-56877-1"
+    },
+    "10.1007/978-3-662-64322-8_1": {
+      "name": "FC",
+      "source": "https://link.springer.com/book/10.1007/978-3-662-64322-8"
+    },
+    "10.1007/978-3-031-18283-9_28": {
+      "name": "FC",
+      "source": "https://link.springer.com/book/10.1007/978-3-031-18283-9"
+    },
+    "10.1007/978-3-319-78375-8_2": {
+      "name": "EUROCRYPT",
+      "source": "https://link.springer.com/book/10.1007/978-3-319-78375-8"
+    },
+    "10.1007/978-3-662-44381-1_24": {
+      "name": "CRYPTO",
+      "source": "https://link.springer.com/book/10.1007/978-3-662-44381-1"
+    },
+    "10.1007/978-3-031-47751-5_13": {
+      "name": "FC",
+      "source": "https://link.springer.com/chapter/10.1007/978-3-031-47751-5_13",
+      "event_year": 2023,
+      "note": "Publisher citation identifies FC 2023; publication year left as recorded."
+    },
+    "10.1007/978-3-031-69231-4_7": {
+      "name": "FC Workshops",
+      "source": "https://api.crossref.org/works/10.1007/978-3-031-69231-4_7",
+      "note": "Crossref container: Financial Cryptography and Data Security. FC 2024 International Workshops"
+    },
+    "10.3233/faia230501": {
+      "name": "ECAI",
+      "source": "https://pure.au.dk/portal/en/publications/stackelberg-attacks-on-auctions-and-blockchain-transaction-fee-me/",
+      "basis": "Institutional proceedings record and official ECAI2023 accepted-paper list; pp2073–2080. FAIA is the series, not the venue.",
+      "checked_at": "2026-11-08"
+    }
+  },
+  "linked_publications": {
+    "gs-022": [
+      {
+        "title": "Transaction Fee Mechanism Design in a Post-MEV World",
+        "doi": "10.4230/lipics.aft.2024.29",
+        "url": "https://doi.org/10.4230/lipics.aft.2024.29",
+        "venue": "AFT 2024",
+        "venue_source": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.29",
+        "relation_source": "https://www.timroughgarden.org/chron.html",
+        "year": 2024,
+        "kind": "conference-paper",
+        "authors": [
+          "Maryam Bahrani",
+          "Pranav Garimidi",
+          "Tim Roughgarden"
+        ],
+        "source_ids": {
+          "dblp": "conf/aft/BahraniGR24",
+          "datacite": "10.4230/lipics.aft.2024.29"
+        }
+      }
+    ],
+    "gs-031": [
+      {
+        "title": "Quantifying Loss in Automated Market Makers",
+        "doi": "10.1145/3560832.3563441",
+        "url": "https://doi.org/10.1145/3560832.3563441",
+        "venue": "DeFi@CCS",
+        "venue_source": "https://dblp.org/db/conf/ccs/defi2022.html",
+        "relation_source": "https://jasonmili.github.io/publication/2022-08-11-LVR",
+        "year": 2022,
+        "kind": "conference-paper",
+        "authors": [
+          "Jason Milionis",
+          "Ciamac C. Moallemi",
+          "Tim Roughgarden",
+          "Anthony Lee Zhang"
+        ],
+        "source_ids": {
+          "dblp": "conf/ccs/MilionisMRZ22"
+        }
+      }
+    ],
+    "gs-033": [
+      {
+        "title": "Liquidity Provision on Blockchain-Based Decentralized Exchanges",
+        "doi": "10.1093/rfs/hhaf046",
+        "url": "https://doi.org/10.1093/rfs/hhaf046",
+        "venue": "The Review of Financial Studies",
+        "venue_source": "https://academic.oup.com/rfs/article-abstract/38/10/3040/8200845",
+        "relation_source": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3805095",
+        "earlier_version_evidence": "https://warwick.ac.uk/fac/soc/wbs/subjects/finance/gillmore/seminar/previous/2021-12-15/capponijia2021.pdf",
+        "year": 2025,
+        "kind": "journal-article",
+        "authors": [
+          "Agostino Capponi",
+          "Ruizhe Jia"
+        ],
+        "source_ids": {
+          "publisher": "https://academic.oup.com/rfs/article-abstract/38/10/3040/8200845"
+        }
+      }
+    ],
+    "gs-012": [
+      {
+        "title": "Trust at Scale: The Economic Limits of Cryptocurrencies and Blockchains",
+        "doi": "10.1093/qje/qjae033",
+        "url": "https://doi.org/10.1093/qje/qjae033",
+        "venue": "The Quarterly Journal of Economics",
+        "year": 2024,
+        "kind": "journal-article",
+        "source_ids": {
+          "crossref": "10.1093/qje/qjae033",
+          "openalex": "W4403500997"
+        },
+        "authors": [
+          "Eric Budish"
+        ],
+        "venue_source": "https://academic.oup.com/qje/article/140/1/1/7824430",
+        "relation_source": "https://ericbudish.org/research/cryptocurrencies-and-blockchains/",
+        "earlier_version_evidence": "https://www.nber.org/papers/w24717"
+      }
+    ]
+  },
+  "linked_dois": {
+    "gs-003": [
+      "10.1145/3653445"
+    ],
+    "gs-015": [
+      "10.1287/mnsc.2021.4095"
+    ],
+    "gs-017": [
+      "10.1145/3530799"
+    ],
+    "gs-045": [
+      "10.1137/24m1677514"
+    ]
+  }
+}

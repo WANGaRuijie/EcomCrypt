@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "version": "2026-11-v2",
+  "comment": "Display taxonomy. Assignments live in data/topic_assignments_v2.json and are applied at build time; the ledger keeps its original topic_ids.",
+  "groups": [
+    {"name": "Consensus & Mining", "topics": [
+      {"id": "selfish-mining", "name": "Selfish Mining & Withholding", "definition": "Selfish mining, stubborn mining, block withholding, strategic block release and fork-based attacks by miners."},
+      {"id": "mining-pools", "name": "Mining Pools & Reward Sharing", "definition": "Pool formation, pool games, payout and reward-sharing schemes, pool hopping."},
+      {"id": "mining-economics", "name": "Mining Economics", "definition": "Miner revenue and costs, hash-rate supply and entry, mining equilibrium, difficulty adjustment and block-reward schedules, halvings."},
+      {"id": "pos-consensus", "name": "PoS Consensus & Validators", "definition": "Proof-of-stake protocol incentives, validator rewards, slashing, committee or leader selection, randomness manipulation."},
+      {"id": "staking", "name": "Staking, Restaking & Delegation", "definition": "Staking markets, liquid staking, restaking, delegation and staking pools."},
+      {"id": "rational-consensus", "name": "Consensus with Rational Players", "definition": "BFT, SMR and agreement protocols analysed with rational or strategic participants, not specific to PoW mining or PoS rewards."},
+      {"id": "protocol-foundations", "name": "Protocol Foundations", "definition": "Foundational blockchain protocol design or analysis: Bitcoin, Nakamoto consensus, security and latency trade-offs, new chain designs whose incentives are central."}
+    ]},
+    {"name": "Fees, Ordering & MEV", "topics": [
+      {"id": "tfm-design", "name": "Transaction Fee Mechanism Design", "definition": "Mechanism design and theory of transaction fees: EIP-1559, incentive compatibility, blockspace auctions, multidimensional fees."},
+      {"id": "fee-markets", "name": "Fee Markets in Practice", "definition": "Empirical gas and fee markets, congestion, fee estimation behaviour, EIP-1559 and EIP-4844 measurement."},
+      {"id": "mev-extraction", "name": "MEV Extraction & Measurement", "definition": "Maximal extractable value, arbitrage, sandwich and front-running extraction, and their measurement or modelling."},
+      {"id": "fair-ordering", "name": "Fair Ordering & MEV Mitigation", "definition": "Fair transaction ordering, encrypted mempools, commit-reveal and protocol defences against MEV."},
+      {"id": "pbs", "name": "Proposer-Builder Separation", "definition": "PBS, block-building auctions, builders and relays, order-flow auctions, private order flow."}
+    ]},
+    {"name": "Scaling & Interoperability", "topics": [
+      {"id": "rollups", "name": "Rollups & Sequencers", "definition": "Rollups, sequencer economics, fraud and validity proofs markets, data-availability pricing for layer 2."},
+      {"id": "payment-channels", "name": "Payment Channels & Lightning", "definition": "Payment channel networks, Lightning Network routing, fees, topology and griefing."},
+      {"id": "cross-chain", "name": "Cross-Chain & Bridges", "definition": "Bridges, atomic swaps, cross-chain arbitrage and interoperability incentives."},
+      {"id": "network-incentives", "name": "P2P, Storage & Resource Incentives", "definition": "Incentives in peer-to-peer propagation, decentralized storage, data availability, node operation and useful work."}
+    ]},
+    {"name": "DeFi", "topics": [
+      {"id": "amm-design", "name": "AMM Design & Theory", "definition": "Design and theory of automated market makers, constant-function market makers, axioms, optimal curves."},
+      {"id": "liquidity-provision", "name": "Liquidity Provision & LP Returns", "definition": "Liquidity provider strategies, concentrated liquidity, impermanent loss, loss-versus-rebalancing, LP returns."},
+      {"id": "dex-trading", "name": "DEX Trading & Market Quality", "definition": "Trading on decentralized exchanges, routing, price discovery, DEX market quality and competition with centralized venues."},
+      {"id": "lending", "name": "Lending, Liquidations & Flash Loans", "definition": "DeFi lending protocols, interest-rate models, collateral, liquidations and flash loans."},
+      {"id": "stablecoins", "name": "Stablecoins", "definition": "Stablecoin design, pegs, runs, reserves and their monetary role."},
+      {"id": "defi-derivatives", "name": "Perpetuals & On-Chain Derivatives", "definition": "Perpetual futures, funding rates, options and other derivatives on or around crypto assets."},
+      {"id": "oracles-prediction", "name": "Oracles & Prediction Markets", "definition": "Price oracles, oracle manipulation and incentives, on-chain prediction markets."},
+      {"id": "defi-risk", "name": "DeFi Risk & Hacks", "definition": "DeFi systemic risk, composability, contagion, protocol exploits and their financial losses."}
+    ]},
+    {"name": "Crypto-Asset Markets", "topics": [
+      {"id": "asset-pricing", "name": "Crypto Asset Pricing", "definition": "Return predictability factors, valuation, bubbles and asset-pricing models of crypto assets."},
+      {"id": "volatility-hedging", "name": "Volatility, Spillovers & Hedging", "definition": "Volatility, connectedness and spillovers with other assets, safe-haven and portfolio diversification properties."},
+      {"id": "exchange-microstructure", "name": "Exchange Microstructure", "definition": "Market microstructure of centralized crypto exchanges: liquidity, spreads, order books, listings, exchange competition, arbitrage across exchanges."},
+      {"id": "market-manipulation", "name": "Manipulation & Wash Trading", "definition": "Wash trading, pump-and-dump, insider trading and other market manipulation in crypto markets."},
+      {"id": "investor-behavior", "name": "Investors & Sentiment", "definition": "Retail and institutional crypto investors, sentiment, attention, herding, household finance."},
+      {"id": "nft-markets", "name": "NFT Markets", "definition": "NFT pricing, NFT marketplaces and collector behaviour."},
+      {"id": "token-launches", "name": "ICOs, Airdrops & Token Launches", "definition": "Initial coin offerings, token sales, airdrops, launch mechanisms and memecoin launches."}
+    ]},
+    {"name": "Token Economics & Policy", "topics": [
+      {"id": "token-design", "name": "Tokenomics & Monetary Design", "definition": "Token utility, supply and issuance, burning, token valuation theory, on-chain monetary policy."},
+      {"id": "adoption", "name": "Adoption & Network Effects", "definition": "Adoption of cryptocurrencies or blockchains, network effects, competition between chains, firm use of blockchain."},
+      {"id": "web3-platforms", "name": "Web3 Platforms & Creator Economy", "definition": "Economics of decentralized platforms, social networks, marketplaces, tokenized communities and creators."},
+      {"id": "cbdc-payments", "name": "CBDC, Payments & Banking", "definition": "Central bank digital currencies, crypto as money and payments, effects on banks and monetary policy."},
+      {"id": "regulation", "name": "Regulation & Law", "definition": "Regulation, securities law, taxation, tokenization of regulated assets, compliance design."},
+      {"id": "illicit-finance", "name": "Illicit Finance & Scams", "definition": "Money laundering, sanctions evasion, rug pulls, Ponzi schemes and crypto scams."},
+      {"id": "sector-impact", "name": "Energy & Sector Impact", "definition": "Economic impact of blockchain on energy, environment, electricity markets and other sectors."}
+    ]},
+    {"name": "Governance & Decentralization", "topics": [
+      {"id": "dao-governance", "name": "DAO Governance", "definition": "DAO participation, proposals, delegation, governance tokens and on-chain governance outcomes."},
+      {"id": "voting-mechanisms", "name": "Voting Mechanisms", "definition": "Design and analysis of on-chain voting rules, quadratic voting, social choice for blockchains."},
+      {"id": "decentralization", "name": "Decentralization & Concentration", "definition": "Measuring or explaining decentralization, wealth and power concentration, centralization forces in blockchains."}
+    ]},
+    {"name": "Security Economics & Cryptography", "topics": [
+      {"id": "attack-economics", "name": "Attack Costs & Security Budgets", "definition": "Cost of attacks, 51% attack economics, security budgets, economic security arguments, double-spend profitability."},
+      {"id": "bribery-collusion", "name": "Bribery & Collusion", "definition": "Bribing attacks, collusion among validators or participants, censorship markets, dark DAOs."},
+      {"id": "rational-crypto", "name": "Rational Cryptography", "definition": "Rational secret sharing, rational multi-party computation, rational proofs and cryptography with strategic adversaries."},
+      {"id": "fair-exchange", "name": "Fair Exchange & Incentivized Computation", "definition": "Fair exchange, game-theoretically fair coin toss and leader election, contingent payments, smart contracts that incentivize computation."},
+      {"id": "security-games", "name": "Stackelberg & Physical Security Games", "definition": "Stackelberg security games, patrolling, network interdiction, audit games and green security games."},
+      {"id": "cyber-games", "name": "Cyber Attack-Defense Games", "definition": "Game-theoretic models of computer-network attack and defense, moving target defense, deception, FlipIt, intrusion response."},
+      {"id": "cybercrime-economics", "name": "Cybercrime & Cyber Insurance", "definition": "Economics of cybercrime and ransomware, cyber insurance, security investment, vulnerability markets and bug bounties."},
+      {"id": "privacy-economics", "name": "Privacy Economics", "definition": "Markets for privacy, privacy-incentive trade-offs, anonymity economics, privacy in mechanisms."}
+    ]},
+    {"name": "Systems, AI & Verification", "topics": [
+      {"id": "incentive-systems", "name": "Mechanism-Designed Systems", "definition": "Game-theory- or mechanism-guided design of distributed, parallel, database or cloud systems beyond blockchains."},
+      {"id": "data-compute-markets", "name": "Data & Compute Markets", "definition": "Blockchain-based or decentralized markets for data, computation and machine learning work."},
+      {"id": "ai-agents", "name": "AI Agents & Learning in Crypto", "definition": "Reinforcement learning or LLM agents acting in crypto markets and protocols, agent payments and agent economies."},
+      {"id": "formal-incentives", "name": "Formal Verification of Incentives", "definition": "Formal verification, model checking and strategic logics for incentive or game-theoretic properties of protocols."}
+    ]}
+  ],
+  "legacy_map": {
+    "foundations": ["protocol-foundations"],
+    "mining": ["mining-economics"],
+    "pos": ["pos-consensus"],
+    "tfm": ["tfm-design"],
+    "mev": ["mev-extraction"],
+    "amm": ["amm-design"],
+    "defi": ["lending"],
+    "economics": ["adoption"],
+    "tokenomics": ["token-design"],
+    "economic-security": ["attack-economics"],
+    "governance": ["dao-governance"],
+    "rational-cryptography": ["rational-crypto"],
+    "incentive-systems": ["incentive-systems"]
+  }
+}

@@ -1,0 +1,813 @@
+{
+  "schema_version": 1,
+  "comment": "Human include/exclude decisions replayed by scripts/monthly.py; they override model screens. Add with: monthly.ps1 decide <DOI|arxiv:ID|title> include|exclude --note ...",
+  "records": [
+    {
+      "alias": "doi:10.1109/tii.2020.2973248",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Edge-computing resource purchase by miners (user example of an excluded application).",
+      "date": "2026-11-08"
+    },
+    {
+      "alias": "doi:10.1109/tpds.2019.2900238",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Cloud/fog resource-allocation auctions for mobile mining: edge/fog application.",
+      "date": "2026-11-08"
+    },
+    {
+      "alias": "doi:10.48550/arxiv.2006.08915",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Edge-computing incentive mechanism for mobile blockchain in IoT: application domain.",
+      "date": "2026-11-08"
+    },
+    {
+      "alias": "t:a smart contract based crowdfunding mechanism for hierarchical federated learning",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Blockchain crowdfunding for federated learning: application domain.",
+      "date": "2026-11-08"
+    },
+    {
+      "alias": "t:mln eigs a multilayer network framework for solving stackelberg escape interdiction games on dynamic transportation networks",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Interdiction games on transportation networks: physical/transport application, no cyber/crypto object.",
+      "date": "2026-11-08"
+    },
+    {
+      "alias": "t:moving target defense for robust monitoring of electric grid transformers in adversarial environments",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Moving-target defense for electric-grid transformer monitoring: smart-grid application.",
+      "date": "2026-11-08"
+    },
+    {
+      "alias": "t:resource allocation and pricing for blockchain enabled metaverse a stackelberg game approach",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Blockchain-enabled metaverse resource pricing: application domain.",
+      "date": "2026-11-08"
+    },
+    {
+      "alias": "doi:10.48550/arxiv.2512.24432",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "AMM theory applied to local energy-sharing markets: application domain.",
+      "date": "2026-11-08"
+    },
+    {
+      "alias": "t:sok decentralized agent economic infrastructure",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "User review 2026-11-09: unreviewed SoK/taxonomy; reconsider once peer-reviewed.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:sok privacy preserving order matching",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "User review 2026-11-09: unreviewed SoK/taxonomy; reconsider once peer-reviewed.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:sok the evolution of maximal extractable value from miners to cross chain",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "User review 2026-11-09: unreviewed SoK/taxonomy; reconsider once peer-reviewed.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:a systematization of knowledge on defi vaults architectures curation mechanisms and strategy design",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "User review 2026-11-09: unreviewed SoK/taxonomy; reconsider once peer-reviewed.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:crypto asset taxonomy for investors and regulators",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "User review 2026-11-09: unreviewed SoK/taxonomy; reconsider once peer-reviewed.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:beyond blockchain ballots uc secure layer 2 voting and governance",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "User review 2026-11-09: no visible economic or strategic side.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:universally composable on chain quadratic voting for liquid democracy",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "User review 2026-11-09: no visible economic or strategic side.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:chain reactions how nonce collisions in ecdsa compromise polygon mev searchers",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "User review 2026-11-09: no visible economic or strategic side.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:single secret leader election in ethereum pos an empirical study of whisk and homomorphic sortition under dos on the leader and censorship",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "User review 2026-11-09: no visible economic or strategic side.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:proof of machine learning inference mining knowledge not hashes",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "User review 2026-11-09: no visible economic or strategic side.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:security limits of mining before validation in nakamoto consensus",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "User review 2026-11-09: no visible economic or strategic side.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:nakamoto consensus with ruin theory a comprehensive framework for theoretical bounds and empirical estimates of double spending",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "User review 2026-11-09: no visible economic or strategic side.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:attack patterns in cross chain bridges a trust based empirical analysis",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "User review 2026-11-09: no visible economic or strategic side.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:who patches the lightning network evidence from release lines in gossip 2023 2026",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "User review 2026-11-09: no visible economic or strategic side.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:authority inference separation in agentic finance first line control blockchain enforcement and replayable assurance",
+      "decision": "exclude",
+      "topics": [],
+      "code": "superficial",
+      "note": "User review 2026-11-09: AI-agent framing with thin blockchain/economic content.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:agentic analysis for agentic infrastructure an llm powered pipeline for comparative governance of dao and corporate ai protocols",
+      "decision": "exclude",
+      "topics": [],
+      "code": "superficial",
+      "note": "User review 2026-11-09: AI-agent framing with thin blockchain/economic content.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:aida an ai outage registry with evidence from on chain mev",
+      "decision": "exclude",
+      "topics": [],
+      "code": "superficial",
+      "note": "User review 2026-11-09: AI-agent framing with thin blockchain/economic content.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:bonded recourse for smart contract settlement of compensable agent side effects",
+      "decision": "exclude",
+      "topics": [],
+      "code": "superficial",
+      "note": "User review 2026-11-09: AI-agent framing with thin blockchain/economic content.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:predicting the success of new crypto tokens the pump fun case",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "User review 2026-11-09: forecasting-focused.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:public opinion as an option leveraging prediction markets to hedge exposure to spot crypto volatility",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "User review 2026-11-09: Kalshi is not a blockchain object.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:empirical confirmation of bosonic wealth statistics in bitcoin utxos",
+      "decision": "exclude",
+      "topics": [],
+      "code": "superficial",
+      "note": "User review 2026-11-09: statistical-physics fit without an economic question.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:how much verifiers dilemma and staking pools adversely affect decentralization of ethereum pos under realistic operational costs extended version",
+      "decision": "exclude",
+      "topics": [],
+      "code": null,
+      "note": "User review 2026-11-09: duplicate of the formal version of the same work (same authors): ICBC \"How Much is Decentralization of Ethereum PoS Adversely Affected by Verifier's Dilemma...\"",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:stablecoin design with adversarial robust multi agent systems via trust weighted signal aggregation",
+      "decision": "exclude",
+      "topics": [],
+      "code": null,
+      "note": "User review 2026-11-09: duplicate of the formal version of the same work (same authors): ICBC \"MVF-Composer\"",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:binary decisions in daos accountability and belief aggregation via linear opinion pools",
+      "decision": "exclude",
+      "topics": [],
+      "code": null,
+      "note": "User review 2026-11-09: duplicate of the formal version of the same work (same authors): AFT \"Belief-Aware Pivotal Mechanism for DAO Committees\"",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "arxiv:2103.01193",
+      "decision": "include",
+      "topics": [
+        "defi"
+      ],
+      "code": null,
+      "note": "Distinct paper from A Note On Borrowing CFMM Shares; title overlap only.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:solving zero sum security games in discretized spatio temporal domains",
+      "decision": "include",
+      "topics": [
+        "rational-cryptography"
+      ],
+      "code": null,
+      "note": "Attacker-defender security game; in scope under the user ruling of 2026-11-09 (no blockchain or computer-security object required).",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:non additive security games",
+      "decision": "include",
+      "topics": [
+        "rational-cryptography"
+      ],
+      "code": null,
+      "note": "Attacker-defender security game; in scope under the user ruling of 2026-11-09 (no blockchain or computer-security object required).",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:policy learning for continuous space security games using neural networks",
+      "decision": "include",
+      "topics": [
+        "rational-cryptography"
+      ],
+      "code": null,
+      "note": "Attacker-defender security game; in scope under the user ruling of 2026-11-09 (no blockchain or computer-security object required).",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:analyzing the effectiveness of adversary modeling in security games",
+      "decision": "include",
+      "topics": [
+        "rational-cryptography"
+      ],
+      "code": null,
+      "note": "Attacker-defender security game; in scope under the user ruling of 2026-11-09 (no blockchain or computer-security object required).",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:end to end game focused learning of adversary behavior in security games",
+      "decision": "include",
+      "topics": [
+        "rational-cryptography"
+      ],
+      "code": null,
+      "note": "Attacker-defender security game; in scope under the user ruling of 2026-11-09 (no blockchain or computer-security object required).",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:regret based optimization and preference elicitation for stackelberg security games with uncertainty",
+      "decision": "include",
+      "topics": [
+        "rational-cryptography"
+      ],
+      "code": null,
+      "note": "Attacker-defender security game; in scope under the user ruling of 2026-11-09 (no blockchain or computer-security object required).",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:exploring information asymmetry in two stage security games",
+      "decision": "include",
+      "topics": [
+        "rational-cryptography"
+      ],
+      "code": null,
+      "note": "Attacker-defender security game; in scope under the user ruling of 2026-11-09 (no blockchain or computer-security object required).",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:counterfactual regret minimization in sequential security games",
+      "decision": "include",
+      "topics": [
+        "rational-cryptography"
+      ],
+      "code": null,
+      "note": "Attacker-defender security game; in scope under the user ruling of 2026-11-09 (no blockchain or computer-security object required).",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:solving security games on graphs via marginal probabilities",
+      "decision": "include",
+      "topics": [
+        "rational-cryptography"
+      ],
+      "code": null,
+      "note": "Attacker-defender security game; in scope under the user ruling of 2026-11-09 (no blockchain or computer-security object required).",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "t:on the inducibility of stackelberg equilibrium for security games",
+      "decision": "include",
+      "topics": [
+        "rational-cryptography"
+      ],
+      "code": null,
+      "note": "Attacker-defender security game; in scope under the user ruling of 2026-11-09 (no blockchain or computer-security object required).",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "arxiv:2008.07369",
+      "decision": "include",
+      "topics": [
+        "rational-cryptography"
+      ],
+      "code": null,
+      "note": "Attacker-defender security game; in scope under the user ruling of 2026-11-09 (no blockchain or computer-security object required).",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1609/aaai.v26i1.8249",
+      "decision": "include",
+      "topics": [
+        "rational-cryptography"
+      ],
+      "code": null,
+      "note": "Attacker-defender security game; in scope under the user ruling of 2026-11-09 (no blockchain or computer-security object required).",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1609/aaai.v33i01.33011401",
+      "decision": "include",
+      "topics": [
+        "rational-cryptography"
+      ],
+      "code": null,
+      "note": "Attacker-defender security game; in scope under the user ruling of 2026-11-09 (no blockchain or computer-security object required).",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "arxiv:2211.04987",
+      "decision": "include",
+      "topics": [
+        "rational-cryptography"
+      ],
+      "code": null,
+      "note": "Attacker-defender security game; in scope under the user ruling of 2026-11-09 (no blockchain or computer-security object required).",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1016/j.artint.2020.103381",
+      "decision": "include",
+      "topics": [
+        "rational-cryptography"
+      ],
+      "code": null,
+      "note": "Attacker-defender security game; in scope under the user ruling of 2026-11-09 (no blockchain or computer-security object required).",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "arxiv:2406.15071",
+      "decision": "include",
+      "topics": [
+        "economics"
+      ],
+      "code": null,
+      "note": "Preprint SoK with a peer-reviewed version: Advances in Financial Technologies (AFT), 2024.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "arxiv:2510.15612",
+      "decision": "include",
+      "topics": [
+        "economics"
+      ],
+      "code": null,
+      "note": "Preprint SoK with a peer-reviewed version: Workshop on Trusted Smart Contracts (WTSC, FC Workshops), 2026（已接收）.",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1109/tcss.2024.3368690",
+      "decision": "include",
+      "topics": [
+        "economics",
+        "economic-security"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 用 MtGox 真实成交网研究操纵模式和操纵账户，提供加密市场微观结构证据。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1007/978-3-031-74835-6_2",
+      "decision": "include",
+      "topics": [
+        "rational-cryptography"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 将网络渗透测试分解为节点博弈与全局攻击策略，并用实验评估防御策略。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1109/tcss.2023.3319554",
+      "decision": "include",
+      "topics": [
+        "economics",
+        "economic-security"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 在 NFT 市场实证估算洗售流行程度，直接度量市场操纵行为。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.3389/fbloc.2026.1934036",
+      "decision": "include",
+      "topics": [
+        "economics",
+        "defi"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 以四个司法辖区的比较识别证券代币化的制度交易成本和交易对手风险。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1145/3848032",
+      "decision": "include",
+      "topics": [
+        "mining",
+        "tokenomics"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 把难度调整导致的长期漂移与货币发行进度联系起来，并量化减半提前的幅度。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.3389/fbloc.2025.1713637",
+      "decision": "include",
+      "topics": [
+        "economic-security",
+        "defi"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 自建跨 CEX 与 DEX 事故集并按技术攻击类型量化实际财务损失。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1007/978-3-032-00492-5_2",
+      "decision": "include",
+      "topics": [
+        "tfm",
+        "tokenomics"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 比较铭文铸造冲击下不同扩容架构的 gas 费变化，直接测量链上费用市场。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1007/978-3-031-78679-2_20",
+      "decision": "include",
+      "topics": [
+        "mev",
+        "economic-security"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 把依赖合约受到的经济损害定义为可组合性验证对象。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1109/bcca58897.2023.10338926",
+      "decision": "include",
+      "topics": [
+        "defi"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 提出池化借贷与清算协议，并讨论协议内的利率模型。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1145/3768292.3770351",
+      "decision": "include",
+      "topics": [
+        "economics",
+        "defi"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 因子比较识别 BTC 与总体市场组合在加密定价中的不同作用，给出市场结构结论。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "iacr-eprint:2026/1728",
+      "decision": "include",
+      "topics": [
+        "defi"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 通过固定链状态的对照测试测量四个借贷协议的利率、资本效率和清算结果。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "iacr-eprint:2025/776",
+      "decision": "include",
+      "topics": [
+        "economic-security",
+        "incentive-systems"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 桥的创新包含抵押资金复用和批量罚没，直接改变资金占用和违规代价。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "arxiv:2509.16581",
+      "decision": "include",
+      "topics": [
+        "incentive-systems",
+        "economics"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 在 gas、硬件与最终性约束下建立显式运营成本模型并寻找证明者的最低成本配置。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "arxiv:2410.11295",
+      "decision": "include",
+      "topics": [
+        "economic-security",
+        "tfm"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 以费率选择为可操作攻击手段，并在真实交易所控制试验中观察流动性锁定。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "arxiv:2403.11758",
+      "decision": "include",
+      "topics": [
+        "governance",
+        "economic-security"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 用跨链治理数据测量实际控制权集中与恶意提案风险，包含战略性控制机制。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.5220/0013091900003890",
+      "decision": "include",
+      "topics": [
+        "incentive-systems"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 对分布式多代理系统提出同伴激励交换和去中心化共识，并检验不同收益分布下的合作。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "arxiv:2407.12150",
+      "decision": "include",
+      "topics": [
+        "defi",
+        "tfm"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 在链上投资组合再平衡中内生考虑 gas 和滑点，决定成交规模与次数。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.2139/ssrn.4358561",
+      "decision": "include",
+      "topics": [
+        "economic-security"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 链上取证用来分析勒索软件的运行方式和经济活动，直接覆盖攻防经济学。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "arxiv:2311.18717",
+      "decision": "include",
+      "topics": [
+        "economics",
+        "economic-security"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 用公开链上 NFT 交易估计各交易所洗售规模，并验证间接识别方法的偏差。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "arxiv:2307.13624",
+      "decision": "include",
+      "topics": [
+        "amm",
+        "defi"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 提出新的 AMM 机制，以套利、订单路由和衍生品缓冲管理库存风险。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "arxiv:2210.10971",
+      "decision": "include",
+      "topics": [
+        "economics",
+        "defi"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 用成交量、可达性与管理成本优化交易对配置，研究交易所市场结构。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1109/tkde.2024.3378381",
+      "decision": "include",
+      "topics": [
+        "economics",
+        "economic-security"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 全链数据研究代币持有、转移及造假交易操纵，超出合约结构或吞吐测量。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1016/j.is.2022.102090",
+      "decision": "include",
+      "topics": [
+        "governance"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 从决策权与激励出发构造治理框架，并用五个现有区块链平台作定性比较。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.2139/ssrn.4171315",
+      "decision": "include",
+      "topics": [
+        "economics"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 用百种代币交易数据实证检验羊群行为及宏观信息对羊群行为的影响。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1109/tifs.2024.3482716",
+      "decision": "include",
+      "topics": [
+        "rational-cryptography",
+        "incentive-systems"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 解决卖方不交付有效数据、买方免费取得数据的公平交换问题，设计链上与链下争议裁决。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1109/tifs.2024.3398535",
+      "decision": "include",
+      "topics": [
+        "rational-cryptography"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 在不可信交易方之间实现保密公平交换并支持争议仲裁，正中公平交换条款。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.56553/popets-2025-0036",
+      "decision": "include",
+      "topics": [
+        "rational-cryptography"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 在不可信混币方介入时，把交付、付款和不可链接性一起写入公平交易协议。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1145/3714393.3726503",
+      "decision": "include",
+      "topics": [
+        "economic-security",
+        "defi"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 用历史闪电贷攻击评估防御可挽回的财务损失，包含经济后果的量化。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1145/3714393.3726487",
+      "decision": "include",
+      "topics": [
+        "economic-security",
+        "defi"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 从数十亿链上交易提取撤资等行为并识别流动性抽逃模式，有原创的市场滥用测量。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1145/3799703",
+      "decision": "include",
+      "topics": [
+        "rational-cryptography",
+        "economics"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 设计移除托管市场的直接 NFT 公平交换，并比较其成本与安全。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1109/tnsm.2024.3387725",
+      "decision": "include",
+      "topics": [
+        "rational-cryptography",
+        "incentive-systems"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 用静态攻防博弈建模安全架构并求纳什均衡，检验冗余设计如何改变均衡。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1016/j.future.2021.09.021",
+      "decision": "include",
+      "topics": [
+        "tfm"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 除预测外实证检验了费用预言机档位与用户实际选择之间的错配。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1109/tnsm.2022.3222815",
+      "decision": "include",
+      "topics": [
+        "defi"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 用作者构建的参数化模拟比较链上收益耕作策略，具有原创分析。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1109/tnsm.2020.2995713",
+      "decision": "include",
+      "topics": [
+        "rational-cryptography",
+        "economic-security"
+      ],
+      "code": null,
+      "note": "Rescued by the ChatGPT manual review 2026-11-09: 用演化博弈平衡网络防御收益与成本，并在勒索案例中分析最优策略。",
+      "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1109/icbc59979.2024.10634452",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Conference version of the IJNM 2025 journal paper (ChatGPT review D2).",
+      "date": "2026-11-09"
+    }
+  ]
+}

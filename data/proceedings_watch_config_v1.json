@@ -1,0 +1,54 @@
+{
+  "volume_ids": [
+    "354",
+    "395",
+    "362",
+    "325",
+    "316",
+    "282",
+    "397",
+    "287"
+  ],
+  "coverage": [
+    "AFT 2023",
+    "AFT 2024",
+    "AFT 2025",
+    "AFT 2026",
+    "ITCS 2025",
+    "ITCS 2026",
+    "DISC 2026",
+    "ITCS 2024"
+  ],
+  "policy": "Match exact normalized title and ordered author names; preserve all preprint records; stage for review. Add future volumes only after publisher confirmation.",
+  "springer_books": [
+    {
+      "url": "https://link.springer.com/book/10.1007/978-3-032-07884-1",
+      "venue": "ESORICS",
+      "event_year": 2025,
+      "part": "I",
+      "track": "main"
+    },
+    {
+      "url": "https://link.springer.com/book/10.1007/978-3-032-07891-9",
+      "venue": "ESORICS",
+      "event_year": 2025,
+      "part": "II",
+      "track": "main"
+    },
+    {
+      "url": "https://link.springer.com/book/10.1007/978-3-032-07894-0",
+      "venue": "ESORICS",
+      "event_year": 2025,
+      "part": "III",
+      "track": "main"
+    },
+    {
+      "url": "https://link.springer.com/book/10.1007/978-3-032-07901-5",
+      "venue": "ESORICS",
+      "event_year": 2025,
+      "part": "IV",
+      "track": "main"
+    }
+  ],
+  "springer_policy": "Confirmed ESORICS2025 main proceedings Parts I-IV only. Retrieve every public TOC page; chapter byline/date/content remain pending. CBT/workshops are separate and not scanned by these main volumes. No OpenAlex source-ID resolution or historical/all-years coverage is implied."
+}

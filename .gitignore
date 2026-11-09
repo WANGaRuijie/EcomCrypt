@@ -1,0 +1,8 @@
+/.cache/
+/.out/
+__pycache__/
+*.py[cod]
+.env
+/.claude/
+# Local mirror of the screening cache: 56 MB, rewritten on every export.
+/data/screening_ledger_v2.jsonl

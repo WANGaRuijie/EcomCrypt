@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-07",
+  "dblp": {
+    "tested_urls": [
+      "https://dblp.org/db/conf/aft/aft2025.xml",
+      "https://dblp.org/search/publ/api?q=transaction+fee&format=json&h=3"
+    ],
+    "http_status": 202,
+    "response_kind": "HTML anti-bot challenge, not bibliographic data",
+    "count_as_verified": false,
+    "fallback": "Official publisher proceedings"
+  }
+}

@@ -1,0 +1,3618 @@
+{
+  "policy": "Provisional editorial triage, not a reputational blacklist. Existing records preserved.",
+  "counts": {
+    "review": 261,
+    "priority": 218
+  },
+  "records": [
+    {
+      "id": "gs-001",
+      "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+      "venue": null,
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "gs-002",
+      "title": "SoK: Research Perspectives and Challenges for Bitcoin and Cryptocurrencies",
+      "venue": "2015 IEEE Symposium on Security and Privacy",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ieee-s-p"
+    },
+    {
+      "id": "gs-003",
+      "title": "The Bitcoin Backbone Protocol: Analysis and Applications",
+      "venue": "EUROCRYPT",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "eurocrypt"
+    },
+    {
+      "id": "gs-004",
+      "title": "Secure High-Rate Transaction Processing in Bitcoin",
+      "venue": "FC",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "fc"
+    },
+    {
+      "id": "gs-005",
+      "title": "Bitcoin-NG: A Scalable Blockchain Protocol",
+      "venue": "USENIX Symposium on Networked Systems Design and Implementation (NSDI)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "nsdi"
+    },
+    {
+      "id": "gs-006",
+      "title": "On bitcoin and red balloons",
+      "venue": "Proceedings of the 13th ACM Conference on Electronic Commerce",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ec"
+    },
+    {
+      "id": "gs-007",
+      "title": "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+      "venue": "FC",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "fc"
+    },
+    {
+      "id": "gs-008",
+      "title": "Optimal Selfish Mining Strategies in Bitcoin",
+      "venue": "FC",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "fc"
+    },
+    {
+      "id": "gs-009",
+      "title": "The Miner's Dilemma",
+      "venue": "2015 IEEE Symposium on Security and Privacy",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ieee-s-p"
+    },
+    {
+      "id": "gs-010",
+      "title": "Blockchain Mining Games",
+      "venue": "Proceedings of the 2016 ACM Conference on Economics and Computation",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ec"
+    },
+    {
+      "id": "gs-011",
+      "title": "On the Instability of Bitcoin Without the Block Reward",
+      "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "gs-012",
+      "title": "The Economic Limits of Bitcoin and the Blockchain",
+      "venue": "National Bureau of Economic Research",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "nber"
+    },
+    {
+      "id": "gs-013",
+      "title": "Monopoly without a Monopolist: An Economic Analysis of the Bitcoin Payment System",
+      "venue": "The Review of Economic Studies",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "restud"
+    },
+    {
+      "id": "gs-014",
+      "title": "Bitcoin: An Axiomatic Approach and an Impossibility Theorem",
+      "venue": "American Economic Review: Insights",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aer-insights"
+    },
+    {
+      "id": "gs-015",
+      "title": "Bitcoin: A Natural Oligopoly",
+      "venue": "ITCS 2019",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "gs-016",
+      "title": "The Blockchain Folk Theorem",
+      "venue": "The Review of Financial Studies",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "rfs"
+    },
+    {
+      "id": "gs-017",
+      "title": "Redesigning Bitcoin's fee market",
+      "venue": "The World Wide Web Conference",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "www"
+    },
+    {
+      "id": "gs-018",
+      "title": "Transaction Fee Mechanism Design",
+      "venue": "Proceedings of the 22nd ACM Conference on Economics and Computation",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ec"
+    },
+    {
+      "id": "gs-019",
+      "title": "Foundations of Transaction Fee Mechanism Design",
+      "venue": "Proceedings of the 2023 Annual ACM-SIAM Symposium on Discrete Algorithms (SODA)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "soda"
+    },
+    {
+      "id": "gs-020",
+      "title": "Dynamic posted-price mechanisms for the blockchain transaction-fee market",
+      "venue": "Proceedings of the 3rd ACM Conference on Advances in Financial Technologies",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "gs-021",
+      "title": "Dynamical analysis of the EIP-1559 Ethereum fee market",
+      "venue": "Proceedings of the 3rd ACM Conference on Advances in Financial Technologies",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "gs-022",
+      "title": "Transaction Fee Mechanism Design with Active Block Producers",
+      "venue": "FC Workshops",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "fc-workshops"
+    },
+    {
+      "id": "gs-023",
+      "title": "Flash Boys 2.0: Frontrunning in Decentralized Exchanges, Miner Extractable Value, and Consensus Instability",
+      "venue": "IEEE Symposium on Security and Privacy (SP)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ieee-s-p"
+    },
+    {
+      "id": "gs-024",
+      "title": "High-Frequency Trading on Decentralized On-Chain Exchanges",
+      "venue": "2021 IEEE Symposium on Security and Privacy (SP)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ieee-s-p"
+    },
+    {
+      "id": "gs-025",
+      "title": "Quantifying Blockchain Extractable Value: How dark is the forest?",
+      "venue": "2022 IEEE Symposium on Security and Privacy (SP)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ieee-s-p"
+    },
+    {
+      "id": "gs-026",
+      "title": "Clockwork Finance: Automated Analysis of Economic Security in Smart Contracts",
+      "venue": "2023 IEEE Symposium on Security and Privacy (SP)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ieee-s-p"
+    },
+    {
+      "id": "gs-027",
+      "title": "Order-Fairness for Byzantine Consensus",
+      "venue": "CRYPTO",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "crypto"
+    },
+    {
+      "id": "gs-028",
+      "title": "Credible Decentralized Exchange Design via Verifiable Sequencing Rules",
+      "venue": "Proceedings of the 55th Annual ACM Symposium on Theory of Computing",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "stoc"
+    },
+    {
+      "id": "gs-029",
+      "title": "An Analysis of Uniswap markets",
+      "venue": "Cryptoeconomic Systems",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "cryptoeconomic-systems"
+    },
+    {
+      "id": "gs-030",
+      "title": "Improved Price Oracles",
+      "venue": "Proceedings of the 2nd ACM Conference on Advances in Financial Technologies",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "gs-031",
+      "title": "Automated Market Making and Loss-Versus-Rebalancing",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "gs-032",
+      "title": "Decentralized Exchange: The Uniswap Automated Market Maker",
+      "venue": "The Journal of Finance",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "jf"
+    },
+    {
+      "id": "gs-033",
+      "title": "The Adoption of Blockchain-based Decentralized Exchanges",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "gs-034",
+      "title": "Finding the Right Curve: Optimal Design of Constant Function Market Makers",
+      "venue": "Proceedings of the 24th ACM Conference on Economics and Computation",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ec"
+    },
+    {
+      "id": "gs-035",
+      "title": "The Decentralized Financial Crisis",
+      "venue": "2020 Crypto Valley Conference on Blockchain Technology (CVCBT)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "cvcbt"
+    },
+    {
+      "id": "gs-036",
+      "title": "DeFi Protocols for Loanable Funds",
+      "venue": "Proceedings of the 2nd ACM Conference on Advances in Financial Technologies",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "gs-037",
+      "title": "Attacking the DeFi Ecosystem with Flash Loans for Fun and Profit",
+      "venue": "FC",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "fc"
+    },
+    {
+      "id": "gs-038",
+      "title": "(In)Stability for the Blockchain: Deleveraging Spirals and Stablecoin Attacks",
+      "venue": "Cryptoeconomic Systems",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "cryptoeconomic-systems"
+    },
+    {
+      "id": "gs-039",
+      "title": "SoK: Decentralized Finance (DeFi)",
+      "venue": "Proceedings of the 4th ACM Conference on Advances in Financial Technologies",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "gs-040",
+      "title": "Demystifying Incentives in the Consensus Computer",
+      "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "gs-041",
+      "title": "FruitChains",
+      "venue": "Proceedings of the ACM Symposium on Principles of Distributed Computing",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "podc"
+    },
+    {
+      "id": "gs-042",
+      "title": "Formal Barriers to Longest-Chain Proof-of-Stake Protocols",
+      "venue": "Proceedings of the 2019 ACM Conference on Economics and Computation",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ec"
+    },
+    {
+      "id": "gs-043",
+      "title": "Proof-of-Stake Mining Games with Perfect Randomness",
+      "venue": "Proceedings of the 22nd ACM Conference on Economics and Computation",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ec"
+    },
+    {
+      "id": "gs-044",
+      "title": "Three Attacks on Proof-of-Stake Ethereum",
+      "venue": "FC",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "fc"
+    },
+    {
+      "id": "gs-045",
+      "title": "The Economic Limits of Permissionless Consensus",
+      "venue": "Proceedings of the 25th ACM Conference on Economics and Computation",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ec"
+    },
+    {
+      "id": "gs-046",
+      "title": "Rational secret sharing and multiparty computation",
+      "venue": "Proceedings of the thirty-sixth annual ACM symposium on Theory of computing",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "stoc"
+    },
+    {
+      "id": "gs-047",
+      "title": "Rational Protocol Design: Cryptography against Incentive-Driven Adversaries",
+      "venue": "2013 IEEE 54th Annual Symposium on Foundations of Computer Science",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "focs"
+    },
+    {
+      "id": "gs-048",
+      "title": "But Why Does It Work? A Rational Protocol Design Treatment of Bitcoin",
+      "venue": "EUROCRYPT",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "eurocrypt"
+    },
+    {
+      "id": "gs-049",
+      "title": "How to Use Bitcoin to Design Fair Protocols",
+      "venue": "CRYPTO",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "crypto"
+    },
+    {
+      "id": "gs-050",
+      "title": "What Can Cryptography Do for Decentralized Mechanism Design?",
+      "venue": "ITCS 2023",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "extra-001",
+      "title": "Perils of Parallelism: Transaction Fee Mechanisms under Execution Uncertainty",
+      "venue": "USENIX Security",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "usenix-security"
+    },
+    {
+      "id": "extra-002",
+      "title": "Beyond Incentive Compatibility: Rational Harm-Proof Transaction Fee Mechanisms",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "extra-003",
+      "title": "Auspex: Unveiling Inconsistency Bugs of Transaction Fee Mechanism in Blockchain",
+      "venue": "USENIX Security",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "usenix-security"
+    },
+    {
+      "id": "extra-004",
+      "title": "Bayesian Mechanism Design for Blockchain Transaction Fee Allocation",
+      "venue": "Operations Research",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "operations-research"
+    },
+    {
+      "id": "extra-005",
+      "title": "Maximizing Miner Revenue in Transaction Fee Mechanism Design",
+      "venue": "ITCS",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "itcs"
+    },
+    {
+      "id": "extra-006",
+      "title": "On the Welfare of EIP-1559 with Patient Bidders",
+      "venue": "EC '25: 26th ACM Conference on Economics and Computation",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ec"
+    },
+    {
+      "id": "extra-007",
+      "title": "Game-Theoretically Fair Coin Toss with Arbitrary Preferences",
+      "venue": "Advances in Cryptology – ASIACRYPT 2025",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "asiacrypt"
+    },
+    {
+      "id": "extra-008",
+      "title": "Designing Multidimensional Blockchain Fee Markets",
+      "venue": "AFT",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "extra-009",
+      "title": "Transaction Ordering Auctions",
+      "venue": "FC Workshops",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "fc-workshops"
+    },
+    {
+      "id": "extra-010",
+      "title": "Scheduling With Time Discounts",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "extra-011",
+      "title": "CLVR Ordering of Transactions on AMMs",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-99b48ba69656608d07359ace",
+      "title": "Undetectable Selfish Mining",
+      "venue": "ACM Conference on Economics and Computation (EC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ec"
+    },
+    {
+      "id": "discovered-078e40ab27e5bdf598d041ba",
+      "title": "Computing Optimal Manipulations in Cryptographic Self-Selection Proof-of-Stake Protocols",
+      "venue": "ACM Conference on Economics and Computation (EC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ec"
+    },
+    {
+      "id": "discovered-ea1591e6dd0aa2ca0bbb2969",
+      "title": "Empirical Analysis of EIP-1559",
+      "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-074e9e1373bdf717b0811aa5",
+      "title": "Stablecoins 2.0",
+      "venue": "ACM Conference on Advances in Financial Technologies (AFT)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-90ef25d3d93fbd695b779122",
+      "title": "Blockchain without Waste: Proof-of-Stake",
+      "venue": "The Review of Financial Studies",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "rfs"
+    },
+    {
+      "id": "discovered-59ad890295aece7f5eda392e",
+      "title": "On the Just-In-Time Discovery of Profit-Generating Transactions in DeFi Protocols",
+      "venue": "IEEE Symposium on Security and Privacy (S&P)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ieee-s-p"
+    },
+    {
+      "id": "discovered-086731a14362d007691d2b29",
+      "title": "Collusion-Resilience in Transaction Fee Mechanism Design",
+      "venue": "ACM Conference on Economics and Computation (EC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ec"
+    },
+    {
+      "id": "discovered-b11ac11343470346062ee78c",
+      "title": "Stubborn Mining: Generalizing Selfish Mining and Combining with an Eclipse Attack",
+      "venue": "2016 IEEE European Symposium on Security and Privacy (EuroS&P)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "euros-p"
+    },
+    {
+      "id": "discovered-be4bec2df1c37d192d43ac29",
+      "title": "BDoS: Blockchain Denial-of-Service",
+      "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-bfffc981f896f7f82124b4b9",
+      "title": "SoK: Tools for Game Theoretic Models of Security for Cryptocurrencies",
+      "venue": "Cryptoeconomic Systems",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "cryptoeconomic-systems"
+    },
+    {
+      "id": "discovered-f424229b45477c01f258b0a0",
+      "title": "Transaction Fees on a Honeymoon: Ethereum's EIP-1559 One Month Later",
+      "venue": "2021 IEEE International Conference on Blockchain (Blockchain)",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "ieee-blockchain"
+    },
+    {
+      "id": "discovered-57c0f5a0e1cc4c7126d56e03",
+      "title": "Decentralized Mining in Centralized Pools",
+      "venue": "The Review of Financial Studies",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "rfs"
+    },
+    {
+      "id": "discovered-7705b8fa60987186281341fd",
+      "title": "MAD-HTLC: Because HTLC is Crazy-Cheap to Attack",
+      "venue": "IEEE Symposium on Security and Privacy (S&P)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ieee-s-p"
+    },
+    {
+      "id": "discovered-9f193594adf2365d04aaae69",
+      "title": "The Gap Game",
+      "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-7fe9d2bf6434295fedff6845",
+      "title": "Cyclic Arbitrage in Decentralized Exchanges",
+      "venue": "International World Wide Web Conference (WWW)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "www"
+    },
+    {
+      "id": "discovered-649007cff4a1b7d460a13f78",
+      "title": "Barriers to Collusion-resistant Transaction Fee Mechanisms",
+      "venue": "ACM Conference on Economics and Computation (EC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ec"
+    },
+    {
+      "id": "discovered-c2020bb76396e7bc9a18e2f5",
+      "title": "Majority Is Not Required: A Rational Analysis of the Private Double-Spend Attack from a Sub-Majority Adversary",
+      "venue": "Distributed Ledger Technologies: Research and Practice",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "dlt"
+    },
+    {
+      "id": "discovered-d18173a5a6a6a679dbdc43e7",
+      "title": "Proof-of-Work versus Proof-of-Stake: A Comparative Economic Analysis",
+      "venue": "The Review of Financial Studies",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "rfs"
+    },
+    {
+      "id": "discovered-8fd00b116cdbf7c640beb089",
+      "title": "Optimal Strategic Mining Against Cryptographic Self-Selection in Proof-of-Stake",
+      "venue": "ACM Conference on Economics and Computation (EC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ec"
+    },
+    {
+      "id": "discovered-e67f8e57519cd5a5b243987d",
+      "title": "Differential Liquidity Provision in Uniswap v3 and Implications for Contract Design✱",
+      "venue": "ACM International Conference on AI in Finance (ICAIF)",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "icaif"
+    },
+    {
+      "id": "discovered-a5a91b25ad25261bf72215ea",
+      "title": "Stackelberg Attacks on Auctions and Blockchain Transaction Fee Mechanisms",
+      "venue": "Frontiers in Artificial Intelligence and Applications",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-6ffbacf139e9c449dd00e948",
+      "title": "An Axiomatic Approach to Block Rewards",
+      "venue": "ACM Conference on Advances in Financial Technologies (AFT)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-4b54b05334238df91fbece68",
+      "title": "Cryptoeconomics and Tokenomics as Economics: A Survey with Opinions",
+      "venue": "2024 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "icbc"
+    },
+    {
+      "id": "discovered-68ec376cf1f3e9b09c55b9d9",
+      "title": "Towards Decentralized Adaptive Control of Cryptocurrency Liquidity via Auction",
+      "venue": "IEEE International Conference on Distributed Computing Systems (ICDCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "icdcs"
+    },
+    {
+      "id": "discovered-4a756cdbcc0fcef240a2e6f0",
+      "title": "Lay Down the Common Metrics: Evaluating Proof-of-Work Consensus Protocols' Security",
+      "venue": "IEEE Symposium on Security and Privacy (S&P)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ieee-s-p"
+    },
+    {
+      "id": "discovered-df16c972743cdba10571cf28",
+      "title": "An empirical study of DeFi liquidations",
+      "venue": "ACM Internet Measurement Conference (IMC)",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "imc"
+    },
+    {
+      "id": "discovered-5cfb8c8386e017ccdfe852a3",
+      "title": "RediSwap: MEV Redistribution Mechanism for CFMMs",
+      "venue": "CCS '25: ACM SIGSAC Conference on Computer and Communications Security",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-1a6b4aa1c2542214a51c01dc",
+      "title": "Bitcoin: Economics, Technology, and Governance",
+      "venue": "The Journal of Economic Perspectives",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "jep"
+    },
+    {
+      "id": "discovered-e64efff8f1f824ed2f47fc83",
+      "title": "The Need for Fees at a DEX: How Increases in Fees Can Increase DEX Trading Volume",
+      "venue": "Management Science",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "management-science"
+    },
+    {
+      "id": "discovered-5ad179c6148194080fc40529",
+      "title": "Role-Selection Game in Block Production under Proposer-Builder Separation",
+      "venue": "2025 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "icbc"
+    },
+    {
+      "id": "discovered-12f81995ccf7721eb1f43c6f",
+      "title": "Decentralized Finance and Automated Market Making: Predictable Loss and Optimal Liquidity Provision",
+      "venue": "SIAM Journal on Financial Mathematics",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "siam-jfm"
+    },
+    {
+      "id": "discovered-5ad8c1b523d66026f14c4864",
+      "title": "A theory of Automated Market Makers in DeFi",
+      "venue": "Logical Methods in Computer Science",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "lmcs"
+    },
+    {
+      "id": "discovered-1b2353aa55c587e36df3dce5",
+      "title": "SoK: Preventing Transaction Reordering Manipulations in Decentralized Finance",
+      "venue": "ACM Conference on Advances in Financial Technologies (AFT)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-1c6d4ea66c366655078b0cd5",
+      "title": "An Equilibrium Model of the Market for Bitcoin Mining",
+      "venue": "Journal of Political Economy",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "jpe"
+    },
+    {
+      "id": "discovered-20e449171c09277239793009",
+      "title": "Price Discovery on Decentralized Exchanges",
+      "venue": "The Review of Financial Studies",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "rfs"
+    },
+    {
+      "id": "discovered-707ac6fc2519cd5a7032b31c",
+      "title": "Farsighted Miners under Transaction Fee Mechanism EIP1559",
+      "venue": "2023 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "icbc"
+    },
+    {
+      "id": "discovered-f55f6590df7098f7c80567d0",
+      "title": "Decentralization of Ethereum's Builder Market",
+      "venue": "IEEE Symposium on Security and Privacy (S&P)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ieee-s-p"
+    },
+    {
+      "id": "discovered-681aa0191e6e9083ba755393",
+      "title": "Decentralization through Tokenization",
+      "venue": "The Journal of Finance",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "jf"
+    },
+    {
+      "id": "discovered-50474a3b9e5239c9f54320c1",
+      "title": "Detecting and Quantifying Wash Trading on Decentralized Cryptocurrency Exchanges",
+      "venue": "International World Wide Web Conference (WWW)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "www"
+    },
+    {
+      "id": "discovered-406a863773a8ff73738037bf",
+      "title": "Game Theoretic Liquidity Provisioning in Concentrated Liquidity Market Makers",
+      "venue": "Proceedings of the ACM on Measurement and Analysis of Computing Systems",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "pomacs"
+    },
+    {
+      "id": "discovered-c66980dde2be6a89e1eea329",
+      "title": "Deterring A Small Collusion is All You Need",
+      "venue": "International World Wide Web Conference (WWW)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "www"
+    },
+    {
+      "id": "discovered-8aa3a10c9532f6e7e44e1572",
+      "title": "On the Quality of Cryptocurrency Markets: Centralized vs. Decentralized Exchanges",
+      "venue": "Management Science",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "management-science"
+    },
+    {
+      "id": "discovered-eb88a9564d964c3aba24f10e",
+      "title": "Beyond the Doomsday Economics of “Proof-of-Work” in Cryptocurrencies",
+      "venue": "Federal Reserve Bank of Dallas, Globalization Institute Working Papers",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-dac17dc4e421e5f19618512c",
+      "title": "Price Discovery and Efficiency in Uniswap Liquidity Pools",
+      "venue": "Journal of Futures Markets",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-44b59372b63b1a0c861a362a",
+      "title": "Weighted voting on the blockchain: Improving consensus in proof of stake protocols",
+      "venue": "International Journal of Network Management",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "ijnm"
+    },
+    {
+      "id": "discovered-c0f7b7eeef77a70446588deb",
+      "title": "Congesting Ethereum after EIP-1559",
+      "venue": "2024 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "icbc"
+    },
+    {
+      "id": "discovered-23b0f6ad71357a43c21db56f",
+      "title": "Dynamic Fee Markets at Sub-Second Timescales: Adapting EIP-1559 for High-Throughput Blockchains",
+      "venue": "Mathematics",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "mathematics"
+    },
+    {
+      "id": "discovered-ffa09baaccd90c0712f11c9d",
+      "title": "IKP: Turning a PKI Around with Decentralized Automated Incentives",
+      "venue": "IEEE Symposium on Security and Privacy (S&P)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ieee-s-p"
+    },
+    {
+      "id": "discovered-1c448a6ac2102c00b7aa5b92",
+      "title": "Incentivizing Blockchain Participation Through Task Assignment Mechanisms: Evidence From a Natural Experiment of Consensus Protocols on Ethereum",
+      "venue": "Journal of Operations Management",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "jom"
+    },
+    {
+      "id": "discovered-abd4d2483a3556bb4296cee2",
+      "title": "Incentives in Ethereum's hybrid Casper protocol",
+      "venue": "International Journal of Network Management",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "ijnm"
+    },
+    {
+      "id": "discovered-31cd801027f228492045804e",
+      "title": "Dissecting Bitcoin and Ethereum Transactions: On the Lack of Transaction Contention and Prioritization Transparency in Blockchains",
+      "venue": "FC",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "fc"
+    },
+    {
+      "id": "discovered-6a2bd72b56624168eb867899",
+      "title": "Non-Atomic Arbitrage in Decentralized Finance",
+      "venue": "IEEE Symposium on Security and Privacy (S&P)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ieee-s-p"
+    },
+    {
+      "id": "discovered-bc9f16c7c7c303781bdd6e79",
+      "title": "BriDe Arbitrager: Enhancing Arbitrage in Ethereum 2.0 via Bribery-Enabled Delayed Block Production",
+      "venue": "IEEE Transactions on Dependable and Secure Computing",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "tdsc"
+    },
+    {
+      "id": "discovered-e74da4f97329b8989a99e24a",
+      "title": "SquirRL: Automating Attack Analysis on Blockchain Incentive Mechanisms with Deep Reinforcement Learning",
+      "venue": "Network and Distributed System Security Symposium",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ndss"
+    },
+    {
+      "id": "discovered-0e99edbec79dce4037f65b13",
+      "title": "On reward sharing in blockchain mining pools",
+      "venue": "Games and Economic Behavior",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "geb"
+    },
+    {
+      "id": "discovered-b5ca8adc17d16b8deca9f41b",
+      "title": "Centralized decentralization: simple economics of the DPoS blockchain governance",
+      "venue": "Applied Economics Letters",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "economics-letters"
+    },
+    {
+      "id": "discovered-ddf37c309008dffb4df58813",
+      "title": "Lockfee: Refundable Transaction Admission Via Time-Locked Collateral",
+      "venue": "2026 IEEE International Conference on Decentralized Applications and Infrastructures (DAPPS)",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "dapps"
+    },
+    {
+      "id": "discovered-6d64689bfdecae325711df28",
+      "title": "TWAP Oracle Attacks: Easier Done than Said?",
+      "venue": "2022 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "icbc"
+    },
+    {
+      "id": "discovered-121e45c50e09de0bc338ab90",
+      "title": "First-Price Sealed-Bid Auction for Ethereum Gas Auction Under Flashbots",
+      "venue": "2023 IEEE International Conference on Metaverse Computing, Networking and Applications (MetaCom)",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-57164f76ec9f60c30dbbf915",
+      "title": "Blockchain Nash Dynamics and the Pursuit of Compliance",
+      "venue": "ACM Conference on Advances in Financial Technologies (AFT)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-04d9eaaf1e1a84ad03db9ae8",
+      "title": "Time Moves Faster When There is Nothing You Anticipate: The Role of Time in MEV Rewards",
+      "venue": "CCS '23: ACM SIGSAC Conference on Computer and Communications Security",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-c417e5e345a6e09c1767f446",
+      "title": "Data Independent Order Policy Enforcement: Limitations and Solutions",
+      "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-a6eceb4c5942be56edb00cae",
+      "title": "Bitcoin Mining with Transaction Fees: A Game on the Block Size",
+      "venue": "2019 IEEE International Conference on Blockchain (Blockchain)",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "ieee-blockchain"
+    },
+    {
+      "id": "discovered-88546010c26870bfb826e625",
+      "title": "Selfish Mining in Ethereum",
+      "venue": "IEEE International Conference on Distributed Computing Systems (ICDCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "icdcs"
+    },
+    {
+      "id": "discovered-9b69c885eb47dfe064c03c0a",
+      "title": "Understanding Flash-Loan-based Wash Trading",
+      "venue": "ACM Conference on Advances in Financial Technologies (AFT)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-53340f6b753e3d9bcfb5b456",
+      "title": "Blockchain-based Decentralized Reward Sharing: The Case of Mining Pools",
+      "venue": "ACM Transactions on Economics and Computation",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "teac"
+    },
+    {
+      "id": "discovered-3b68947779580774c6a02691",
+      "title": "Be Selfish and Avoid Dilemmas",
+      "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-b372f21b6dce55b3ae960eae",
+      "title": "Eliminating Sandwich Attacks with the Help of Game Theory",
+      "venue": "ACM Asia Conference on Computer and Communications Security (ASIA CCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-faac1a8eb61ba11155347e83",
+      "title": "While stability lasts: A stochastic model of noncustodial stablecoins",
+      "venue": "Mathematical Finance",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "mathematical-finance"
+    },
+    {
+      "id": "discovered-3ed038224c4c0734173b2195",
+      "title": "Credible, Truthful, and Two-Round (Optimal) Auctions via Cryptographic Commitments",
+      "venue": "ACM Conference on Economics and Computation (EC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ec"
+    },
+    {
+      "id": "discovered-660b5b832e38516c2c0a06cc",
+      "title": "Blockchain Mining Games with Pay Forward",
+      "venue": "International World Wide Web Conference (WWW)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "www"
+    },
+    {
+      "id": "discovered-a71b5246b5fa0bc83071e766",
+      "title": "A Time-Bound Signature Scheme for Blockchains",
+      "venue": "2025 IEEE International Conference on Blockchain (Blockchain)",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "ieee-blockchain"
+    },
+    {
+      "id": "discovered-16fe45f49da60d44cadba5b4",
+      "title": "Transaction Propagation on Permissionless Blockchains: Incentive and Routing Mechanisms",
+      "venue": "2018 Crypto Valley Conference on Blockchain Technology (CVCBT)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "cvcbt"
+    },
+    {
+      "id": "discovered-7be0183839c3e045aa6ab285",
+      "title": "Permacoin: Repurposing Bitcoin Work for Data Preservation",
+      "venue": "IEEE Symposium on Security and Privacy (S&P)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ieee-s-p"
+    },
+    {
+      "id": "discovered-3104ed36e27ba676cc87d334",
+      "title": "Majority is not enough",
+      "venue": "Communications of the ACM",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-75d09e2a14f30e2a6c07f035",
+      "title": "FairTraDEX",
+      "venue": "CCS '22: 2022 ACM SIGSAC Conference on Computer and Communications Security",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-f4a3610dd2cf0acac00a963f",
+      "title": "MEV Sharing with Dynamic Extraction Rates",
+      "venue": "CCS '24: ACM SIGSAC Conference on Computer and Communications Security",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-a8bb3bb3077e0ca3389db24a",
+      "title": "Breaking Omertà: On Threshold Cryptography, Smart Collusion, and Whistleblowing",
+      "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-e54866f42b75b39f2d6b72ca",
+      "title": "Equilibrium Reward for Liquidity Providers in Automated Market Makers",
+      "venue": "Mathematical Finance",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "mathematical-finance"
+    },
+    {
+      "id": "discovered-c81550e5e77a82736c2be5f0",
+      "title": "Beyond ‘permissionless’: governance, commitment, and rule change in public blockchains",
+      "venue": "Journal of Institutional Economics",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-af16cb069a2573b55ca8e670",
+      "title": "On Power Splitting Games in Distributed Computation: The Case of Bitcoin Pooled Mining",
+      "venue": "IEEE Computer Security Foundations Workshop (CSFW)",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-54b617cc851b7f38a1750b02",
+      "title": "Reward Sharing Schemes for Stake Pools",
+      "venue": "2020 IEEE European Symposium on Security and Privacy (EuroS&P)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "euros-p"
+    },
+    {
+      "id": "discovered-01607d3eb0eb86bbb1f53622",
+      "title": "Sequential Rationality in Cryptographic Protocols",
+      "venue": "2010 IEEE 51st Annual Symposium on Foundations of Computer Science (FOCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "focs"
+    },
+    {
+      "id": "discovered-9eadb212db4fa2a21c2caa55",
+      "title": "Decentralized Exchanges: The Profitability Frontier of Constant Product Market Makers",
+      "venue": "2023 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "icbc"
+    },
+    {
+      "id": "discovered-53aacee2761301bd752a9650",
+      "title": "Meta Transaction Fee Mechanisms for Equitable Arbitrage",
+      "venue": "2026 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "icbc"
+    },
+    {
+      "id": "discovered-6b4319a200478ef4b1085718",
+      "title": "A Unified Incentive Framework for Analysing Fees and Rewards in Distributed Ledgers",
+      "venue": "IEEE International Conference on Distributed Computing Systems Workshops (ICDCSW)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "icdcs"
+    },
+    {
+      "id": "discovered-f2b0ae1c5c8c207558fffcf5",
+      "title": "Bitcoin vs. Bitcoin Cash: Coexistence or Downfall of Bitcoin Cash?",
+      "venue": "IEEE Symposium on Security and Privacy (S&P)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ieee-s-p"
+    },
+    {
+      "id": "discovered-c44a0e203177f88e66df71ca",
+      "title": "Lasagne: A Suite of High-Profit Arbitrage Strategies for Blockchain-Based Decentralized Exchanges",
+      "venue": "IEEE Transactions on Computational Social Systems",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-b0850c7b28157339d861fd3b",
+      "title": "Miners' Reward Elasticity and Stability of Competing Proof‐of‐Work Cryptocurrencies",
+      "venue": "International Economic Review",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "ier"
+    },
+    {
+      "id": "discovered-27758bd2c315b6bdee54e0a4",
+      "title": "Price manipulation schemes of new crypto-tokens in decentralized exchanges",
+      "venue": "EPJ Data Science",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-abc2fd48bc835c8b345cb913",
+      "title": "Games for exchanging information",
+      "venue": "ACM Symposium on Theory of Computing (STOC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "stoc"
+    },
+    {
+      "id": "discovered-ec42c1d3387c45b5af09031b",
+      "title": "How to Use Bitcoin to Incentivize Correct Computations",
+      "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-84c81deeadca99144d087c37",
+      "title": "Nonoutsourceable Scratch-Off Puzzles to Discourage Bitcoin Mining Coalitions",
+      "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-73a31b1c0aae70c896216516",
+      "title": "Improvements to Secure Computation with Penalties",
+      "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-a59cf81c048e98f7715b2caf",
+      "title": "Power Adjusting and Bribery Racing",
+      "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-c25f4fc489d4e18ce156a101",
+      "title": "Balance",
+      "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-b58c41080b966dfcd9787c11",
+      "title": "Mind the Mining",
+      "venue": "ACM Conference on Economics and Computation (EC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ec"
+    },
+    {
+      "id": "discovered-a6138b3e0eea244f51158884",
+      "title": "Energy Equilibria in Proof-of-Work Mining",
+      "venue": "ACM Conference on Economics and Computation (EC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ec"
+    },
+    {
+      "id": "discovered-5fa63e9e2e4548469507ff54",
+      "title": "Do the Rich Get Richer? Fairness Analysis for Blockchain Incentives",
+      "venue": "ACM SIGMOD International Conference on Management of Data (SIGMOD)",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "sigmod"
+    },
+    {
+      "id": "discovered-e57cd392e7617e9068adef67",
+      "title": "Coalition-safe equilibria with virtual payoffs",
+      "venue": "ACM Conference on Advances in Financial Technologies (AFT)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-38082831ed17d2eb4f656606",
+      "title": "Price of MEV",
+      "venue": "CCS '22: 2022 ACM SIGSAC Conference on Computer and Communications Security",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-bfb5d885f821543175f61cf4",
+      "title": "Private Order Flows and Builder Bidding Dynamics: The Road to Monopoly in Ethereum's Block Building Market",
+      "venue": "International World Wide Web Conference (WWW)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "www"
+    },
+    {
+      "id": "discovered-9c15caa94f9b01e3a94885d1",
+      "title": "Blockchain Operations in the Presence of Security Concerns",
+      "venue": "Manufacturing & Service Operations Management",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "msom"
+    },
+    {
+      "id": "discovered-769d981e973be5ef0f13de8f",
+      "title": "Liquidity Provider Returns in Geometric Mean Markets",
+      "venue": "Cryptoeconomic Systems",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "cryptoeconomic-systems"
+    },
+    {
+      "id": "discovered-bc20fefbadaf4a55bd32aba8",
+      "title": "When Does The Tail Wag The Dog? Curvature and Market Making",
+      "venue": "Cryptoeconomic Systems",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "cryptoeconomic-systems"
+    },
+    {
+      "id": "discovered-ddf0887f2d8a5d73835dfb08",
+      "title": "An Introduction to Decentralized Finance (DeFi)",
+      "venue": "Complex Systems Informatics and Modeling Quarterly",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-b2d6c057d4a52f3917a077cc",
+      "title": "Mining Pool Manipulation in Blockchain Network Over Evolutionary Block Withholding Attack",
+      "venue": "IEEE Access",
+      "decision": "review",
+      "review_priority": "high",
+      "reason": "User requests skepticism with paper-by-paper review; no blanket exclusion.",
+      "basis": "User instruction 2026-11-07"
+    },
+    {
+      "id": "discovered-c3a4ae7c8db0f8d2e469599f",
+      "title": "Incentives Against Power Grabs or How to Engineer the Revolution in a Pooled Proof of Stake System",
+      "venue": "2021 IEEE International Conference on Decentralized Applications and Infrastructures (DAPPS)",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "dapps"
+    },
+    {
+      "id": "discovered-6cfb73faa5faa65c077e792a",
+      "title": "The Impact of Uncle Rewards on Selfish Mining in Ethereum",
+      "venue": "2018 3rd IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "euros-p"
+    },
+    {
+      "id": "discovered-c39851f16c73042d006e4ef8",
+      "title": "DCAMM: Dynamic Curve-Based Automated Market Maker",
+      "venue": "GLOBECOM 2023 - 2023 IEEE Global Communications Conference",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-445b18cae0588037720e3e32",
+      "title": "SDoS: Selfish Mining-Based Denial-of-Service Attack",
+      "venue": "IEEE Transactions on Information Forensics and Security",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "tifs"
+    },
+    {
+      "id": "discovered-5aad4186f5335d7d0f4c1e2b",
+      "title": "Survive and Thrive: A Stochastic Game for DDoS Attacks in Bitcoin Mining Pools",
+      "venue": "IEEE/ACM Transactions on Networking",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "ton"
+    },
+    {
+      "id": "discovered-b3b18a9335ee2a61dd5e7358",
+      "title": "The Economics of Automated Market Makers",
+      "venue": "ACM Conference on Advances in Financial Technologies (AFT)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-89d9df51f8eee45ad1a277ad",
+      "title": "Pricing Personalized Preferences for Privacy Protection in Constant Function Market Makers",
+      "venue": "CCS '23: ACM SIGSAC Conference on Computer and Communications Security",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-8e435231b7e35ee912aa0f55",
+      "title": "Fully Automated Selfish Mining Analysis in Efficient Proof Systems Blockchains",
+      "venue": "ACM Symposium on Principles of Distributed Computing (PODC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "podc"
+    },
+    {
+      "id": "discovered-9f53c1e5801cf14f49d0c9cc",
+      "title": "Automated Market Makers: Toward More Profitable Liquidity Provisioning Strategies",
+      "venue": "ACM Symposium on Applied Computing",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-5d0d1c206bd5c7f777b4a156",
+      "title": "The Pure Price of Anarchy of Pool Block Withholding Attacks in Bitcoin Mining",
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "aaai"
+    },
+    {
+      "id": "discovered-64fcf6ef01ca5a4db21e9379",
+      "title": "Selfish Behavior in the Tezos Proof-of-Stake Protocol",
+      "venue": "Cryptoeconomic Systems",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "cryptoeconomic-systems"
+    },
+    {
+      "id": "discovered-2cf4efdca8ee3b8fd19d615c",
+      "title": "Stability of Transaction Fees in Bitcoin: A Supply and Demand Perspective",
+      "venue": "MIS Quarterly",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "misq"
+    },
+    {
+      "id": "discovered-89a8ced600384a731f023390",
+      "title": "Game-Theoretic Analysis of MEV Attacks and Mitigation Strategies in Decentralized Finance",
+      "venue": "Analytics",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-145d5541f5cf802e7174bc3a",
+      "title": "A Study on Blockchain Sandwich Attack Strategies Based on Mechanism Design Game Theory",
+      "venue": "Electronics",
+      "decision": "review",
+      "review_priority": "high",
+      "reason": "User editorial preference: require strong, specific contribution evidence before inclusion. Not a blanket claim about reputation.",
+      "basis": "User instruction 2026-11-07"
+    },
+    {
+      "id": "discovered-33afadda391f047438388e0f",
+      "title": "Bitcoin spot and futures market microstructure",
+      "venue": "Journal of Futures Markets",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-ae90d6b64ab52638f12b5f9b",
+      "title": "DE‐RSTC: A rational secure two‐party computation protocol based on direction entropy",
+      "venue": "International Journal of Intelligent Systems",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-53625767ca1761031e2f0155",
+      "title": "Transaction fee mechanisms with farsighted miners",
+      "venue": "International Journal of Network Management",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "ijnm"
+    },
+    {
+      "id": "discovered-562673d7944e174112bb80e8",
+      "title": "Sunk capital and repeated interaction in Nakamoto consensus",
+      "venue": "Economics Letters",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "economics-letters"
+    },
+    {
+      "id": "discovered-ce93d5ac46b2d96644471b1c",
+      "title": "Bitcoin’s productivity trap",
+      "venue": "Energy Economics",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "energy-econ"
+    },
+    {
+      "id": "discovered-394ad1c8d75567bcdb01f652",
+      "title": "Decentralised Finance’s timocratic governance: The distribution and exercise of tokenised voting rights",
+      "venue": "Technology in Society",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-b8dbf658769163b7a75ec238",
+      "title": "Predictable Losses of Liquidity Provision in Constant Function Markets and Concentrated Liquidity Markets",
+      "venue": "Applied Mathematical Finance",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "mathematical-finance"
+    },
+    {
+      "id": "discovered-04f962448bb272ac4a4b989c",
+      "title": "Model-Free Hedging of Impermanent Loss in Geometric Mean Market Makers with Proportional Transaction Fees",
+      "venue": "Applied Mathematical Finance",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "mathematical-finance"
+    },
+    {
+      "id": "discovered-e1a31967a975fcc36cf3d2a9",
+      "title": "General Constructions of Rational Secret Sharing with Expected Constant-Round Reconstruction: Table 1.",
+      "venue": "The Computer Journal",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "cj"
+    },
+    {
+      "id": "discovered-23bb9d8302304a2d3bcf8e02",
+      "title": "Building trust takes time: limits to arbitrage for blockchain-based assets",
+      "venue": "European Finance Review",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "rf"
+    },
+    {
+      "id": "discovered-a24b05baf4c58fa0b21c18e8",
+      "title": "A Blockchain Based Truthful Incentive Mechanism for Distributed P2P Applications",
+      "venue": "IEEE Access",
+      "decision": "review",
+      "review_priority": "high",
+      "reason": "User requests skepticism with paper-by-paper review; no blanket exclusion.",
+      "basis": "User instruction 2026-11-07"
+    },
+    {
+      "id": "discovered-28677ff48ee2fe1906ef03be",
+      "title": "Optimal Gas Fee Minimization in DeFi: Enhancing Efficiency and Security on the Ethereum Blockchain",
+      "venue": "IEEE Access",
+      "decision": "review",
+      "review_priority": "high",
+      "reason": "User requests skepticism with paper-by-paper review; no blanket exclusion.",
+      "basis": "User instruction 2026-11-07"
+    },
+    {
+      "id": "discovered-265ff9b65bb39cf406bf68cd",
+      "title": "ControlPay: An Adaptive Payment Controller for Blockchain Economies",
+      "venue": "2024 IEEE International Conference on Blockchain (Blockchain)",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "ieee-blockchain"
+    },
+    {
+      "id": "discovered-e6a7a6d2c7f6af1bc3b9885a",
+      "title": "CrossTenet: Enforcing Validity Rules across Blockchains",
+      "venue": "International Conference on Communication Systems & Networks (COMSNETS)",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-d55f5b89b0cf767e0f698b26",
+      "title": "Taking Attacks to the Next Level: A Framework for Front-Running Attacks on Blockchain Systems",
+      "venue": "2025 IEEE Global Blockchain Conference (GBC)",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-90c821e468d0cb26448caacc",
+      "title": "A Predicament in Securing Blockchain Consensus via Controlling Cryptopuzzle Difficulty",
+      "venue": "2021 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "icbc"
+    },
+    {
+      "id": "discovered-46755edf423592b49a9e80e0",
+      "title": "Allowing Blockchain Loans with Low Collateral",
+      "venue": "2023 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "icbc"
+    },
+    {
+      "id": "discovered-b828b3d841c4cb82b27698fe",
+      "title": "DeFi Risk Transfer: Towards A Fully Decentralized Insurance Protocol",
+      "venue": "2023 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "icbc"
+    },
+    {
+      "id": "discovered-a3fad157a9ef2b1d0f0d8272",
+      "title": "A Ripple for Change: Analysis of Frontrunning in the XRP Ledger",
+      "venue": "2023 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "icbc"
+    },
+    {
+      "id": "discovered-ce2fcfdb9020074b3ad17c43",
+      "title": "Financially-Stable Automated Market Making for Decentralized Fixed-Rate Lending and Trading",
+      "venue": "2024 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "icbc"
+    },
+    {
+      "id": "discovered-b6a11aa7922bb580cbcccd31",
+      "title": "The Impossibility of Preventing MEV via Transaction Order Enforcement",
+      "venue": "2026 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "icbc"
+    },
+    {
+      "id": "discovered-31d3ccd47a3f2851fe37d0eb",
+      "title": "Queuing Without Patience: A Novel Transaction Selection Mechanism in Blockchain for IoT Enhancement",
+      "venue": "IEEE Internet of Things Journal",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-91b95071d0835f38f6c10eeb",
+      "title": "Perfectly Secure Message Transmission Against Rational Adversaries",
+      "venue": "IEEE Journal on Selected Areas in Information Theory",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-65e6671f76b03b4c743450c7",
+      "title": "Safety and Liveness Failure Under Budget-Constrained Mining: Composing Backbone Proofs with Endogenous Honest Majority",
+      "venue": "2026 International Conference on Smart Applications, Communications and Networking (SmartNets)",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-358f26669c89e81932805911",
+      "title": "The Decentralisation Threshold: When More Validators Reduce Net Security",
+      "venue": "2026 International Conference on Smart Applications, Communications and Networking (SmartNets)",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-57818c0ef0f5fa51fe3866c0",
+      "title": "Incentive Mechanism for Edge-Computing-Based Blockchain",
+      "venue": "IEEE Transactions on Industrial Informatics",
+      "decision": "review",
+      "reason": "Venue not resolved to a reviewed source; no automatic adoption."
+    },
+    {
+      "id": "discovered-1198f96be5815baccbe618c5",
+      "title": "An Incentive Mechanism for Sustainable Blockchain Storage",
+      "venue": "IEEE/ACM Transactions on Networking",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "ton"
+    },
+    {
+      "id": "discovered-1065930188bb836541d70435",
+      "title": "Auction Mechanisms in Cloud/Fog Computing Resource Allocation for Public Blockchain Networks",
+      "venue": "IEEE Transactions on Parallel and Distributed Systems",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "tpds"
+    },
+    {
+      "id": "discovered-859dbdff2e23ca39e56e4fa5",
+      "title": "Auto.gov: Learning-Based Governance for Decentralized Finance (DeFi)",
+      "venue": "IEEE Transactions on Services Computing",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "tsc"
+    },
+    {
+      "id": "discovered-7b5b442d671fd6d193118c6e",
+      "title": "The economics of cryptocurrency: Bitcoin and beyond",
+      "venue": "Canadian Journal of Economics/Revue canadienne d économique",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "cje"
+    },
+    {
+      "id": "discovered-6507c4709b4963d6907c18d9",
+      "title": "An Economic Analysis of Difficulty Adjustment Algorithms in Proof‐of‐Work Blockchain Systems",
+      "venue": "International Economic Review",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "ier"
+    },
+    {
+      "id": "discovered-9666e5a4a04f4124dab20202",
+      "title": "Decentralized Prediction Markets and Sports Books",
+      "venue": "Mathematical Finance",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "mathematical-finance"
+    },
+    {
+      "id": "discovered-c208c065065b00dc6f9914cb",
+      "title": "A Mean Field Game Approach to Bitcoin Mining",
+      "venue": "SIAM Journal on Financial Mathematics",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "siam-jfm"
+    },
+    {
+      "id": "discovered-374d291ce22ffd3250c10099",
+      "title": "How Fair is Your Protocol?",
+      "venue": "ACM Symposium on Principles of Distributed Computing (PODC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "podc"
+    },
+    {
+      "id": "discovered-3f526ffa7ecefba66c386fa9",
+      "title": "Amortizing Secure Computation with Penalties",
+      "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-e80b65ce765752ea24a7c62b",
+      "title": "Betrayal, Distrust, and Rationality",
+      "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-229c11a4caf0349ad8db5bde",
+      "title": "Competing (Semi-)Selfish Miners in Bitcoin",
+      "venue": "ACM Conference on Advances in Financial Technologies (AFT)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-3c1ea8608d96a2cd1a9b0213",
+      "title": "Fact and Fiction: Challenging the Honest Majority Assumption of Permissionless Blockchains",
+      "venue": "ACM Asia Conference on Computer and Communications Security (ASIA CCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-6e1edee84c92db7f70b3d704",
+      "title": "Achieving state machine replication without honest players",
+      "venue": "ACM Conference on Advances in Financial Technologies (AFT)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-322142b74dcc1f452b6b7236",
+      "title": "A Framework for Single-Item NFT Auction Mechanism Design",
+      "venue": "CCS '22: 2022 ACM SIGSAC Conference on Computer and Communications Security",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-f804fe837b414c0093aaabb3",
+      "title": "How Hard is Takeover in DPoS Blockchains? Understanding the Security of Coin-based Voting Governance",
+      "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-1d51818f6b5f148afe306118",
+      "title": "Secure Vickrey Auctions with Rational Parties",
+      "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-20c292c2a27c9e46a50561ac",
+      "title": "Rolling in the Shadows: Analyzing the Extraction of MEV Across Layer-2 Rollups",
+      "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ccs"
+    },
+    {
+      "id": "discovered-c5eaba15c6048c1040a4ab76",
+      "title": "Brief Announcement: Musketeer - Incentive-Compatible Rebalancing for Payment Channel Networks",
+      "venue": "ACM Symposium on Principles of Distributed Computing (PODC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "podc"
+    },
+    {
+      "id": "discovered-74ec64a3c21e1d54939ce915",
+      "title": "Fundamental Limits of Throughput and Availability: Applications to prophet inequalities and transaction fee mechanism design",
+      "venue": "ACM Conference on Economics and Computation (EC)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "ec"
+    },
+    {
+      "id": "discovered-8c51b3ef06ebc798d1ad8be5",
+      "title": "BitcoinF: Achieving Fairness For Bitcoin In Transaction Fee Only Model",
+      "venue": "Proceedings of the Third International Joint Conference on Autonomous Agents and Multiagent Systems - Volume 1",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aamas"
+    },
+    {
+      "id": "discovered-6efa12e637aa5172c20f1364",
+      "title": "Automated Market Makers for Decentralized Finance (DeFi)",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-b971833df6286e76e9d63dd2",
+      "title": "Transaction Fee Mechanism Design for the Ethereum Blockchain: An Economic Analysis of EIP-1559",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-2a654108c2bed70c8dae8cc1",
+      "title": "Strategic Liquidity Provision in Uniswap V3",
+      "venue": "5th Conference on Advances in Financial Technologies (AFT 2023)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-1822beef3bf8d0f67b8e6cd8",
+      "title": "The Convergence Rates of Blockchain Mining Games: A Markovian Approach",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-3e2f0761241ab85ee91cc5ef",
+      "title": "Towards a Game-Theoretic Security Analysis of Off-Chain Protocols",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-89ce47f92f0d1eeb373b0886",
+      "title": "About constant-product automated market makers",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-b1a3e2cbc665ae1845f54355",
+      "title": "A Myersonian Framework for Optimal Liquidity Provision in Automated Market Makers",
+      "venue": "15th Innovations in Theoretical Computer Science Conference (ITCS 2024)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "itcs"
+    },
+    {
+      "id": "discovered-0dbf83c5fc61d65c51bcbf05",
+      "title": "Time Is Money: Strategic Timing Games in Proof-Of-Stake Protocols",
+      "venue": "5th Conference on Advances in Financial Technologies (AFT 2023)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-94d62e6985ec788969a09816",
+      "title": "Towards Optimal Prior-Free Permissionless Rebate Mechanisms, with applications to Automated Market Makers & Combinatorial Orderflow Auctions",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-f8538542d83f78f7cdc03c90",
+      "title": "Transaction Fee Mechanism for Proof-of-Stake Protocol",
+      "venue": "SSRN Electronic Journal",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-b651d686e04676640c07d77e",
+      "title": "Towards a Theory of Maximal Extractable Value II: Uncertainty",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-ed7c3b8ad0420e0fb075f549",
+      "title": "Mechanism Design for Automated Market Makers",
+      "venue": "7th Conference on Advances in Financial Technologies (AFT 2025)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-ace3f67b0171ab6f02b01cca",
+      "title": "am-AMM: An Auction-Managed Automated Market Maker",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-55d803be210c802e750febe7",
+      "title": "Optimizing Exit Queues for Proof-Of-Stake Blockchains: A Mechanism Design Approach",
+      "venue": "6th Conference on Advances in Financial Technologies (AFT 2024)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-0b22d3a5504d4d7f50f2d555",
+      "title": "Balancing Participation and Decentralization in Proof-of-Stake Cryptocurrencies",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-5445b6b12d323c227b680a95",
+      "title": "Selfish Mining Under General Stochastic Rewards",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-e2c836827311fa51461c2c41",
+      "title": "Online Block Packing and Multidimensional EIP-1559",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-29a0451217bd6b99f4a3d36a",
+      "title": "MEV in Multiple Concurrent Proposer Blockchains",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-8487fe3c9de792abf339988e",
+      "title": "Defensive Rebalancing for Automated Market Makers",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-98e14854301239a079e4554b",
+      "title": "Blockspace Under Pressure: An Analysis of Spam MEV on High-Throughput Blockchains",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-6c0622951615ee5016efe29f",
+      "title": "Imperfect Commitment in Maximal Extractable Value Auctions",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-5be1a267a36546ae47afc3d7",
+      "title": "Reserve Depletion and Security Runway in Proof-of-Stake Systems",
+      "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-e9b34ff28ce33d68287d1d7f",
+      "title": "Fairness and Strategy-Proofness in Automated Market Makers",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-b26c1b5c6e821e32faefc370",
+      "title": "Bubbles vs. Baselines: Token Valuation and Institutional Capital in PoS Networks under EIP-1559",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-fa30591e061461160610f12c",
+      "title": "Otter: A Provably MEV-Resilient Automated Market Maker via Surplus Redistribution",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-1a25942d5d9a70545dbb66d4",
+      "title": "The Economic Security of Exponential EIP-1559",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-173fef9a32c6e049084e3afb",
+      "title": "Uniform-Price Mechanism Design for Automated Market Makers",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-f4c7f58caf5de8e62bedc2a7",
+      "title": "Temporal Liquidity Crossing for Blockchains: An EIP-1559 Extension for Admission Below the Base Fee",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-27c443864aa8a1b4c28677d5",
+      "title": "Greedy but Cautious: Conditions for Miner Convergence to Resource Allocation Equilibrium",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-086fc266e3a43d51e8b9b60d",
+      "title": "Payment Networks as Creation Games",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-9c23e79360e21a5f2719eb9e",
+      "title": "Bootstrapping a stable computation token",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-0851102bc1a40c7ab8af0acc",
+      "title": "Interactive coin offerings",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-1f5424ce2030c41368247a81",
+      "title": "An Eye for an Eye: Economics of Retaliation in Mining Pools",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-d6b8fa13b36436aa2ee5b126",
+      "title": "Truthful and Faithful Monetary Policy for a Stablecoin Conducted by a Decentralised, Encrypted Artificial Intelligence",
+      "venue": "SSRN Electronic Journal",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-240bddcb4a2d26af0ef9b3aa",
+      "title": "On Incentive Compatible Role-based Reward Distribution in Algorand",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-6b8e49dd1a51583db9827a1d",
+      "title": "Tuning PoW with Hybrid Expenditure",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-5bc98325af189832c0e6ae75",
+      "title": "The Blockchain Game: Synthesis of Byzantine Systems and Nash Equilibria",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-9eca3bbd07b8cb75616dcd38",
+      "title": "Hopping-Proof and Fee-Free Pooled Mining in Blockchain",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-af582136d6dcf35a5872c506",
+      "title": "An Uncertainty- and Collusion-Proof Voting Consensus Mechanism in Blockchain",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-0541bfadec7636053ff61adf",
+      "title": "Permissioned Blockchain Revisited: A Byzantine Game-Theoretical Perspective",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-5b0413e683aefa5df2864436",
+      "title": "Design of Trusted Market Platforms using Permissioned Blockchains and Game Theory",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-9e7e5c083494dc657be32728",
+      "title": "Double-Spend Counterattacks: Threat of Retaliation in Proof-of-Work Systems",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-0ea56a0c93f6feb354be6af8",
+      "title": "Blockchain Governance: An Overview and Prediction of Optimal Strategies using Nash Equilibrium",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-8814e83cf0c483d81b7b363b",
+      "title": "Mechanism Design and Blockchains",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-a572a7bc4cec9b03c8047626",
+      "title": "A Difficulty in Controlling Blockchain Mining Costs via Cryptopuzzle Difficulty",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-0720b2ed6faba906b8f4c985",
+      "title": "Stabilizing Congestion in Decentralized Record-Keepers",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-b57ddad8343e48a841a1bd10",
+      "title": "Edge computing based incentivizing mechanism for mobile blockchain in IOT",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-38583520c09c1c3558a31aa1",
+      "title": "Economically Viable Randomness",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-a4ca59631a92dc97fff37e94",
+      "title": "Optimizing Off-Chain Payment Networks in Cryptocurrencies",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-9a1d6cbdc68c2cb30824868c",
+      "title": "Discouraging Pool Block Withholding Attacks in Bitcoins",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-1bf360fa23d21cef57f3b566",
+      "title": "Smart Proofs via Smart Contracts: Succinct and Informative Mathematical Derivations via Decentralized Markets",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-edd2d2ea10f764c54808c72c",
+      "title": "Vote Delegation and Misbehavior",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-aac9a2a881b1eebca8767343",
+      "title": "Lower Bounds Implementing Mediators in Asynchronous Systems",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-a0834832d59705a4323372b2",
+      "title": "TRAP: The Bait of Rational Players to Solve Byzantine Consensus",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-c203f8f5098f2f7c0cd5e9f2",
+      "title": "Jubilee: Secure Debt Relief and Forgiveness",
+      "venue": "SSRN Electronic Journal",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-770604012558a0728662d106",
+      "title": "Dynamics of Bitcoin mining",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-3667d532cea00d1558f7752f",
+      "title": "FairTraDEX: A Decentralised Exchange Preventing Value Extraction",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-42e948842b69cbebaf1d8c01",
+      "title": "Staking Pools on Blockchains",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-e669089eadbac82ef6610974",
+      "title": "A Smart Contract based Crowdfunding Mechanism for Hierarchical Federated Learning",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-e99c64fb3fbc77b6327688e1",
+      "title": "Decentralised Update Selection with Semi-Strategic Experts",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-18bac8a172ba45e4517642fb",
+      "title": "Credible, Strategyproof, Optimal, and Bounded Expected-Round Single-Item Auctions for All Distributions",
+      "venue": "RePEc: Research Papers in Economics",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-f27515097b31e381bf8e2d86",
+      "title": "Cooperation among an anonymous group protected Bitcoin during failures of decentralization",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-d9d0f19d362c1cf9d0f8e41f",
+      "title": "Marvel Dc: A Blockchain-Based Decentralized and Incentive-Compatible Distributed Computing Protocol",
+      "venue": "SSRN Electronic Journal",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-979fc488cc5b3970d4fe8caf",
+      "title": "Dynamic Pricing for Non-fungible Resources: Designing Multidimensional Blockchain Fee Markets",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-e708aa8943c9089f439b4e57",
+      "title": "Price of MEV: Towards a Game Theoretical Approach to MEV",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-6ec17700a4b44d1d642ea3ee",
+      "title": "Discrete & Bayesian Transaction Fee Mechanisms",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-a6f797510652713aa8fc85e6",
+      "title": "Rational Ponzi Games in Algorithmic Stablecoin",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-204234315807f82aa1bac5a0",
+      "title": "Rogue Protocol: A Framework For NFT Royalties Tokenisation",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-c08620b2788a10cc84a90687",
+      "title": "Designing Autonomous Markets for Stablecoin Monetary Policy",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-40cedee6e0f32e16c025192f",
+      "title": "Side Contract Commitment Attacks on Blockchains",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-5cab2e8ecd25d1ce27e9795b",
+      "title": "A Framework of Transaction Packaging in High-throughput Blockchains",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-ca77aefd85076d4f91bc16d4",
+      "title": "Credible, Optimal Auctions via Public Broadcast",
+      "venue": "6th Conference on Advances in Financial Technologies (AFT 2024)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-332db8062ea9fc7816a1bf9f",
+      "title": "Censorship Resistance in On-Chain Auctions",
+      "venue": "5th Conference on Advances in Financial Technologies (AFT 2023)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-fdcc77b0260b2279f7943632",
+      "title": "An Axiomatic Characterization of CFMMs and Equivalence to Prediction Markets",
+      "venue": "15th Innovations in Theoretical Computer Science Conference (ITCS 2024)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "itcs"
+    },
+    {
+      "id": "discovered-1e027864cb88364bc6236482",
+      "title": "Adversarial blockchain queues and trading on a CFMM",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-4ae76d222b9fe51d98044367",
+      "title": "PRAGTHOS:Practical Game Theoretically Secure Proof-of-Work Blockchain",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-f425eb7937674a0d8a1353ed",
+      "title": "Transaction Fee Mining and Mechanism Design",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-db09c4d8fa32fe1c86f068de",
+      "title": "A Note on the Welfare Gap in Fair Ordering",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-fd0233d99c8c36262cda925d",
+      "title": "Novel bribery mining attacks in the bitcoin system and the bribery miner's dilemma",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-7a613372b8e273bd316a738f",
+      "title": "Buying Time: Latency Racing vs. Bidding in Transaction Ordering",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-12437dc1a75a7d8bb45e4301",
+      "title": "Safeguarding Physical Sneaker Sale Through a Decentralized Medium",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-ade44c8a611f3e442656f67c",
+      "title": "Cross Chain Bribery Contracts: Majority vs Mighty Minority",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-efbd3b2289ce56b029c87b8a",
+      "title": "Evaluating and Managing Tokenomics for Non-Fungible Tokens in Game-Based Blockchain Networks",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-785d2e6f77fbcb9d67491190",
+      "title": "What Drives the (In)stability of a Stablecoin?",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-1b9a469900ddbc9553b7bea8",
+      "title": "Game Theoretic Modelling of a Ransom and Extortion Attack on Ethereum Validators",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-1b5ded1b65eb85e6daa75b07",
+      "title": "Colordag: An Incentive-Compatible Blockchain",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-f4ce8705f944cbd4e7dbc98f",
+      "title": "Quantifying MEV On Layer 2 Networks",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-08f3197385e6f8b2553feadc",
+      "title": "Decentralization Cheapens Corruptive Majority Attacks",
+      "venue": "5th Conference on Advances in Financial Technologies (AFT 2023)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-da5bfed3b9497b04c3f3191b",
+      "title": "How to Rationally Select Your Delegatee in PoS",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-03a2d2c7467cb4c3f7034f08",
+      "title": "ZeroSwap: Data-driven Optimal Market Making in DeFi",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-4ffd7f2bcd58e24293acc499",
+      "title": "Reducing Disorder: An Information-Theory Formulation of MEV",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-05afa384b94a6ee114e1ec9c",
+      "title": "A General Theory of Liquidity Provisioning for Prediction Markets",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-05ca4395f8d3c39e057372f8",
+      "title": "Serial Monopoly on Blockchains",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-35931e1cfa937afc52a7bde3",
+      "title": "The cost of artificial latency in the PBS context",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-143c2a90bff5b36eb55e7ae5",
+      "title": "BAR Nash Equilibrium and Application to Blockchain Design",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-a761e3513f1e8ed55314bd29",
+      "title": "Multidimensional Blockchain Fees Are (Essentially) Optimal",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-0b9bdefdf82b9d69e02762c1",
+      "title": "Stability of P2P Networks Under Greedy Peering (Full Version)",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-29f76b01e5acf0d7b84a7820",
+      "title": "PureLottery: Fair and Bias-Resistant Leader Election with a Novel Single-Elimination Tournament Algorithm",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-1f1329f536b71c8eabfe4e13",
+      "title": "Fundamental Limits of Throughput and Availability: Applications to prophet inequalities & transaction fee mechanism design",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-12ec3cdf1ce0de47f585c68c",
+      "title": "An Analysis of Intent-Based Markets",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-03e858bbc36f2c67dfd589ca",
+      "title": "Towards Trust and Reputation as a Service in a Blockchain-based Decentralized Marketplace",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-e23b99e9ed40f680b9d7850c",
+      "title": "SACRÉ BLEU: Self-Assessed Creator Royalties Énforced by Balancing Liquidity Estimation & Utility (A formal definition and analysis of Ethereum Request for Comment ERC-7526)",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-0b7fa36ad39acd29e1e66abf",
+      "title": "Multi-dimensional Network Security Game: How do attacker and defender battle on parallel targets?",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-8dd1e8bce66a03d2f74b266a",
+      "title": "The Art of Manipulation: Threat of Multi-Step Manipulative Attacks in Security Games",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-1b16910cad7c21a1a44e1b66",
+      "title": "Robust Solutions for Multi-Defender Stackelberg Security Games",
+      "venue": "Thirty-First International Joint Conference on Artificial Intelligence {IJCAI-22}",
+      "decision": "review",
+      "reason": "Targeted venue, requires editorial contribution review.",
+      "venue_id": "ijcai"
+    },
+    {
+      "id": "discovered-995f9c1dd5398a74c322f7a7",
+      "title": "Additive Security Games: Structure and Optimization",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-b7764c838c4983a02055bae3",
+      "title": "Coincidence analysis of Stackelberg and Nash equilibria in three-player leader-follower security games",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-3adccaad6947a8fcbc1d7ce8",
+      "title": "Simulation of Attacker Defender Interaction in a Noisy Security Game",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-173a1f6472922c9ad7dd74ae",
+      "title": "A Markov Game Model for AI-based Cyber Security Attack Mitigation",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-4778465d57d08f51268a6939",
+      "title": "A Model and Estimation of the Bitcoin Transaction Fee",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-a8a2b3c5f9b8cc56189a82b1",
+      "title": "Unsecured Lending via Delegated Underwriting",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-d870074aa7297a55f7f6e0bd",
+      "title": "The Adversarial Discount -- AI, Signal Correlation, and the Cybersecurity Arms Race",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-568ea22f82ac308584fa6f9b",
+      "title": "Adversarial procurement in blockchains",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-32983152e5c8cfd15d3b2d81",
+      "title": "Cybercrime and Prevention: Colonel Blotto in Social Engineering",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-b1a3a88adec4254a35a51891",
+      "title": "Dynamic Transaction Scheduling and Pricing in the Ethereum Mempool",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-9432230396a9e5111428342a",
+      "title": "Concave is the New Linear: The Impossibility of Anti-Plutocratic DAO Governance",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-2d16fad86416f3f529bc040d",
+      "title": "Proof of Useful Attestation: A Consensus Primitive for Attestation-Native Chains",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-ca91ea6e806f6a29527adb6a",
+      "title": "A Trilemma in AMM Mechanism Design",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-1d1963630b8c4de6a9257316",
+      "title": "The Price of Decentralization in Block Building",
+      "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-b4fc9280d312853ef945211a",
+      "title": "The Economics of Proof-of-Useful-Work",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-f3827fc381d925c667311a08",
+      "title": "Price Elasticity of Gas Demand on L1 and L2: Evidence from Ethereum and Arbitrum",
+      "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-6c0521f7998e780e01a2f25d",
+      "title": "Security-Induced Braess Paradoxes in Service Function Chain Orchestration",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-ae55e0e2d6fd921821937cd8",
+      "title": "Rethinking Collaborative Trust for Verifiably Decentralized Blockchain Systems",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-d7382a3ee114bb79a5a44358",
+      "title": "From PBS to ePBS: the Microstructure of Block Building",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-764b0dd4f28ed59f62426d9a",
+      "title": "Stability Buys Time: A Re-Keying Game for Encrypted Multi-Agent Control",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-bb700d8e464a2e234beb2339",
+      "title": "Reveal, Correct, Then Pay: Encrypted Mempools and Perpetual Funding Security",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-3eb87392933e4d11eb574b13",
+      "title": "Price of Censorship: Censorship Resistance and Throughput Under Rational Concurrent Proposers",
+      "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-d0bcdc660a9233a41f50e41f",
+      "title": "Strategies for quantum-enabled Bitcoin miners",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-e4e6d14ca38bc30f16b30af6",
+      "title": "Collusion with Competitive Marginals: Price-Level Audits Are Blind by Construction",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-45572a7885fd3ec1971f8938",
+      "title": "Online Learning in Stackelberg Security Games with Time-Varying Attack Intensities",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-eadcde8a125ec53bbc89f00d",
+      "title": "Towards Decentralized Searcher Competition in MEV Markets",
+      "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-31f8118b3e9efff37a9773ee",
+      "title": "Resource-Aware Intrusion Detection in Infrastructure Networks: A Game-Theoretic Approach",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-5a4fe003814d023fed522ee5",
+      "title": "Repeated-Game Security for Restaking-Based Verifiable Inference",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-cf56ce5bde8aafad25d16ae3",
+      "title": "A Repeated-Game Framework for Incentives in Decentralized Infrastructure Protocols",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-67ca46cab3da4997094a929c",
+      "title": "Rational Dolev--Yao Attackers: Decidable Incentive-Aware Verification of Security Protocols in Strategic Logic",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-f002c994921e84177ec63703",
+      "title": "Networked Multi-Resource Defense Capabilities in a General Lotto Game",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-eaf5476bf57c36ddaf0bba70",
+      "title": "MLN-EIGS: A multilayer network framework for solving Stackelberg escape interdiction games on dynamic transportation networks",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-2ce8a2a474e29cd888e3a9ec",
+      "title": "PDoS: A Profitable Denial-of-Service Attack against Proof-of-Work Blockchain Liveness",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-3ebf43e4633af5b338d3456f",
+      "title": "NFT-Based Reward Mechanisms: Sybil Farming, Vesting, and Stochastic Verification",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-c5b521148af2c046f369277e",
+      "title": "Efficient Nash Equilibrium Computation for Cybersecurity Games",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-dac189c64261213b73749a43",
+      "title": "Credible Auctions via MPC Gadgets: Bounding Information Leakage Under Abort",
+      "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-e3ac800995613dac7fb62c7b",
+      "title": "Too Late to Slash: Coordinating a Risk-Free Equivocation Attack",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-21ccc46726440cbb92bef211",
+      "title": "How Much must a Private Mempool Hide? Exact Leakage Thresholds for Sandwich Attacks",
+      "venue": "SSRN Electronic Journal",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-108010de1c66998d8d37d467",
+      "title": "On the Geographic Incentives of Multiple Concurrent Proposers",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-0127cb346a67aa8bd32ba383",
+      "title": "From Reconnaissance to Response: Quantitative Risk Parameterization and Game Theoretic Containment in Modern Enterprise Attack",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-00272f087a66331f09b92b03",
+      "title": "Bandwidth Fee Mechanisms for Certified Transaction Dissemination",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-5d3fffc35d35b3cffca22e1e",
+      "title": "STAKE: Preventing a colluding majority from double spending",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-e3069eeeeb3c77b1a0d328e4",
+      "title": "RANDAO Manipulation in the Presence of MEV",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-7c5fb381566135175f067428",
+      "title": "Priority Gas Auction Cadence and Searcher Competition: Evidence from Flashblocks on Base",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-a66942d90fa4cef9cc3c3799",
+      "title": "Dynamical low-rank equilibrium computation for stochastic games between advanced persistent threats and moving target defense",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-d0bd1795ae59085d2526dc3a",
+      "title": "The Centralizing Effects of Private Order Flow on Proposer-Builder Separation",
+      "venue": "5th Conference on Advances in Financial Technologies (AFT 2023)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-a64e38fe9746b2292fd6ad0e",
+      "title": "Batching Trades on Automated Market Makers",
+      "venue": "5th Conference on Advances in Financial Technologies (AFT 2023)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-4d5f9d089bc5a7f939940f6a",
+      "title": "Optimistic MEV in Ethereum Layer 2s: Why Blockspace Is Always in Demand",
+      "venue": "7th Conference on Advances in Financial Technologies (AFT 2025)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-d599fdb562f40fca4baea0ce",
+      "title": "Modeling Loss-Versus-Rebalancing in Automated Market Makers via Continuous-Installment Options",
+      "venue": "7th Conference on Advances in Financial Technologies (AFT 2025)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-a3030e4571462685ddcb0e3f",
+      "title": "SAMM: Sharded Automated Market Maker",
+      "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-f7a4629b420f7a3464bf8c42",
+      "title": "Defensive Rebalancing in Networks of Automated Market Makers",
+      "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-7254aa0b7bf1f20fce16f194",
+      "title": "Inside Qubic’s Selfish Mining Campaign on Monero: Evidence, Tactics, and Limits",
+      "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-535ec175a4c69fd473079623",
+      "title": "When Does Being Selfish Pay Off? Temporal Composability and Profitability in Selfish Mining",
+      "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-65440d024bf1be4938f49b91",
+      "title": "The Cost of Secure Restaking vs. Proof-Of-Stake",
+      "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-357231b40d494077f081c02b",
+      "title": "Correct Cryptocurrency ASIC Pricing: Are Miners Overpaying?",
+      "venue": "5th Conference on Advances in Financial Technologies (AFT 2023)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-168e1e02d9cc9d9fe96a0099",
+      "title": "When Bidders Are DAOs",
+      "venue": "5th Conference on Advances in Financial Technologies (AFT 2023)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-5641997f0c6e0a0e25497103",
+      "title": "Liquidity Management Attacks on Lending Markets",
+      "venue": "5th Conference on Advances in Financial Technologies (AFT 2023)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-366d427ccae62e53ff8692aa",
+      "title": "DeFi Lending During The Merge",
+      "venue": "5th Conference on Advances in Financial Technologies (AFT 2023)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-be9137a599271cdb2e61eb97",
+      "title": "Optimal RANDAO Manipulation in Ethereum",
+      "venue": "6th Conference on Advances in Financial Technologies (AFT 2024)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-497174003b424434fb222185",
+      "title": "Bribe & Fork: Cheap PCN Bribing Attacks via Forking Threat",
+      "venue": "6th Conference on Advances in Financial Technologies (AFT 2024)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-e1faa10bb88de478d747c0c7",
+      "title": "Loss-Versus-Fair: Efficiency of Dutch Auctions on Blockchains",
+      "venue": "6th Conference on Advances in Financial Technologies (AFT 2024)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-1e00e442f16196af9f1bafbf",
+      "title": "Who Wins Ethereum Block Building Auctions and Why?",
+      "venue": "6th Conference on Advances in Financial Technologies (AFT 2024)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-2dea209db518c31587060a6c",
+      "title": "A Shortfall in Investor Expectations of Leveraged Tokens",
+      "venue": "6th Conference on Advances in Financial Technologies (AFT 2024)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-4869c28c14d816b059db9bd2",
+      "title": "Adaptive Curves for Optimally Efficient Market Making",
+      "venue": "6th Conference on Advances in Financial Technologies (AFT 2024)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-80b86349a3ed327611a7d7e1",
+      "title": "Thinking Fast and Slow: Data-Driven Adaptive DeFi Borrow-Lending Protocol",
+      "venue": "6th Conference on Advances in Financial Technologies (AFT 2024)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-1e8a4843db8a647e95844b53",
+      "title": "Profitable Manipulations of Cryptographic Self-Selection Are Statistically Detectable",
+      "venue": "6th Conference on Advances in Financial Technologies (AFT 2024)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-aecd82749f5d92c20093d929",
+      "title": "Proof of Diligence: Cryptoeconomic Security for Rollups",
+      "venue": "6th Conference on Advances in Financial Technologies (AFT 2024)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-db69503448af1bd4ec079033",
+      "title": "Blockchain Space Tokenization",
+      "venue": "6th Conference on Advances in Financial Technologies (AFT 2024)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-6602ca29c5476dce1d777bf5",
+      "title": "Pool Formation in Oceanic Games: Shapley Value and Proportional Sharing",
+      "venue": "7th Conference on Advances in Financial Technologies (AFT 2025)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-3741100cad921acc3166c7e2",
+      "title": "Single-Token vs Two-Token Blockchain Tokenomics",
+      "venue": "7th Conference on Advances in Financial Technologies (AFT 2025)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-15c41c29121d2fdb5cd71528",
+      "title": "PvpAMM: A Perpetual Market for Unbalanced Long-Short Positions",
+      "venue": "7th Conference on Advances in Financial Technologies (AFT 2025)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-253308279671980f70141e4e",
+      "title": "Strategic Analysis of Just-In-Time Liquidity Provision in Concentrated Liquidity Market Makers",
+      "venue": "7th Conference on Advances in Financial Technologies (AFT 2025)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-1d935c26fe374edd921a5954",
+      "title": "Multi-Currency AMMs for Decentralized FOREX Markets: Feasibility & Optimal Design",
+      "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-134b514fef0f66e2ba2baa03",
+      "title": "Uniform-Loss Automated Market Making for Prediction Markets (Extended Abstract)",
+      "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-4692c878847bbd5b3a36d2f5",
+      "title": "ParlayMarket: Automated Market Making for Parlay-Style Joint Contracts",
+      "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-d6aabb72c6a4728ea4a526cf",
+      "title": "Competing Auctions in Intermediated Markets",
+      "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-5effed1aaffb43f8ab2aa0a7",
+      "title": "Just-In-Time Resale in an Ahead-Of-Time Auction for Faster Execution",
+      "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-106739719e6d6fd9782adba6",
+      "title": "To Wait or to Probe: Arbitrage Competition on High-Throughput Blockchains",
+      "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-5dd96c92460e826ed6cd6a8f",
+      "title": "The Execution Dilemma in Pessimistic Blockchains: Profitability XOR Fair Ordering",
+      "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-919c0e552295ea57acba8f32",
+      "title": "Optimal Reward Allocation via Proportional Splitting",
+      "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-d7a00a721ad60adaeaf5aaef",
+      "title": "Who Loses and Why? Market Microstructure of Perpetual Futures (Extended Abstract)",
+      "venue": "8th Conference on Advances in Financial Technologies (AFT 2026)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-1ded5a1f060920774aa7bd6c",
+      "title": "Robust Restaking Networks",
+      "venue": "16th Innovations in Theoretical Computer Science Conference (ITCS 2025)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "itcs"
+    },
+    {
+      "id": "discovered-82493e3bea8daf71f38baea2",
+      "title": "Characterizing Off-Chain Influence Proof Transaction Fee Mechanisms",
+      "venue": "17th Innovations in Theoretical Computer Science Conference (ITCS 2026)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "itcs"
+    },
+    {
+      "id": "discovered-3e0c413696b7b8a8139476eb",
+      "title": "Towards a Theory of Maximal Extractable Value I: Constant Function Market Makers",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-bd34da02de575eca6079f528",
+      "title": "Targets in Reinforcement Learning to solve Stackelberg Security Games",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-ede45aa7bed9433ecb86628a",
+      "title": "Scaling Multi-Objective Security Games Provably via Space Discretization Based Evolutionary Search",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-86e2bd31fe07ce9d1752607f",
+      "title": "A Treatment of EIP-1559: Enhancing Transaction Fee Mechanism through Nth-Price Auction",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-24f6e5781fdb9fdcd141f410",
+      "title": "Hijacking Routes in Payment Channel Networks: A Predictability Tradeoff",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-e3a8bd7c5da6adf0a9da0d80",
+      "title": "Rationality is Self-Defeating in Permissionless Systems",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-c7da6896487897ad47ce7cc9",
+      "title": "Free2Shard: Adaptive-adversary-resistant sharding via Dynamic Self Allocation",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-c956235c14096c82f3fc115f",
+      "title": "A Theory of Hypergames on Graphs for Synthesizing Dynamic Cyber Defense with Deception",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-784813d83e29bacb26757089",
+      "title": "Moving Target Defense for Robust Monitoring of Electric Grid Transformers in Adversarial Environments",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-fb1c5acb5fb255a66c658162",
+      "title": "A Game Theoretic Model for Strategic Coopetition in Business Networks",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-5ef6cd85c42a45cbd94e5308",
+      "title": "A Fair Model of Identity Information Exchange Leveraging Zero-Knowledge",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-59fd2e36c069792345cb5134",
+      "title": "Mitigating Moral Hazard in Cyber Insurance Using Risk Preference Design",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-502b6a25a362fde709c4fd6a",
+      "title": "Safe Delivery of Critical Services in Areas with Volatile Security Situation via a Stackelberg Game Approach",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-4ff01c06ad848d85c430bfa3",
+      "title": "Joint Security-vs-QoS Game Theoretical Optimization for Intrusion Response Mechanisms for Future Network Systems",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-3d43dd0b6504b30064502ec2",
+      "title": "Decentralized Attack Search and the Design of Bug Bounty Schemes",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-f73e28c9acaae511d0d729ab",
+      "title": "\"Zero Cost'' Majority Attacks on Permissionless Blockchains",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-46fb6e4d2a01a31972c18fc5",
+      "title": "The Future of MEV",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-cffbb459324bd2e8690e5252",
+      "title": "$Proo\\varphi$: A ZKP Market Mechanism",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-12bf7a5a7e2ee5c163ce0921",
+      "title": "Proof-of-Learning with Incentive Security",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-726e128828e8380b5a48e22e",
+      "title": "How much should you pay for restaking security?",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-fc2eda68545b54384ab9ea40",
+      "title": "Effects of Vote Delegation in Blockchains: Who Wins?",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-b0918cd6afc6248688b5711d",
+      "title": "V3rified: Revelation vs Non-Revelation Mechanisms for Decentralized Verifiable Computation",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-31a9490740508b50199b7042",
+      "title": "MEV Capture and Decentralization in Execution Tickets",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-f239357a2bffeb242bf7eb2c",
+      "title": "Fair Combinatorial Auctions: Endogenous Best Execution in Blockchain Trade-Intent Markets",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-f7552be419bf207c30fddb88",
+      "title": "On the Viability of Open-Source Financial Rails: Economic Security of Permissionless Consensus",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-4c2049f201e9246fd3f671a1",
+      "title": "CountChain: A Decentralized Oracle Network for Counting Systems",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-701917342e9e69a2bc43d13f",
+      "title": "Sealed-bid Auctions on Blockchain with Timed Commitment Outsourcing",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-2828dfe2fef4e58a2702404a",
+      "title": "Resonance: Transaction Fees for Heterogeneous Computation",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-e0aab2d6790b63d8545aa619",
+      "title": "Does multi-block MEV exist? Analysis of 2 years of MEV Data",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-bbccbd37c31f7526552d6248",
+      "title": "Thunderdome: Timelock-Free Rationally-Secure Virtual Channels",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-8f65fc938fd1ec939dd2b5d6",
+      "title": "Galaxy Era: Agent-based Simulation of Execution Tickets",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-54ad3d03eced005a2670079a",
+      "title": "Resource Allocation and Pricing for Blockchain-enabled Metaverse: A Stackelberg Game Approach",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-5e4fc03d83cc4bbdb9ff746a",
+      "title": "Transaction Fee Market Design for Parallel Execution",
+      "venue": "7th Conference on Advances in Financial Technologies (AFT 2025)",
+      "decision": "priority",
+      "reason": "Configured priority venue; still needs scope and contribution review.",
+      "venue_id": "aft"
+    },
+    {
+      "id": "discovered-43841de0b1d5bbea31317135",
+      "title": "Shapley Value-based Approach for Redistributing Revenue of Matchmaking of Private Transactions in Blockchains",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-44e350b95eb1239e2ac0928a",
+      "title": "Elastic Restaking Networks",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-1b2360b6e150f682b31cf312",
+      "title": "Using \"Failure Costs\" to Guarantee Execution Quality in Competitive and Permissionless Order Flow Auctions",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-6318e8090225d78bffcc8993",
+      "title": "Toward Resilient Airdrop Mechanisms: Empirical Measurement of Hunter Profits and Airdrop Game Theory Modeling",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-47d1624d6dde64773fe8bb25",
+      "title": "Enhancing Decentralization in Blockchain Decision-Making Through Quadratic Voting and Its Generalization",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-fc24ad66c134f29709b4d32f",
+      "title": "A Line Graph-Based Framework for Identifying Optimal Routing Paths in Decentralized Exchanges",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-f26ca36f69e4958c039dfad0",
+      "title": "Multiple Proposer Transaction Fee Mechanism Design: Robust Incentives Against Censorship and Bribery",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-cffeb6125b2d0dc03804ed45",
+      "title": "Game of Trust: How Trustworthy Does Your Blockchain Think You Are?",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-0d6234523510a4f77d780663",
+      "title": "Evaluating Voting Design Vulnerabilities for Retroactive Funding",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-08b3f135f6971868ff826c79",
+      "title": "Proof of Work With External Utilities",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-377cf71a59a75c050369fdd1",
+      "title": "A Smart-Contract to Resolve Multiple Equilibrium in Intermediated Trade",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-c33f2468cb7b180a8e834806",
+      "title": "Looking for Attention: Randomized Attention Test Design for Validator Monitoring in Optimistic Rollups",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-e2e03684ebbd72d78818fc8f",
+      "title": "Balancing incentives in committee-based blockchains",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-38c0124669a12fa016639efd",
+      "title": "An Incentive-Compatible Reward Sharing Mechanism for Mitigating Mirroring Attacks in Decentralized Data-Feed Systems",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-02bbdf0f4b0569a5ae2a5cf4",
+      "title": "On Sybil-proofness in Restaking Networks",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-16efa281c4ebbb1c2ea86721",
+      "title": "The Free Option Problem of ePBS",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-64117b2af0b680f176780d69",
+      "title": "A Small Collusion is All You Need",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-8b0233a4309af0a486a0a53c",
+      "title": "Rationally Analyzing Shelby: Proving Incentive Compatibility in a Decentralized Storage Network",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-e8e82edecfadb1ebdf9047c1",
+      "title": "Efficiency of Constant Log Utility Market Makers",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-2de00d0e140798e7a059dfb5",
+      "title": "Decentralized Exchange that Mitigate a Bribery Attack",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-2db605dac33cdaa753977586",
+      "title": "Timing Games in Responsive Consensus Protocols",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-f5e02efacd6e2c4c02fe5e02",
+      "title": "Foundations of Fiat-Denominated Loans Collateralized by Cryptocurrencies",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-496efefbecd58ce90e89a6b2",
+      "title": "Analyzing the Economic Impact of Decentralization on Users",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-4eb7e29478df4112774a3fa0",
+      "title": "Blockchain Monetary Policy, Strategic Participation, and the Dynamics of Decentralization",
+      "venue": "arXiv",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-e929012b8c403a89cdc9ea43",
+      "title": "Determining Blockchain Transaction Timing and Fee with Observable Mempools",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-f9c2a973453972cc402dc788",
+      "title": "Automated Market Making for Energy Sharing",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-bc62c2733d64688bde8c1cc3",
+      "title": "The CoinAlg Bind: Profitability-Fairness Tradeoffs in Collective Investment Algorithms",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-057f611bdbbeffa12b38d606",
+      "title": "Mean Field Analysis of Blockchain Systems",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-d53436d3b624815bff2b1585",
+      "title": "A Control Theoretic Approach to Decentralized AI Economy Stabilization via Dynamic Buyback-and-Burn Mechanisms",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    },
+    {
+      "id": "discovered-e43ccc702f43c713be7c9c81",
+      "title": "Bayesian Analysis of Inclusion Transaction Fee Mechanisms with Multiple Concurrent Proposers",
+      "venue": "arXiv (Cornell University)",
+      "decision": "review",
+      "reason": "Preprints need substantive editorial review; author/citation links are discovery signals only."
+    }
+  ]
+}
