@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-09",
+  "rule": "top = the backbone of a field or better. Set by the owner's anchors: AFT and FC are the floor, GameSec is below it. Elsewhere judged by rough equivalents recalled from CORE, CCF, AJG/ABS and ABDC (AJG 3 and above for economics, finance, OR/MS and information systems), then adjusted for field standing; high-volume journals with a low bar stay out. Not looked up one by one. Move a label between lists, then run python scripts/build.py build.",
+  "low_queue_rule": "low = still admitted and still screened, but after preprints. Niche blockchain and blockchain-plus-AI outlets must not take priority over better work.",
+  "top": {
+    "EconCS": ["EC", "TEAC", "WINE", "SAGT", "WWW", "AAMAS", "AAAI", "IJCAI", "UAI", "NeurIPS", "ICML", "ICLR", "AISTATS", "JAIR", "JAAMAS", "JMLR", "ECAI", "AIJ", "TARK", "FORC", "FAccT", "KR", "TMLR", "WEIS"],
+    "Blockchain": ["AFT", "FC"],
+    "TCS": ["JACM", "SICOMP", "Algorithmica", "ToC", "TOCT", "TALG", "TCS", "JCSS", "Inf. Comput.", "TOCS (Theory)", "Distributed Computing", "SIDMA", "Comput. Complexity", "STOC", "FOCS", "SODA", "ITCS", "ICALP", "ESA", "STACS", "APPROX", "RANDOM", "CCC", "MFCS", "ISAAC", "FSTTCS", "CAV", "TACAS", "FM", "ESOP", "POPL", "OOPSLA", "LICS", "CONCUR", "LMCS", "IEEE JSAIT", "IEEE TIT"],
+    "Systems": ["PODC", "DISC", "OPODIS", "ICDCS", "SRDS", "DSN", "NSDI", "SOSP", "OSDI", "EuroSys", "ATC", "Middleware", "SIGCOMM", "CoNEXT", "INFOCOM", "IMC", "ICNP", "MobiHoc", "SPAA", "IPDPS", "SIGMETRICS", "POMACS", "SIGMOD", "VLDB/PVLDB", "ICDE", "PODS", "TODS", "VLDB Journal", "TOCS", "TPDS", "TDSC", "TON", "JSAC", "TC", "TMC", "TNSE", "IEEE TSC", "TOSEM", "PACMSE"],
+    "Security & Crypto": ["IEEE S&P", "CCS", "USENIX Security", "NDSS", "CRYPTO", "EUROCRYPT", "ASIACRYPT", "TCC", "PKC", "CT-RSA", "SCN", "CSF", "ESORICS", "ASIACCS", "EuroS&P", "ACSAC", "RAID", "PETS/PoPETs", "TCHES", "ToSC", "Journal of Cryptology", "IACR CiC", "TIFS", "TOPS", "DCC", "J. Cybersecurity"],
+    "Econ": ["AER", "Econometrica", "QJE", "ReStud", "JPE", "AER: Insights", "JPE Micro", "AEJ Micro", "AEJ Macro", "JEEA", "Economic Journal", "REStat", "IER", "QE", "TE", "RAND", "JEL", "JEP", "Annu. Rev. Econ.", "J. Econometrics", "GEB", "JET", "ET", "JMathE", "SCW", "IJGT", "Experimental Economics", "JEB&O", "JEMS", "IJIO", "JIE", "JPubE", "JEDC", "EER", "RED (Dynamics)", "JLE", "JLEO", "J. Appl. Econometrics", "J Econ Surveys", "Economic Inquiry", "Economics Letters", "Economica", "SJE", "OBES", "CJE", "EJPE", "JPET", "Public Choice", "J. Regul. Econ.", "Energy Econ."],
+    "Finance": ["JF", "JFE", "RFS", "RoF", "JFQA", "JFI", "JME", "JMCB", "TAR", "JAR", "JAE (Accounting)", "Mathematical Finance", "Finance Stoch.", "SIAM JFM", "J. Financial Markets", "JBF", "JCF", "JFS", "JEF", "J. Futures Markets", "JIMF", "Quant. Finance", "RCFS", "RAPS", "J. Fin. Econometrics", "IRFA", "EFM", "EJF", "IJFE", "RQFA", "IME", "BAR", "Financial Management", "Financial Review", "ARFE", "FAJ", "JPM", "JFSR"],
+    "OR/MS": ["Management Science", "Operations Research", "MOR", "MSOM", "POM", "Marketing Science", "JOM", "Math. Program.", "SIOPT", "Stoch. Syst.", "QUESTA", "IJOC", "EJOR", "ORL", "NRL", "JOTA", "Decision Sciences", "Decision Analysis", "Annals of OR", "C&OR", "Omega", "JORS", "OR Spectrum", "GDN", "ISR", "MISQ", "JMIS", "JAIS", "DSS", "I&M"],
+    "Interdisciplinary": ["PNAS", "CSUR", "Proc. IEEE", "CHI", "Research Policy", "EJIS", "ISJ", "JIT", "IJIM", "JBR", "TFSC"]
+  },
+  "deferred": ["SSRN"],
+  "low": ["DAPPS", "BCCA", "BRAINS", "BSCI", "GBC", "FAB", "IEEE Blockchain", "MetaCom", "iThings Joint", "SmartNets", "COMSNETS", "MARBLE", "BCRA", "JBBA", "J. Blockchain Res.", "IET Blockchain", "Front. Blockchain"]
+}
