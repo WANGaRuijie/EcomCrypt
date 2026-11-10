@@ -45,6 +45,7 @@ def best_edition(editions):
         return ({'allow': 0, 'preprint': 1, 'unresolved': 2, 'unknown': 3, 'deny': 9}[verdict], not formal,
                 {'openalex': 0, 'dblp': 1, 'arxiv': 2, 'iacr-eprint': 3}.get(e.get('source'), 5), e.get('source_id') or '')
     usable = [e for e in editions if e.get('title')]
+    usable = [e for e in usable if e.get('year')] or usable      # reconstructed records carry no year and cannot be verified
     return sorted(usable, key=rank)[0] if usable else None
 
 

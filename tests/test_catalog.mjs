@@ -149,9 +149,9 @@ test('paper view sorts newest first, then title alphabetically and unknown years
 });
 
 test('preprints have an explicit venue group and formal publications suppress their preprints', () => {
-  assert.deepEqual(venueFor({kind:'preprint',venue:'arXiv'}), {group:'Preprint',label:'Preprint'});
+  assert.deepEqual(venueFor({kind:'preprint',venue:'arXiv'}), {group:'Preprints & Working Papers',label:'arXiv'});
   assert.equal(venueFor({kind:'preprint',venue:'arXiv',doi:'10.48550/arxiv.2605.27602',accepted_venue:'FC'}).label,'FC');
-  assert.ok(availableVenueGroups(catalog.venues).some(group => group.name === 'Preprint'));
+  assert.ok(availableVenueGroups(catalog.venues).some(group => group.name === 'Preprints & Working Papers'));
   const fixture = makeCatalog({schema_version:1,researchers:[],institutions:[],topics:[],papers:[{
     id:'work',title:'Paper',formal_publication:false,kind:'preprint',publications:[{
       id:'formal',title:'Paper',venue:'EC',year:2025}],topic_ids:[]}]});

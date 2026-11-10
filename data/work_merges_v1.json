@@ -1,0 +1,422 @@
+{
+ "schema_version": 1,
+ "rule": "merges fold one paper listed twice into a single entry at build time; distinct records pairs reviewed and kept apart. Reviewed from abstracts and titles.",
+ "merges": [
+  {
+   "drop": "discovered-97a3c920c68df9cf22deb8b0",
+   "keep": "discovered-ffd14753388b026d21deeea2",
+   "note": "2024 arXiv folded into 2025 FC Workshops: Liquidity Fragmentation or Optimization? Analyzing Automated"
+  },
+  {
+   "drop": "discovered-e7a7f0fc45ea890ebb66e164",
+   "keep": "discovered-998c291d2fdb89e0e5b92d00",
+   "note": "2025 arXiv folded into 2025 FC Workshops: Quest Love: A First Look at Blockchain Loyalty Programs"
+  },
+  {
+   "drop": "discovered-3e99b1b8ea99a5b3bcdf7aad",
+   "keep": "discovered-e4cc79d1591d2db7d7f79c19",
+   "note": "2021 arXiv folded into 2022 MARBLE: Decentralized Governance of Stablecoins with Closed Form Val"
+  },
+  {
+   "drop": "discovered-71954cc438da67e8d9d0228e",
+   "keep": "discovered-bbf02c0b96dd342e18f507f2",
+   "note": "2023 arXiv folded into 2025 CSUR: Automated Market Makers in Cryptoeconomic Systems: A Taxonom"
+  },
+  {
+   "drop": "discovered-b0a6143bab06b2b1cbc71be7",
+   "keep": "discovered-8b4fbb4515d47e111a220f35",
+   "note": "2026 SSRN folded into 2025 arXiv: Does Timeboost Reduce MEV-Related Spam? Theory and Evidence "
+  },
+  {
+   "drop": "discovered-aed15d795e8745630b71eedc",
+   "keep": "discovered-a22468395922c8a9386a331a",
+   "note": "2021 SSRN folded into 2022 FC Workshops: Lissy: Experimenting with On-Chain Order Books"
+  },
+  {
+   "drop": "discovered-e08c106bfdfacd34b0473c46",
+   "keep": "discovered-6c7e231169ae64138943c547",
+   "note": "2020 arXiv folded into 2021 WINE: Decentralized Asset Custody Scheme with Security Against Rat"
+  },
+  {
+   "drop": "discovered-1f8c280493e9bded3e292d38",
+   "keep": "discovered-5856e44ef426aa2e974820da",
+   "note": "2025 arXiv folded into 2026 POMACS: Geographical Centralization Resilience in Ethereum's Block-B"
+  },
+  {
+   "drop": "discovered-4861baca6a8addef96f6ebfb",
+   "keep": "discovered-f1864623441884294d95cf65",
+   "note": "2025 SSRN folded into 2025 HICSS: (De)Centralization in Blockchain Open-Source Development Com"
+  },
+  {
+   "drop": "discovered-285789715e774d6203f8ce7e",
+   "keep": "discovered-3b893a9e583993aadc1cbed1",
+   "note": "2019 arXiv folded into 2019 GameSec: $$\\mathsf {QFlip}$$ : An Adaptive Reinforcement Learning Str"
+  },
+  {
+   "drop": "discovered-dead70e3312abbe772b86388",
+   "keep": "discovered-3853dd88c225fce41162e204",
+   "note": "2023 arXiv folded into 2025 ICBC: AMM-based DEX on the XRP Ledger"
+  },
+  {
+   "drop": "discovered-1480b6271de2c8208b21184b",
+   "keep": "discovered-27758bd2c315b6bdee54e0a4",
+   "note": "2025 arXiv folded into 2025 EPJ Data Science: Price manipulation schemes of new crypto-tokens in decentral"
+  },
+  {
+   "drop": "discovered-58f1e2e1c299c933be6320da",
+   "keep": "discovered-17209e5924e6150df905e309",
+   "note": "2022 SSRN folded into 2022 arXiv: Multiparty Democracy in Decentralized Autonomous Organizatio"
+  },
+  {
+   "drop": "discovered-b18272b546e41ef85e36d1f6",
+   "keep": "discovered-b17e6666c2f40990a07f2843",
+   "note": "2020 arXiv folded into 2021 GameSec: Bet and Attack: Incentive Compatible Collaborative Attacks U"
+  },
+  {
+   "drop": "discovered-a24868149547b129bae7ea81",
+   "keep": "discovered-476f760f364f18da1726e633",
+   "note": "2022 arXiv folded into 2024 Digital Finance: Clustering Uniswap v3 traders from their activity on multipl"
+  },
+  {
+   "drop": "discovered-dbd8435dfdb9c3f1068d8b2e",
+   "keep": "discovered-5db294d7eedba59f4d5b93ec",
+   "note": "2022 IACR ePrint folded into 2023 MARBLE: An Automated Market Maker Minimizing Loss-Versus-Rebalancing"
+  },
+  {
+   "drop": "discovered-6307eff0a55299b665a38cd3",
+   "keep": "discovered-d17c9b3c99ecfb240d169546",
+   "note": "2021 arXiv folded into 2021 POMACS: Trade or Trick?"
+  },
+  {
+   "drop": "discovered-707ac6fc2519cd5a7032b31c",
+   "keep": "discovered-53625767ca1761031e2f0155",
+   "note": "2023 ICBC folded into 2024 IJNM: Transaction fee mechanisms with farsighted miners"
+  },
+  {
+   "drop": "discovered-97e1b7209b268e7f424d93b4",
+   "keep": "discovered-66ae0ad2fd1b2f8f9bc5b0f8",
+   "note": "2025 arXiv folded into 2026 ICDCS: Semi-Parallel Proof-Of-Work: a Practical Protocol with Impro"
+  },
+  {
+   "drop": "discovered-d2b9457b824872012d9bd972",
+   "keep": "discovered-a8bf7f17124a7709c47f60a2",
+   "note": "2022 Tokenomics folded into 2024 Management Science: Commitment Against Front-Running Attacks"
+  },
+  {
+   "drop": "discovered-a572a7bc4cec9b03c8047626",
+   "keep": "discovered-90c821e468d0cb26448caacc",
+   "note": "2020 arXiv folded into 2021 ICBC: A Predicament in Securing Blockchain Consensus via Controlli"
+  },
+  {
+   "drop": "discovered-a4be2d785088c1bd4d64b821",
+   "keep": "discovered-2d49cb88fa2a038fe40f23c3",
+   "note": "2020 ISCC folded into 2022 BCRA: The Bisq decentralised exchange: on the privacy cost of part"
+  },
+  {
+   "drop": "discovered-ff986f8d0a1564b4988bcabc",
+   "keep": "discovered-d44a8aa58f2639249d517023",
+   "note": "2020 arXiv folded into 2021 AFT: A verifiably secure and proportional committee election rule"
+  },
+  {
+   "drop": "discovered-2216aa5b3ef8205806e82b4a",
+   "keep": "discovered-6d0dd12136ad2f158344afc1",
+   "note": "2020 arXiv folded into 2024 IFIP Networking: Optimizing Virtual Payment Channel Establishment in the Face"
+  },
+  {
+   "drop": "discovered-ad8b04b4078455f2598c8e41",
+   "keep": "discovered-3ed038224c4c0734173b2195",
+   "note": "2020 arXiv folded into 2020 EC: Credible, Truthful, and Two-Round (Optimal) Auctions via Cry"
+  },
+  {
+   "drop": "discovered-8415bc435a9e03c6ca2ec89c",
+   "keep": "discovered-86995ae48a831cb95639c2e1",
+   "note": "2020 arXiv folded into 2024 DLT: A Game Theoretical Analysis of Non-linear Blockchain System"
+  },
+  {
+   "drop": "discovered-144039e6189aad27c09a8442",
+   "keep": "discovered-3bffa10d4974a8086d16bccb",
+   "note": "2025 arXiv folded into 2026 ICBC: Decoding RWA Tokenized U.S. Treasuries: Functional Dissectio"
+  },
+  {
+   "drop": "discovered-a3620b080b16de851db2c51f",
+   "keep": "discovered-3dd8d5ea9dd3ceeeae7fb759",
+   "note": "2021 BRAINS folded into 2023 TNSM: The Miner’s Dilemma With Migration: The Control Effect of So"
+  },
+  {
+   "drop": "discovered-d12e29e635c7e8eaaeda7509",
+   "keep": "discovered-1c02aa43c7c26602a265fd6e",
+   "note": "2025 TOIT folded into 2023 WWW: Ready, Aim, Snipe! Analysis of Sniper Bots and their Impact "
+  },
+  {
+   "drop": "discovered-027e401e443726dd8ed8b9b7",
+   "keep": "discovered-a1e603a39351996063eba983",
+   "note": "2019 NBER folded into 2022 Management Science: An Examination of Velocity and Initial Coin Offerings"
+  },
+  {
+   "drop": "discovered-705968313d33e22d7c6187a5",
+   "keep": "discovered-307fbba042f9fa2fa4e216cd",
+   "note": "2023 arXiv folded into 2025 ACNS: Automated Selfish Mining Analysis for DAG-Based PoW Consensu"
+  },
+  {
+   "drop": "discovered-3bfa585d580e1b492af963f0",
+   "keep": "discovered-fd47e0c208d26f4140d55218",
+   "note": "2023 ICBC folded into 2024 IJNM: Deeper: A shared liquidity decentralized exchange design for"
+  },
+  {
+   "drop": "discovered-84ad6672f343da7ce60cc482",
+   "keep": "discovered-a1f68d01e9b969c40ca46732",
+   "note": "2023 arXiv folded into 2024 SAC: A Study of MEV Extraction Techniques on a First-Come-First-S"
+  },
+  {
+   "drop": "discovered-8487fe3c9de792abf339988e",
+   "keep": "discovered-f7a4629b420f7a3464bf8c42",
+   "note": "2026 arXiv folded into 2026 AFT: Defensive Rebalancing in Networks of Automated Market Makers"
+  },
+  {
+   "drop": "discovered-e53504c74111be30f7129732",
+   "keep": "discovered-f065b34a4b9cb279220ad512",
+   "note": "2009 INFOCOM folded into 2012 TON: A Mathematical Framework for Analyzing Adaptive Incentive Pr"
+  },
+  {
+   "drop": "discovered-efa562a748d4df9a4f32effc",
+   "keep": "discovered-13fb2134219d48a044593b61",
+   "note": "2025 arXiv folded into 2026 SIGMETRICS: Cross-Chain Arbitrage: The Next Frontier of MEV in Decentral"
+  },
+  {
+   "drop": "discovered-04559770cebae7201023da2c",
+   "keep": "discovered-9c15caa94f9b01e3a94885d1",
+   "note": "2020 SSRN folded into 2023 MSOM: Blockchain Operations in the Presence of Security Concerns"
+  },
+  {
+   "drop": "discovered-914eaee1d378c1d3adf3885a",
+   "keep": "discovered-fc385c3f1ca29395cc625d84",
+   "note": "2021 arXiv folded into 2023 JEB&O: Arbitrageurs in the Bitcoin ecosystem: Evidence from user-le"
+  },
+  {
+   "drop": "discovered-c3b3503a50575f43af2271e9",
+   "keep": "discovered-1b6eef1dc4e9f7d7e271dd81",
+   "note": "2017 IJCAI folded into 2020 AIJ: When security games hit traffic: A deployed optimal traffic "
+  },
+  {
+   "drop": "discovered-1f1329f536b71c8eabfe4e13",
+   "keep": "discovered-74ec64a3c21e1d54939ce915",
+   "note": "2024 arXiv folded into 2024 EC: Fundamental Limits of Throughput and Availability: Applicati"
+  },
+  {
+   "drop": "discovered-64117b2af0b680f176780d69",
+   "keep": "discovered-c66980dde2be6a89e1eea329",
+   "note": "2025 arXiv folded into 2026 WWW: Deterring A Small Collusion is All You Need"
+  },
+  {
+   "drop": "discovered-979fc488cc5b3970d4fe8caf",
+   "keep": "extra-008",
+   "note": "2022 arXiv folded into 2023 AFT: Designing Multidimensional Blockchain Fee Markets"
+  },
+  {
+   "drop": "discovered-2b9d3a43d2a06c8d79483226",
+   "keep": "discovered-c5eaba15c6048c1040a4ab76",
+   "note": "2024 AFT folded into 2024 PODC: Brief Announcement: Musketeer - Incentive-Compatible Rebalan"
+  },
+  {
+   "drop": "discovered-3104ed36e27ba676cc87d334",
+   "keep": "gs-007",
+   "note": "2018 CACM folded into 2014 FC: Majority Is Not Enough: Bitcoin Mining Is Vulnerable"
+  },
+  {
+   "drop": "discovered-4f156caefea832664f9ee5fa",
+   "keep": "discovered-ce1c2c97eefc9f5259285e02",
+   "note": "2007 EC folded into 2012 Distributed Computing: Optimizing scrip systems: crashes, altruists, hoarders, sybi"
+  },
+  {
+   "drop": "discovered-cb5aab77b1bea326c6e472e0",
+   "keep": "discovered-16db5bd993288d2e63af2be7",
+   "note": "2020 AAMAS folded into 2022 AIJ: Defense coordination in security games: Equilibrium analysis"
+  },
+  {
+   "drop": "discovered-752652940ab58092b144ffaf",
+   "keep": "discovered-056cdd31c989e22ff2854a46",
+   "note": "2008 NetEcon folded into 2011 TON: How Bad Are Selfish Investments in Network Security?"
+  },
+  {
+   "drop": "discovered-7f9222187fd6d300bb63352e",
+   "keep": "discovered-24c7a6a75b1b336f781d9566",
+   "note": "2021 FAB folded into 2021 ICBC: Simulating the MakerDAO Stablecoin"
+  },
+  {
+   "drop": "discovered-5ed693d2f5baf3cf549f4cef",
+   "keep": "discovered-37941a2c4f1df9a0eb3fec9d",
+   "note": "2012 COMSNETS folded into 2011 SIGMETRICS: De-ossifying internet routing through intrinsic support for "
+  },
+  {
+   "drop": "discovered-4b4f073629a6b796ec1a882e",
+   "keep": "discovered-79a9d75b19c309fc54972c25",
+   "note": "2014 arXiv folded into 2016 PETS/PoPETs: A Framework for the Game-theoretic Analysis of Censorship Re"
+  },
+  {
+   "drop": "discovered-6701ce15218fb56d08e0e211",
+   "keep": "discovered-a5509326d9e4711cc5c6ac49",
+   "note": "2014 arXiv folded into 2015 PETS/PoPETs: Privacy Games: Optimal User-Centric Data Obfuscation"
+  },
+  {
+   "drop": "discovered-7e95a2803254fdabd475da16",
+   "keep": "discovered-fabc417fb9637c12599b79ec",
+   "note": "2018 GLOBECOM folded into 2021 IEEE TSC: On Cyber Risk Management of Blockchain Networks: A Game Theo"
+  }
+ ],
+ "distinct": [
+  {
+   "ids": [
+    "discovered-018d0ccc06b2ba6614a8bd35",
+    "discovered-12de36547d85cd600833e574"
+   ],
+   "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.54, abstract 0.11"
+  },
+  {
+   "ids": [
+    "discovered-0198f09668863b688a44e7a0",
+    "discovered-a4712b1dd5bbb386beeb2cf8"
+   ],
+   "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.43, abstract 0.45"
+  },
+  {
+   "ids": [
+    "discovered-086731a14362d007691d2b29",
+    "gs-018"
+   ],
+   "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.67, abstract 0.11"
+  },
+  {
+   "ids": [
+    "discovered-0b42710c5ee3f4bd68caf9b6",
+    "discovered-670cc4c8fdaed47557414c64"
+   ],
+   "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.00, abstract 0.49"
+  },
+  {
+   "ids": [
+    "discovered-1d55bacdad038c6d61198697",
+    "discovered-25f5821881d8002c5c89e84a"
+   ],
+   "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.50, abstract 0.11"
+  },
+  {
+   "ids": [
+    "discovered-1e62abd869ab90bbe2bfdc01",
+    "discovered-2ad7ed31c598eae84c8ca0cd"
+   ],
+   "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.62, abstract 0.17"
+  },
+  {
+   "ids": [
+    "discovered-1e62abd869ab90bbe2bfdc01",
+    "discovered-694c74ddc7cf304511365198"
+   ],
+   "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.71, abstract 0.08"
+  },
+  {
+   "ids": [
+    "discovered-284960c2accc7d955ce91191",
+    "discovered-734da53480b3647af48a2c0b"
+   ],
+   "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.75, abstract 0.23"
+  },
+  {
+   "ids": [
+    "discovered-445b18cae0588037720e3e32",
+    "discovered-79dbbef544c0bd5c67ede6e9"
+   ],
+   "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.75, abstract 0.18"
+  },
+  {
+   "ids": [
+    "discovered-8d95ba4913cf368971b70a77",
+    "discovered-e0300fbe07bd4f7bf9ed0c5a"
+   ],
+   "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.60, abstract 0.25"
+  },
+  {
+   "ids": [
+    "discovered-95c91b9967305805c4c1d236",
+    "gs-018"
+   ],
+   "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.57, abstract 0.06"
+  },
+  {
+   "ids": [
+    "discovered-97a97b857950422ed1463ec8",
+    "discovered-e076a8fdcccf5985ce92d236"
+   ],
+   "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.36, abstract 0.16"
+  },
+  {
+   "ids": [
+    "discovered-acdfdd649d3bfb1c86685a1d",
+    "discovered-bdaa3cbfee61045f1046030b"
+   ],
+   "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.33, abstract 0.56"
+  },
+  {
+   "ids": [
+    "discovered-af40402ff48ca9feaf4c4203",
+    "discovered-df87880139251527714881f7"
+   ],
+   "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.50, abstract 0.16"
+  },
+  {
+   "ids": [
+    "discovered-b53dc1012a3c8dd1c7578155",
+    "discovered-dc9a353085fb14baae1fd500"
+   ],
+   "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.38, abstract 0.44"
+  },
+  {
+   "ids": [
+    "discovered-b971833df6286e76e9d63dd2",
+    "gs-018"
+   ],
+   "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.40, abstract 0.21"
+  },
+  {
+   "ids": [
+    "discovered-e36834f3519d33540b019273",
+    "discovered-ed7fdb53ddffebd7eb95931c"
+   ],
+   "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.33, abstract 0.66"
+  },
+  {
+   "ids": [
+    "discovered-f024292db5d1c1f25949fb13",
+    "discovered-fef03d9755f751fe02eeb70b"
+   ],
+   "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.71, abstract 0.21"
+  },
+  {
+   "ids": [
+    "gs-018",
+    "gs-022"
+   ],
+   "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.57, abstract 0.00"
+  },
+  {
+   "ids": [
+    "discovered-34596bda93c7f01608237274",
+    "discovered-dd7849e03033e417ed6c2a15"
+   ],
+   "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.73, abstract 0.20"
+  },
+  {
+   "ids": [
+    "discovered-54da67d25995abb2d3dc0783",
+    "discovered-d5bacaed6a2db77ba9e20c14"
+   ],
+   "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.50, abstract 0.51"
+  },
+  {
+   "ids": [
+    "discovered-8e4b58309e00af1d324c785f",
+    "discovered-9fa5e95f2dc0a78c1f083668"
+   ],
+   "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.50, abstract 0.45"
+  }
+ ]
+}

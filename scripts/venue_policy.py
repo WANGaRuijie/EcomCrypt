@@ -14,6 +14,7 @@ from directory import read_json
 ROOT = Path(__file__).resolve().parents[1]
 POLICY = ROOT / 'data/venue_policy_v2.json'
 REGISTRY = ROOT / 'data/venue_registry_v1.json'
+TIERS = ROOT / 'data/venue_tiers_v1.json'
 PREPRINT = re.compile(r'\b(arxiv|corr|ssrn|eprint|cryptol(?:ogy)? eprint|preprint|working paper|nber|cepr|repec)\b')
 # Book-series names (OpenAlex often reports the series, not the conference) carry no
 # venue information; the event is resolved later from Crossref/DBLP before any decision.
@@ -105,7 +106,7 @@ def _registered(value, names, long_names):
             return row
     for match in re.finditer(r'\(([^()]+)\)', bare):
         row = names.get(re.sub(r' \d{2,4}$', '', norm(match[1])))
-        if row and _acronym_fits(bare.replace(match[0], ' '), row):
+        if row and not row.get('no_acronym_match') and _acronym_fits(bare.replace(match[0], ' '), row):
             return row
     return None
 
@@ -114,6 +115,32 @@ def venue_row(value):
     """Registry row for a venue as displayed, or None."""
     names, long_names, *_ = _load()
     return _registered(value, names, long_names) if norm(value) else None
+
+
+@lru_cache(maxsize=1)
+def _tiers():
+    data = read_json(TIERS)
+    return {label for labels in data['top'].values() for label in labels}, set(data['low']), set(data['deferred'])
+
+
+def is_top(label):
+    return label in _tiers()[0]
+
+
+def queue_rank(venue):
+    """Order for spending quota and LLM budget on waiting works: lower goes first, 9 is deferred."""
+    top, low, deferred = _tiers()
+    row = venue_row(venue)
+    if not row:
+        return 2
+    label = row['label']
+    if label in deferred:
+        return 9
+    if label in top:
+        return 0
+    if label in low:
+        return 3
+    return 2 if row['group'].startswith('Preprint') else 1
 
 
 def _accepted_preprint(record, candidates, names, long_names, rule):

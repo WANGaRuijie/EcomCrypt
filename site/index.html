@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="A collection of research papers in the interplay of economics, blockchain, cryptography, and security.">
   <title>EcomCrypt</title>
-  <link rel="stylesheet" href="./styles.css?v=ecomcrypt-2">
-  <script type="module" src="./app.mjs?v=ecomcrypt-6"></script>
+  <link rel="stylesheet" href="./styles.css?v=ecomcrypt-9">
+  <script type="module" src="./app.mjs?v=ecomcrypt-9"></script>
 </head>
 <body>
   <main class="wrap">
@@ -21,10 +21,12 @@
       <form id="filters" class="filters" role="search">
         <div class="bar"><h2>Filters</h2><button type="reset">Clear</button></div>
         <label class="search-label" for="search">Search</label>
-        <input id="search" type="search" placeholder="Paper, author, or venue">
+        <input id="search" type="search" placeholder="Paper, author, or venue" title="Close spellings are matched when a word appears nowhere in the directory.">
+        <label class="choice top-only" title="Peer-reviewed venues at or above the backbone of their field."><input id="top-only" type="checkbox" checked><span>Top venues only</span><small id="top-count"></small></label>
         <fieldset>
           <legend>Publication years</legend>
           <div class="year-values"><output id="from-value" for="from"></output><span aria-hidden="true">–</span><output id="to-value" for="to"></output></div>
+          <div id="year-histogram" class="year-histogram" aria-hidden="true"></div>
           <div id="year-range" class="year-range">
             <div class="year-track" aria-hidden="true"></div>
             <label class="sr-only" for="from">First publication year</label>
@@ -37,7 +39,7 @@
         <fieldset class="venue-filter"><legend>Venues</legend><div class="selection-actions"><button type="button" data-selection="venue" data-checked="true">Select All</button><button type="button" data-selection="venue" data-checked="false">Deselect All</button></div><div id="venues"></div></fieldset>
       </form>
       <section aria-label="Research directory">
-        <div class="bar results-bar"><div class="view-buttons" role="group" aria-label="Browse directory"><button type="button" data-view="author" aria-pressed="true">By Author</button><button type="button" data-view="paper" aria-pressed="false">By Paper</button></div><select id="browse-mode" hidden aria-hidden="true"><option value="author">By Author</option><option value="paper">By Paper</option></select><p id="result-summary" aria-live="polite"></p></div>
+        <div class="bar results-bar"><div class="view-buttons" role="group" aria-label="Browse directory"><button type="button" data-view="paper" aria-pressed="true">By Paper</button><button type="button" data-view="author" aria-pressed="false">By Author</button><button type="button" data-view="affiliation" aria-pressed="false">By Affiliation</button></div><select id="browse-mode" hidden aria-hidden="true"><option value="paper">By Paper</option><option value="author">By Author</option><option value="affiliation">By Affiliation</option></select><p id="result-summary" aria-live="polite"></p></div>
         <div id="results"></div>
       </section>
     </div>

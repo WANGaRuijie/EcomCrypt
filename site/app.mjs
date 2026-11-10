@@ -1,10 +1,13 @@
-import { authorFromHash, filterPapers, groupAuthorPapers, makeCatalog, safeWebUrl } from './catalog.mjs?v=ecomcrypt-6';
-import { availableVenueGroups, venueCaption } from './venues.mjs?v=ecomcrypt-6';
+import { authorFromHash, facetCounts, shownEditions, filterPapers, groupAffiliationPapers, groupAuthorPapers, makeCatalog, safeWebUrl, spellingMatches, UNKNOWN_AFFILIATION } from './catalog.mjs?v=ecomcrypt-9';
+import { availableVenueGroups, PREPRINTS, venueCaption } from './venues.mjs?v=ecomcrypt-9';
 
 const byId = (id) => document.getElementById(id);
 const form = byId('filters');
 const results = byId('results');
 const expanded = new Set();
+const cells = { years: new Map(), topics: new Map(), topicGroups: new Map(), venues: new Map(), venueGroups: new Map() };
+let listTimer = 0;
+let frame = 0;
 
 function element(tag, text, className) {
   const node = document.createElement(tag);
@@ -41,7 +44,7 @@ function sourceUrl(source, identifier) {
 
 function recordDetails(paper) {
   const raw = paper.raw_input;
-  const versions = paper.versions ?? [];
+  const versions = [...(paper.also ?? []), ...(paper.versions ?? [])];
   const sources = Object.entries(paper.source_ids ?? {}).filter(([, value]) => value);
   const primarySources = paper.primary_sources ?? [];
   if (!raw && !versions.length && !sources.length && !paper.doi) return null;
@@ -143,10 +146,13 @@ function paperList(catalog, papers) {
       const tag = element('span', catalog.topics.get(id)?.name ?? id, 'tag topic-tag');
       tags.append(tag);
     }
-    const venue = catalog.venues.get(paper.id);
-    if (paper.venue || venue.label !== 'Unlisted') {
-      const tag = element('span', venueCaption(paper,venue), 'tag venue-tag' + (venue.group === 'Preprint' ? ' preprint-tag' : ''));
-      tag.title = paper.accepted_venue ?? paper.venue ?? venue.label;
+    const shown = new Set();
+    for (const edition of shownEditions(catalog, paper, byId('top-only').checked)) {
+      const venue = catalog.editionVenues.get(edition.id);
+      if ((!edition.venue && venue.label === 'Unlisted') || shown.has(venue.label)) continue;
+      shown.add(venue.label);
+      const tag = element('span', venueCaption(edition,venue), 'tag venue-tag' + (venue.group === PREPRINTS ? ' preprint-tag' : venue.top ? ' top-tag' : ''));
+      tag.title = edition.accepted_venue ?? edition.venue ?? venue.label;
       tags.append(tag);
     }
     const details = recordDetails(paper);
@@ -184,7 +190,56 @@ function selectionActions(kind,scope) {
   return box;
 }
 
-function render(catalog) {
+function showCounts(catalog, filters) {
+  const counts = facetCounts(catalog, filters);
+  const put = (cell, value) => {
+    const text = String(value ?? 0);
+    if (cell.textContent !== text) cell.textContent = text;
+    cell.closest('.choice')?.classList.toggle('zero', !value);
+  };
+  put(byId('top-count'), counts.top);
+  const tallest = Math.max(1, ...counts.years.values());
+  const [from, to] = [Number(byId('from').value), Number(byId('to').value)];
+  for (const [year, bar] of cells.years) {
+    const value = counts.years.get(year) ?? 0;
+    bar.style.height = (value ? Math.max(4, value / tallest * 100) : 0) + '%';
+    bar.classList.toggle('outside', year < from || year > to);
+    bar.title = year + ': ' + value;
+  }
+  for (const [family, map] of [['topics', cells.topics], ['topicGroups', cells.topicGroups], ['venues', cells.venues], ['venueGroups', cells.venueGroups]]) {
+    for (const [key, cell] of map) put(cell, counts[family].get(key));
+  }
+}
+
+function affiliationTree(catalog, papers) {
+  const groups = groupAffiliationPapers(catalog, papers, catalog.affiliationOf);
+  const note = element('p', 'Current affiliation where known, otherwise the institution on the most recent byline. Inferred automatically and may be out of date.', 'affiliation-note');
+  const rows = groups.map(({ name, ids, authors }, index) => {
+    const row = treeRow(name, ids.size, 'affiliation:' + name, () => {
+      const list = element('div', null, 'papers');
+      list.append(...authors.map((author) => treeRow(author.name, author.papers.length, 'affiliation:' + name + ':' + author.key, () => paperList(catalog, author.papers))));
+      return list;
+    });
+    if (name !== UNKNOWN_AFFILIATION) row.querySelector('summary').prepend(element('span', index + 1, 'rank'));
+    return row;
+  });
+  return { rows: [note, ...rows], count: groups.filter(({ name }) => name !== UNKNOWN_AFFILIATION).length };
+}
+
+function drawResults(catalog, papers, authors) {
+  const mode = byId('browse-mode').value;
+  const none = element('p', 'No papers match these filters.', 'empty');
+  if (mode === 'paper') {
+    results.replaceChildren(papers.length ? paperList(catalog, papers) : none);
+  } else if (mode === 'affiliation') {
+    results.replaceChildren(...(papers.length ? affiliationTree(catalog, papers).rows : [none]));
+  } else {
+    results.replaceChildren(...(authors.length ? authors.map(({ key, name, papers: records }) =>
+      treeRow(name, records.length, key, () => paperList(catalog, records))) : [none]));
+  }
+}
+
+function render(catalog, { deferList = false } = {}) {
   for (const button of document.querySelectorAll('[data-view]')) button.setAttribute('aria-pressed', String(button.dataset.view === byId('browse-mode').value));
   const start = byId('from');
   const end = byId('to');
@@ -196,31 +251,39 @@ function render(catalog) {
   start.style.zIndex = start.value === start.max ? '3' : '1';
   start.setAttribute('aria-valuetext', 'From ' + start.value);
   end.setAttribute('aria-valuetext', 'Through ' + end.value);
-  const papers = filterPapers(catalog, {
+  const filters = {
     query: byId('search').value,
     topics: selected('topic'),
     venues: selected('venue'),
     from: start.value === start.min && end.value === end.max ? null : Number(start.value),
     to: start.value === start.min && end.value === end.max ? null : Number(end.value),
-  });
+    topOnly: byId('top-only').checked,
+  };
+  const papers = filterPapers(catalog, filters);
+  showCounts(catalog, filters);
   const rows = groupAuthorPapers(catalog, papers);
   const authorCount = rows.filter(({ key }) => key !== 'uncredited').length;
-  byId('result-summary').textContent = papers.length + ' records · ' + authorCount + ' authors';
-  if (byId('browse-mode').value === 'paper') {
-    results.replaceChildren(paperList(catalog, papers));
-    if (!papers.length) results.append(element('p', 'No papers match these filters.', 'empty'));
-    return;
-  }
-  results.replaceChildren(...rows.map(({ key, name, papers: records }) =>
-    treeRow(name, records.length, key, () => paperList(catalog, records))));
-  if (!rows.length) results.append(element('p', 'No papers match these filters.', 'empty'));
+  const closest = spellingMatches(catalog, byId('search').value);
+  byId('result-summary').textContent = papers.length + ' records · ' + authorCount + ' authors'
+    + (closest.length ? ' · closest match: ' + closest.slice(0, 4).join(', ') : '');
+  clearTimeout(listTimer);
+  if (deferList) listTimer = setTimeout(() => drawResults(catalog, papers, rows), 140);   // numbers follow a dragged slider at once, the long list when it pauses
+  else drawResults(catalog, papers, rows);
 }
 
 async function load() {
   const response = await fetch(new URL('./data/directory.json', import.meta.url), { cache: 'no-store' });
   if (!response.ok) throw new Error('Directory request failed');
   const catalog = makeCatalog(await response.json());
-  if (new URLSearchParams(location.search).get('view') === 'paper') byId('browse-mode').value = 'paper';
+  catalog.affiliationOf = new Map();
+  const affiliationData = await fetch(new URL('./data/affiliations.json', import.meta.url), { cache: 'no-store' }).then((reply) => (reply.ok ? reply.json() : {})).catch(() => ({}));
+  for (const [key, affiliation] of Object.entries(affiliationData)) {
+    const person = catalog.authorIndex.byName.get(key);
+    if (person && !catalog.affiliationOf.has(person)) catalog.affiliationOf.set(person, affiliation);
+  }
+  const requested = new URLSearchParams(location.search).get('view');
+  if (['paper', 'author', 'affiliation'].includes(requested)) byId('browse-mode').value = requested;
+  if (authorFromHash(location.hash)) byId('browse-mode').value = 'author';
   byId('browse-mode').addEventListener('change', () => {
     const url = new URL(location.href);
     url.searchParams.set('view', byId('browse-mode').value);
@@ -239,6 +302,11 @@ async function load() {
     input.defaultValue = id === 'from' ? input.min : input.max;
     input.value = input.defaultValue;
   }
+  for (let year = Number(byId('from').min); year <= Number(byId('to').max); year += 1) {
+    const bar = element('span');
+    cells.years.set(year, bar);
+    byId('year-histogram').append(bar);
+  }
   const topicGroups=new Map();
   for(const topic of catalog.topics.values()) {
     const total=catalog.papers.filter((paper) => paper.topic_ids.includes(topic.id)).length;
@@ -249,24 +317,36 @@ async function load() {
   }
   for(const [group,topics] of topicGroups) {
     const branch=element('details',null,'venue-group');
-    branch.append(element('summary',group));
+    const groupSummary=element('summary');
+    const groupCount=element('span',null,'count');
+    groupSummary.append(element('span',group),groupCount);
+    cells.topicGroups.set(group,groupCount);
+    branch.append(groupSummary);
     const choices=element('div',null,'venue-choices');choices.id='topic-group-'+topics[0].topic.id;
     choices.append(selectionActions('topic',choices.id));
-    for (const {topic,total} of topics) checkbox(choices, 'topic', topic.id, topic.name, total).title = topic.name;
+    for (const {topic,total} of topics) {
+      const input=checkbox(choices, 'topic', topic.id, topic.name, total);
+      input.title=topic.name;
+      cells.topics.set(topic.id,input.parentNode.querySelector('small'));
+    }
     branch.append(choices);byId('topics').append(branch);
   }
-  for (const { name: group, entries } of availableVenueGroups(catalog.venues)) {
+  for (const { name: group, entries } of availableVenueGroups(catalog.editionVenues)) {
     const branch = element('details', null, 'venue-group');
     const summary = element('summary');
     const total = entries.reduce((sum, entry) => sum + entry.count, 0);
-    summary.append(element('span', group), element('span', total, 'count'));
+    const groupCount = element('span', total, 'count');
+    cells.venueGroups.set(group, groupCount);
+    summary.append(element('span', group), groupCount);
     const choices = element('div', null, 'venue-choices');
     choices.id='venue-group-'+byId('venues').childElementCount;
     choices.append(selectionActions('venue',choices.id));
-    for (const { label, count } of entries) {
-      const input=checkbox(choices, 'venue', label, venueCaption({venue:label},{group,label}), count);
+    entries.forEach(({ label, count, top, display }, index) => {
+      if (index && entries[index - 1].top && !top) choices.append(element('hr', null, 'venue-divider'));
+      const input=checkbox(choices, 'venue', label, venueCaption({venue:label},{group,label,display}), count);
       input.title=label;
-    }
+      cells.venues.set(label,input.parentNode.querySelector('small'));
+    });
     branch.append(summary, choices);
     branch.open = group === 'EconCS';
     byId('venues').append(branch);
@@ -289,7 +369,9 @@ async function load() {
       if (event.target === start) end.value = start.value;
       else start.value = end.value;
     }
-    render(catalog);
+    const deferList = event.target.type === 'range';
+    clearTimeout(frame);
+    frame = setTimeout(() => render(catalog, { deferList }), 16);
   });
   form.addEventListener('reset', () => queueMicrotask(() => render(catalog)));
   function openRoute() {

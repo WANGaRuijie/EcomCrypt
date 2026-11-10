@@ -1,7 +1,14 @@
-import { registry } from './venue-registry.mjs?v=ecomcrypt-6';
+import { registry } from './venue-registry.mjs?v=ecomcrypt-9';
+
+export const PREPRINTS = 'Preprints & Working Papers';
+
+// Lower is stronger: top venues, then other peer-reviewed venues, then preprints and unlisted records.
+export function venueRank(venue) {
+  return venue.top ? 0 : venue.group === PREPRINTS || venue.group === 'Unlisted' ? 2 : 1;
+}
 
 export function venueCaption(paper, venue) {
-  if(venue.group!=='Interdisciplinary' || registry.some(v=>v.label===venue.label))return venue.label;
+  if(venue.group!=='Interdisciplinary' || registry.some(v=>v.label===venue.label))return venue.display ?? venue.label;
   const shown = paper.venue?.replace(/\s*\((?:Workshops?\s*)?[AB]?\d+\)\s*$/i, '');
   const acronym = shown?.match(/\(([A-Z][A-Za-z0-9&/\-]{1,14})\)/)?.[1];
   return (acronym && !/^(?:Abstracts?|Posters?|Demos?|Workshops?|Supplements?|Companion)$/i.test(acronym) ? acronym : shown) ?? venue.label;
@@ -19,7 +26,6 @@ for (const venue of registry) {
 }
 groups.set('Interdisciplinary', groups.get('Interdisciplinary') ?? []);
 groups.set('Unlisted', [['Unlisted']]);
-groups.set('Preprint', [['Preprint']]);
 export const venueGroups = [...groups];
 
 const names = registry.flatMap((venue) =>
@@ -34,19 +40,28 @@ const dblpAliases = new Map([
 
 export function availableVenueGroups(venues) {
   const totals = new Map();
-  for (const { label,group } of venues.values()) {
+  const top = new Set(), display = new Map();
+  for (const { label,group,top:isTop,display:shown } of venues.values()) {
+    if(shown)display.set(label,shown);
     if(!totals.has(group))totals.set(group,new Map());
     const counts=totals.get(group);counts.set(label,(counts.get(label)??0)+1);
+    if(isTop)top.add(label);
   }
   return venueGroups.map(([name]) => ({
     name,
-    entries: [...(totals.get(name)??[])].map(([label,count])=>({label,count})).sort((a,b)=>a.label.localeCompare(b.label)),
+    entries: [...(totals.get(name)??[])].map(([label,count])=>({label,count,top:top.has(label),display:display.get(label)}))
+      .sort((a,b)=>Number(b.top)-Number(a.top)||(a.display??a.label).localeCompare(b.display??b.label)),
   })).filter((group) => group.entries.length);
 }
 
 export function venueFor(paper) {
   if (!paper.accepted_venue && (paper.kind === 'preprint' || /(?:arxiv|ssrn|eprint)/i.test(paper.venue ?? '')
-      || /^10\.48550\/arxiv\./i.test(paper.doi ?? ''))) return { group: 'Preprint', label: 'Preprint' };
+      || /^10\.48550\/arxiv\./i.test(paper.doi ?? ''))) {
+    if (paper.venue_tag?.group === PREPRINTS) return paper.venue_tag;
+    const repository = /^10\.48550\/arxiv\./i.test(paper.doi ?? '') || /arxiv/i.test(paper.venue ?? '') ? 'arXiv'
+      : /ssrn/i.test(paper.venue ?? '') ? 'SSRN' : /eprint/i.test(paper.venue ?? '') ? 'IACR ePrint' : 'Other preprints';
+    return { group: PREPRINTS, label: repository };
+  }
   if (paper.venue_tag) return paper.venue_tag;       // set by scripts/build.py from the screening matcher
   const text = normalize(paper.accepted_venue ?? paper.venue);
   if (!('venue_tag' in paper)) {

@@ -24744,6 +24744,2435 @@
       ],
       "model": "deepseek-flash",
       "at": "2026-11-09T21:43:14+00:00"
+    },
+    "discovered-c9aa4078a8c5e638837980eb": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-426b96fd232bf146a2c96f56": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-be1bf3548ead380bedad7148": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-056cdd31c989e22ff2854a46": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-c062a27236342cf1c389e22f": {
+      "topics": [
+        "privacy-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-c7fbb211e04d582452d1a99c": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-b7244c96ae83727f382c7d8d": {
+      "topics": [
+        "stablecoins",
+        "token-design"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-6600eef2cd2c1b7c67ae75c1": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-3025ca00e11c1f1b2a523f06": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-b999fac5e744c7a9294812ae": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-5bfc306b3f0388d40f37fb14": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-3bc35e5749a1f0a03fe0587a": {
+      "topics": [
+        "token-launches"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-e8a87639cc735387ab598ef1": {
+      "topics": [
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-f1ea5a3eef21267de9530ad8": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-e884c4de844572bcca430bb6": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-7ecf1d23e0ad37441cffd665": {
+      "topics": [
+        "defi-risk"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-704d78c0286b3ff5b16b743e": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-b9b42457fb24952bc080488d": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-79a9d75b19c309fc54972c25": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-a5509326d9e4711cc5c6ac49": {
+      "topics": [
+        "privacy-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-5c0233bf89eec81ea6c06103": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-642c0211616b159a472e2d0f": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-2c11a1d609b537306d2d8d49": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-8811afa25a6cd1c59943e2d9": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-4ae0d9af5d184674df326e27": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:43+00:00"
+    },
+    "discovered-b5fb692a5c04802550e217e9": {
+      "topics": [
+        "security-games",
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-98a3fed9f5ff31a5fabd0792": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-7e95a2803254fdabd475da16": {
+      "topics": [
+        "cybercrime-economics",
+        "attack-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-8ae23db8bf716ab2cc3f72d0": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-0da08380af28884ee32c829d": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-d603235430a1f22f4ddb351f": {
+      "topics": [
+        "network-incentives"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-e0d6c9590b4c204b7e787e8d": {
+      "topics": [
+        "network-incentives"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-4199a299b5f86627b6cc7b97": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-3e732c11b7db40860d1a7afb": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-24e5456db8f002b480b3dd16": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-5ef1c7a0c3a5d39fd45ca09e": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-e2a588e3d7985e397d0dc387": {
+      "topics": [
+        "token-launches"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-24c7a6a75b1b336f781d9566": {
+      "topics": [
+        "stablecoins"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-583cbad74b6025f8c6b742af": {
+      "topics": [
+        "stablecoins",
+        "token-design"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-1d5f7b1f71c9c077924f8b77": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-19bbf5f56a13c75dd26a5e55": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-e54f2ca31f5e20cb73b49b80": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-1b916f714755e242b0344666": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-34596bda93c7f01608237274": {
+      "topics": [
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-dd7849e03033e417ed6c2a15": {
+      "topics": [
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-32e08beeb20e57a757cd9a0c": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-92b3f4fc61723158f5af6a89": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-34dcd7f622df5907d438b3d0": {
+      "topics": [
+        "rollups",
+        "formal-incentives"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-2410cfa9703a1eb807aad0b7": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-878b4c6afff67213c2ba1404": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-55b0b034e27b4382f7e4d9f1": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-237476fe879f45e485b5a660": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-7ce813b29f7e57ef803e59d5": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-5ed693d2f5baf3cf549f4cef": {
+      "topics": [
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-853f1e24410e3b0e7af06cb5": {
+      "topics": [
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-5621edb227a7e934eb57a54b": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-b210f623e91f965e0e2b1d57": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-73c181ec5a0f7146b1889478": {
+      "topics": [
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-2e25e9c7eda6b3983c98245c": {
+      "topics": [
+        "dao-governance",
+        "decentralization"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-405319fd4f59f10e347e6c64": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-514f3c7e63b7d8ba32970899": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-5e4c5d2eda51d4b485a3892a": {
+      "topics": [
+        "rational-consensus"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-6871802a7fc7d141e71704f4": {
+      "topics": [
+        "formal-incentives"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-408c5a503ec17f6a6f226691": {
+      "topics": [
+        "privacy-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-a69b6aa6ecd984a4045d4d42": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-a9bcf7695964d2890228cc32": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-54b50ee0dbca610346655456": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-0b8b09d9d601d64b4996ddb3": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-bab52aafed4398920e1b532b": {
+      "topics": [
+        "volatility-hedging"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-83039a032d027895f11341ec": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-d1fff2eae7b14e744e71d1ed": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-0eafe588950541c2554c598b": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-78f4e1bcd5c3df9aa5d03d1b": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-a737dc1dc2a4a2cf459d8240": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-1f5d483156cc912b0a345d94": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-159c43d7dc8b4cf710d403d8": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-18b72217524378c84266be36": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-c26776a9c2d47619be7459cd": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-49b9955bb45bb947423bfbcc": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-d0a430fbcdc2a30ecff96a34": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-8628d2de8ff803eb1c8d58d4": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-9d4b42b09caf0dab7dbdf1b8": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-502caabd6b739a89311aec48": {
+      "topics": [
+        "market-manipulation"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-282bd2530698d5cadf1bd9ab": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-6d0cf4ce8a980cce44db6abb": {
+      "topics": [
+        "payment-channels"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-17366218216e6a69b093e51a": {
+      "topics": [
+        "cross-chain",
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-9d94ce391dcdd4828a6306df": {
+      "topics": [
+        "protocol-foundations"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-1259b630fe280999804076b3": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-96d8515534f187a7b0326422": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-2fff3bc4a19d422a60a5dccd": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-c1bfc3fdb4ff93f0c9d8f777": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-f7d17b7f5317ccbc7978aa01": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-dd049e989b69f88c47803e4c": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-7a600144c2a40ac2ba295c03": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-deb2f2ea00294e0a62dfcb20": {
+      "topics": [
+        "rational-crypto"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-30c0685c7fb11622365a0ce3": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-209265d45281377ae7eaa58f": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-fd7a1c2a6855b10828116559": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-8ab5b8eee9975f100c8bf8a9": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-d334753b8c5100ff44d4ce2b": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-752652940ab58092b144ffaf": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-8540c2d1b59522ea2f3ec4e2": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-1d3c2fbde12b76e7305a2ce3": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-be7f050871f59f18f03a790d": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-9410190549ad1091e0c60247": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-a60181fa59448ce8f398761b": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-828707998472c078d45081b1": {
+      "topics": [
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-7bffd0b438320cceff008522": {
+      "topics": [
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-dd82fadd3a51ba40e2f3bc09": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-93fcc7f80dfa04fdef42d4bf": {
+      "topics": [
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-dfc31266cfd111ad66fa0512": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-b80e5d374a037f680c4f47a7": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-e63e75eda3273df0f55a5fbe": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-30e68ddf6670a1967920b816": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-17a0e5f3a2d085a8bedeb415": {
+      "topics": [
+        "mining-economics",
+        "decentralization"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-b3011d73ffd04528c386ef7e": {
+      "topics": [
+        "formal-incentives"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-37941a2c4f1df9a0eb3fec9d": {
+      "topics": [
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-241eba3b918c487d572f5947": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-9d78b3222b85e97df8f1d46d": {
+      "topics": [
+        "asset-pricing",
+        "defi-risk"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-eddc400a7a13baadac5805ac": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-8cd6113436b0605652a0ed01": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-d619132cda56f1a17fb13822": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-dfa69f83be69ca24d99e2cb2": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-ff9668a83522ce58e1184883": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-371577931c9e6d02c9fa8830": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-97dfe84d4a079b784ff70017": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-4e31a513dc07e7c9906bc61a": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-523da54bf287d6c400097e33": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-0944ad0a922017f3203fc001": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-c5cfe56d4fa144406aace7a6": {
+      "topics": [
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-ca6ccbd05092a64568f07145": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-d92e4bc7de2106f8dccffc3b": {
+      "topics": [
+        "token-launches"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-def99c596c4155d77b09bea0": {
+      "topics": [
+        "token-design",
+        "dao-governance"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-cc6af62bf9f722a8b7f72af7": {
+      "topics": [
+        "token-launches",
+        "token-design"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-e80e371e9fa39e8b27bbbf93": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-537dd8879db7eacb5c9f1043": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-9087d1021e6fa86973bd7ece": {
+      "topics": [
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-693382bef6d1ff295148222c": {
+      "topics": [
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-db1b242d88b23e116b003e9f": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-8b9813c42c04aebae3f04606": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-4a3c46e71fd3b7cfc0b96660": {
+      "topics": [
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-d9c213e63626318e7a2e3d6d": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-7c60f60ff2af11995ca214c9": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-8172be40076caebe775443fb": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-92009429d374c15ea95aa569": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-b915266f29308c0eddf95007": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-c18c80e25de5095dc32a0188": {
+      "topics": [
+        "illicit-finance"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-485db9e5dcadcbe6e15aaf25": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-f20f2a1f1dbb9bfdf14c6da6": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-fa8496fbfcc19f3ca9911c21": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-6dc8b8a796ca25049d76ade8": {
+      "topics": [
+        "investor-behavior",
+        "regulation"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-de67898c978d400cac99c0bf": {
+      "topics": [
+        "mining-economics",
+        "protocol-foundations"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-dbc353c448b9cfddd01f2511": {
+      "topics": [
+        "pos-consensus",
+        "decentralization"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-591146580b97e671922877bc": {
+      "topics": [
+        "asset-pricing"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-3736598a0c23b6f49a930e6e": {
+      "topics": [
+        "asset-pricing",
+        "investor-behavior"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-5260f31e990c209b68fde4de": {
+      "topics": [
+        "cbdc-payments",
+        "token-design"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-d46c98896972011bb7c1a521": {
+      "topics": [
+        "selfish-mining",
+        "mining-pools"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-42801c0e42cee5fa9c6dc5ed": {
+      "topics": [
+        "token-launches"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-4be907759ca9a69622df13d6": {
+      "topics": [
+        "security-games",
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-5227a26b0223481f4b7df2df": {
+      "topics": [
+        "rational-crypto",
+        "fair-exchange"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-5e7151de90e42bf3e278223b": {
+      "topics": [
+        "cybercrime-economics",
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-945b807542a46acfbf5a65c2": {
+      "topics": [
+        "cybercrime-economics",
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-95be26e117c2dd7ab10f3e55": {
+      "topics": [
+        "decentralization"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-521fcabbbef2ac5df5213477": {
+      "topics": [
+        "pos-consensus",
+        "protocol-foundations"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-feba7805c81ab72a55167a3b": {
+      "topics": [
+        "formal-incentives",
+        "privacy-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-af051143aaa773cae67ef0e3": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-98c763c79721049b5610861e": {
+      "topics": [
+        "protocol-foundations"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-b66ee2af844ccb3881eb96c5": {
+      "topics": [
+        "cybercrime-economics",
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-a986ae3ebd06ff70048ba4f2": {
+      "topics": [
+        "cyber-games",
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-be60d3aa7f2f74e4322ae1eb": {
+      "topics": [
+        "security-games",
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-8889b8315b08b13e86b7d390": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-4f73a28e5f8d38a1d2aa16d4": {
+      "topics": [
+        "privacy-economics",
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-487f0b37f8cbda33dbf09c09": {
+      "topics": [
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-50e0e10be604be9f70528cf1": {
+      "topics": [
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-b01db415706698917e957052": {
+      "topics": [
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-fc72c3011d38e20cb6bf033a": {
+      "topics": [
+        "mining-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-9fa5e95f2dc0a78c1f083668": {
+      "topics": [
+        "tfm-design"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-b85a51570305a0bbee1c0b79": {
+      "topics": [
+        "mining-pools"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-7c248d73acd678ffcd2e7865": {
+      "topics": [
+        "selfish-mining"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-f08388cca640d7accbfcdc57": {
+      "topics": [
+        "mining-pools",
+        "decentralization"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-9d4f8379515103f07f718eff": {
+      "topics": [
+        "exchange-microstructure"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-cf7798312c5f88fdf62357af": {
+      "topics": [
+        "selfish-mining",
+        "mining-pools"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-385b6e8db8a41d2ed698a320": {
+      "topics": [
+        "asset-pricing"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-2f1e10336fdb351d079c177f": {
+      "topics": [
+        "asset-pricing"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-4bc0f1498e8c89039fcafd49": {
+      "topics": [
+        "pos-consensus"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-5da014000cd0768bc4afb245": {
+      "topics": [
+        "rational-crypto"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-d0d5c20661a44315ea50d2dc": {
+      "topics": [
+        "protocol-foundations",
+        "tfm-design"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-cbb0c52d0634f63e7e3e5aed": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-a38bfc859cc17144d0faa436": {
+      "topics": [
+        "rational-consensus"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-af8cdc442937c5c942abe83c": {
+      "topics": [
+        "fair-ordering"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-245105a0d70be2d1a2fc62db": {
+      "topics": [
+        "fair-ordering"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-8d6ec51077b7e24b1f39a226": {
+      "topics": [
+        "volatility-hedging"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-6985575e8b8f3dd76616b079": {
+      "topics": [
+        "mev-extraction"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-acda62fcc5046016e5d0aaf0": {
+      "topics": [
+        "defi-derivatives"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-432aad335a59005cfc2143a7": {
+      "topics": [
+        "exchange-microstructure"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-4c3895b8cd8e01abed04daeb": {
+      "topics": [
+        "fair-exchange"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-9e744b93712ae1124bfe90cf": {
+      "topics": [
+        "volatility-hedging"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-8f250d7cc766f0debd34552f": {
+      "topics": [
+        "volatility-hedging"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-fc05eb17c14eba5e248d876d": {
+      "topics": [
+        "asset-pricing"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-6a3d6d5a0c33802e5e10ba78": {
+      "topics": [
+        "rational-crypto"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:44+00:00"
+    },
+    "discovered-578c43a9fe5199f43e924f9f": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:45+00:00"
+    },
+    "discovered-57a1c271849ca8ce9aa32b4d": {
+      "topics": [
+        "cross-chain",
+        "defi-derivatives",
+        "payment-channels"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:45+00:00"
+    },
+    "discovered-3ff558341221557330b8d813": {
+      "topics": [
+        "pos-consensus",
+        "protocol-foundations"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:45+00:00"
+    },
+    "discovered-6518108ef28a27cd094d6add": {
+      "topics": [
+        "incentive-systems",
+        "fair-exchange"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:45+00:00"
+    },
+    "discovered-296d708698f940d36cd2f10e": {
+      "topics": [
+        "cyber-games",
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-d2c2e639f761bbae1cc7d6ea": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-0c9dfd0f1de4febd910013f9": {
+      "topics": [
+        "cyber-games",
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-fef57b23cc25a09136399043": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-4e03ef9c714e0dbfedb5fc3c": {
+      "topics": [
+        "cyber-games",
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-ac064674a340cc4d4e498e0e": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-d4c1839f31217f8ce8325b02": {
+      "topics": [
+        "security-games",
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-a26ade5a912864cbaabad847": {
+      "topics": [
+        "cyber-games",
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-903ef72e8a20fa267ec12f9e": {
+      "topics": [
+        "cyber-games",
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-eb704f5ff38f733bae6e40d2": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-95b2083b756cf84dd382200a": {
+      "topics": [
+        "security-games",
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-a1119c807a46a8d5becef4ca": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-e9287b7fed768b8bc994bf60": {
+      "topics": [
+        "cyber-games",
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-cf6e8e65b9506dd73a9e63b3": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-82396f83af10b09a413e10e2": {
+      "topics": [
+        "cyber-games",
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-dd09ed1e33c10f44438cb96f": {
+      "topics": [
+        "cyber-games",
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-9106f044c5a0913ee236d649": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-ba30e9f4c4c5359e23ab87bc": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-2b07d443060b92ca9c401912": {
+      "topics": [
+        "cyber-games",
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-a8b8617856a71d07a35142f3": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-d6a7d9b4f7a7206595d679a0": {
+      "topics": [
+        "cybercrime-economics",
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-da99cd645f1d5ed56bed70c7": {
+      "topics": [
+        "cyber-games",
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-b892e0a0bf01f257a225a1c3": {
+      "topics": [
+        "incentive-systems",
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-96347e985f43eaec480f21d5": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-c9d8541a26701a2ca4afa898": {
+      "topics": [
+        "cyber-games",
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-d9aa39c73d9b38a3d90705e7": {
+      "topics": [
+        "incentive-systems",
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-0d78b40f3f04059f1ad7317f": {
+      "topics": [
+        "stablecoins",
+        "defi-derivatives"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-6e17cf0a27c40d07d77e9486": {
+      "topics": [
+        "incentive-systems",
+        "bribery-collusion"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-2de23f260fed23ef6f3b94ed": {
+      "topics": [
+        "mining-pools",
+        "mining-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-1319811c84019e8e839b9117": {
+      "topics": [
+        "fee-markets",
+        "tfm-design"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-8c89373e61737506951210fd": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-5c00255a7e8021ebd97600f3": {
+      "topics": [
+        "fair-exchange",
+        "pos-consensus"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-0b4f3fb6fe2389bf206e0c0b": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-6c107556a20e4ac0de862468": {
+      "topics": [
+        "pos-consensus",
+        "attack-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-3f659118f97d9d9d9f307e6d": {
+      "topics": [
+        "selfish-mining",
+        "mining-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-5b9e1eb0fa69d758723ab91e": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-f3b99a5f56c7bb2e0c7a812a": {
+      "topics": [
+        "incentive-systems",
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-48674a3adc16241272580124": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-affd31705910356051a61b73": {
+      "topics": [
+        "pos-consensus",
+        "decentralization"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-89ea5e041b343f66c0f50712": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-f2e5fd324dc7dcb3c3b82384": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-b7c8f3b3d15444215204909e": {
+      "topics": [
+        "lending",
+        "cross-chain"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-3d930f8c18ccbfa92cf11ef9": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-7997c13a5d7ded5b29508614": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-88891b8c5067b3cd5e70c325": {
+      "topics": [
+        "privacy-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-aee7fa80b8f44f1b947b9b7b": {
+      "topics": [
+        "protocol-foundations",
+        "rational-consensus"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-ed81ec3c28090896e0eca7b0": {
+      "topics": [
+        "rational-crypto",
+        "fair-exchange"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-f76db91ed04f17160ccab575": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-9aa41197dc5128f79177cb79": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-28b2f43d968c18e2cd339e6e": {
+      "topics": [
+        "tfm-design",
+        "fee-markets"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-31598acba2359ec415b93f09": {
+      "topics": [
+        "token-design",
+        "asset-pricing"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-97d80c3153808f337d7712bc": {
+      "topics": [
+        "asset-pricing",
+        "mining-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-b5ccd82eecf870e7f0020384": {
+      "topics": [
+        "token-launches",
+        "adoption"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-941b43b006d33fa8110caa8d": {
+      "topics": [
+        "payment-channels",
+        "cbdc-payments"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-fb215ff70d173b3dcf666447": {
+      "topics": [
+        "rational-crypto"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-01c465bb896038977c26e8b6": {
+      "topics": [
+        "protocol-foundations",
+        "rational-consensus"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-48b5e54b0a4c4f33435405c7": {
+      "topics": [
+        "payment-channels"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-aeb458844680ab67c459cbb8": {
+      "topics": [
+        "exchange-microstructure"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-b43236fe3f71ec4c47c36912": {
+      "topics": [
+        "exchange-microstructure",
+        "asset-pricing"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-83761ef9aae98490269dbb43": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-393629e8dddd5f547c58f7ec": {
+      "topics": [
+        "rational-crypto"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-ef633b81b4b0e0ce5d2d90f9": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-18cd8df094198a88075264b4": {
+      "topics": [
+        "stablecoins"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-7740b7425df66a96e9d19fa7": {
+      "topics": [
+        "asset-pricing",
+        "adoption"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-1d28192b4f140acde260f41c": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-69f1c282da1bc67b9ae428af": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-4b4f073629a6b796ec1a882e": {
+      "topics": [
+        "bribery-collusion"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-d5bacaed6a2db77ba9e20c14": {
+      "topics": [
+        "attack-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-5044ffe89083f43c93d57b85": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-6701ce15218fb56d08e0e211": {
+      "topics": [
+        "privacy-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-827468c7a8f2793522619a59": {
+      "topics": [
+        "oracles-prediction",
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-66312d3f47e28897eb76427c": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-7679178eb1a1190433a26f54": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-cf56da2381ff29a9532b208b": {
+      "topics": [
+        "token-design",
+        "asset-pricing"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-ada74ba9aebb326dbb9f8667": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-4dea52f38387f109e8d75744": {
+      "topics": [
+        "privacy-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-662cdc4469b2182df8f5da56": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-014202cb1205afb12b2a6486": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-40d47cc539f2d02b9c21557c": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-0f7885c6acaad086f8d2c444": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-f9b3ac3e6d81c7ce1e594671": {
+      "topics": [
+        "privacy-economics",
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-98e6f98dda88deeb2b831003": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-ea37712e91120efb3a36643e": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-fb13a54be7982c6f0e8f8b2a": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-823f9a0f1d82bd77b992349a": {
+      "topics": [
+        "token-launches"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-8a01ddf8ba7935ad1b3e3661": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-9c61d3da1fb55919c0660ddd": {
+      "topics": [
+        "data-compute-markets",
+        "bribery-collusion"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-d6de6d106b9809b309f7cb0a": {
+      "topics": [
+        "selfish-mining",
+        "mining-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-ce1b0a514d9b32367534dc1e": {
+      "topics": [
+        "illicit-finance",
+        "oracles-prediction"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-74f4b1dc7b5236f0db3d08f6": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-9f7e938d6eebc2f9fac7dae5": {
+      "topics": [
+        "mining-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-c4c9d2a50399968fdf0e59c3": {
+      "topics": [
+        "stablecoins",
+        "investor-behavior"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-ed8dae306cc5381f8822e70e": {
+      "topics": [
+        "stablecoins",
+        "defi-risk"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-0e4bd84dbcbc443d54de9beb": {
+      "topics": [
+        "selfish-mining",
+        "mining-pools"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-116875c45ba8ac4064cfd784": {
+      "topics": [
+        "dao-governance"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-79a2afc9f344b4c06fecf2d3": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-0ce56640f6221a839fa604c2": {
+      "topics": [
+        "exchange-microstructure"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-d38af92ca1f6efe10b820e4a": {
+      "topics": [
+        "token-launches"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-a5e74cb3705663e993da809f": {
+      "topics": [
+        "fee-markets",
+        "tfm-design"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-2cc332c4a7bd1769a22f1ebc": {
+      "topics": [
+        "cbdc-payments",
+        "tfm-design"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:22:46+00:00"
+    },
+    "discovered-c126792faceefc18a380f0eb": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:23+00:00"
+    },
+    "discovered-c6bf524fd365909c3f5cfc94": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:23+00:00"
+    },
+    "discovered-dd63fc9f9cd9b96a1af34941": {
+      "topics": [
+        "network-incentives"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:23+00:00"
+    },
+    "discovered-e7d42096216d5a8c72a7502a": {
+      "topics": [
+        "fair-exchange"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:23+00:00"
+    },
+    "discovered-d305d6779a21f1a9e8def356": {
+      "topics": [
+        "security-games",
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:23+00:00"
+    },
+    "discovered-109e5578eb88e281db8ee6ae": {
+      "topics": [
+        "network-incentives",
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-b5b1d70fbb21651b274fa18f": {
+      "topics": [
+        "oracles-prediction",
+        "network-incentives"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-091b7a9ea9db47337e637f85": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-c171c89a4a4bb82ff4324b72": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-52ef2895d11f548ab43f4405": {
+      "topics": [
+        "selfish-mining",
+        "mining-pools"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-5c8a5707c7029002ebeb10a4": {
+      "topics": [
+        "pos-consensus",
+        "staking",
+        "decentralization"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-bbca6f2dea34a4ad32452cfa": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-92d14aa4057d8d9ad47dd311": {
+      "topics": [
+        "security-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-ee1a41ed1a29ec30ce5ad846": {
+      "topics": [
+        "mev-extraction"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-6ba96052c7533480ff027c28": {
+      "topics": [
+        "mining-economics",
+        "protocol-foundations"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-819cd282135c852f413b1d25": {
+      "topics": [
+        "rational-crypto"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-729d21e5b53ab20c735485a8": {
+      "topics": [
+        "network-incentives",
+        "data-compute-markets"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-fdb995067f43927104082b86": {
+      "topics": [
+        "selfish-mining",
+        "protocol-foundations"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-d6be41d368dcb7c77c2047ee": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-12b6468729d9eeb01e14051b": {
+      "topics": [
+        "incentive-systems"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-d3abc049a0f8ca5880a8c70c": {
+      "topics": [
+        "cyber-games"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-fe2c0ffe6de3fc73e440c8ea": {
+      "topics": [
+        "rational-crypto"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-e603f27b8f83e6fff7d97ff6": {
+      "topics": [
+        "rational-crypto"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-a009458f0e8c85370d3d0c6b": {
+      "topics": [
+        "liquidity-provision",
+        "dex-trading"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-2423b8ab7749c6aa7f06d009": {
+      "topics": [
+        "token-launches"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-b940e0b944e832e1b6126326": {
+      "topics": [
+        "cbdc-payments"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-a17841466f25b4ca41d4f4c5": {
+      "topics": [
+        "nft-markets"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-86a137c92cc1d9fe0802f853": {
+      "topics": [
+        "mining-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-29552fa8768faebc6118078e": {
+      "topics": [
+        "cybercrime-economics"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
+    },
+    "discovered-578f32d5135ef08036606d46": {
+      "topics": [
+        "network-incentives"
+      ],
+      "model": "deepseek-flash",
+      "at": "2026-11-10T00:39:24+00:00"
     }
   }
 }

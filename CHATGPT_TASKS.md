@@ -70,3 +70,11 @@
 - 把 `.out/chatgpt/manual-review-2026-11-09/PROMPT.md` 的内容粘贴到 ChatGPT 新对话，并上传同目录的 `review-data.json`。
 - 产出 `result.json` 放回同目录，Claude 会核对后合并。venue 和收录决定在合并前由用户过目。
 - 状态：等待用户发送
+
+## T-2026-11-09b 筛选复核与作者单位（进行中）
+
+材料在 `.out/chatgpt/review-2026-11-09b/`。
+- 筛选：上传 `screening-data.json`，提示词见 `PROMPT-screening.md`，结果文件为 `screening-result.json`。
+- 单位：共 8 份 `affiliations-NN.json`，每次对话一份，提示词见 `PROMPT-affiliations.md`，结果文件为 `affiliations-NN-result.json`。
+
+结果放回同一目录后，由 Claude 合并：筛选结论写进 `data/editorial_decisions_v2.json`，核实结果走 promote，单位写进 `data/author_affiliations_v1.json` 的 `manual_affiliations`。

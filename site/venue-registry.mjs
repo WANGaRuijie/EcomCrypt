@@ -3488,7 +3488,7 @@ export const registry = [
     "id": "dallas-globalization-wp",
     "label": "Dallas Fed WP",
     "name": "Federal Reserve Bank of Dallas, Globalization Institute Working Papers",
-    "group": "Preprint",
+    "group": "Preprints & Working Papers",
     "kind": "working-paper",
     "priority": "targeted",
     "aliases": [],
@@ -5467,21 +5467,6 @@ export const registry = [
     "added_at": "2026-11-09"
   },
   {
-    "id": "finance-stochastics",
-    "label": "Finance Stoch.",
-    "name": "Finance and Stochastics",
-    "group": "Finance",
-    "kind": "journal",
-    "priority": "targeted",
-    "aliases": [
-      "Finance Stochastics"
-    ],
-    "source_ids": [],
-    "selector_status": "unresolved",
-    "dblp": [],
-    "added_at": "2026-11-09"
-  },
-  {
     "id": "ejf",
     "label": "EJF",
     "name": "European Journal of Finance",
@@ -7046,6 +7031,552 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "icse",
+    "label": "ICSE",
+    "name": "International Conference on Software Engineering",
+    "group": "Systems",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "ICSE"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "esec-fse",
+    "label": "ESEC/FSE",
+    "name": "ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering",
+    "group": "Systems",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "ESEC/SIGSOFT FSE",
+      "SIGSOFT FSE"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "ase-conf",
+    "label": "ASE",
+    "name": "IEEE/ACM International Conference on Automated Software Engineering",
+    "group": "Systems",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "ASE"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "issta",
+    "label": "ISSTA",
+    "name": "ACM SIGSOFT International Symposium on Software Testing and Analysis",
+    "group": "Systems",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "ISSTA"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "tse",
+    "label": "TSE",
+    "name": "IEEE Transactions on Software Engineering",
+    "group": "Systems",
+    "kind": "journal",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "IEEE Trans. Software Eng."
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "kdd",
+    "label": "KDD",
+    "name": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+    "group": "Interdisciplinary",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "KDD"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "tkde",
+    "label": "TKDE",
+    "name": "IEEE Transactions on Knowledge and Data Engineering",
+    "group": "Systems",
+    "kind": "journal",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "IEEE Trans. Knowl. Data Eng."
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "sigir",
+    "label": "SIGIR",
+    "name": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "group": "Interdisciplinary",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "SIGIR"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "mobicom",
+    "label": "MobiCom",
+    "name": "ACM International Conference on Mobile Computing and Networking",
+    "group": "Systems",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "MobiCom"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "cscw",
+    "label": "CSCW",
+    "name": "ACM Conference on Computer Supported Cooperative Work",
+    "group": "Interdisciplinary",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "CSCW"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "pldi",
+    "label": "PLDI",
+    "name": "ACM SIGPLAN Conference on Programming Language Design and Implementation",
+    "group": "TCS",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "PLDI"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "asplos",
+    "label": "ASPLOS",
+    "name": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+    "group": "Systems",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "ASPLOS"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "isca",
+    "label": "ISCA",
+    "name": "International Symposium on Computer Architecture",
+    "group": "Systems",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "ISCA"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "micro",
+    "label": "MICRO",
+    "name": "IEEE/ACM International Symposium on Microarchitecture",
+    "group": "Systems",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "MICRO"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "fast",
+    "label": "FAST",
+    "name": "USENIX Conference on File and Storage Technologies",
+    "group": "Systems",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "FAST"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "sc-hpc",
+    "label": "SC",
+    "name": "International Conference for High Performance Computing, Networking, Storage and Analysis",
+    "group": "Systems",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "SC"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "ppopp",
+    "label": "PPoPP",
+    "name": "ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming",
+    "group": "Systems",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "PPoPP"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "toplas",
+    "label": "TOPLAS",
+    "name": "ACM Transactions on Programming Languages and Systems",
+    "group": "TCS",
+    "kind": "journal",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "ACM Trans. Program. Lang. Syst."
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "icis",
+    "no_acronym_match": true,
+    "label": "ICIS",
+    "name": "International Conference on Information Systems",
+    "group": "Interdisciplinary",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "ICIS"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "cikm",
+    "label": "CIKM",
+    "name": "ACM International Conference on Information and Knowledge Management",
+    "group": "Interdisciplinary",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "CIKM"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "wsdm",
+    "label": "WSDM",
+    "name": "ACM International Conference on Web Search and Data Mining",
+    "group": "Interdisciplinary",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "WSDM"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "icdm",
+    "label": "ICDM",
+    "name": "IEEE International Conference on Data Mining",
+    "group": "Interdisciplinary",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "ICDM"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "iwqos",
+    "label": "IWQoS",
+    "name": "International Workshop on Quality of Service",
+    "group": "Systems",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "IWQoS"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "secon",
+    "label": "SECON",
+    "name": "IEEE International Conference on Sensing, Communication, and Networking",
+    "group": "Systems",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "SECON"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "mobisys",
+    "label": "MobiSys",
+    "name": "International Conference on Mobile Systems, Applications, and Services",
+    "group": "Systems",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "MobiSys"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "sensys",
+    "label": "SenSys",
+    "name": "ACM Conference on Embedded Networked Sensor Systems",
+    "group": "Systems",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "SenSys"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "icws",
+    "label": "ICWS",
+    "name": "IEEE International Conference on Web Services",
+    "group": "Systems",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "ICWS"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "hpdc",
+    "label": "HPDC",
+    "name": "ACM International Symposium on High-Performance Parallel and Distributed Computing",
+    "group": "Systems",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "HPDC"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "cluster",
+    "label": "CLUSTER",
+    "name": "IEEE International Conference on Cluster Computing",
+    "group": "Systems",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "CLUSTER"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "icaps",
+    "label": "ICAPS",
+    "name": "International Conference on Automated Planning and Scheduling",
+    "group": "EconCS",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "ICAPS"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "ieee-p2p",
+    "label": "IEEE P2P",
+    "name": "IEEE International Conference on Peer-to-Peer Computing",
+    "group": "Systems",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "P2P",
+      "Peer-to-Peer Computing"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "trustcom",
+    "label": "TrustCom",
+    "name": "IEEE International Conference on Trust, Security and Privacy in Computing and Communications",
+    "group": "Security & Crypto",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "TrustCom",
+      "TrustCom/BigDataSE",
+      "TrustCom/BigDataSE/ICESS",
+      "TrustCom/BigDataSE/ISPA"
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "jisa",
+    "label": "JISA",
+    "name": "Journal of Information Security and Applications",
+    "group": "Security & Crypto",
+    "kind": "journal",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "J. Inf. Secur. Appl."
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "iet-ifs",
+    "label": "IET Inf. Secur.",
+    "name": "IET Information Security",
+    "group": "Security & Crypto",
+    "kind": "journal",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "IET Inf. Secur."
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "jgo",
+    "label": "J. Glob. Optim.",
+    "name": "Journal of Global Optimization",
+    "group": "OR/MS",
+    "kind": "journal",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "J. Glob. Optim."
+    ],
+    "added_at": "2026-11-09"
+  },
+  {
+    "id": "tem",
+    "label": "IEEE TEM",
+    "name": "IEEE Transactions on Engineering Management",
+    "group": "OR/MS",
+    "kind": "journal",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "IEEE Trans. Engineering Management"
+    ],
     "added_at": "2026-11-09"
   }
 ];

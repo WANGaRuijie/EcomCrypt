@@ -327,6 +327,13 @@ def _llm(config):
                     price_out_per_m=c['price_out_per_m_usd'])
 
 
+def in_queue_order(works, include_deferred=False):
+    """Better venues first; deferred repositories wait (data/venue_tiers_v1.json)."""
+    from venue_policy import queue_rank
+    ranked = sorted(((queue_rank(w.get('venue')), n, w) for n, w in enumerate(works)), key=lambda row: row[:2])
+    return [w for rank, _, w in ranked if include_deferred or rank < 9]
+
+
 def cmd_screen(args, store, config, run_id):
     from screen import run_stage
     import source_feeds as feeds
@@ -339,8 +346,8 @@ def cmd_screen(args, store, config, run_id):
     groups = set(getattr(args, 'group', None) or [])
 
     def select(statuses):
-        works = [w for w in store.works(statuses) if (not min_year or (w.get('year') or 0) >= min_year)
-                 and (not groups or w.get('venue_group') in groups)]
+        works = in_queue_order([w for w in store.works(statuses) if (not min_year or (w.get('year') or 0) >= min_year)
+                                and (not groups or w.get('venue_group') in groups)], getattr(args, 'include_deferred', False))
         return works[:limit] if limit else works
 
     if args.stage in {'title', 'all'}:
@@ -367,7 +374,8 @@ def cmd_enrich(args, store, config):
     import source_feeds as feeds
     from enrich import enrich
     statuses = args.status or ['title_keep', 'needs_fulltext']
-    keys = [w['key'] for w in store.works(statuses, limit=args.limit) if len(w.get('abstract') or '') < 200]
+    waiting = in_queue_order(store.works(statuses), getattr(args, 'include_deferred', False))
+    keys = [w['key'] for w in (waiting[:args.limit] if args.limit else waiting) if len(w.get('abstract') or '') < 200]
     enrich(store, feeds.Http(), keys, s2_key=os.environ.get('S2_API_KEY'), use_crossref=config['enrich']['crossref'], log=log)
 
 
@@ -383,6 +391,13 @@ def cmd_topics(args, store, config, run_id):
     c = config['llm']
     retag(store, current_directory(), _llm(config), Spend(store, run_id, args.budget if args.budget is not None else c['budget_usd_per_run']),
           log=log, concurrency=c['concurrency'])
+
+
+def cmd_affiliations(args, store, config, run_id):
+    from affiliations_llm import assign
+    c = config['llm']
+    assign(store, current_directory(), _llm(config), Spend(store, run_id, args.budget if args.budget is not None else c['budget_usd_per_run']),
+           log=log, concurrency=c['concurrency'])
 
 
 # --- reporting -------------------------------------------------------------
@@ -571,6 +586,7 @@ def main(argv=None):
     sub.add_parser('refresh', help='re-sync directory and recompute venue/prefilter status (after editing registry/policy)')
     p = sub.add_parser('enrich', help='recover abstracts')
     p.add_argument('--status', action='append'); p.add_argument('--limit', type=int)
+    p.add_argument('--include-deferred', action='store_true', help='also process repositories deferred in data/venue_tiers_v1.json')
     p = sub.add_parser('screen', help='LLM screening')
     p.add_argument('--stage', choices=['title', 'enrich', 'abstract', 'all'], default='all')
     p.add_argument('--budget', type=float); p.add_argument('--limit', type=int); p.add_argument('--no-enrich', action='store_true')
@@ -578,12 +594,15 @@ def main(argv=None):
     p.add_argument('--with-abstract', action='store_true', help='abstract stage: only works that already have an abstract')
     p.add_argument('--retry-invalid', action='store_true', help='re-judge abstracts downgraded because an excerpt failed validation')
     p.add_argument('--group', action='append', help='only send works in this venue group to the LLM (repeatable)')
+    p.add_argument('--include-deferred', action='store_true', help='also screen repositories deferred in data/venue_tiers_v1.json')
     p = sub.add_parser('promote', help='verify includes and (with --apply) append them to the ledger')
     p.add_argument('--apply', action='store_true')
     p.add_argument('--confidence', choices=['high', 'medium'], help='with --apply: write only this screening confidence')
     p.add_argument('--kind', choices=['formal', 'preprint'], help='with --apply: write only formal publications or only preprints')
     p.add_argument('--group', action='append', help='with --apply: write only this venue group (repeatable)')
     p = sub.add_parser('topics', help='assign directory papers to the display taxonomy (data/topic_taxonomy_v2.json); then run build.py build')
+    p.add_argument('--budget', type=float)
+    p = sub.add_parser('affiliations', help='decide author affiliations for the By Affiliation view')
     p.add_argument('--budget', type=float)
     sub.add_parser('report', help='write .out/monthly/<run>/report.md')
     sub.add_parser('export', help='write data/screening_ledger_v2.jsonl')
@@ -613,6 +632,8 @@ def main(argv=None):
             cmd_run(args, store, config, run_id)
         elif args.command == 'topics':
             cmd_topics(args, store, config, run_id)
+        elif args.command == 'affiliations':
+            cmd_affiliations(args, store, config, run_id)
         elif args.command == 'report':
             build_report(store, run_id)
         else:

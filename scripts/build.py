@@ -57,6 +57,27 @@ def verify(seed_data, cache, refresh, offline):
     }
 
 
+def merge_duplicates(directory):
+    """Fold works confirmed to be one paper (data/work_merges_v1.json) into one entry; the ledger keeps both."""
+    path = ROOT / 'data/work_merges_v1.json'
+    if not path.exists():
+        return
+    from venue_policy import is_preprint, venue_row
+    papers = {paper['id']: paper for paper in directory['papers']}
+    for row in read_json(path)['merges']:
+        drop, keep = papers.get(row['drop']), papers.get(row['keep'])
+        if drop is None or keep is None:
+            continue
+        directory['papers'].remove(drop)
+        edition = {key: value for key, value in drop.items() if key not in {'versions', 'publications'}}
+        unrefereed = is_preprint(drop) or (venue_row(drop.get('venue')) or {}).get('group', '').startswith('Preprint')
+        keep.setdefault('versions' if unrefereed else 'publications', []).append(edition)
+        if drop.get('versions'):
+            keep.setdefault('versions', []).extend(drop['versions'])
+        if drop.get('publications'):
+            keep.setdefault('publications', []).extend(drop['publications'])
+
+
 def project(seed_data, evidence, ledger=None):
     from metadata import _resolve_edition, normalize_title
 
@@ -200,6 +221,7 @@ def project(seed_data, evidence, ledger=None):
             for paper in directory['papers']:
                 if normalize_title(paper['title'])==normalize_title(row['title']):
                     paper.update(accepted_venue=row['venue'],acceptance_source=row['source'],publication_status='accepted')
+    merge_duplicates(directory)
     from topics import apply_taxonomy
     apply_taxonomy(directory)
     homonyms=ROOT/'data/author_homonyms_v1.json'
@@ -210,10 +232,11 @@ def project(seed_data, evidence, ledger=None):
                     paper['authors']=[row['display'] if a==row['name'] else a for a in paper['authors']]
                     for credit in paper.get('author_credits',[]):
                         if credit['name']==row['name']:credit['name']=row['display']
-    from venue_policy import venue_row
+    from venue_policy import is_top,venue_row
+    ABBREVIATIONS=read_json(ROOT/'data/journal_abbreviations_v1.json')['abbreviations']   # journals show their ISO 4 abbreviation
     for edition in (e for paper in directory['papers'] for e in [paper,*paper.get('publications',[])]):
         row=venue_row(edition.get('accepted_venue') or edition.get('venue'))       # the site shows this tag: one matcher for screening and display
-        edition['venue_tag']={'label':row['label'],'group':row['group']} if row else None
+        edition['venue_tag']={'label':row['label'],'group':row['group'],**({'top':True} if is_top(row['label']) else {}),**({'display':ABBREVIATIONS[row['id']]} if row['id'] in ABBREVIATIONS else {})} if row else None
     return directory
 
 

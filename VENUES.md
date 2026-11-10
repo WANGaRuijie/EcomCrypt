@@ -1,6 +1,6 @@
 # EconCS × Blockchain venue 清单
 
-2026-11-09 版本。共 480 个 venue 或发现渠道，分为 11 组。
+2026-11-09 版本。共 515 个 venue 或发现渠道，分为 10 组。
 
 core 表示优先回填，targeted 表示结合主题和种子关系筛选。两者在月度流程中都放行，区别只影响排序。
 “加入”列标出 2026-11-08 新增的 venue；文末列出已拒收的 venue。修改 data/venue_registry_v1.json 后运行 python scripts/venues.py build。
@@ -13,7 +13,7 @@ SBC 等尚无正式 proceedings 证据的报告渠道不在本轮检索范围。
 source_ids 需经索引核实才填写。空列表表示待解析。
 采集器使用 --venue ID 按完整名称解析 OpenAlex source，歧义结果进入覆盖报告。
 
-## EconCS（37）
+## EconCS（38）
 
 | ID | 简称 | 完整名称 | 类型 | 检索优先级 | 加入 |
 | --- | --- | --- | --- | --- | --- |
@@ -54,6 +54,7 @@ source_ids 需经索引核实才填写。空列表表示待解析。
 | www-companion | WWW Companion | Companion Proceedings of the ACM Web Conference | 工作坊 | targeted | **2026-11-09 新增** |
 | netecon | NetEcon | Workshop on the Economics of Networks, Systems and Computation | 工作坊 | targeted | **2026-11-09 新增** |
 | gamenets | GameNets | International Conference on Game Theory for Networks | 会议 | targeted | **2026-11-09 新增** |
+| icaps | ICAPS | International Conference on Automated Planning and Scheduling | 会议 | targeted | **2026-11-09 新增** |
 
 ## Blockchain（24）
 
@@ -84,7 +85,7 @@ source_ids 需经索引核实才填写。空列表表示待解析。
 | j-blockchain-res | J. Blockchain Res. | Journal of Blockchain Research | 期刊 | targeted | **2026-11-09 新增** |
 | iet-blockchain | IET Blockchain | IET Blockchain | 期刊 | targeted | **2026-11-09 新增** |
 
-## TCS（61）
+## TCS（63）
 
 | ID | 简称 | 完整名称 | 类型 | 检索优先级 | 加入 |
 | --- | --- | --- | --- | --- | --- |
@@ -149,8 +150,10 @@ source_ids 需经索引核实才填写。空列表表示待解析。
 | isola | ISoLA | International Symposium on Leveraging Applications of Formal Methods | 会议 | targeted | **2026-11-09 新增** |
 | tit | IEEE TIT | IEEE Transactions on Information Theory | 期刊 | targeted | **2026-11-09 新增** |
 | jlamp | JLAMP | Journal of Logical and Algebraic Methods in Programming | 期刊 | targeted | **2026-11-09 新增** |
+| pldi | PLDI | ACM SIGPLAN Conference on Programming Language Design and Implementation | 会议 | targeted | **2026-11-09 新增** |
+| toplas | TOPLAS | ACM Transactions on Programming Languages and Systems | 期刊 | targeted | **2026-11-09 新增** |
 
-## Systems（85）
+## Systems（106）
 
 | ID | 简称 | 完整名称 | 类型 | 检索优先级 | 加入 |
 | --- | --- | --- | --- | --- | --- |
@@ -239,8 +242,29 @@ source_ids 需经索引核实才填写。空列表表示待解析。
 | tcns | TCNS | IEEE Transactions on Control of Network Systems | 期刊 | targeted | **2026-11-09 新增** |
 | simpat | SIMPAT | Simulation Modelling Practice and Theory | 期刊 | targeted | **2026-11-09 新增** |
 | ijndc | IJNDC | International Journal of Networked and Distributed Computing | 期刊 | targeted | **2026-11-09 新增** |
+| icse | ICSE | International Conference on Software Engineering | 会议 | targeted | **2026-11-09 新增** |
+| esec-fse | ESEC/FSE | ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering | 会议 | targeted | **2026-11-09 新增** |
+| ase-conf | ASE | IEEE/ACM International Conference on Automated Software Engineering | 会议 | targeted | **2026-11-09 新增** |
+| issta | ISSTA | ACM SIGSOFT International Symposium on Software Testing and Analysis | 会议 | targeted | **2026-11-09 新增** |
+| tse | TSE | IEEE Transactions on Software Engineering | 期刊 | targeted | **2026-11-09 新增** |
+| tkde | TKDE | IEEE Transactions on Knowledge and Data Engineering | 期刊 | targeted | **2026-11-09 新增** |
+| mobicom | MobiCom | ACM International Conference on Mobile Computing and Networking | 会议 | targeted | **2026-11-09 新增** |
+| asplos | ASPLOS | International Conference on Architectural Support for Programming Languages and Operating Systems | 会议 | targeted | **2026-11-09 新增** |
+| isca | ISCA | International Symposium on Computer Architecture | 会议 | targeted | **2026-11-09 新增** |
+| micro | MICRO | IEEE/ACM International Symposium on Microarchitecture | 会议 | targeted | **2026-11-09 新增** |
+| fast | FAST | USENIX Conference on File and Storage Technologies | 会议 | targeted | **2026-11-09 新增** |
+| sc-hpc | SC | International Conference for High Performance Computing, Networking, Storage and Analysis | 会议 | targeted | **2026-11-09 新增** |
+| ppopp | PPoPP | ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming | 会议 | targeted | **2026-11-09 新增** |
+| iwqos | IWQoS | International Workshop on Quality of Service | 会议 | targeted | **2026-11-09 新增** |
+| secon | SECON | IEEE International Conference on Sensing, Communication, and Networking | 会议 | targeted | **2026-11-09 新增** |
+| mobisys | MobiSys | International Conference on Mobile Systems, Applications, and Services | 会议 | targeted | **2026-11-09 新增** |
+| sensys | SenSys | ACM Conference on Embedded Networked Sensor Systems | 会议 | targeted | **2026-11-09 新增** |
+| icws | ICWS | IEEE International Conference on Web Services | 会议 | targeted | **2026-11-09 新增** |
+| hpdc | HPDC | ACM International Symposium on High-Performance Parallel and Distributed Computing | 会议 | targeted | **2026-11-09 新增** |
+| cluster | CLUSTER | IEEE International Conference on Cluster Computing | 会议 | targeted | **2026-11-09 新增** |
+| ieee-p2p | IEEE P2P | IEEE International Conference on Peer-to-Peer Computing | 会议 | targeted | **2026-11-09 新增** |
 
-## Security & Crypto（61）
+## Security & Crypto（64）
 
 | ID | 简称 | 完整名称 | 类型 | 检索优先级 | 加入 |
 | --- | --- | --- | --- | --- | --- |
@@ -305,6 +329,9 @@ source_ids 需经索引核实才填写。空列表表示待解析。
 | esorics-workshops | ESORICS Workshops | ESORICS International Workshops | 工作坊 | targeted | **2026-11-09 新增** |
 | stast | STAST | Workshop on Socio-Technical Aspects in Security | 工作坊 | targeted | **2026-11-09 新增** |
 | ecrime | eCrime | APWG Symposium on Electronic Crime Research | 会议 | targeted | **2026-11-09 新增** |
+| trustcom | TrustCom | IEEE International Conference on Trust, Security and Privacy in Computing and Communications | 会议 | targeted | **2026-11-09 新增** |
+| jisa | JISA | Journal of Information Security and Applications | 期刊 | targeted | **2026-11-09 新增** |
+| iet-ifs | IET Inf. Secur. | IET Information Security | 期刊 | targeted | **2026-11-09 新增** |
 
 ## Econ（65）
 
@@ -376,7 +403,7 @@ source_ids 需经索引核实才填写。空列表表示待解析。
 | obes | OBES | Oxford Bulletin of Economics and Statistics | 期刊 | targeted | **2026-11-09 新增** |
 | j-regul-econ | J. Regul. Econ. | Journal of Regulatory Economics | 期刊 | targeted | **2026-11-09 新增** |
 
-## Finance（60）
+## Finance（59）
 
 | ID | 简称 | 完整名称 | 类型 | 检索优先级 | 加入 |
 | --- | --- | --- | --- | --- | --- |
@@ -416,7 +443,6 @@ source_ids 需经索引核实才填写。空列表表示待解析。
 | jbef | JBEF | Journal of Behavioral and Experimental Finance | 期刊 | targeted | **2026-11-09 新增** |
 | pbfj | PBFJ | Pacific-Basin Finance Journal | 期刊 | targeted | **2026-11-09 新增** |
 | efm | EFM | European Financial Management | 期刊 | targeted | **2026-11-09 新增** |
-| finance-stochastics | Finance Stoch. | Finance and Stochastics | 期刊 | targeted | **2026-11-09 新增** |
 | ejf | EJF | European Journal of Finance | 期刊 | targeted | **2026-11-09 新增** |
 | ijfe | IJFE | International Journal of Finance & Economics | 期刊 | targeted | **2026-11-09 新增** |
 | rqfa | RQFA | Review of Quantitative Finance and Accounting | 期刊 | targeted | **2026-11-09 新增** |
@@ -441,7 +467,7 @@ source_ids 需经索引核实才填写。空列表表示待解析。
 | frontiers-math-finance | Front. Math. Finance | Frontiers of Mathematical Finance | 期刊 | targeted | **2026-11-09 新增** |
 | qfe | QFE | Quantitative Finance and Economics | 期刊 | targeted | **2026-11-09 新增** |
 
-## OR/MS（36）
+## OR/MS（38）
 
 | ID | 简称 | 完整名称 | 类型 | 检索优先级 | 加入 |
 | --- | --- | --- | --- | --- | --- |
@@ -481,8 +507,10 @@ source_ids 需经索引核实才填写。空列表表示待解析。
 | cor | C&OR | Computers & Operations Research | 期刊 | targeted | **2026-11-09 新增** |
 | or-spectrum | OR Spectrum | OR Spectrum | 期刊 | targeted | **2026-11-09 新增** |
 | gdn | GDN | Group Decision and Negotiation | 期刊 | targeted | **2026-11-09 新增** |
+| jgo | J. Glob. Optim. | Journal of Global Optimization | 期刊 | targeted | **2026-11-09 新增** |
+| tem | IEEE TEM | IEEE Transactions on Engineering Management | 期刊 | targeted | **2026-11-09 新增** |
 
-## Preprints & Working Papers（14）
+## Preprints & Working Papers（15）
 
 | ID | 简称 | 完整名称 | 类型 | 检索优先级 | 加入 |
 | --- | --- | --- | --- | --- | --- |
@@ -494,6 +522,7 @@ source_ids 需经索引核实才填写。空列表表示待解析。
 | repec | RePEc | Research Papers in Economics | 预印本/索引 | core |  |
 | cesifo | CESifo | CESifo Working Papers | 工作论文 | targeted |  |
 | cowles | Cowles | Cowles Foundation Discussion Papers | 工作论文 | targeted |  |
+| dallas-globalization-wp | Dallas Fed WP | Federal Reserve Bank of Dallas, Globalization Institute Working Papers | 工作论文 | targeted |  |
 | bis-wp | BIS WP | BIS Working Papers | 工作论文 | targeted | **2026-11-08 新增** |
 | ecb-wp | ECB WP | ECB Working Paper Series | 工作论文 | targeted | **2026-11-08 新增** |
 | imf-wp | IMF WP | IMF Working Papers | 工作论文 | targeted | **2026-11-08 新增** |
@@ -501,7 +530,7 @@ source_ids 需经索引核实才填写。空列表表示待解析。
 | nyfed-sr | NY Fed SR | Federal Reserve Bank of New York Staff Reports | 工作论文 | targeted | **2026-11-08 新增** |
 | optimization-online | Optimization Online | Optimization Online | 预印本/索引 | targeted | **2026-11-09 新增** |
 
-## Interdisciplinary（36）
+## Interdisciplinary（43）
 
 | ID | 简称 | 完整名称 | 类型 | 检索优先级 | 加入 |
 | --- | --- | --- | --- | --- | --- |
@@ -541,12 +570,13 @@ source_ids 需经索引核实才填写。空列表表示待解析。
 | jbr | JBR | Journal of Business Research | 期刊 | targeted | **2026-11-09 新增** |
 | information-sciences | Inf. Sci. | Information Sciences | 期刊 | targeted | **2026-11-09 新增** |
 | telecom-policy | Telecomm. Policy | Telecommunications Policy | 期刊 | targeted | **2026-11-09 新增** |
-
-## Preprint（1）
-
-| ID | 简称 | 完整名称 | 类型 | 检索优先级 | 加入 |
-| --- | --- | --- | --- | --- | --- |
-| dallas-globalization-wp | Dallas Fed WP | Federal Reserve Bank of Dallas, Globalization Institute Working Papers | 工作论文 | targeted |  |
+| kdd | KDD | ACM SIGKDD Conference on Knowledge Discovery and Data Mining | 会议 | targeted | **2026-11-09 新增** |
+| sigir | SIGIR | International ACM SIGIR Conference on Research and Development in Information Retrieval | 会议 | targeted | **2026-11-09 新增** |
+| cscw | CSCW | ACM Conference on Computer Supported Cooperative Work | 会议 | targeted | **2026-11-09 新增** |
+| icis | ICIS | International Conference on Information Systems | 会议 | targeted | **2026-11-09 新增** |
+| cikm | CIKM | ACM International Conference on Information and Knowledge Management | 会议 | targeted | **2026-11-09 新增** |
+| wsdm | WSDM | ACM International Conference on Web Search and Data Mining | 会议 | targeted | **2026-11-09 新增** |
+| icdm | ICDM | IEEE International Conference on Data Mining | 会议 | targeted | **2026-11-09 新增** |
 
 ## 已拒收（5）
 

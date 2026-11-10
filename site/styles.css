@@ -70,6 +70,12 @@ summary > .count { float: right; margin-left: 8px; }
 .topic-tag { background: #d5eaff; color: #123c73; }
 .venue-tag { background: #ffe3a6; color: #62400c; }
 .venue-tag.preprint-tag { background:#eadcff; color:#602399; }
+.venue-tag.top-tag { background:#b5801e; color:#fff; }
+.top-only { margin: 0 9px 8px; font-weight: 600; }
+.choice.zero { opacity: .45; }
+.rank { display: inline-block; min-width: 2.2em; color: #536374; font-weight: 400; font-variant-numeric: tabular-nums; }
+.affiliation-note { margin: 6px 9px; color: #535d66; font-size: 12px; }
+.venue-divider { border: 0; border-top: 1px solid #b59a68; margin: 5px 0; }
 .record-details { color: #3e5a75; font-size: 12px; }
 .record-details[open] { flex-basis: 100%; }
 .record-details p { margin: 4px 0; }
@@ -91,3 +97,8 @@ header .research-note { margin-top: 5px; color: #737b83; font-size: 13px; }
 .venue-filter .venue-group > summary { background: #f0eade; color: #665438; }
 .venue-filter .selection-actions button { background: #fffdf8; border-color: #d8cbb5; color: #76603a; }
 .venue-filter .selection-actions button:hover { background: #eee5d5; }
+
+/* Papers per year above the year slider; bars outside the chosen years fade. */
+.year-histogram { display: flex; align-items: flex-end; gap: 1px; height: 36px; margin: 4px 16px 0; }
+.year-histogram span { flex: 1; min-width: 0; background: #337ab7; border-radius: 1px 1px 0 0; }
+.year-histogram span.outside { background: #c9d4df; }
