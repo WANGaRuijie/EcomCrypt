@@ -808,6 +808,430 @@
       "code": "no_contribution",
       "note": "Conference version of the IJNM 2025 journal paper (ChatGPT review D2).",
       "date": "2026-11-09"
+    },
+    {
+      "alias": "doi:10.1109/icbc59979.2024.10634414",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Formal version of directory preprint discovered-d9d0f19d362c1cf9d0f8e41f; the preprint is folded in through work_merges_v1.json.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1109/tdsc.2020.3021686",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Formal version of directory preprint discovered-9eca3bbd07b8cb75616dcd38; the preprint is folded in through work_merges_v1.json.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1145/3770855.3817540",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Formal version of directory preprint discovered-9fece7d052ba75d82c729780; the preprint is folded in through work_merges_v1.json.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.4230/lipics.aft.2023.23",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Formal version of directory preprint discovered-7a613372b8e273bd316a738f; the preprint is folded in through work_merges_v1.json.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1007/978-3-319-67816-0_18",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Formal version of directory preprint discovered-9f0f8c13ca09fac4d38f4131; the preprint is folded in through work_merges_v1.json.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1007/978-3-031-78676-1_12",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Formal version of directory preprint discovered-03a2d2c7467cb4c3f7034f08; the preprint is folded in through work_merges_v1.json.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1007/978-3-031-17140-6_3",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Formal version of directory preprint discovered-fbeada563cd79773fcf9ed62; the preprint is folded in through work_merges_v1.json.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1145/3769112",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Formal version of directory preprint discovered-42e948842b69cbebaf1d8c01; the preprint is folded in through work_merges_v1.json.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1145/3578579",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Formal version of directory preprint discovered-aac9a2a881b1eebca8767343; the preprint is folded in through work_merges_v1.json.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1109/icbc56567.2023.10174904",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Formal version of directory preprint discovered-a6f797510652713aa8fc85e6; the preprint is folded in through work_merges_v1.json.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.4230/lipics.aft.2025.11",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Formal version of directory preprint discovered-fcd765e62c8e254299ea4d60; the preprint is folded in through work_merges_v1.json.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1609/aaai.v37i8.26115",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Formal version of directory preprint discovered-8dd1e8bce66a03d2f74b266a; the preprint is folded in through work_merges_v1.json.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "dblp:conf/uss/CerneraMMS23",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Formal version of directory preprint discovered-5a7db2e388451f94c71770f8; the preprint is folded in through work_merges_v1.json.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1109/bloc.2019.8751472",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Formal version of directory preprint discovered-5b0413e683aefa5df2864436; the preprint is folded in through work_merges_v1.json.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.65109/uzxd3885",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Formal version of directory preprint discovered-43841de0b1d5bbea31317135; the preprint is folded in through work_merges_v1.json.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1016/j.cor.2025.107122",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Formal version of directory preprint discovered-a258d6fb2bd18dff5f48d02c; the preprint is folded in through work_merges_v1.json.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1145/3726869",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Formal version of directory preprint discovered-fb0007a44c97b36c2367aeb9; the preprint is folded in through work_merges_v1.json.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1109/tcns.2020.3016839",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Formal version of directory preprint discovered-6dba30fb33da8ddaf6d30a73; the preprint is folded in through work_merges_v1.json.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1109/tdsc.2025.3605826",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Formal version of directory preprint discovered-fd0233d99c8c36262cda925d; the preprint is folded in through work_merges_v1.json.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1257/aer.20220357",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Micro-theory review 2026-11-10: Smart contracts as a commitment device in durable-goods monopoly; blockchain object with mechanism-design analysis (AER 2023). Overrides a single_side_E screen.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1145/2492002.2482561",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Micro-theory review 2026-11-10: Rational proofs: rational cryptography, named in include_when (EC 2013).",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1016/j.mathsocsci.2023.02.004",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Micro-theory review 2026-11-10: Mining game with selfish mining and double spending (MSS 2023).",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1016/j.mathsocsci.2022.02.003",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Micro-theory review 2026-11-10: Equilibrium pricing of cryptocurrency (MSS 2022).",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1142/s0219198911002812",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Micro-theory review 2026-11-10: Attacker-defender game; security games qualify without blockchain (IGTR 2011).",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1007/s13235-018-0284-4",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Micro-theory review 2026-11-10: Mechanism design for security investment among strategic agents (DGA 2019).",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.2139/ssrn.5460412",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Micro-theory review 2026-11-10: Economics of permissionless settlement and crypto as sanctions-resistant money (JEB&O 2026).",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1007/978-3-032-08560-3_25",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Micro-theory review 2026-11-10: Social choice for transaction ordering in replicated/blockchain systems; transaction ordering is named in include_when (WINE 2024).",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.3982/ecta22017",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Owner ruling 2026-11-10: privacy counts as mechanism design / game theory over privacy; overrides a single_side screen.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1145/3328526.3329607",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Owner ruling 2026-11-10: privacy counts as mechanism design / game theory over privacy; overrides a single_side screen.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.4230/lipics.forc.2026.12",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Owner ruling 2026-11-10: privacy counts as mechanism design / game theory over privacy; overrides a single_side screen.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1007/978-3-662-48995-6_21",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Owner ruling 2026-11-10: privacy counts as mechanism design / game theory over privacy; overrides a single_side screen.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1007/978-3-319-13129-0_30",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Owner ruling 2026-11-10: privacy counts as mechanism design / game theory over privacy; overrides a single_side screen.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1145/3490486.3538302",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Owner ruling 2026-11-10: privacy counts as mechanism design / game theory over privacy; overrides a single_side screen.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1016/j.geb.2017.04.006",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Owner ruling 2026-11-10: privacy counts as mechanism design / game theory over privacy; overrides a single_side screen.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1287/mnsc.1100.1210",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Owner ruling 2026-11-10: privacy counts as mechanism design / game theory over privacy; overrides a single_side screen.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1287/mnsc.2019.3349",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Owner ruling 2026-11-10: privacy counts as mechanism design / game theory over privacy; overrides a single_side screen.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1287/mnsc.2023.03810",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Backfill exclusion audit 2026-11-10: economics of crypto-assets/blockchain itself, not an application domain.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1007/s13235-025-00673-z",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Backfill exclusion audit 2026-11-10: economics of crypto-assets/blockchain itself, not an application domain.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1016/j.jfs.2024.101251",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Backfill exclusion audit 2026-11-10: economics of crypto-assets/blockchain itself, not an application domain.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1177/10591478241231860",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Backfill exclusion audit 2026-11-10: economics of crypto-assets/blockchain itself, not an application domain.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1287/isre.2024.0829",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Backfill exclusion audit 2026-11-10: economics of crypto-assets/blockchain itself, not an application domain.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1016/j.techfore.2022.122219",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Backfill exclusion audit 2026-11-10: economics of crypto-assets/blockchain itself, not an application domain.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1007/s42521-026-00199-y",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Backfill exclusion audit 2026-11-10: economics of crypto-assets/blockchain itself, not an application domain.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2022.102977",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Backfill exclusion audit 2026-11-10: economics of crypto-assets/blockchain itself, not an application domain.",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "t:sprints intermittent blockchain pow mining",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Owner ruling 2026-11-10: rescued from ChatGPT medium review flag (Q019, economic security of intermittent mining)",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1016/j.jempfin.2021.09.002",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Owner ruling 2026-11-10: rescued from ChatGPT medium review flag (Q114, stablecoin stability)",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1016/j.econlet.2022.110893",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Owner ruling 2026-11-10: rescued from ChatGPT medium review flag (Q100, exchange cyberattacks and market impact)",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "doi:10.1080/13504851.2024.2316141",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Owner ruling 2026-11-10: rescued from ChatGPT medium review flag (Q196, exchange attacks and closures)",
+      "date": "2026-11-10"
+    },
+    {
+      "alias": "arxiv:2205.04256",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Owner ruling 2026-11-11: arXiv-only SoK admitted, highly cited, own metrics and data (R126)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-662-63958-0_20",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Owner ruling 2026-11-11: rescued from ChatGPT unsure flag (R066)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-662-63958-0_7",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Owner ruling 2026-11-11: rescued from ChatGPT unsure flag (R071)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-030-01554-1_18",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Owner ruling 2026-11-11: rescued from ChatGPT unsure flag (R088)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-642-41383-4_20",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Owner ruling 2026-11-11: rescued from ChatGPT unsure flag (R112)",
+      "date": "2026-11-11"
     }
   ]
 }

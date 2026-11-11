@@ -1,6 +1,7 @@
 """Capture seed evidence and build a deterministic, offline Pages dataset."""
 
 import html
+import json
 import argparse
 from collections import Counter
 from copy import deepcopy
@@ -240,6 +241,34 @@ def project(seed_data, evidence, ledger=None):
     return directory
 
 
+SITE_CATALOG = ROOT / "site/data/catalog.json"
+SITE_DROP = {"legacy_topic_ids", "topic_annotations", "status", "source_ids_detail"}
+
+
+def site_catalog(directory):
+    """What the browser loads: directory.json without the fields the site never reads, written without indentation.
+    directory.json stays the full, reviewable projection (tests compare it); the site fetches this file instead."""
+    def slim(paper):
+        out = {key: value for key, value in paper.items() if key not in SITE_DROP}
+        if isinstance(out.get("raw_input"), dict):
+            out["raw_input"] = {"title": out["raw_input"].get("title")}   # the site only searches its title
+        return out
+    return {
+        "schema_version": directory["schema_version"],
+        "topics": directory["topics"],
+        "institutions": [],
+        "researchers": [{"id": r["id"], "name": r["name"]} for r in directory["researchers"]],
+        "author_display_aliases": directory.get("author_display_aliases", []),
+        "papers": [{**slim(paper), **({"publications": [slim(p) for p in paper["publications"]]} if paper.get("publications") else {})}
+                   for paper in directory["papers"]],
+    }
+
+
+def write_site_catalog(directory):
+    text = json.dumps(site_catalog(directory), ensure_ascii=False, separators=(",", ":"), sort_keys=True)
+    SITE_CATALOG.write_text(text + "\n", encoding="utf-8", newline="\n")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("mode", choices=("build", "verify", "check"))
@@ -262,6 +291,8 @@ def main():
     if args.mode == "check":
         if read_json(args.output) != directory:
             raise SystemExit("Pages snapshot is stale. Run python scripts/build.py build.")
+        if not SITE_CATALOG.exists() or read_json(SITE_CATALOG) != json.loads(json.dumps(site_catalog(directory), ensure_ascii=False)):
+            raise SystemExit("site/data/catalog.json is stale. Run python scripts/build.py build.")
     else:
         if args.mode == "verify":
             previous = read_json(args.evidence)["records"] if args.evidence.exists() else {}
@@ -274,6 +305,8 @@ def main():
                 raise SystemExit(f"Evidence regressed for {', '.join(lost)}. Snapshot kept.")
             write_json(args.evidence, evidence)
         write_json(args.output, directory)
+        if args.output == OUTPUT:
+            write_site_catalog(directory)
     counts = Counter(paper["status"] for paper in directory["papers"])
     print(f"{len(directory['papers'])} papers, {len(directory['topics'])} topics, "
           f"{len(directory['researchers'])} researchers, {len(directory['institutions'])} institutions")

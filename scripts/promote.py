@@ -7,6 +7,7 @@ supplied as observed evidence, so dblp.org is never queried) -> venue policy on
 the verified edition -> duplicate check against the current directory.
 """
 import hashlib
+import json
 import re
 from concurrent.futures import ThreadPoolExecutor
 from copy import deepcopy
@@ -20,7 +21,10 @@ from update import seed_from_record, verification_identity, work_identity
 
 CONFIDENCE = {'low': 0, 'medium': 1, 'high': 2}
 ARCHIVE_SOURCES = {'arxiv', 'iacr-eprint'}
-EVIDENCE_SOURCES = ARCHIVE_SOURCES | {'dblp', 'openalex', 'crossref'}
+EVIDENCE_SOURCES = ARCHIVE_SOURCES | {'dblp', 'openalex', 'crossref', 'publisher', 's2', 'scopus'}
+# publisher: proceedings pages harvested locally (e.g. Dagstuhl LIPIcs). s2: Semantic Scholar records from the journal
+# backfill, an independent index for title/authors/year; their venue is pinned from the Crossref ISSN, never S2's own.
+# scopus: Scopus search hits from the ISSN backfill (an independent index; STANDARD view lists the first author only).
 CROSSING_TOPIC = {'rational_crypto': 'rational-cryptography', 'security_econ': 'rational-cryptography',
                   'gt_systems': 'incentive-systems', 'governance': 'governance', 'crypto_finance': 'defi',
                   'blockchain_econ': 'economics', 'blockchain_mechanism': 'economics'}
@@ -261,3 +265,82 @@ def _safe_verify(client, record, editions=()):
         return verify(client, record, editions)
     except (MetadataError, ValueError, KeyError, TypeError) as error:
         return RuntimeError(f'{type(error).__name__}: {error}')
+
+
+def upgrade_formal(store, config, *, apply=False, keys=None, log=print, client=None):
+    """Directory works listed as a preprint whose store work has since gained a formal edition (e.g. from the Scopus
+    backfill): verify the formal edition, append it to the ledger with the preprint's topics and scope review, and fold
+    the preprint into it through data/work_merges_v1.json. promote() cannot do this because the two share a title."""
+    from update import candidate_identity
+    seeds, evidence = read_json(SEEDS), read_json(EVIDENCE)
+    ledger = read_json(LEDGER)
+    directory = project(seeds, evidence, ledger)
+    papers = {paper['id']: paper for paper in directory['papers']}
+    by_work = {record['work_id']: record for record in ledger['records']}
+    merges_path = ROOT / 'data/work_merges_v1.json'
+    merges = read_json(merges_path)
+    folded = {row['drop'] for row in merges['merges']}
+    client = client or LocalDblpClient(ROOT / '.cache/metadata')
+
+    def preprint(paper):
+        return venue_policy.is_preprint(paper) or (venue_policy.venue_row(paper.get('venue')) or {}).get('group', '').startswith('Preprint')
+
+    todo = []
+    for work in store.works(['in_directory', 'promoted']):
+        if keys is not None and work['key'] not in keys:
+            continue
+        paper = papers.get(work.get('directory_id') or '')
+        if not paper or paper['id'] in folded or not preprint(paper) or paper['id'] not in by_work:
+            continue
+        editions = store.editions(work['key'])
+        formal = [e for e in editions if e.get('title') and e.get('year') and not venue_policy.is_preprint(e)
+                  and venue_policy.classify(e)['decision'] == 'allow']
+        if formal:
+            todo.append((work, paper, best_edition(formal), editions))
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        results = list(pool.map(lambda item: _safe_verify(client, item[2], item[3]), todo))
+
+    others = {}
+    for other in directory['papers']:
+        for identity in work_identity(other):
+            others.setdefault(identity, set()).add(other['id'])
+    accepted, failed = [], []
+    for (work, paper, edition, _), verified in zip(todo, results):
+        row = {'key': work['key'], 'title': work['title'], 'preprint': paper['id'], 'venue': edition.get('venue')}
+        metadata = {} if isinstance(verified, Exception) else (verified.get('metadata') or {})
+        if isinstance(verified, Exception) or verified.get('status') != 'verified' or verified.get('conflicts') \
+                or venue_policy.is_preprint(metadata) or venue_policy.classify(metadata)['decision'] != 'allow':
+            failed.append({**row, 'why': str(verified) if isinstance(verified, Exception) else f"{verified.get('status')} {verified.get('conflicts') or ''}"})
+            continue
+        clash = {pid for identity in candidate_identity(metadata) for pid in others.get(identity, ())} - {paper['id']}
+        shared = {identity for identity in candidate_identity(metadata) if identity[0] != 'title'} & work_identity(paper)
+        if shared:                              # the preprint entry already carries this DOI as a linked version
+            failed.append({**row, 'why': f'formal edition already linked on the preprint entry {sorted(shared)[:1]}'})
+            continue
+        if clash:
+            failed.append({**row, 'why': f'formal edition already listed as {sorted(clash)}'})
+            continue
+        verified = deepcopy(verified)
+        # Linked versions already listed in the directory (above all the preprint itself) stay their own entries;
+        # the build-time merge attaches them, and validate_directory forbids two entries sharing an identifier.
+        verified['versions'] = [version for version in verified.get('versions') or []
+                                if not {i for i in candidate_identity(version) if i[0] != 'title'} & set(others)]
+        verified['scope_review'] = {**by_work[paper['id']]['verification'].get('scope_review', {}), 'upgraded_from': paper['id']}
+        raw = {k: v for k, v in edition.items() if k not in {'abstract', 'ee'}}
+        digest = hashlib.sha256((edition['source'] + ':' + edition['source_id']).encode()).hexdigest()[:24]
+        record = {'work_id': 'discovered-' + digest, 'topic_ids': list(by_work[paper['id']]['topic_ids']), 'verification': verified, 'raw_input': raw}
+        if record['work_id'] in by_work:
+            continue
+        accepted.append({**row, 'record': record, 'formal_venue': metadata.get('venue'), 'year': metadata.get('year')})
+    if apply and accepted:
+        staged = deepcopy(ledger)
+        staged['records'].extend(item['record'] for item in accepted)
+        built = project(seeds, evidence, staged)
+        write_json(LEDGER, staged)
+        write_json(OUTPUT, built)
+        for item in accepted:
+            merges['merges'].append({'drop': item['preprint'], 'keep': item['record']['work_id'],
+                                     'note': f"preprint folded into its {item['year']} {str(item['formal_venue'])[:40]} version: {item['title'][:60]} (formal-version upgrade)"})
+        merges_path.write_text(json.dumps(merges, ensure_ascii=False, indent=1) + '\n', encoding='utf-8', newline='\n')   # the file's own layout
+    log(f"upgrade: {len(todo)} preprint works with a formal edition; {len(accepted)} verified" + (' and applied' if apply else ' (dry run)') + f"; {len(failed)} not verified")
+    return {'accepted': accepted, 'failed': failed}

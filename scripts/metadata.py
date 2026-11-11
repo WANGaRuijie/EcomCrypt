@@ -287,7 +287,7 @@ def _crossref_record(raw):
         "source": "crossref",
         "source_id": doi,
         "source_url": f"{ENDPOINTS['crossref']}/{quote(doi, safe='/')}" if doi else None,
-        "title": _first_text(raw.get("title")),
+        "title": " ".join(re.sub(r"<[^>]+>", " ", _first_text(raw.get("title")) or "").split()),   # Crossref keeps JATS markup such as <scp>
         "year": year,
         "year_fields": year_fields,
         "doi": doi,
@@ -635,6 +635,14 @@ def _title_match(seed, record):
     aliases = [seed["title"], *seed.get("title_aliases", [])]
     if key and any(key == normalize_title(alias) for alias in aliases):
         return "exact_title"
+    # The record the seed's own DOI resolves to is the same work even when the title changed between the working
+    # paper and the journal version (OpenAlex often pairs the SSRN title with the journal DOI).
+    if (seed.get("doi") and normalize_doi(record.get("doi")) == normalize_doi(seed["doi"])
+            and seed.get("authors") and _seed_authors_match(seed["authors"], record.get("authors", []))):
+        return "same_doi"
+    # Hyphenation and spacing only: "Un-Tethered" / "Untethered", "Block chain" / "Blockchain".
+    if key and len(key) >= 8 and any(key.replace(" ", "") == normalize_title(alias).replace(" ", "") for alias in aliases):
+        return "exact_title"
     # A shortened conference title is admissible when the complete ordered
     # byline, edition year and venue also match the input citation.
     full = normalize_title(seed["title"])
@@ -874,8 +882,10 @@ def reconcile(seed, records):
         for group in groups if group is not primary and _related_editions(primary, group)
     ]
     # The same DOI can match two indexed sources even when one omits authors.
+    # DBLP alone settles a formal CS publication: many proceedings (USENIX, older ACM/IEEE) have no second index entry.
+    dblp_only = set(metadata["source_ids"]) == {"dblp"} and any(not _nonarchival(record) for record in primary)
     verified = (
-        len(metadata["source_ids"]) >= 2
+        (len(metadata["source_ids"]) >= 2 or dblp_only)
         and metadata["year"] and metadata["venue"] and metadata["authors"] and not conflicts
     )
     return {

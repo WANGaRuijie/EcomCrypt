@@ -1,7 +1,7 @@
 # Save an API key encrypted with Windows DPAPI (readable only by this Windows account),
 # in the same place expand.ps1 / discover.ps1 / monthly.ps1 load keys from.
 #   & .\scripts\save-key.ps1 semanticscholar
-param([Parameter(Mandatory=$true)][ValidateSet('openalex','deepseek','semanticscholar')][string]$Provider)
+param([Parameter(Mandatory=$true)][ValidateSet('openalex','deepseek','semanticscholar','elsevier','core')][string]$Provider)
 $ErrorActionPreference = 'Stop'
 $store = Join-Path $env:LOCALAPPDATA 'EconCSDirectory'
 New-Item -ItemType Directory -Force -Path $store | Out-Null

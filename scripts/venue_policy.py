@@ -123,12 +123,17 @@ def _tiers():
     return {label for labels in data['top'].values() for label in labels}, set(data['low']), set(data['deferred'])
 
 
+def first_labels():
+    """Venues queued ahead of the other top venues (micro theory, game theory, mechanism design)."""
+    return set(read_json(TIERS).get('first', []))
+
+
 def is_top(label):
     return label in _tiers()[0]
 
 
 def queue_rank(venue):
-    """Order for spending quota and LLM budget on waiting works: lower goes first, 9 is deferred."""
+    """Order for spending quota and LLM budget on waiting works: lower goes first (-1 = tiers 'first'), 9 is deferred."""
     top, low, deferred = _tiers()
     row = venue_row(venue)
     if not row:
@@ -136,6 +141,8 @@ def queue_rank(venue):
     label = row['label']
     if label in deferred:
         return 9
+    if label in first_labels():
+        return -1
     if label in top:
         return 0
     if label in low:

@@ -71,10 +71,26 @@
 - 产出 `result.json` 放回同目录，Claude 会核对后合并。venue 和收录决定在合并前由用户过目。
 - 状态：等待用户发送
 
-## T-2026-11-09b 筛选复核与作者单位（进行中）
+## T-2026-11-09b 筛选复核与作者单位（已完成，2026-11-10 合并）
 
 材料在 `.out/chatgpt/review-2026-11-09b/`。
 - 筛选：上传 `screening-data.json`，提示词见 `PROMPT-screening.md`，结果文件为 `screening-result.json`。
 - 单位：共 8 份 `affiliations-NN.json`，每次对话一份，提示词见 `PROMPT-affiliations.md`，结果文件为 `affiliations-NN-result.json`。
 
 结果放回同一目录后，由 Claude 合并：筛选结论写进 `data/editorial_decisions_v2.json`，核实结果走 promote，单位写进 `data/author_affiliations_v1.json` 的 `manual_affiliations`。
+
+## T-2026-11-10 中等把握收录复核（已完成，2026-11-10 合并）
+
+材料在 `.out/chatgpt/review-2026-11-10/`。上传 `medium-data.json`（327 篇），提示词见 `PROMPT-medium.md`，结果文件为 `medium-result.json`，放回同一目录。
+
+合并方式：没被列出的论文按 `store_key` 走 `promote --apply`（keys 批次）；`flags` 里的论文放进 `review_confidence` 并写明理由，不删除任何东西。
+
+结果：标出 121 篇，其中 110 篇排除、11 篇拿不准，都已放进 `review_confidence`；其余 206 篇写入目录（205 篇新增）。可能被误杀、值得主人看一眼的有：Q019 Sprints（USENIX Security）、Q114 "On the stability of stablecoins"、Q100 和 Q196（交易所被攻击对币价的影响）、Q142 和 Q287（现货 ETF）、Q292（DeFi 量价关系）。
+
+主人 2026-11-10 裁定捞回 Q019、Q114、Q100、Q196（已写入 `data/editorial_decisions_v2.json` 并进入目录）。Q142、Q287、Q292 仍在 `review_confidence`。
+
+## T-2026-11-10b 中等把握收录复核，第二批（已完成，2026-11-11 合并）
+
+材料在 `.out/chatgpt/review-2026-11-10b/`。上传 `medium-data.json`（131 篇，id 为 R001 起），提示词见同目录的 `PROMPT-medium.md`，结果文件为 `medium-result.json`，放回同一目录。合并方式同上。
+
+结果：标出 26 篇，其中 16 篇排除、10 篇拿不准，都已放进 `review_confidence`；其余 105 篇里写入 104 篇。没写入的是 R126（也是第一批的 Q318）"SoK: Blockchain Decentralization"：只有 arXiv 版的 SoK 按 `promote.in_batch` 必须等主人决定。主人 2026-11-11 裁定收录 R126，并捞回 R066、R071、R088、R112，都已进入目录。

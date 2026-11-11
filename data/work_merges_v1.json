@@ -261,6 +261,321 @@
    "drop": "discovered-7e95a2803254fdabd475da16",
    "keep": "discovered-fabc417fb9637c12599b79ec",
    "note": "2018 GLOBECOM folded into 2021 IEEE TSC: On Cyber Risk Management of Blockchain Networks: A Game Theo"
+  },
+  {
+   "drop": "discovered-1875a5fff604f424eba7fbe8",
+   "keep": "discovered-577876c91bc6feeb271e9de9",
+   "note": "2017 IACR ePrint folded into 2017 USENIX Security: SmartPool (identical abstract)"
+  },
+  {
+   "drop": "discovered-20dd1ec62f292744b04b6052",
+   "keep": "discovered-da2a44e28261b0c5fa68fd1a",
+   "note": "2024 NBER folded into 2025 AFT extended abstract: inflation expectations and crypto investment"
+  },
+  {
+   "drop": "discovered-d9d0f19d362c1cf9d0f8e41f",
+   "keep": "discovered-6dc91f8dc384b1472ad0726f",
+   "note": "2022 SSRN Electronic Journal folded into 2024 IEEE International Conference on Blockch: A Blockchain-Based Decentralized and Incentive Compatible Di (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-9eca3bbd07b8cb75616dcd38",
+   "keep": "discovered-381471e52e8885f9d2cc97fd",
+   "note": "2019 arXiv folded into 2020 IEEE Transactions on Dependable and Secu: Fee-Free Pooled Mining for Countering Pool-Hopping Attack in (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-9fece7d052ba75d82c729780",
+   "keep": "discovered-c63f29a733c2a991b338c744",
+   "note": "2025 CoRR folded into 2026 KDD (2): GraphChase: A Platform and Benchmark for Urban Network Secur (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-7a613372b8e273bd316a738f",
+   "keep": "discovered-cdf99e88eedde81e3b31edf3",
+   "note": "2023 arXiv folded into 2023 AFT: Buying Time: Latency Racing vs. Bidding for Transaction Orde (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-9f0f8c13ca09fac4d38f4131",
+   "keep": "discovered-703de6f49e2e4ba3f7d5372a",
+   "note": "2017 IACR Cryptology ePrint Archive folded into 2017 DPM/CBT@ESORICS: Merged Mining: Curse or Cure? (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-03a2d2c7467cb4c3f7034f08",
+   "keep": "discovered-b3bdb3f2ab429630a81d088b",
+   "note": "2023 arXiv folded into 2024 FC (1): ZeroSwap: Data-Driven Optimal Market Making in Decentralized (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-fbeada563cd79773fcf9ed62",
+   "keep": "discovered-a229e9cb27d1221636f0d58a",
+   "note": "2021 IACR Cryptol. ePrint Arch. folded into 2022 ESORICS (1): Opportunistic Algorithmic Double-Spending: (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-42e948842b69cbebaf1d8c01",
+   "keep": "discovered-8eea492b2cc5d321a5573a83",
+   "note": "2022 arXiv folded into 2025 Distributed Ledger Technologies Research: Potential and Risks of Staking Pools on Blockchains (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-aac9a2a881b1eebca8767343",
+   "keep": "discovered-a0ed4d03e650adca6da83dbd",
+   "note": "2021 arXiv folded into 2023 Journal of the ACM: Lower Bounds on Implementing Mediators in Asynchronous Syste (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-a6f797510652713aa8fc85e6",
+   "keep": "discovered-56314d73c400216f83a800a4",
+   "note": "2022 arXiv folded into 2023 IEEE International Conference on Blockch: Rational Ponzi Game in Algorithmic Stablecoin (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-fcd765e62c8e254299ea4d60",
+   "keep": "discovered-d2a66f93a52d1d52a3243ada",
+   "note": "2024 SSRN Electronic Journal folded into 2025 AFT: Cryptocurrency Exchange Listings (Extended Abstract) (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-8dd1e8bce66a03d2f74b266a",
+   "keep": "discovered-13316313d9b41955784199c4",
+   "note": "2022 arXiv folded into 2023 AAAI: Behavioral Learning in Security Games: Threat of Multi-Step  (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-5a7db2e388451f94c71770f8",
+   "keep": "discovered-a74ffb2acf01eb756c43a739",
+   "note": "2022 CoRR folded into 2023 USENIX Security Symposium: Token Spammers, Rug Pulls, and Sniper Bots: An Analysis of t (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-5b0413e683aefa5df2864436",
+   "keep": "discovered-2cf619b4f2cfd154405382d4",
+   "note": "2020 arXiv (Cornell University) folded into 2019 IEEE International Conference on Blockch: Design of Trusted B2B Market Platforms using Permissioned Bl (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-43841de0b1d5bbea31317135",
+   "keep": "discovered-e08f5986b17ffb9ef0c636b5",
+   "note": "2025 arXiv folded into 2025 AAMAS: Shapley Value-based Approach for Distributing Revenue of Mat (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-a258d6fb2bd18dff5f48d02c",
+   "keep": "discovered-67ecce9366046c7f78607c0a",
+   "note": "2024 CoRR folded into 2025 Comput. Oper. Res.: Novel valid inequalities and branch-and-price for Stackelber (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-fb0007a44c97b36c2367aeb9",
+   "keep": "discovered-48221cf0e96cd27077ab081c",
+   "note": "2024 CoRR folded into 2025 ACM Trans. Web: Investigating the Luna-Terra Collapse through the Temporal M (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-6dba30fb33da8ddaf6d30a73",
+   "keep": "discovered-1b49dab63ea200024ec0d610",
+   "note": "2020 CoRR folded into 2021 IEEE Trans. Control. Netw. Syst.: Dynamic Resilient Network Games With Applications to Multiag (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-fd0233d99c8c36262cda925d",
+   "keep": "discovered-7e9b35a8f34bf6cea2ce25ab",
+   "note": "2023 arXiv folded into 2025 IEEE Transactions on Dependable and Secu: Novel Bribery Mining Attacks: Impacts on Mining Ecosystem an (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-0b4f3fb6fe2389bf206e0c0b",
+   "keep": "discovered-abece1115562eef2f1c21c28",
+   "note": "2011 arXiv folded into 2011 GameSec: Aegis cyber-insurance (same paper) (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-96447d63be41a69d66392a0c",
+   "keep": "discovered-0e1e7e8e95f1b4cb921a37fe",
+   "note": "2023 AAMAS extended abstract folded into 2023 UAI: two-phase security games (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-1e58b6acd02fc2b9d4ee69aa",
+   "keep": "discovered-9ef2c3e5b3bc7cf0f921c51b",
+   "note": "2021 ESORICS folded into 2023 TPDS journal version: fair P2P content delivery (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-24e5456db8f002b480b3dd16",
+   "keep": "discovered-de1f59316a420e2971c9d578",
+   "note": "2011 IJCAI folded into 2013 AIJ journal version: human adversaries in security games (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-3f77c293249d572e6027da82",
+   "keep": "discovered-bb16af78a05f567bc4276105",
+   "note": "2018 ICNP folded into 2021 TNSM journal version: Helix fair consensus (abstract 0.86) (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-50dcd46d159b763d24249cb6",
+   "keep": "discovered-980aad9022e6785f5d1c2519",
+   "note": "2024 NBER folded into 2025 Management Science: distributed ledgers and MPC for financial reporting (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-56314d73c400216f83a800a4",
+   "keep": "discovered-a0853cb115b61b0e9ec04e09",
+   "note": "2023 ICBC folded into 2024 IJNM journal version: Ponzi designs in algorithmic stablecoins (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-eba1947af656c7e3d46ad844",
+   "keep": "discovered-5a04cfc929c54917861ec327",
+   "note": "2010 AAMAS folded into 2011 JAIR extended version: Stackelberg vs Nash in security games (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-5dae98bb740b61591629272f",
+   "keep": "discovered-630ea59befcdb0e95e8d8788",
+   "note": "2022 FC short paper folded into 2023 Telecomm. Policy: Lightning Network centrality (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-ef633b81b4b0e0ce5d2d90f9",
+   "keep": "discovered-73f2de6ec4a956d4ea24caba",
+   "note": "2017 arXiv folded into 2022 Operations Research: network inspection vs strategic attacks (identical abstract) (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-88891b8c5067b3cd5e70c325",
+   "keep": "discovered-95d24812bff36c3913b95b97",
+   "note": "2011 arXiv folded into 2012 WINE: privacy auctions (identical abstract) (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-c26776a9c2d47619be7459cd",
+   "keep": "discovered-98c87e823f2d3a9397562b90",
+   "note": "2012 INFOCOM folded into 2012 JSAC journal version: coordination in network security games (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-9d78b3222b85e97df8f1d46d",
+   "keep": "discovered-b051359642bcf75a9793829d",
+   "note": "2025 HICSS folded into 2026 I&M journal version: security breaches and token valuation (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-fd7a1c2a6855b10828116559",
+   "keep": "discovered-c4b020cac04cb0e920aea762",
+   "note": "2018 Allerton folded into 2021 DGA journal version: dynamic contracts for systemic cyber risk (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-086fc266e3a43d51e8b9b60d",
+   "keep": "discovered-26b234d1d35d96d2aa63fe51",
+   "note": "preprint folded into its 2019 DPM/CBT@ESORICS version: Payment Networks as Creation Games (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-0b22d3a5504d4d7f50f2d555",
+   "keep": "discovered-20b9cbcbf657fd5a59ec9051",
+   "note": "preprint folded into its 2024 SAGT version: Balancing Participation and Decentralization in Proof-of-Sta (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-143c2a90bff5b36eb55e7ae5",
+   "keep": "discovered-43c83450786330c2174c11f8",
+   "note": "preprint folded into its 2025 Games and Economic Behavior version: BAR Nash Equilibrium and Application to Blockchain Design (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-1b5ded1b65eb85e6daa75b07",
+   "keep": "discovered-d9fd1804a0e9acf7dd25b83b",
+   "note": "preprint folded into its 2023 DISC version: Colordag: An Incentive-Compatible Blockchain (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-1b9a469900ddbc9553b7bea8",
+   "keep": "discovered-f7898e66c3841595e294f6c2",
+   "note": "preprint folded into its 2023 International Conference on Availability version: Game Theoretic Modelling of a Ransom and Extortion Attack on (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-1f5424ce2030c41368247a81",
+   "keep": "discovered-78cb39d2a0db1630d0a02837",
+   "note": "preprint folded into its 2019 ACM Conference on Advances in Financial  version: An Eye for an Eye: Economics of Retaliation in Mining Pools (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-240bddcb4a2d26af0ef9b3aa",
+   "keep": "discovered-7a61046418d7136d3988bb7a",
+   "note": "preprint folded into its 2020 DSN version: On Incentive Compatible Role-based Reward Distribution in Al (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-29a0451217bd6b99f4a3d36a",
+   "keep": "discovered-46e3c0e18b734fc7b8fd273b",
+   "note": "preprint folded into its 2026 Frontiers in Blockchain version: MEV in Multiple Concurrent Proposer Blockchains (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-3e2f0761241ab85ee91cc5ef",
+   "keep": "discovered-7008c0a5912618d5f2ada204",
+   "note": "preprint folded into its 2023 IEEE Computer Security Foundations Works version: Towards a Game-Theoretic Security Analysis of Off-Chain Prot (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-785d2e6f77fbcb9d67491190",
+   "keep": "discovered-89d19d9f9f3943117bfce225",
+   "note": "preprint folded into its 2024 2024 IEEE International Conference on Bl version: What Drives the (In)stability of a Stablecoin? (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-a0834832d59705a4323372b2",
+   "keep": "discovered-e1f59d2bf53238a822fcb77b",
+   "note": "preprint folded into its 2022 ACM Asia Conference on Computer and Comm version: TRAP: The Bait of Rational Players to Solve Byzantine Consen (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-ace3f67b0171ab6f02b01cca",
+   "keep": "discovered-9999e4a5c0bfde10c142e751",
+   "note": "preprint folded into its 2025 FC version: am-AMM: An Auction-Managed Automated Market Maker (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-af582136d6dcf35a5872c506",
+   "keep": "discovered-09c07f97a8207c32bfe2d877",
+   "note": "preprint folded into its 2023 IEEE/ACM Transactions on Networking version: An Uncertainty- and Collusion-Proof Voting Consensus Mechani (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-4c2049f201e9246fd3f671a1",
+   "keep": "discovered-1bdccabf70eed56a078c1d26",
+   "note": "preprint folded into its 2024 2024 IEEE International Conference on Bl version: CountChain: A Decentralized Oracle Network for Counting Syst (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-6318e8090225d78bffcc8993",
+   "keep": "discovered-3fcd79e7ea86755ee43e7814",
+   "note": "preprint folded into its 2025 ICBC version: Toward Resilient Airdrop Mechanisms: Empirical Measurement o (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-bbccbd37c31f7526552d6248",
+   "keep": "discovered-96a2c3c18a45604a880e45a4",
+   "note": "preprint folded into its 2025 USENIX Security Symposium version: Thunderdome: Timelock-Free Rationally-Secure Virtual Channel (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-d70d60861cb774c9318636d1",
+   "keep": "discovered-f02ab1ab655f79f9979d58ac",
+   "note": "preprint folded into its 2023 2023 APWG Symposium on Electronic Crime  version: Pump, Dump, and then What? The Long-Term Impact of Cryptocur (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-d23801dc15ba7bab24e94777",
+   "keep": "discovered-a94c046f8126412c479cfe4a",
+   "note": "preprint folded into its 2024 IEEE Transactions on Knowledge and Data  version: Unravelling Token Ecosystem of EOSIO Blockchain (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-7740b7425df66a96e9d19fa7",
+   "keep": "discovered-4bceee5cd89876534300ba2e",
+   "note": "preprint folded into its 2017 Royal Society Open Science version: Bitcoin ecology: Quantifying and modelling the long-term dyn (formal-version upgrade)"
+  },
+  {
+   "drop": "discovered-e83a2c3ab7e6252fc3189466",
+   "keep": "discovered-b70e08f69a9e8355ae6fb429",
+   "note": "2023 SSRN folded into 2026 IJFE: Governing Decentralised Finance (abstract 0.94) (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-427fdab2157978a74cc0725a",
+   "keep": "discovered-c71d1a8b338dcfa7b010748b",
+   "note": "2022 MARBLE folded into 2024 DLT: DeFi Survival Analysis (near-identical abstract) (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-7edf30f19fa086a99fd408c2",
+   "keep": "discovered-6b651dade9b54ee3fdb53904",
+   "note": "2021 Tokenomics extended abstract folded into 2023 Management Science: Crypto Wash Trading (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-c3cc009772a06232124f4222",
+   "keep": "discovered-6df8f48e530594d7029476e6",
+   "note": "2006 PODC folded into 2009 Computer Networks: EquiCast (same abstract) (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-b7bd0d6870fd3bb767fe83e8",
+   "keep": "discovered-91b95071d0835f38f6c10eeb",
+   "note": "2018 GameSec folded into 2022 IEEE JSAIT: SMT against rational adversaries (same model) (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-945b807542a46acfbf5a65c2",
+   "keep": "discovered-da8b9a661fbf063362eefb70",
+   "note": "2012 IFIP Networking folded into 2014 Performance Evaluation: cyber-insurance security adoption (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-f69348aa3bb10c620d07c36a",
+   "keep": "discovered-bff6dbcea6bc1d35cb1d2e90",
+   "note": "2023 ICICS and 2023 ICBC versions of the cross-domain MEV study (near-identical abstract) (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-f4b6bb9aea77564e2e0ef4a4",
+   "keep": "discovered-c10c7d203782200213732f9b",
+   "note": "2019 SecureComm folded into 2021 TOIT: blockchain iterative double auction (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-ec69ce337c1494c3a1a23132",
+   "keep": "discovered-cf8f81ba85bda060fbece276",
+   "note": "2017 arXiv folded into 2018 GameSec: scalable Stackelberg security games (reviewed 2026-11-10)"
   }
  ],
  "distinct": [
@@ -417,6 +732,76 @@
     "discovered-9fa5e95f2dc0a78c1f083668"
    ],
    "note": "Reviewed 2026-11-09: different papers or unclear, kept apart. same authors; title 0.50, abstract 0.45"
+  },
+  {
+   "ids": [
+    "discovered-041016c5ffad364a60ad06dc",
+    "discovered-431be88ab9af0fb666709a2a"
+   ],
+   "note": "Reviewed 2026-11-10: TOIT 2018 revisits the FC 2013 exchange-closure study with new data; kept apart"
+  },
+  {
+   "ids": [
+    "discovered-49c8549b358d685bcdd4e931",
+    "discovered-abc2fd48bc835c8b345cb913"
+   ],
+   "note": "Reviewed 2026-11-10: Kol-Naor TCC 2008 and STOC 2008 are distinct papers"
+  },
+  {
+   "ids": [
+    "discovered-4b1321bb13eea78eab85d19a",
+    "discovered-af8cdc442937c5c942abe83c"
+   ],
+   "note": "Reviewed 2026-11-10: FC 2009 combinatorial securities exchanges extends FC 2007 to a new problem; distinct"
+  },
+  {
+   "ids": [
+    "discovered-751f86163fbb247cb82a57e8",
+    "discovered-f5e2b8c3ca6bfea06c99ebdf"
+   ],
+   "note": "Reviewed 2026-11-10: GameSec 2010 and WEIS 2009 are different papers on uncertainty in security games"
+  },
+  {
+   "ids": [
+    "discovered-92d14aa4057d8d9ad47dd311",
+    "discovered-ae21c5eac7953a15e9766669"
+   ],
+   "note": "Reviewed 2026-11-10: ICAPS 2014 infinite-horizon patrolling is a different paper from AAMAS 2012"
+  },
+  {
+   "ids": [
+    "discovered-91b95071d0835f38f6c10eeb",
+    "discovered-97434038a11385ac640f24e5"
+   ],
+   "note": "Reviewed 2026-11-10: GameSec 2019 independent rational adversaries is a follow-up, distinct from JSAIT 2022"
+  },
+  {
+   "ids": [
+    "discovered-97434038a11385ac640f24e5",
+    "discovered-b7bd0d6870fd3bb767fe83e8"
+   ],
+   "note": "Reviewed 2026-11-10: GameSec 2019 and GameSec 2018 SMT papers are distinct"
+  },
+  {
+   "ids": [
+    "discovered-947250bc3cd4ebc8cc8ed04c",
+    "discovered-dbde13b2d6751175d94381ab"
+   ],
+   "note": "Reviewed 2026-11-10: DGA 2019 allocation mechanism vs GameNets 2017 incentive mechanism; DGA has no abstract, unclear, kept apart"
+  },
+  {
+   "ids": [
+    "discovered-f120f0e4793351de3cabfc40",
+    "discovered-f17564b7bbc5b8a4b7412029"
+   ],
+   "note": "Reviewed 2026-11-10: ePrint 2018 PoW minting and ACNS 2020 PoS minting are different papers"
+  },
+  {
+   "ids": [
+    "discovered-73eba172b890aadaaaac6a4d",
+    "discovered-fdbd21b562d7c2d078964be4"
+   ],
+   "note": "Reviewed 2026-11-11: Information Sciences 2012 base model and its separate multi-hop paper have different DOIs and abstracts; kept apart"
   }
  ]
 }

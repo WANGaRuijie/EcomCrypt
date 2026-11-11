@@ -2,11 +2,15 @@
 
 Order (cheapest / most complete first): records already carrying an abstract ->
 OpenAlex DOI batch (50/request) -> Semantic Scholar batch (500/request; key
-optional but strongly recommended) -> arXiv id_list (100/request) -> Crossref per
-DOI (only what is still missing). Recovered venue names also feed the venue gate.
+optional but strongly recommended) -> arXiv id_list (100/request) -> Elsevier
+article API for 10.1016 DOIs (ELSEVIER_API_KEY) -> OpenAIRE Graph per DOI ->
+IDEAS/RePEc item pages already known from a record's URL -> Crossref per DOI
+-> CORE v3 (CORE_API_KEY; about 10 requests a minute) (only what is still missing). Semantic Scholar withholds most Elsevier abstracts,
+hence the Elsevier step. IDEAS search pages are never scraped (bot protection). Recovered venue names also feed the venue gate.
 Missing abstracts are not evidence of irrelevance; such works still get a
 title-level decision and, if plausible, land in the needs_fulltext queue.
 """
+import html
 import json
 import os
 import re
@@ -26,6 +30,58 @@ def _strip_jats(text):
     return ' '.join(re.sub(r'<[^>]+>', ' ', text or '').split())
 
 
+def _clean(text):
+    return ' '.join(html.unescape(re.sub(r'<[^>]+>', ' ', text or '')).split())
+
+
+def elsevier_abstract(http, doi, key):
+    """Abstract from the Elsevier article API (view META_ABS); None when absent."""
+    body = http.fetch(f'https://api.elsevier.com/content/article/doi/{quote(doi, safe="/")}?view=META_ABS',
+                      headers={'X-ELS-APIKey': key, 'Accept': 'application/json'})
+    core = (json.loads(body).get('full-text-retrieval-response') or {}).get('coredata') or {}
+    text = _clean(core.get('dc:description'))
+    return re.sub(r'^(Abstract|Summary)\s+', '', text) or None
+
+
+def openaire_abstract(http, doi):
+    body = http.fetch('https://api.openaire.eu/graph/v1/researchProducts?' + urlencode({'pid': doi}))
+    for row in json.loads(body).get('results') or []:
+        for text in row.get('descriptions') or []:
+            text = _clean(text)
+            if len(text) >= 200:
+                return text
+    return None
+
+
+def core_abstract(http, doi, key):
+    """Abstract from the CORE v3 API (open-access aggregator; free key allows about 10 requests a minute)."""
+    url = 'https://api.core.ac.uk/v3/search/works?' + urlencode({'q': f'doi:"{doi}"', 'limit': 3})
+    for row in json.loads(http.fetch(url, headers={'Authorization': f'Bearer {key}'})).get('results') or []:
+        text = _clean(row.get('abstract'))
+        if len(text) >= 200 and normalize_doi(row.get('doi')) == doi:
+            return text
+    return None
+
+
+IDEAS = re.compile(r'https?://ideas\.repec\.org/[a-z]/[^\s"#?]+\.html')
+
+
+def ideas_abstract(http, url):
+    """Abstract from one IDEAS/RePEc item page (a known page; the search is never used)."""
+    page = http.fetch(url).decode('utf-8', 'replace')
+    match = re.search(r'<div id="abstract-body">(.*?)</div>', page, re.S)
+    text = _clean(match[1]) if match else ''
+    return text if len(text) >= 100 and not text.lower().startswith('no abstract') else None
+
+
+def _ideas_urls(store, key):
+    urls = []
+    for edition in store.editions(key):
+        for value in [edition.get('url'), edition.get('source_url'), *(edition.get('ee') or [])]:
+            urls += IDEAS.findall(value or '')
+    return list(dict.fromkeys(urls))
+
+
 def _ids(store, key):
     out = {'doi': None, 'arxiv': None, 'openalex': None}
     for row in store.db.execute('SELECT alias FROM aliases WHERE key=?', (key,)):
@@ -35,9 +91,9 @@ def _ids(store, key):
     return out
 
 
-def enrich(store, http, keys, *, s2_key=None, use_crossref=True, log=print):
+def enrich(store, http, keys, *, s2_key=None, use_crossref=True, use_core=False, log=print):
     """Fill abstracts (and venue hints) for the given work keys. Returns counters."""
-    stats = {'requested': len(keys), 'openalex': 0, 's2': 0, 'arxiv': 0, 'crossref': 0, 'errors': []}
+    stats = {'requested': len(keys), 'openalex': 0, 's2': 0, 'arxiv': 0, 'elsevier': 0, 'openaire': 0, 'repec': 0, 'crossref': 0, 'errors': []}
     def missing():
         return [k for k in keys if len((store.work(k) or {}).get('abstract') or '') < 200]
     # 1. editions that already carry abstracts (arXiv / ePrint / OpenAlex harvests)
@@ -106,7 +162,44 @@ def enrich(store, http, keys, *, s2_key=None, use_crossref=True, log=print):
                     stats['arxiv'] += 1
         except FeedError as error:
             stats['errors'].append(f'arxiv:{error}')
-    # 5. Crossref, one DOI at a time, only for what is still missing
+    # 5. Elsevier article API (Elsevier DOIs only)
+    elsevier_key = os.environ.get('ELSEVIER_API_KEY')
+    if elsevier_key:
+        for key in missing():
+            doi = _ids(store, key)['doi']
+            if not doi or not doi.startswith('10.1016/'):
+                continue
+            try:
+                text = elsevier_abstract(http, doi, elsevier_key)
+            except (FeedError, ValueError):
+                continue
+            if text:
+                store.set_abstract(key, text, 'elsevier')
+                stats['elsevier'] += 1
+    # 6. OpenAIRE Graph (author manuscripts in repositories often carry the abstract)
+    for key in missing():
+        doi = _ids(store, key)['doi']
+        if not doi or doi.startswith(('10.48550/', '10.2139/')):
+            continue
+        try:
+            text = openaire_abstract(http, doi)
+        except (FeedError, ValueError):
+            continue
+        if text:
+            store.set_abstract(key, text, 'openaire')
+            stats['openaire'] += 1
+    # 7. IDEAS/RePEc item pages already linked from a record
+    for key in missing():
+        for url in _ideas_urls(store, key):
+            try:
+                text = ideas_abstract(http, url)
+            except FeedError:
+                continue
+            if text:
+                store.set_abstract(key, text, 'repec')
+                stats['repec'] += 1
+                break
+    # 8. Crossref, one DOI at a time, only for what is still missing
     if use_crossref:
         mail = os.environ.get('CROSSREF_MAILTO') or os.environ.get('METADATA_CONTACT')
         for key in missing():
@@ -122,7 +215,22 @@ def enrich(store, http, keys, *, s2_key=None, use_crossref=True, log=print):
             if message.get('abstract'):
                 store.set_abstract(key, _strip_jats(message['abstract']), 'crossref')
                 stats['crossref'] += 1
-    # 6. Resolve book-series / missing venues to the actual event via Crossref (cached).
+    # 9. CORE (slow: about 10 requests a minute), last resort for what is still missing
+    core_key = os.environ.get('CORE_API_KEY') if use_core else None   # slow; only the standalone enrich command uses it
+    if core_key:
+        http.spacing['api.core.ac.uk'] = 6.5
+        for key in missing():
+            doi = _ids(store, key)['doi']
+            if not doi or doi.startswith(('10.48550/', '10.2139/')):
+                continue
+            try:
+                text = core_abstract(http, doi, core_key)
+            except (FeedError, ValueError):
+                continue
+            if text:
+                store.set_abstract(key, text, 'core')
+                stats['core'] = stats.get('core', 0) + 1
+    # 10. Resolve book-series / missing venues to the actual event via Crossref (cached).
     unresolved = [k for k in keys if (store.work(k) or {}).get('venue_decision') == 'unresolved' and _ids(store, k)['doi']]
     if use_crossref and unresolved:
         from metadata import _crossref_record
@@ -142,5 +250,5 @@ def enrich(store, http, keys, *, s2_key=None, use_crossref=True, log=print):
                 stats['venue_resolved'] += 1
     stats['still_missing'] = len(missing())
     log(f"enrich: {stats['requested']} works; openalex={stats['openalex']} s2={stats['s2']} arxiv={stats['arxiv']} "
-        f"crossref={stats['crossref']} still_missing={stats['still_missing']}" + (f" errors={stats['errors']}" if stats['errors'] else ''))
+        f"elsevier={stats['elsevier']} openaire={stats['openaire']} repec={stats['repec']} core={stats.get('core', 0)} crossref={stats['crossref']} still_missing={stats['still_missing']}" + (f" errors={stats['errors']}" if stats['errors'] else ''))
     return stats

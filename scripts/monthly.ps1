@@ -4,7 +4,7 @@
 param([Parameter(ValueFromRemainingArguments=$true)][string[]]$PipelineArgs)
 $ErrorActionPreference = 'Stop'
 $store = Join-Path $env:LOCALAPPDATA 'EconCSDirectory'
-$map = [ordered]@{ openalex = 'OPENALEX_API_KEY'; deepseek = 'DEEPSEEK_API_KEY'; semanticscholar = 'S2_API_KEY' }
+$map = [ordered]@{ openalex = 'OPENALEX_API_KEY'; deepseek = 'DEEPSEEK_API_KEY'; semanticscholar = 'S2_API_KEY'; elsevier = 'ELSEVIER_API_KEY'; core = 'CORE_API_KEY' }
 $loaded = @()
 try {
     foreach ($provider in $map.Keys) {

@@ -1,5 +1,5 @@
 import { buildAuthorIndex, nameKey } from './authors.mjs';
-import { venueFor, venueRank } from './venues.mjs?v=ecomcrypt-9';
+import { venueFor, venueRank } from './venues.mjs?v=ecomcrypt-10';
 
 export function sortPapers(papers) {
   const rank = new Map(papers.map((paper) => [paper, venueRank(venueFor(paper))]));
@@ -66,7 +66,7 @@ export function groupAuthorPapers(catalog, papers) {
       seen.add(key);
       const person=index.people.get(key);
       if(!groups.has(key))groups.set(key,{key,name:person?.name ?? credit.name,papers:[],aliases:person?.aliases ?? [],sourceIds:person?.sourceIds ?? []});
-      if(!groups.get(key).papers.some(p=>p.id===paper.id))groups.get(key).papers.push(paper);
+      groups.get(key).papers.push(paper);   // `seen` already keeps one entry per paper and author
     }
   }
   const atRank = (group, rank) => group.papers.filter((paper) => venueRank(catalog.venues.get(paper.id)) <= rank).length;

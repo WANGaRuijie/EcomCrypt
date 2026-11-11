@@ -3,6 +3,8 @@
   "updated_at": "2026-11-09",
   "rule": "top = the backbone of a field or better. Set by the owner's anchors: AFT and FC are the floor, GameSec is below it. Elsewhere judged by rough equivalents recalled from CORE, CCF, AJG/ABS and ABDC (AJG 3 and above for economics, finance, OR/MS and information systems), then adjusted for field standing; high-volume journals with a low bar stay out. Not looked up one by one. Move a label between lists, then run python scripts/build.py build.",
   "low_queue_rule": "low = still admitted and still screened, but after preprints. Niche blockchain and blockchain-plus-AI outlets must not take priority over better work.",
+  "first_rule": "first = queued ahead of everything else, including the other top venues; also holds a few specialised game-theory journals that are not top (owner, 2026-11-10): microeconomic theory, game theory and mechanism design. Affects work order only, never admission or the Top filter.",
+  "first": ["EC", "TEAC", "WINE", "SAGT", "GEB", "JET", "TE", "ET", "AEJ Micro", "JPE Micro", "Econometrica", "AER", "AER: Insights", "QJE", "ReStud", "JPE", "QE", "JEEA", "IER", "Economic Journal", "IJGT", "IGTR", "DGA", "SCW", "JMathE", "MSS", "ETB", "JMID", "RAND", "JEMS", "IJIO", "JPET", "Theory Decis.", "Experimental Economics", "JEB&O", "MOR", "Management Science", "Operations Research"],
   "top": {
     "EconCS": ["EC", "TEAC", "WINE", "SAGT", "WWW", "AAMAS", "AAAI", "IJCAI", "UAI", "NeurIPS", "ICML", "ICLR", "AISTATS", "JAIR", "JAAMAS", "JMLR", "ECAI", "AIJ", "TARK", "FORC", "FAccT", "KR", "TMLR", "WEIS"],
     "Blockchain": ["AFT", "FC"],

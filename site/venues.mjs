@@ -1,4 +1,4 @@
-import { registry } from './venue-registry.mjs?v=ecomcrypt-9';
+import { registry } from './venue-registry.mjs?v=ecomcrypt-10';
 
 export const PREPRINTS = 'Preprints & Working Papers';
 

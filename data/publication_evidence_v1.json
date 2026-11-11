@@ -56,6 +56,36 @@
       "source": "https://pure.au.dk/portal/en/publications/stackelberg-attacks-on-auctions-and-blockchain-transaction-fee-me/",
       "basis": "Institutional proceedings record and official ECAI2023 accepted-paper list; pp2073–2080. FAIA is the series, not the venue.",
       "checked_at": "2026-11-08"
+    },
+    "10.4230/lipics.itcs.2022.66": {
+      "name": "ITCS",
+      "source": "https://doi.org/10.4230/lipics.itcs.2022.66",
+      "kind": "conference-paper",
+      "note": "venue corrected 2026-11-10: the record paired this DOI with a preprint server"
+    },
+    "10.4230/lipics.aft.2026.23": {
+      "name": "AFT",
+      "source": "https://doi.org/10.4230/lipics.aft.2026.23",
+      "kind": "conference-paper",
+      "note": "venue corrected 2026-11-10: the record paired this DOI with a preprint server"
+    },
+    "10.4230/lipics.aft.2025.20": {
+      "name": "AFT",
+      "source": "https://doi.org/10.4230/lipics.aft.2025.20",
+      "kind": "conference-paper",
+      "note": "venue corrected 2026-11-10: the record paired this DOI with a preprint server"
+    },
+    "10.4230/lipics.opodis.2025.6": {
+      "name": "OPODIS",
+      "source": "https://doi.org/10.4230/lipics.opodis.2025.6",
+      "kind": "conference-paper",
+      "note": "venue corrected 2026-11-10: the record paired this DOI with a preprint server"
+    },
+    "10.4230/lipics.itcs.2026.93": {
+      "name": "ITCS",
+      "source": "https://doi.org/10.4230/lipics.itcs.2026.93",
+      "kind": "conference-paper",
+      "note": "venue corrected 2026-11-10: the record paired this DOI with a preprint server"
     }
   },
   "linked_publications": {

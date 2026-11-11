@@ -376,7 +376,7 @@ def cmd_enrich(args, store, config):
     statuses = args.status or ['title_keep', 'needs_fulltext']
     waiting = in_queue_order(store.works(statuses), getattr(args, 'include_deferred', False))
     keys = [w['key'] for w in (waiting[:args.limit] if args.limit else waiting) if len(w.get('abstract') or '') < 200]
-    enrich(store, feeds.Http(), keys, s2_key=os.environ.get('S2_API_KEY'), use_crossref=config['enrich']['crossref'], log=log)
+    enrich(store, feeds.Http(), keys, s2_key=os.environ.get('S2_API_KEY'), use_crossref=config['enrich']['crossref'], use_core=True, log=log)
 
 
 def cmd_promote(args, store, config):
@@ -391,6 +391,13 @@ def cmd_topics(args, store, config, run_id):
     c = config['llm']
     retag(store, current_directory(), _llm(config), Spend(store, run_id, args.budget if args.budget is not None else c['budget_usd_per_run']),
           log=log, concurrency=c['concurrency'])
+
+
+def cmd_backfill(args, store, config):
+    import backfill
+    run = {'s2': backfill.run_s2, 'scopus': backfill.run_scopus}.get(args.source, backfill.run)
+    touched = run(store, config, since=args.since, until=args.until or config['feeds']['initial_since'], log=log)
+    refresh(store, keys=touched)
 
 
 def cmd_affiliations(args, store, config, run_id):
@@ -602,6 +609,9 @@ def main(argv=None):
     p.add_argument('--group', action='append', help='with --apply: write only this venue group (repeatable)')
     p = sub.add_parser('topics', help='assign directory papers to the display taxonomy (data/topic_taxonomy_v2.json); then run build.py build')
     p.add_argument('--budget', type=float)
+    p = sub.add_parser('backfill', help='keyword harvest of registered non-DBLP journals back to --since (OpenAlex, no LLM)')
+    p.add_argument('--since', default='2008-01-01'); p.add_argument('--until')
+    p.add_argument('--source', choices=['openalex', 's2', 'scopus'], default='openalex', help='s2 = Semantic Scholar bulk search; scopus = Elsevier Scopus search by ISSN (ELSEVIER_API_KEY, 20k requests a week)')
     p = sub.add_parser('affiliations', help='decide author affiliations for the By Affiliation view')
     p.add_argument('--budget', type=float)
     sub.add_parser('report', help='write .out/monthly/<run>/report.md')
@@ -632,6 +642,8 @@ def main(argv=None):
             cmd_run(args, store, config, run_id)
         elif args.command == 'topics':
             cmd_topics(args, store, config, run_id)
+        elif args.command == 'backfill':
+            cmd_backfill(args, store, config)
         elif args.command == 'affiliations':
             cmd_affiliations(args, store, config, run_id)
         elif args.command == 'report':

@@ -37,7 +37,7 @@
     },
     {
       "code": "single_side_E",
-      "rule": "Pure game theory, mechanism design, economics, finance or OR with no blockchain/crypto/security/systems object (e.g. generic auction theory, stock-market finance). Security is a T-side object, physical or computer: security games of any kind (Stackelberg security games, patrolling, network interdiction, attacker-defender and audit games), cybercrime and ransomware economics and cyber insurance qualify without any blockchain, and are neither single_side_E nor application_domain. This covers games between an attacker and a defender only; ordinary games, auctions and voting remain single_side_E."
+      "rule": "Pure game theory, mechanism design, economics, finance or OR with no blockchain/crypto/security/systems object (e.g. generic auction theory, stock-market finance). Security is a T-side object, physical or computer: security games of any kind (Stackelberg security games, patrolling, network interdiction, attacker-defender and audit games), cybercrime and ransomware economics and cyber insurance qualify without any blockchain, and are neither single_side_E nor application_domain. This covers games between an attacker and a defender only; ordinary games, auctions and voting remain single_side_E. Privacy counts as a T-side object only in mechanism design or game theory over privacy (differential-privacy mechanisms, privacy-aware or privacy-preserving auctions, pricing and contracts, strategic markets for personal data); empirical or descriptive studies of privacy regulation, privacy preferences or firms' privacy practices are single_side_E (owner, 2026-11-10)."
     },
     {
       "code": "application_domain",

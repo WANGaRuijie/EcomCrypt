@@ -30,6 +30,15 @@ class VenueTiers(unittest.TestCase):
         self.assertEqual(ordered, ['Financial Cryptography and Data Security', 'GameSec', 'arXiv', 'BCCA'])
         self.assertEqual(len(in_queue_order(works, include_deferred=True)), 5)
 
+    def test_micro_theory_goes_ahead_of_other_top_venues(self):
+        tiers = json.loads((ROOT / 'data/venue_tiers_v1.json').read_text(encoding='utf-8'))
+        labels = {row['label'] for row in json.loads((ROOT / 'data/venue_registry_v1.json').read_text(encoding='utf-8'))['venues']}
+        self.assertEqual([label for label in tiers['first'] if label not in labels], [])
+        self.assertEqual(queue_rank('Games and Economic Behavior'), -1)
+        self.assertEqual(queue_rank('The Journal of Finance'), 0)
+        ordered = in_queue_order([{'venue': 'The Journal of Finance'}, {'venue': 'Games and Economic Behavior'}])
+        self.assertEqual(ordered[0]['venue'], 'Games and Economic Behavior')
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -102,3 +102,5 @@ header .research-note { margin-top: 5px; color: #737b83; font-size: 13px; }
 .year-histogram { display: flex; align-items: flex-end; gap: 1px; height: 36px; margin: 4px 16px 0; }
 .year-histogram span { flex: 1; min-width: 0; background: #337ab7; border-radius: 1px 1px 0 0; }
 .year-histogram span.outside { background: #c9d4df; }
+
+.more-rows { list-style: none; padding: 12px 0; color: #5f6b77; font-size: 0.9em; cursor: pointer; text-align: center; }

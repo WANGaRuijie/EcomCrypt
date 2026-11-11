@@ -1,5 +1,5 @@
-import { authorFromHash, facetCounts, shownEditions, filterPapers, groupAffiliationPapers, groupAuthorPapers, makeCatalog, safeWebUrl, spellingMatches, UNKNOWN_AFFILIATION } from './catalog.mjs?v=ecomcrypt-9';
-import { availableVenueGroups, PREPRINTS, venueCaption } from './venues.mjs?v=ecomcrypt-9';
+import { authorFromHash, facetCounts, shownEditions, filterPapers, groupAffiliationPapers, groupAuthorPapers, makeCatalog, safeWebUrl, spellingMatches, UNKNOWN_AFFILIATION } from './catalog.mjs?v=ecomcrypt-10';
+import { availableVenueGroups, PREPRINTS, venueCaption } from './venues.mjs?v=ecomcrypt-10';
 
 const byId = (id) => document.getElementById(id);
 const form = byId('filters');
@@ -51,6 +51,12 @@ function recordDetails(paper) {
 
   const details = element('details', null, 'record-details');
   details.append(element('summary', 'Record details'));
+  // The body is built on first open: most rows are never expanded, and thousands of hidden subtrees slow every redraw.
+  details.addEventListener('toggle', () => { if (details.open && details.childElementCount === 1) fillDetails(details, paper, raw, versions, sources, primarySources); });
+  return details;
+}
+
+function fillDetails(details, paper, raw, versions, sources, primarySources) {
   if(paper.inclusion_note)details.append(element('p',paper.inclusion_note));
   if (paper.doi) details.append(element('p', `DOI ${paper.doi}`));
   if(paper.accepted_venue) {
@@ -106,7 +112,6 @@ function recordDetails(paper) {
     }
     details.append(element('p', 'Linked versions'), versionList);
   }
-  return details;
 }
 
 function treeRow(label, count, key, children) {
@@ -131,9 +136,36 @@ function treeRow(label, count, key, children) {
   return node;
 }
 
+const FIRST_ROWS = 120;
+const MORE_ROWS = 200;
+
+// Long lists are drawn in slices: the first rows at once, the next slice when the reader scrolls near the end.
 function paperList(catalog, papers) {
   const list = element('ul', null, 'papers');
-  for (const paper of papers) {
+  let drawn = 0;
+  const sentinel = element('li', null, 'more-rows');
+  const observer = 'IntersectionObserver' in window
+    ? new IntersectionObserver((entries) => { if (entries.some((entry) => entry.isIntersecting)) more(MORE_ROWS); }, { rootMargin: '1200px 0px' })
+    : null;
+  function more(count) {
+    sentinel.remove();
+    const slice = papers.slice(drawn, drawn + count);
+    drawn += slice.length;
+    list.append(...slice.map((paper) => paperRow(catalog, paper)));
+    if (drawn < papers.length) {
+      sentinel.textContent = (papers.length - drawn) + ' more records';
+      list.append(sentinel);
+      if (observer) observer.observe(sentinel);
+      else more(papers.length);
+    } else if (observer) observer.disconnect();
+  }
+  sentinel.addEventListener('click', () => more(MORE_ROWS));
+  more(FIRST_ROWS);
+  return list;
+}
+
+function paperRow(catalog, paper) {
+  {
     const row = element('li', null, 'paper');
     const title = element('div', null, 'paper-title');
     const url = paperUrl(paper);
@@ -158,9 +190,8 @@ function paperList(catalog, papers) {
     const details = recordDetails(paper);
     if (details) tags.append(details);
     row.append(tags);
-    list.append(row);
+    return row;
   }
-  return list;
 }
 
 function checkbox(container, name, value, caption, total) {
@@ -272,11 +303,12 @@ function render(catalog, { deferList = false } = {}) {
 }
 
 async function load() {
-  const response = await fetch(new URL('./data/directory.json', import.meta.url), { cache: 'no-store' });
+  // catalog.json is the slim build of directory.json. no-cache revalidates (304 when unchanged) instead of re-downloading.
+  const response = await fetch(new URL('./data/catalog.json', import.meta.url), { cache: 'no-cache' });
   if (!response.ok) throw new Error('Directory request failed');
   const catalog = makeCatalog(await response.json());
   catalog.affiliationOf = new Map();
-  const affiliationData = await fetch(new URL('./data/affiliations.json', import.meta.url), { cache: 'no-store' }).then((reply) => (reply.ok ? reply.json() : {})).catch(() => ({}));
+  const affiliationData = await fetch(new URL('./data/affiliations.json', import.meta.url), { cache: 'no-cache' }).then((reply) => (reply.ok ? reply.json() : {})).catch(() => ({}));
   for (const [key, affiliation] of Object.entries(affiliationData)) {
     const person = catalog.authorIndex.byName.get(key);
     if (person && !catalog.affiliationOf.has(person)) catalog.affiliationOf.set(person, affiliation);
@@ -371,7 +403,7 @@ async function load() {
     }
     const deferList = event.target.type === 'range';
     clearTimeout(frame);
-    frame = setTimeout(() => render(catalog, { deferList }), 16);
+    frame = setTimeout(() => render(catalog, { deferList }), event.target.type === 'search' || event.target.type === 'text' ? 150 : 16);   // wait for a pause in typing
   });
   form.addEventListener('reset', () => queueMicrotask(() => render(catalog)));
   function openRoute() {
