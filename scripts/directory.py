@@ -29,6 +29,32 @@ def write_json(path, value):
             temporary.unlink(missing_ok=True)
 
 
+def ledger_text(value):
+    """The ledger as valid JSON with one compact record per line, so appends show as added lines."""
+    head = {key: item for key, item in value.items() if key != "records"}
+    lines = [json.dumps(record, ensure_ascii=False, separators=(",", ":"), allow_nan=False) for record in value["records"]]
+    opening = json.dumps(head, ensure_ascii=False, separators=(",", ":"))[:-1]
+    opening += ("," if head else "") + '"records":['
+    return opening + ("\n" + ",\n".join(lines) + "\n" if lines else "") + "]}\n"
+
+
+def write_ledger(path, value):
+    """Replace the ledger atomically in its one-record-per-line form."""
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w", encoding="utf-8", newline="\n", dir=path.parent, delete=False
+        ) as output:
+            temporary = Path(output.name)
+            output.write(ledger_text(value))
+        os.replace(temporary, path)
+    finally:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
+
+
 def new_directory(topics):
     return {
         "schema_version": 1,

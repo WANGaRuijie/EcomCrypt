@@ -1,6 +1,6 @@
 # EconCS × Blockchain venue 清单
 
-2026-11-09 版本。共 515 个 venue 或发现渠道，分为 10 组。
+2026-11-11 版本。共 524 个 venue 或发现渠道，分为 10 组。
 
 core 表示优先回填，targeted 表示结合主题和种子关系筛选。两者在月度流程中都放行，区别只影响排序。
 “加入”列标出 2026-11-08 新增的 venue；文末列出已拒收的 venue。修改 data/venue_registry_v1.json 后运行 python scripts/venues.py build。
@@ -153,7 +153,7 @@ source_ids 需经索引核实才填写。空列表表示待解析。
 | pldi | PLDI | ACM SIGPLAN Conference on Programming Language Design and Implementation | 会议 | targeted | **2026-11-09 新增** |
 | toplas | TOPLAS | ACM Transactions on Programming Languages and Systems | 期刊 | targeted | **2026-11-09 新增** |
 
-## Systems（106）
+## Systems（107）
 
 | ID | 简称 | 完整名称 | 类型 | 检索优先级 | 加入 |
 | --- | --- | --- | --- | --- | --- |
@@ -263,8 +263,9 @@ source_ids 需经索引核实才填写。空列表表示待解析。
 | hpdc | HPDC | ACM International Symposium on High-Performance Parallel and Distributed Computing | 会议 | targeted | **2026-11-09 新增** |
 | cluster | CLUSTER | IEEE International Conference on Cluster Computing | 会议 | targeted | **2026-11-09 新增** |
 | ieee-p2p | IEEE P2P | IEEE International Conference on Peer-to-Peer Computing | 会议 | targeted | **2026-11-09 新增** |
+| ccr | CCR | ACM SIGCOMM Computer Communication Review | 期刊 | targeted |  |
 
-## Security & Crypto（64）
+## Security & Crypto（68）
 
 | ID | 简称 | 完整名称 | 类型 | 检索优先级 | 加入 |
 | --- | --- | --- | --- | --- | --- |
@@ -332,8 +333,12 @@ source_ids 需经索引核实才填写。空列表表示待解析。
 | trustcom | TrustCom | IEEE International Conference on Trust, Security and Privacy in Computing and Communications | 会议 | targeted | **2026-11-09 新增** |
 | jisa | JISA | Journal of Information Security and Applications | 期刊 | targeted | **2026-11-09 新增** |
 | iet-ifs | IET Inf. Secur. | IET Information Security | 期刊 | targeted | **2026-11-09 新增** |
+| secprot | SPW (Cambridge) | Security Protocols Workshop | 工作坊 | targeted |  |
+| ieee-cns | IEEE CNS | IEEE Conference on Communications and Network Security | 会议 | targeted |  |
+| nspw | NSPW | New Security Paradigms Workshop | 工作坊 | targeted |  |
+| jmc | JMC | Journal of Mathematical Cryptology | 期刊 | targeted |  |
 
-## Econ（65）
+## Econ（66）
 
 | ID | 简称 | 完整名称 | 类型 | 检索优先级 | 加入 |
 | --- | --- | --- | --- | --- | --- |
@@ -402,8 +407,9 @@ source_ids 需经索引核实才填写。空列表表示待解析。
 | sje | SJE | Scandinavian Journal of Economics | 期刊 | targeted | **2026-11-09 新增** |
 | obes | OBES | Oxford Bulletin of Economics and Statistics | 期刊 | targeted | **2026-11-09 新增** |
 | j-regul-econ | J. Regul. Econ. | Journal of Regulatory Economics | 期刊 | targeted | **2026-11-09 新增** |
+| bejte | BEJTE | The B.E. Journal of Theoretical Economics | 期刊 | targeted |  |
 
-## Finance（59）
+## Finance（61）
 
 | ID | 简称 | 完整名称 | 类型 | 检索优先级 | 加入 |
 | --- | --- | --- | --- | --- | --- |
@@ -466,8 +472,10 @@ source_ids 需经索引核实才填写。空列表表示待解析。
 | jae-accounting | JAE (Accounting) | Journal of Accounting and Economics | 期刊 | targeted | **2026-11-09 新增** |
 | frontiers-math-finance | Front. Math. Finance | Frontiers of Mathematical Finance | 期刊 | targeted | **2026-11-09 新增** |
 | qfe | QFE | Quantitative Finance and Economics | 期刊 | targeted | **2026-11-09 新增** |
+| cfr | CFR | Critical Finance Review | 期刊 | targeted |  |
+| rast | RAST | Review of Accounting Studies | 期刊 | targeted |  |
 
-## OR/MS（38）
+## OR/MS（39）
 
 | ID | 简称 | 完整名称 | 类型 | 检索优先级 | 加入 |
 | --- | --- | --- | --- | --- | --- |
@@ -509,6 +517,7 @@ source_ids 需经索引核实才填写。空列表表示待解析。
 | gdn | GDN | Group Decision and Negotiation | 期刊 | targeted | **2026-11-09 新增** |
 | jgo | J. Glob. Optim. | Journal of Global Optimization | 期刊 | targeted | **2026-11-09 新增** |
 | tem | IEEE TEM | IEEE Transactions on Engineering Management | 期刊 | targeted | **2026-11-09 新增** |
+| mmor | MMOR | Mathematical Methods of Operations Research | 期刊 | targeted |  |
 
 ## Preprints & Working Papers（15）
 

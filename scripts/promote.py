@@ -15,7 +15,7 @@ from copy import deepcopy
 import rubric
 import venue_policy
 from build import EVIDENCE, LEDGER, OUTPUT, ROOT, SEEDS, project
-from directory import is_formal_publication, read_json, write_json
+from directory import is_formal_publication, read_json, write_json, write_ledger
 from metadata import MetadataClient, MetadataError, _person_tokens, normalize_doi, normalize_title
 from update import seed_from_record, verification_identity, work_identity
 
@@ -247,7 +247,7 @@ def promote(store, config, *, apply=False, log=print, client=None, batch=None):
         staged = deepcopy(ledger)
         staged['records'].extend(item['record'] for item in selected)
         built = project(seeds, evidence, staged)          # raises on any inconsistency; nothing written then
-        write_json(LEDGER, staged)
+        write_ledger(LEDGER, staged)
         write_json(OUTPUT, built)
         for item in selected:
             store.set_status(item['key'], 'promoted', item['work_id'], directory_id=item['work_id'])
@@ -336,7 +336,7 @@ def upgrade_formal(store, config, *, apply=False, keys=None, log=print, client=N
         staged = deepcopy(ledger)
         staged['records'].extend(item['record'] for item in accepted)
         built = project(seeds, evidence, staged)
-        write_json(LEDGER, staged)
+        write_ledger(LEDGER, staged)
         write_json(OUTPUT, built)
         for item in accepted:
             merges['merges'].append({'drop': item['preprint'], 'keep': item['record']['work_id'],

@@ -5,7 +5,7 @@
   "decision_semantics": {
     "deny": "Never adopted; existing directory works whose only formal edition is denied are removed at build time (ledger stays append-only, so the removal is reversible by editing this file).",
     "allow": "Every venue in data/venue_registry_v1.json (core and targeted) plus preprint repositories. Scope screening still applies.",
-    "unknown": "Not in the registry and not denied. Records are parked, not screened by the LLM; the monthly report lists unknown venues by frequency so a venue is decided once, not paper by paper."
+    "unknown": "Not in the registry and not denied. Owner 2026-11-11: such records are dropped. They are never screened and are not reviewed venue by venue; a venue enters only when it is added to the registry, and refresh then reopens its records."
   },
   "deny": [
     {

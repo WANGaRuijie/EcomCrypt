@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-09",
+  "updated_at": "2026-11-11",
   "policy": {
     "core": "按年回填并优先筛选",
     "targeted": "按主题和种子关系筛选",
@@ -123,7 +123,8 @@
       "priority": "core",
       "aliases": [
         "Autonomous Agents and Multiagent Systems",
-        "International Joint Conference on Autonomous Agents and Multiagent Systems"
+        "International Joint Conference on Autonomous Agents and Multiagent Systems",
+        "Adaptive Agents and Multi-Agents Systems"
       ],
       "source_ids": [],
       "selector_status": "unresolved",
@@ -1024,7 +1025,10 @@
       "group": "Systems",
       "kind": "conference",
       "priority": "core",
-      "aliases": [],
+      "aliases": [
+        "International Conference on Dependable Systems & Networks/Proceedings",
+        "International Conference on Dependable Systems and Networks"
+      ],
       "source_ids": [],
       "selector_status": "unresolved",
       "dblp": [
@@ -8294,6 +8298,134 @@
       "issn": [
         "0018-9391",
         "1558-0040"
+      ]
+    },
+    {
+      "id": "cfr",
+      "label": "CFR",
+      "name": "Critical Finance Review",
+      "group": "Finance",
+      "kind": "journal",
+      "priority": "targeted",
+      "aliases": [],
+      "source_ids": [],
+      "selector_status": "unresolved"
+    },
+    {
+      "id": "bejte",
+      "label": "BEJTE",
+      "name": "The B.E. Journal of Theoretical Economics",
+      "group": "Econ",
+      "kind": "journal",
+      "priority": "targeted",
+      "aliases": [
+        "The B E Journal of Theoretical Economics",
+        "B.E. Journal of Theoretical Economics"
+      ],
+      "source_ids": [],
+      "selector_status": "unresolved"
+    },
+    {
+      "id": "mmor",
+      "label": "MMOR",
+      "name": "Mathematical Methods of Operations Research",
+      "group": "OR/MS",
+      "kind": "journal",
+      "priority": "targeted",
+      "aliases": [
+        "Math. Methods Oper. Res."
+      ],
+      "source_ids": [],
+      "selector_status": "unresolved",
+      "dblp": [
+        "Math. Methods Oper. Res."
+      ]
+    },
+    {
+      "id": "rast",
+      "label": "RAST",
+      "name": "Review of Accounting Studies",
+      "group": "Finance",
+      "kind": "journal",
+      "priority": "targeted",
+      "aliases": [],
+      "source_ids": [],
+      "selector_status": "unresolved"
+    },
+    {
+      "id": "secprot",
+      "label": "SPW (Cambridge)",
+      "name": "Security Protocols Workshop",
+      "group": "Security & Crypto",
+      "kind": "workshop",
+      "priority": "targeted",
+      "aliases": [
+        "International Workshop on Security Protocols"
+      ],
+      "source_ids": [],
+      "selector_status": "unresolved",
+      "dblp": [
+        "Security Protocols Workshop"
+      ]
+    },
+    {
+      "id": "ieee-cns",
+      "label": "IEEE CNS",
+      "name": "IEEE Conference on Communications and Network Security",
+      "group": "Security & Crypto",
+      "kind": "conference",
+      "priority": "targeted",
+      "aliases": [],
+      "source_ids": [],
+      "selector_status": "unresolved",
+      "dblp": [
+        "CNS"
+      ]
+    },
+    {
+      "id": "nspw",
+      "label": "NSPW",
+      "name": "New Security Paradigms Workshop",
+      "group": "Security & Crypto",
+      "kind": "workshop",
+      "priority": "targeted",
+      "aliases": [],
+      "source_ids": [],
+      "selector_status": "unresolved",
+      "dblp": [
+        "NSPW"
+      ]
+    },
+    {
+      "id": "ccr",
+      "label": "CCR",
+      "name": "ACM SIGCOMM Computer Communication Review",
+      "group": "Systems",
+      "kind": "journal",
+      "priority": "targeted",
+      "aliases": [
+        "Comput. Commun. Rev."
+      ],
+      "source_ids": [],
+      "selector_status": "unresolved",
+      "dblp": [
+        "Comput. Commun. Rev."
+      ]
+    },
+    {
+      "id": "jmc",
+      "label": "JMC",
+      "name": "Journal of Mathematical Cryptology",
+      "group": "Security & Crypto",
+      "kind": "journal",
+      "priority": "targeted",
+      "aliases": [
+        "J. Math. Cryptol."
+      ],
+      "source_ids": [],
+      "selector_status": "unresolved",
+      "dblp": [
+        "J. Math. Cryptol."
       ]
     }
   ],

@@ -11,7 +11,7 @@ from urllib.parse import urlsplit
 from concurrent.futures import ThreadPoolExecutor
 
 from build import EVIDENCE, LEDGER, OUTPUT, ROOT, SEEDS, project
-from directory import is_formal_publication, read_json, write_json
+from directory import is_formal_publication, read_json, write_json, write_ledger
 from metadata import MetadataClient, MetadataError, normalize_title
 from update import NoRedirect, exclusive_run, seed_from_record, verification_identity, work_identity
 from campaign_budget import CampaignBudget
@@ -382,7 +382,7 @@ def run(args):
     ledger["records"].extend(accepted)
     staged = project(seeds, evidence, ledger)
     if args.apply and (accepted or args.audit_existing):
-        write_json(LEDGER, ledger)
+        write_ledger(LEDGER, ledger)
         write_json(OUTPUT, staged)
     report()
     result = read_json(args.output)

@@ -112,7 +112,8 @@ export const registry = [
     "priority": "core",
     "aliases": [
       "Autonomous Agents and Multiagent Systems",
-      "International Joint Conference on Autonomous Agents and Multiagent Systems"
+      "International Joint Conference on Autonomous Agents and Multiagent Systems",
+      "Adaptive Agents and Multi-Agents Systems"
     ],
     "source_ids": [],
     "selector_status": "unresolved",
@@ -490,7 +491,11 @@ export const registry = [
       "Journal of the British Blockchain Association"
     ],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "2516-3949",
+      "2516-3957"
+    ]
   },
   {
     "id": "jacm",
@@ -1009,7 +1014,10 @@ export const registry = [
     "group": "Systems",
     "kind": "conference",
     "priority": "core",
-    "aliases": [],
+    "aliases": [
+      "International Conference on Dependable Systems & Networks/Proceedings",
+      "International Conference on Dependable Systems and Networks"
+    ],
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [
@@ -1753,6 +1761,10 @@ export const registry = [
     },
     "dblp": [
       "Games Econ. Behav."
+    ],
+    "issn": [
+      "0899-8256",
+      "1090-2473"
     ]
   },
   {
@@ -1786,6 +1798,10 @@ export const registry = [
     },
     "dblp": [
       "J. Econ. Theory"
+    ],
+    "issn": [
+      "0022-0531",
+      "1095-7235"
     ]
   },
   {
@@ -1816,7 +1832,11 @@ export const registry = [
           "issn_l": "0938-2259"
         }
       ]
-    }
+    },
+    "issn": [
+      "0938-2259",
+      "1432-0479"
+    ]
   },
   {
     "id": "te",
@@ -1851,7 +1871,11 @@ export const registry = [
           "issn_l": "1555-7561"
         }
       ]
-    }
+    },
+    "issn": [
+      "1555-7561",
+      "1933-6837"
+    ]
   },
   {
     "id": "aej-micro",
@@ -1862,7 +1886,11 @@ export const registry = [
     "priority": "core",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "1945-7669",
+      "1945-7685"
+    ]
   },
   {
     "id": "jmid",
@@ -1873,7 +1901,11 @@ export const registry = [
     "priority": "core",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "2399-844X",
+      "2399-8458"
+    ]
   },
   {
     "id": "ijgt",
@@ -1887,6 +1919,10 @@ export const registry = [
     "selector_status": "unresolved",
     "dblp": [
       "Int. J. Game Theory"
+    ],
+    "issn": [
+      "0020-7276",
+      "1432-1270"
     ]
   },
   {
@@ -1901,6 +1937,10 @@ export const registry = [
     "selector_status": "unresolved",
     "dblp": [
       "Soc. Choice Welf."
+    ],
+    "issn": [
+      "0176-1714",
+      "1432-217X"
     ]
   },
   {
@@ -1912,7 +1952,11 @@ export const registry = [
     "priority": "core",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "2196-1085",
+      "2196-1093"
+    ]
   },
   {
     "id": "red",
@@ -1923,7 +1967,11 @@ export const registry = [
     "priority": "core",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "1434-4742",
+      "1434-4750"
+    ]
   },
   {
     "id": "jmathe",
@@ -1934,7 +1982,10 @@ export const registry = [
     "priority": "core",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0304-4068"
+    ]
   },
   {
     "id": "experimental-economics",
@@ -1945,7 +1996,11 @@ export const registry = [
     "priority": "core",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "1386-4157",
+      "1573-6938"
+    ]
   },
   {
     "id": "jeb-o",
@@ -1958,7 +2013,10 @@ export const registry = [
       "Journal of Economic Behavior and Organization"
     ],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0167-2681"
+    ]
   },
   {
     "id": "jems",
@@ -1971,7 +2029,11 @@ export const registry = [
       "Journal of Economics and Management Strategy"
     ],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "1058-6407",
+      "1530-9134"
+    ]
   },
   {
     "id": "rand",
@@ -1984,7 +2046,11 @@ export const registry = [
       "RAND Journal of Economics"
     ],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0741-6261",
+      "1756-2171"
+    ]
   },
   {
     "id": "ijio",
@@ -1995,7 +2061,10 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0167-7187"
+    ]
   },
   {
     "id": "joie",
@@ -2006,7 +2075,11 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0022-1821",
+      "1467-6451"
+    ]
   },
   {
     "id": "aer",
@@ -2017,7 +2090,11 @@ export const registry = [
     "priority": "core",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0002-8282",
+      "1944-7981"
+    ]
   },
   {
     "id": "aer-insights",
@@ -2028,7 +2105,11 @@ export const registry = [
     "priority": "core",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "2640-205X",
+      "2640-2068"
+    ]
   },
   {
     "id": "econometrica",
@@ -2039,7 +2120,11 @@ export const registry = [
     "priority": "core",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0012-9682",
+      "1468-0262"
+    ]
   },
   {
     "id": "qje",
@@ -2052,7 +2137,11 @@ export const registry = [
       "Quarterly Journal of Economics"
     ],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0033-5533",
+      "1531-4650"
+    ]
   },
   {
     "id": "restud",
@@ -2065,7 +2154,11 @@ export const registry = [
       "Review of Economic Studies"
     ],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0034-6527",
+      "1467-937X"
+    ]
   },
   {
     "id": "jpe",
@@ -2076,7 +2169,11 @@ export const registry = [
     "priority": "core",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0022-3808",
+      "1537-534X"
+    ]
   },
   {
     "id": "jpe-micro",
@@ -2087,7 +2184,11 @@ export const registry = [
     "priority": "core",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "2832-9368",
+      "2832-9376"
+    ]
   },
   {
     "id": "jeea",
@@ -2098,7 +2199,11 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "1542-4766",
+      "1542-4774"
+    ]
   },
   {
     "id": "ier",
@@ -2109,7 +2214,11 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0020-6598",
+      "1468-2354"
+    ]
   },
   {
     "id": "qe",
@@ -2120,7 +2229,11 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "1759-7323",
+      "1759-7331"
+    ]
   },
   {
     "id": "jedc",
@@ -2131,7 +2244,10 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0165-1889"
+    ]
   },
   {
     "id": "jpube",
@@ -2142,7 +2258,10 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0047-2727"
+    ]
   },
   {
     "id": "economic-journal",
@@ -2153,7 +2272,11 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0013-0133",
+      "1468-0297"
+    ]
   },
   {
     "id": "economics-letters",
@@ -2164,7 +2287,10 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0165-1765"
+    ]
   },
   {
     "id": "j-econ-surveys",
@@ -2175,7 +2301,11 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0950-0804",
+      "1467-6419"
+    ]
   },
   {
     "id": "computational-economics",
@@ -2188,7 +2318,11 @@ export const registry = [
       "Computational Economics"
     ],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0927-7099",
+      "1572-9974"
+    ]
   },
   {
     "id": "jep",
@@ -2199,7 +2333,11 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0895-3309",
+      "1944-7965"
+    ]
   },
   {
     "id": "jel",
@@ -2210,7 +2348,11 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0022-0515",
+      "2328-8175"
+    ]
   },
   {
     "id": "jf",
@@ -2223,7 +2365,11 @@ export const registry = [
       "Journal of Finance"
     ],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0022-1082",
+      "1540-6261"
+    ]
   },
   {
     "id": "jfe",
@@ -2234,7 +2380,10 @@ export const registry = [
     "priority": "core",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0304-405X"
+    ]
   },
   {
     "id": "rfs",
@@ -2247,7 +2396,11 @@ export const registry = [
       "Review of Financial Studies"
     ],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0893-9454",
+      "1465-7368"
+    ]
   },
   {
     "id": "rf",
@@ -2261,7 +2414,12 @@ export const registry = [
       "RF"
     ],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "1572-3097",
+      "1573-692X",
+      "1875-824X"
+    ]
   },
   {
     "id": "jfqa",
@@ -2272,7 +2430,11 @@ export const registry = [
     "priority": "core",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0022-1090",
+      "1756-6916"
+    ]
   },
   {
     "id": "jfi",
@@ -2283,7 +2445,11 @@ export const registry = [
     "priority": "core",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "1042-9573",
+      "1096-0473"
+    ]
   },
   {
     "id": "jfm",
@@ -2296,7 +2462,10 @@ export const registry = [
       "JFM"
     ],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "1386-4181"
+    ]
   },
   {
     "id": "jmcb",
@@ -2307,7 +2476,11 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0022-2879",
+      "1538-4616"
+    ]
   },
   {
     "id": "jme",
@@ -2318,7 +2491,10 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0304-3932"
+    ]
   },
   {
     "id": "mathematical-finance",
@@ -2329,7 +2505,11 @@ export const registry = [
     "priority": "core",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0960-1627",
+      "1467-9965"
+    ]
   },
   {
     "id": "finance-and-stochastics",
@@ -2342,7 +2522,11 @@ export const registry = [
       "Finance and Stochastics"
     ],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0949-2984",
+      "1432-1122"
+    ]
   },
   {
     "id": "siam-jfm",
@@ -2356,6 +2540,9 @@ export const registry = [
     "selector_status": "unresolved",
     "dblp": [
       "SIAM J. Financial Math."
+    ],
+    "issn": [
+      "1945-497X"
     ]
   },
   {
@@ -2369,7 +2556,10 @@ export const registry = [
       "Journal of Banking and Finance"
     ],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0378-4266"
+    ]
   },
   {
     "id": "jcf",
@@ -2380,7 +2570,10 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0929-1199"
+    ]
   },
   {
     "id": "jfs",
@@ -2391,7 +2584,11 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "1572-3089",
+      "1878-0962"
+    ]
   },
   {
     "id": "jef",
@@ -2402,7 +2599,10 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0927-5398"
+    ]
   },
   {
     "id": "frl",
@@ -2413,7 +2613,10 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "1544-6123"
+    ]
   },
   {
     "id": "financial-innovation",
@@ -2424,7 +2627,10 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "2199-4730"
+    ]
   },
   {
     "id": "digital-finance",
@@ -2437,7 +2643,11 @@ export const registry = [
       "Digital Finance"
     ],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "2524-6186",
+      "2524-6984"
+    ]
   },
   {
     "id": "management-science",
@@ -2451,6 +2661,10 @@ export const registry = [
     "selector_status": "unresolved",
     "dblp": [
       "Manag. Sci."
+    ],
+    "issn": [
+      "0025-1909",
+      "1526-5501"
     ]
   },
   {
@@ -2465,6 +2679,10 @@ export const registry = [
     "selector_status": "unresolved",
     "dblp": [
       "Oper. Res."
+    ],
+    "issn": [
+      "0030-364X",
+      "1526-5463"
     ]
   },
   {
@@ -2479,6 +2697,10 @@ export const registry = [
     "selector_status": "unresolved",
     "dblp": [
       "Math. Oper. Res."
+    ],
+    "issn": [
+      "0364-765X",
+      "1526-5471"
     ]
   },
   {
@@ -2495,6 +2717,10 @@ export const registry = [
     "selector_status": "unresolved",
     "dblp": [
       "Manuf. Serv. Oper. Manag."
+    ],
+    "issn": [
+      "1523-4614",
+      "1526-5498"
     ]
   },
   {
@@ -2509,6 +2735,12 @@ export const registry = [
     "selector_status": "unresolved",
     "dblp": [
       "INFORMS J. Comput."
+    ],
+    "issn": [
+      "0899-1499",
+      "1091-9856",
+      "1526-5528",
+      "2326-3245"
     ]
   },
   {
@@ -2523,6 +2755,9 @@ export const registry = [
     "selector_status": "unresolved",
     "dblp": [
       "Oper. Res. Lett."
+    ],
+    "issn": [
+      "0167-6377"
     ]
   },
   {
@@ -2537,6 +2772,9 @@ export const registry = [
     "selector_status": "unresolved",
     "dblp": [
       "Eur. J. Oper. Res."
+    ],
+    "issn": [
+      "0377-2217"
     ]
   },
   {
@@ -2553,6 +2791,10 @@ export const registry = [
     "selector_status": "unresolved",
     "dblp": [
       "Math. Program."
+    ],
+    "issn": [
+      "0025-5610",
+      "1436-4646"
     ]
   },
   {
@@ -2567,6 +2809,10 @@ export const registry = [
     "selector_status": "unresolved",
     "dblp": [
       "SIAM J. Optim."
+    ],
+    "issn": [
+      "1052-6234",
+      "1095-7189"
     ]
   },
   {
@@ -2581,6 +2827,10 @@ export const registry = [
     "selector_status": "unresolved",
     "dblp": [
       "J. Optim. Theory Appl."
+    ],
+    "issn": [
+      "0022-3239",
+      "1573-2878"
     ]
   },
   {
@@ -2592,7 +2842,11 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "1059-1478",
+      "1937-5956"
+    ]
   },
   {
     "id": "marketing-science",
@@ -2606,6 +2860,10 @@ export const registry = [
     "selector_status": "unresolved",
     "dblp": [
       "Mark. Sci."
+    ],
+    "issn": [
+      "0732-2399",
+      "1526-548X"
     ]
   },
   {
@@ -2620,6 +2878,10 @@ export const registry = [
     "selector_status": "unresolved",
     "dblp": [
       "Inf. Syst. Res."
+    ],
+    "issn": [
+      "1047-7047",
+      "1526-5536"
     ]
   },
   {
@@ -2634,6 +2896,10 @@ export const registry = [
     "selector_status": "unresolved",
     "dblp": [
       "MIS Q."
+    ],
+    "issn": [
+      "0276-7783",
+      "2162-9730"
     ]
   },
   {
@@ -2648,6 +2914,10 @@ export const registry = [
     "selector_status": "unresolved",
     "dblp": [
       "J. Manag. Inf. Syst."
+    ],
+    "issn": [
+      "0742-1222",
+      "1557-928X"
     ]
   },
   {
@@ -2662,6 +2932,10 @@ export const registry = [
     "selector_status": "unresolved",
     "dblp": [
       "Decis. Sci."
+    ],
+    "issn": [
+      "0011-7315",
+      "1540-5915"
     ]
   },
   {
@@ -2948,7 +3222,10 @@ export const registry = [
     ],
     "source_ids": [],
     "selector_status": "unresolved",
-    "classification_basis": "Subject grouping, independent of editorial quality."
+    "classification_basis": "Subject grouping, independent of editorial quality.",
+    "issn": [
+      "0140-9883"
+    ]
   },
   {
     "id": "cje",
@@ -2962,7 +3239,11 @@ export const registry = [
     ],
     "source_ids": [],
     "selector_status": "unresolved",
-    "classification_basis": "Subject grouping, independent of editorial quality."
+    "classification_basis": "Subject grouping, independent of editorial quality.",
+    "issn": [
+      "0008-4085",
+      "1540-5982"
+    ]
   },
   {
     "id": "jom",
@@ -2974,7 +3255,11 @@ export const registry = [
     "aliases": [],
     "source_ids": [],
     "selector_status": "unresolved",
-    "classification_basis": "Subject grouping, independent of editorial quality."
+    "classification_basis": "Subject grouping, independent of editorial quality.",
+    "issn": [
+      "0272-6963",
+      "1873-1317"
+    ]
   },
   {
     "id": "icaif",
@@ -3060,7 +3345,11 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "1744-1374",
+      "1744-1382"
+    ]
   },
   {
     "id": "futures-markets",
@@ -3073,7 +3362,11 @@ export const registry = [
       "JFutures"
     ],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0270-7314",
+      "1096-9934"
+    ]
   },
   {
     "id": "ecai",
@@ -3127,7 +3420,11 @@ export const registry = [
     "aliases": [],
     "source_ids": [],
     "selector_status": "unresolved",
-    "classification_basis": "Economics subject grouping; not an automatic-adoption permission."
+    "classification_basis": "Economics subject grouping; not an automatic-adoption permission.",
+    "issn": [
+      "0095-2583",
+      "1465-7295"
+    ]
   },
   {
     "id": "marble",
@@ -3161,6 +3458,10 @@ export const registry = [
     "url": "https://cacm.acm.org/",
     "dblp": [
       "Commun. ACM"
+    ],
+    "issn": [
+      "0001-0782",
+      "1557-7317"
     ]
   },
   {
@@ -3180,6 +3481,10 @@ export const registry = [
     "note": "Discoverypriorityonly;everypaperstillrequiresEconCS×Blockchainorrational-securityscopeandcontributionreview.",
     "dblp": [
       "J. Comb. Optim."
+    ],
+    "issn": [
+      "1382-6905",
+      "1573-2886"
     ]
   },
   {
@@ -3266,7 +3571,11 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "1350-4851",
+      "1466-4291"
+    ]
   },
   {
     "id": "applied-mathematical-finance",
@@ -3277,7 +3586,11 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "1350-486X",
+      "1466-4313"
+    ]
   },
   {
     "id": "jimf",
@@ -3288,7 +3601,10 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0261-5606"
+    ]
   },
   {
     "id": "decision-analysis",
@@ -3302,6 +3618,10 @@ export const registry = [
     "selector_status": "unresolved",
     "dblp": [
       "Decis. Anal."
+    ],
+    "issn": [
+      "1545-8490",
+      "1545-8504"
     ]
   },
   {
@@ -3313,7 +3633,11 @@ export const registry = [
     "priority": "targeted",
     "aliases": [],
     "source_ids": [],
-    "selector_status": "unresolved"
+    "selector_status": "unresolved",
+    "issn": [
+      "0269-9648",
+      "1469-8951"
+    ]
   },
   {
     "id": "globecom",
@@ -3426,6 +3750,10 @@ export const registry = [
     "selector_status": "unresolved",
     "dblp": [
       "Int. J. Intell. Syst."
+    ],
+    "issn": [
+      "0884-8173",
+      "1098-111X"
     ]
   },
   {
@@ -3440,6 +3768,9 @@ export const registry = [
     "selector_status": "unresolved",
     "dblp": [
       "EPJ Data Sci."
+    ],
+    "issn": [
+      "2193-1127"
     ]
   },
   {
@@ -3856,7 +4187,11 @@ export const registry = [
     "dblp": [
       "IGTR"
     ],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "0219-1989",
+      "1793-6675"
+    ]
   },
   {
     "id": "dga",
@@ -3871,7 +4206,11 @@ export const registry = [
     "dblp": [
       "Dyn. Games Appl."
     ],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "2153-0785",
+      "2153-0793"
+    ]
   },
   {
     "id": "mss",
@@ -3886,7 +4225,10 @@ export const registry = [
     "dblp": [
       "Math. Soc. Sci."
     ],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "0165-4896"
+    ]
   },
   {
     "id": "jpet",
@@ -3899,7 +4241,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "1097-3923",
+      "1467-9779"
+    ]
   },
   {
     "id": "theory-decision",
@@ -3914,7 +4260,11 @@ export const registry = [
     "dblp": [
       "Theory Decis."
     ],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "0040-5833",
+      "1573-7187"
+    ]
   },
   {
     "id": "eer",
@@ -3927,7 +4277,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "0014-2921"
+    ]
   },
   {
     "id": "restat",
@@ -3942,7 +4295,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "0034-6535",
+      "1530-9142"
+    ]
   },
   {
     "id": "jle",
@@ -3957,7 +4314,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "0022-2186",
+      "1537-5285"
+    ]
   },
   {
     "id": "jleo",
@@ -3972,7 +4333,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "1465-7341",
+      "8756-6222"
+    ]
   },
   {
     "id": "iep",
@@ -3987,7 +4352,10 @@ export const registry = [
     "dblp": [
       "Inf. Econ. Policy"
     ],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "0167-6245"
+    ]
   },
   {
     "id": "economic-modelling",
@@ -4000,7 +4368,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "0264-9993"
+    ]
   },
   {
     "id": "aej-macro",
@@ -4013,7 +4384,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "1945-7707",
+      "1945-7715"
+    ]
   },
   {
     "id": "red-dynamics",
@@ -4026,7 +4401,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "1094-2025"
+    ]
   },
   {
     "id": "quantitative-finance",
@@ -4041,7 +4419,11 @@ export const registry = [
     "dblp": [
       "Quant. Finance"
     ],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "1469-7688",
+      "1469-7696"
+    ]
   },
   {
     "id": "rcfs",
@@ -4056,7 +4438,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "2046-9128",
+      "2046-9136"
+    ]
   },
   {
     "id": "raps",
@@ -4071,7 +4457,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "2045-9920",
+      "2045-9939"
+    ]
   },
   {
     "id": "jfec",
@@ -4084,7 +4474,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "1479-8409",
+      "1479-8417"
+    ]
   },
   {
     "id": "irfa",
@@ -4097,7 +4491,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "1057-5219"
+    ]
   },
   {
     "id": "bis-wp",
@@ -4198,7 +4595,10 @@ export const registry = [
     "dblp": [
       "Decis. Support Syst."
     ],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "0167-9236"
+    ]
   },
   {
     "id": "ecra",
@@ -4213,7 +4613,10 @@ export const registry = [
     "dblp": [
       "Electron. Commer. Res. Appl."
     ],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "1567-4223"
+    ]
   },
   {
     "id": "ecr",
@@ -4228,7 +4631,11 @@ export const registry = [
     "dblp": [
       "Electron. Commer. Res."
     ],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "1389-5753",
+      "1572-9362"
+    ]
   },
   {
     "id": "jais",
@@ -4243,7 +4650,10 @@ export const registry = [
     "dblp": [
       "J. Assoc. Inf. Syst."
     ],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "1536-9323"
+    ]
   },
   {
     "id": "stochastic-systems",
@@ -4258,7 +4668,10 @@ export const registry = [
     "dblp": [
       "Stoch. Syst."
     ],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "1946-5238"
+    ]
   },
   {
     "id": "questa",
@@ -4275,7 +4688,12 @@ export const registry = [
     "dblp": [
       "Queueing Syst. Theory Appl."
     ],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "0257-0130",
+      "0340-4384",
+      "1572-9443"
+    ]
   },
   {
     "id": "nrl",
@@ -4288,7 +4706,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "0894-069X",
+      "1520-6750"
+    ]
   },
   {
     "id": "info-management",
@@ -4305,7 +4727,10 @@ export const registry = [
     "dblp": [
       "Inf. Manag."
     ],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "0378-7206"
+    ]
   },
   {
     "id": "jsac",
@@ -4637,7 +5062,11 @@ export const registry = [
     "dblp": [
       "Proc. Natl. Acad. Sci. USA"
     ],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "0027-8424",
+      "1091-6490"
+    ]
   },
   {
     "id": "csur",
@@ -4652,7 +5081,11 @@ export const registry = [
     "dblp": [
       "ACM Comput. Surv."
     ],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "0360-0300",
+      "1557-7341"
+    ]
   },
   {
     "id": "proc-ieee",
@@ -4667,7 +5100,11 @@ export const registry = [
     "dblp": [
       "Proc. IEEE"
     ],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "0018-9219",
+      "1558-2256"
+    ]
   },
   {
     "id": "technology-in-society",
@@ -4680,7 +5117,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-08"
+    "added_at": "2026-11-08",
+    "issn": [
+      "0160-791X"
+    ]
   },
   {
     "id": "ijtcs-faw",
@@ -5358,7 +5798,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0275-5319"
+    ]
   },
   {
     "id": "jifmim",
@@ -5373,7 +5816,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "1042-4431"
+    ]
   },
   {
     "id": "iref",
@@ -5386,7 +5832,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "1059-0560"
+    ]
   },
   {
     "id": "applied-economics",
@@ -5399,7 +5848,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0003-6846",
+      "1466-4283"
+    ]
   },
   {
     "id": "najef",
@@ -5412,7 +5865,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "1062-9408"
+    ]
   },
   {
     "id": "qref",
@@ -5425,7 +5881,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "1062-9769"
+    ]
   },
   {
     "id": "jbef",
@@ -5438,7 +5897,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "2214-6350"
+    ]
   },
   {
     "id": "pbfj",
@@ -5451,7 +5913,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0927-538X"
+    ]
   },
   {
     "id": "efm",
@@ -5464,7 +5929,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "1354-7798",
+      "1468-036X"
+    ]
   },
   {
     "id": "ejf",
@@ -5479,7 +5948,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "1351-847X",
+      "1466-4364"
+    ]
   },
   {
     "id": "icdcs-workshops",
@@ -6056,7 +6529,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "1076-9307",
+      "1099-1158"
+    ]
   },
   {
     "id": "tweb",
@@ -6088,7 +6565,11 @@ export const registry = [
     "dblp": [
       "Ann. Oper. Res."
     ],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0254-5330",
+      "1572-9338"
+    ]
   },
   {
     "id": "pacmse",
@@ -6118,7 +6599,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0924-865X",
+      "1573-7179"
+    ]
   },
   {
     "id": "acs-complex",
@@ -6135,7 +6620,11 @@ export const registry = [
     "dblp": [
       "Adv. Complex Syst."
     ],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0219-5259",
+      "1793-6802"
+    ]
   },
   {
     "id": "appl-netw-sci",
@@ -6152,7 +6641,10 @@ export const registry = [
     "dblp": [
       "Appl. Netw. Sci."
     ],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "2364-8228"
+    ]
   },
   {
     "id": "chaos-solitons",
@@ -6165,7 +6657,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0960-0779"
+    ]
   },
   {
     "id": "chaos",
@@ -6178,7 +6673,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "1054-1500",
+      "1089-7682"
+    ]
   },
   {
     "id": "dgov",
@@ -6195,7 +6694,11 @@ export const registry = [
     "dblp": [
       "Digit. Gov. Res. Pract."
     ],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "2639-0175",
+      "2691-199X"
+    ]
   },
   {
     "id": "electronic-markets",
@@ -6212,7 +6715,11 @@ export const registry = [
     "dblp": [
       "Electron. Mark."
     ],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "1019-6781",
+      "1422-8890"
+    ]
   },
   {
     "id": "emse",
@@ -6246,7 +6753,11 @@ export const registry = [
     "dblp": [
       "Expert Syst. Appl."
     ],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0957-4174",
+      "1873-6793"
+    ]
   },
   {
     "id": "tcns",
@@ -6293,7 +6804,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0167-6687"
+    ]
   },
   {
     "id": "int-econ-j",
@@ -6306,7 +6820,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "1016-8737",
+      "1743-517X"
+    ]
   },
   {
     "id": "ijaim",
@@ -6319,7 +6837,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "1758-9037",
+      "1834-7649"
+    ]
   },
   {
     "id": "jlamp",
@@ -6349,7 +6871,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "2643-5748",
+      "2643-5756"
+    ]
   },
   {
     "id": "jeim",
@@ -6364,7 +6890,11 @@ export const registry = [
     "dblp": [
       "J. Enterp. Inf. Manag."
     ],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "1741-0398",
+      "1758-7409"
+    ]
   },
   {
     "id": "jssse",
@@ -6377,7 +6907,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "1004-3756",
+      "1861-9576"
+    ]
   },
   {
     "id": "pnas-nexus",
@@ -6390,7 +6924,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "2752-6542"
+    ]
   },
   {
     "id": "rsos",
@@ -6403,7 +6940,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "2054-5703"
+    ]
   },
   {
     "id": "simpat",
@@ -6433,7 +6973,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0040-1625"
+    ]
   },
   {
     "id": "bar",
@@ -6446,7 +6989,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0890-8389",
+      "1095-8347"
+    ]
   },
   {
     "id": "ijndc",
@@ -6476,7 +7023,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "1520-3255",
+      "2168-8435"
+    ]
   },
   {
     "id": "iet-blockchain",
@@ -6489,7 +7040,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "2634-1573"
+    ]
   },
   {
     "id": "research-policy",
@@ -6502,7 +7056,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0048-7333"
+    ]
   },
   {
     "id": "jit",
@@ -6517,7 +7074,11 @@ export const registry = [
     "dblp": [
       "J. Inf. Technol."
     ],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0268-3962",
+      "1466-4437"
+    ]
   },
   {
     "id": "ejis",
@@ -6532,7 +7093,11 @@ export const registry = [
     "dblp": [
       "Eur. J. Inf. Syst."
     ],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0960-085X",
+      "1476-9344"
+    ]
   },
   {
     "id": "isj",
@@ -6547,7 +7112,11 @@ export const registry = [
     "dblp": [
       "Inf. Syst. J."
     ],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "1350-1917",
+      "1365-2575"
+    ]
   },
   {
     "id": "ijim",
@@ -6562,7 +7131,10 @@ export const registry = [
     "dblp": [
       "Int. J. Inf. Manag."
     ],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0268-4012"
+    ]
   },
   {
     "id": "jbr",
@@ -6575,7 +7147,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0148-2963"
+    ]
   },
   {
     "id": "information-sciences",
@@ -6590,7 +7165,10 @@ export const registry = [
     "dblp": [
       "Inf. Sci."
     ],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0020-0255"
+    ]
   },
   {
     "id": "telecom-policy",
@@ -6605,7 +7183,10 @@ export const registry = [
     "dblp": [
       "Telecommun. Policy"
     ],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0308-5961"
+    ]
   },
   {
     "id": "jors",
@@ -6620,7 +7201,11 @@ export const registry = [
     "dblp": [
       "J. Oper. Res. Soc."
     ],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0160-5682",
+      "1476-9360"
+    ]
   },
   {
     "id": "itor",
@@ -6635,7 +7220,11 @@ export const registry = [
     "dblp": [
       "Int. Trans. Oper. Res."
     ],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0969-6016",
+      "1475-3995"
+    ]
   },
   {
     "id": "omega",
@@ -6648,7 +7237,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0305-0483"
+    ]
   },
   {
     "id": "cor",
@@ -6663,7 +7255,10 @@ export const registry = [
     "dblp": [
       "Comput. Oper. Res."
     ],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0305-0548"
+    ]
   },
   {
     "id": "or-spectrum",
@@ -6678,7 +7273,11 @@ export const registry = [
     "dblp": [
       "OR Spectr."
     ],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0171-6468",
+      "1436-6304"
+    ]
   },
   {
     "id": "gdn",
@@ -6693,7 +7292,11 @@ export const registry = [
     "dblp": [
       "Group Decis. Negot."
     ],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0926-2644",
+      "1572-9907"
+    ]
   },
   {
     "id": "global-finance",
@@ -6706,7 +7309,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "1044-0283"
+    ]
   },
   {
     "id": "financial-management",
@@ -6719,7 +7325,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0046-3892",
+      "1755-053X"
+    ]
   },
   {
     "id": "arfe",
@@ -6732,7 +7342,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "1941-1367",
+      "1941-1375"
+    ]
   },
   {
     "id": "financial-review",
@@ -6745,7 +7359,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0732-8516",
+      "1540-6288"
+    ]
   },
   {
     "id": "faj",
@@ -6758,7 +7376,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0015-198X",
+      "1938-3312"
+    ]
   },
   {
     "id": "jpm",
@@ -6771,7 +7393,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0095-4918",
+      "2168-8656"
+    ]
   },
   {
     "id": "jfsr",
@@ -6784,7 +7410,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0920-8550",
+      "1573-0735"
+    ]
   },
   {
     "id": "emr",
@@ -6797,7 +7427,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "1566-0141",
+      "1873-6173"
+    ]
   },
   {
     "id": "annals-finance",
@@ -6810,7 +7444,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "1614-2446",
+      "1614-2454"
+    ]
   },
   {
     "id": "mfe",
@@ -6823,7 +7461,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "1862-9660",
+      "1862-9679"
+    ]
   },
   {
     "id": "def",
@@ -6836,7 +7478,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "1129-6569",
+      "1593-8883"
+    ]
   },
   {
     "id": "tar",
@@ -6849,7 +7495,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0001-4826",
+      "1558-7967"
+    ]
   },
   {
     "id": "jar",
@@ -6862,7 +7512,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0021-8456",
+      "1475-679X"
+    ]
   },
   {
     "id": "jae-accounting",
@@ -6875,7 +7529,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0165-4101"
+    ]
   },
   {
     "id": "annual-review-econ",
@@ -6888,7 +7545,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "1941-1383",
+      "1941-1391"
+    ]
   },
   {
     "id": "j-econometrics",
@@ -6901,7 +7562,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0304-4076",
+      "1872-6895"
+    ]
   },
   {
     "id": "jae-applied",
@@ -6914,7 +7579,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0883-7252",
+      "1099-1255"
+    ]
   },
   {
     "id": "empirical-economics",
@@ -6927,7 +7596,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0377-7332",
+      "1435-8921"
+    ]
   },
   {
     "id": "ejpe",
@@ -6940,7 +7613,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0176-2680"
+    ]
   },
   {
     "id": "public-choice",
@@ -6953,7 +7629,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0048-5829",
+      "1573-7101"
+    ]
   },
   {
     "id": "economica",
@@ -6966,7 +7646,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0013-0427",
+      "1468-0335"
+    ]
   },
   {
     "id": "sje",
@@ -6979,7 +7663,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0347-0520",
+      "1467-9442"
+    ]
   },
   {
     "id": "obes",
@@ -6992,7 +7680,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0305-9049",
+      "1468-0084"
+    ]
   },
   {
     "id": "j-regul-econ",
@@ -7005,7 +7697,11 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0922-680X",
+      "1573-0468"
+    ]
   },
   {
     "id": "frontiers-math-finance",
@@ -7018,7 +7714,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "2769-6715"
+    ]
   },
   {
     "id": "qfe",
@@ -7031,7 +7730,10 @@ export const registry = [
     "source_ids": [],
     "selector_status": "unresolved",
     "dblp": [],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "2573-0134"
+    ]
   },
   {
     "id": "icse",
@@ -7562,7 +8264,11 @@ export const registry = [
     "dblp": [
       "J. Glob. Optim."
     ],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0925-5001",
+      "1573-2916"
+    ]
   },
   {
     "id": "tem",
@@ -7577,6 +8283,138 @@ export const registry = [
     "dblp": [
       "IEEE Trans. Engineering Management"
     ],
-    "added_at": "2026-11-09"
+    "added_at": "2026-11-09",
+    "issn": [
+      "0018-9391",
+      "1558-0040"
+    ]
+  },
+  {
+    "id": "cfr",
+    "label": "CFR",
+    "name": "Critical Finance Review",
+    "group": "Finance",
+    "kind": "journal",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved"
+  },
+  {
+    "id": "bejte",
+    "label": "BEJTE",
+    "name": "The B.E. Journal of Theoretical Economics",
+    "group": "Econ",
+    "kind": "journal",
+    "priority": "targeted",
+    "aliases": [
+      "The B E Journal of Theoretical Economics",
+      "B.E. Journal of Theoretical Economics"
+    ],
+    "source_ids": [],
+    "selector_status": "unresolved"
+  },
+  {
+    "id": "mmor",
+    "label": "MMOR",
+    "name": "Mathematical Methods of Operations Research",
+    "group": "OR/MS",
+    "kind": "journal",
+    "priority": "targeted",
+    "aliases": [
+      "Math. Methods Oper. Res."
+    ],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "Math. Methods Oper. Res."
+    ]
+  },
+  {
+    "id": "rast",
+    "label": "RAST",
+    "name": "Review of Accounting Studies",
+    "group": "Finance",
+    "kind": "journal",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved"
+  },
+  {
+    "id": "secprot",
+    "label": "SPW (Cambridge)",
+    "name": "Security Protocols Workshop",
+    "group": "Security & Crypto",
+    "kind": "workshop",
+    "priority": "targeted",
+    "aliases": [
+      "International Workshop on Security Protocols"
+    ],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "Security Protocols Workshop"
+    ]
+  },
+  {
+    "id": "ieee-cns",
+    "label": "IEEE CNS",
+    "name": "IEEE Conference on Communications and Network Security",
+    "group": "Security & Crypto",
+    "kind": "conference",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "CNS"
+    ]
+  },
+  {
+    "id": "nspw",
+    "label": "NSPW",
+    "name": "New Security Paradigms Workshop",
+    "group": "Security & Crypto",
+    "kind": "workshop",
+    "priority": "targeted",
+    "aliases": [],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "NSPW"
+    ]
+  },
+  {
+    "id": "ccr",
+    "label": "CCR",
+    "name": "ACM SIGCOMM Computer Communication Review",
+    "group": "Systems",
+    "kind": "journal",
+    "priority": "targeted",
+    "aliases": [
+      "Comput. Commun. Rev."
+    ],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "Comput. Commun. Rev."
+    ]
+  },
+  {
+    "id": "jmc",
+    "label": "JMC",
+    "name": "Journal of Mathematical Cryptology",
+    "group": "Security & Crypto",
+    "kind": "journal",
+    "priority": "targeted",
+    "aliases": [
+      "J. Math. Cryptol."
+    ],
+    "source_ids": [],
+    "selector_status": "unresolved",
+    "dblp": [
+      "J. Math. Cryptol."
+    ]
   }
 ];

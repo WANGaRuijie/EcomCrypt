@@ -576,6 +576,26 @@
    "drop": "discovered-ec69ce337c1494c3a1a23132",
    "keep": "discovered-cf8f81ba85bda060fbece276",
    "note": "2017 arXiv folded into 2018 GameSec: scalable Stackelberg security games (reviewed 2026-11-10)"
+  },
+  {
+   "drop": "discovered-e7406ca700f331323a13db15",
+   "keep": "discovered-a835dc8a82ad18711e991ce4",
+   "note": "2017 arXiv folded into 2018 AAMAS: curse of correlation in security games (reviewed 2026-11-11)"
+  },
+  {
+   "drop": "discovered-d7fe02687809a9978445c96d",
+   "keep": "discovered-faf560a5adba8bd14714caa4",
+   "note": "2025 arXiv folded into 2025 CCS: Sealed-Bid Auctions via TEE-Backed Confidential Compute Blockchains (same abstract)"
+  },
+  {
+   "drop": "discovered-d1415f8dca2cabfb8e0f1fad",
+   "keep": "discovered-967e181611f0cf4e6f6c73ce",
+   "note": "2021 Tokenomics extended abstract folded into 2024 JMCB: Best Before? Expiring CBDC and Loss Recovery"
+  },
+  {
+   "drop": "discovered-d5d6d027d787327ef6b68c04",
+   "keep": "discovered-348ae2b1002acca652b54bef",
+   "note": "2011 brief announcement folded into 2011 NCA: Algorithmic Mechanisms for Internet Supercomputing"
   }
  ],
  "distinct": [
@@ -802,6 +822,97 @@
     "discovered-fdbd21b562d7c2d078964be4"
    ],
    "note": "Reviewed 2026-11-11: Information Sciences 2012 base model and its separate multi-hop paper have different DOIs and abstracts; kept apart"
+  },
+  {
+   "ids": [
+    "discovered-0ec16e0581cee3fcee5a9a98",
+    "discovered-40c6662322f36f21bbd5ef9d"
+   ],
+   "note": "Reviewed 2026-11-11: AAMAS 2015 paper and its extended AIJ 2016 journal study are both formal publications; kept apart"
+  },
+  {
+   "ids": [
+    "discovered-191e42b2b47072d20268645c",
+    "discovered-4abcd414513fa46278d2367f"
+   ],
+   "note": "Reviewed 2026-11-11: different problems (millionaires vs fairness in 2PC) by the same authors"
+  },
+  {
+   "ids": [
+    "discovered-371577931c9e6d02c9fa8830",
+    "discovered-48a39624004a10ddf7bbb491"
+   ],
+   "note": "Reviewed 2026-11-11: different security-game papers by the same authors"
+  },
+  {
+   "ids": [
+    "discovered-651742a4f2c993888b31949c",
+    "discovered-a050dd97351e9e59989b917b"
+   ],
+   "note": "Reviewed 2026-11-11: AAMAS 2012 paper and its extended JAAMAS 2014 study; kept apart"
+  },
+  {
+   "ids": [
+    "discovered-1a4e05026f32c736aa023b52",
+    "discovered-d619132cda56f1a17fb13822"
+   ],
+   "note": "Reviewed 2026-11-11: conference and journal (or two venue) versions kept apart, as with earlier conference/journal pairs"
+  },
+  {
+   "ids": [
+    "discovered-1f58021a2c0d733bd4ad8947",
+    "discovered-3ad5a4fa0c5d5c741a0a16fe"
+   ],
+   "note": "Reviewed 2026-11-11: conference and journal (or two venue) versions kept apart, as with earlier conference/journal pairs"
+  },
+  {
+   "ids": [
+    "discovered-33debb7dd318f4c856a18cbe",
+    "discovered-b2b5d37f52708e51d8343980"
+   ],
+   "note": "Reviewed 2026-11-11: conference and journal (or two venue) versions kept apart, as with earlier conference/journal pairs"
+  },
+  {
+   "ids": [
+    "discovered-523c6cc1ef117bbb15ad91d7",
+    "discovered-54f9cf2fd64361defcefdf50"
+   ],
+   "note": "Reviewed 2026-11-11: conference and journal (or two venue) versions kept apart, as with earlier conference/journal pairs"
+  },
+  {
+   "ids": [
+    "discovered-6c832590bc97c4ab78d9cbc1",
+    "discovered-cefa2eb55bc183fa1dcdb917"
+   ],
+   "note": "Reviewed 2026-11-11: conference and journal (or two venue) versions kept apart, as with earlier conference/journal pairs"
+  },
+  {
+   "ids": [
+    "discovered-73e659bfc7940f7cde739eeb",
+    "discovered-8613a87b5f03d5ac0d1b6fd5"
+   ],
+   "note": "Reviewed 2026-11-11: conference and journal (or two venue) versions kept apart, as with earlier conference/journal pairs"
+  },
+  {
+   "ids": [
+    "discovered-7b0c1c548373416286c7c9b5",
+    "discovered-fb13a54be7982c6f0e8f8b2a"
+   ],
+   "note": "Reviewed 2026-11-11: conference and journal (or two venue) versions kept apart, as with earlier conference/journal pairs"
+  },
+  {
+   "ids": [
+    "discovered-7c633c8dc9655eae2119f925",
+    "discovered-ec287b18089815f29f445a99"
+   ],
+   "note": "Reviewed 2026-11-11: conference and journal (or two venue) versions kept apart, as with earlier conference/journal pairs"
+  },
+  {
+   "ids": [
+    "discovered-82396f83af10b09a413e10e2",
+    "discovered-89b3487215535f62c84d69fb"
+   ],
+   "note": "Reviewed 2026-11-11: conference and journal (or two venue) versions kept apart, as with earlier conference/journal pairs"
   }
  ]
 }

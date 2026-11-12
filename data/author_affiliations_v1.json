@@ -5469,10 +5469,10 @@
     },
     "zhaoyang cheng": {
       "name": "Zhaoyang Cheng",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Tongji University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:40:35+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "yiguang hong": {
       "name": "Yiguang Hong",
@@ -6014,17 +6014,17 @@
     },
     "mohsen rahnamaei": {
       "name": "Mohsen Rahnamaei",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Amirkabir University of Technology",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:40:35+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "saeid tousi saeidi": {
       "name": "Saeid Tousi Saeidi",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Amirkabir University of Technology",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:40:35+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "siavash khorsandi": {
       "name": "Siavash Khorsandi",
@@ -10607,10 +10607,10 @@
     },
     "yi liu": {
       "name": "Yi Liu",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Chinese Academy of Sciences",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:40:45+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "shaoyu li": {
       "name": "Shaoyu Li",
@@ -11494,10 +11494,10 @@
     },
     "rene pickhardt": {
       "name": "Rene Pickhardt",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Alberta",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:40:46+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "yan wen": {
       "name": "Yan Wen",
@@ -12584,10 +12584,10 @@
     },
     "jianan chen": {
       "name": "Jianan Chen",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Indiana University – Purdue University Indianapolis",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:40:49+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "honglu jiang": {
       "name": "Honglu Jiang",
@@ -16490,10 +16490,10 @@
     },
     "yun zhan cai": {
       "name": "Yun-Zhan Cai",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "National Cheng Kung University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:40:56+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "meng hsun tsai": {
       "name": "Meng-Hsun Tsai",
@@ -17065,10 +17065,10 @@
     },
     "bowen zheng": {
       "name": "Bowen Zheng",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Beihang University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:40:57+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "zulkarnaim masyhur": {
       "name": "Zulkarnaim Masyhur",
@@ -17230,10 +17230,10 @@
     },
     "ioannis kalderemidis": {
       "name": "Ioannis Kalderemidis",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Piraeus",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:40:58+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "aristeidis farao": {
       "name": "Aristeidis Farao",
@@ -17631,10 +17631,10 @@
     },
     "mu zhu": {
       "name": "Mu Zhu",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "North Carolina State University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:40:59+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "zelin wan": {
       "name": "Zelin Wan",
@@ -17669,10 +17669,10 @@
     },
     "jianbo shao": {
       "name": "Jianbo Shao",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Xidian University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:40:59+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "yang xu": {
       "name": "Yang Xu",
@@ -17699,10 +17699,10 @@
     },
     "zhao li": {
       "name": "Zhao Li",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Xidian University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:40:59+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "xuewen dong": {
       "name": "Xuewen Dong",
@@ -17903,10 +17903,10 @@
     },
     "reza abtahi": {
       "name": "Reza Abtahi",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Zurich",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:00+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "andrey voronin": {
       "name": "Andrey Voronin",
@@ -19121,10 +19121,10 @@
     },
     "jing hou": {
       "name": "Jing Hou",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "California State University, San Marcos",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:03+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "xuyu wang": {
       "name": "Xuyu Wang",
@@ -19172,10 +19172,10 @@
     },
     "jian ni": {
       "name": "Jian Ni",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Guangdong University of Technology",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:03+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "yanlin zhang": {
       "name": "Yanlin Zhang",
@@ -19415,10 +19415,10 @@
     },
     "ravi yadav": {
       "name": "Ravi Yadav",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Banaras Hindu University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:03+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "gaurav baranwal": {
       "name": "Gaurav Baranwal",
@@ -19438,10 +19438,10 @@
     },
     "chunming zhang": {
       "name": "Chunming Zhang",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Guangdong Medical College",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:03+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "fengji luo": {
       "name": "Fengji Luo",
@@ -19483,10 +19483,10 @@
     },
     "xiaoshi guo": {
       "name": "Xiaoshi Guo",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Iowa State University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:03+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "yogesh bansal": {
       "name": "Yogesh Bansal",
@@ -19929,10 +19929,10 @@
     },
     "shunya tamai": {
       "name": "Shunya Tamai",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Nara Institute of Science and Technology",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:03+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "yo der song": {
       "name": "Yo-Der Song",
@@ -20556,10 +20556,10 @@
     },
     "jinming yang": {
       "name": "Jinming Yang",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Auckland",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:04+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "ryan k l ko": {
       "name": "Ryan K.L. Ko",
@@ -20651,10 +20651,10 @@
     },
     "miao du": {
       "name": "Miao Du",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Southeast University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:05+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "peng yang": {
       "name": "Peng Yang",
@@ -24320,10 +24320,10 @@
     },
     "charanjit s jutla": {
       "name": "Charanjit S. Jutla",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "IBM",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:13+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "barry mishra": {
       "name": "Barry Mishra",
@@ -28620,10 +28620,10 @@
     },
     "albert jiang": {
       "name": "Albert Jiang",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Trinity University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:21+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "vincent conitzer": {
       "name": "Vincent Conitzer",
@@ -28643,10 +28643,10 @@
     },
     "sinong wang": {
       "name": "Sinong Wang",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "The Ohio State University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:21+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "fang liu": {
       "name": "Fang Liu",
@@ -28781,10 +28781,10 @@
     },
     "trevor davis": {
       "name": "Trevor Davis",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Alberta",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:21+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "michael bowling": {
       "name": "Michael Bowling",
@@ -28803,10 +28803,10 @@
     },
     "qingyu guo": {
       "name": "Qingyu Guo",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Nanyang Technological University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:21+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "zhengyu yin": {
       "name": "Zhengyu Yin",
@@ -28818,17 +28818,17 @@
     },
     "manish jain": {
       "name": "Manish Jain",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Southern California",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:21+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "erim kardes": {
       "name": "Erim Kardes",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Özyeğin University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:21+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "kai wang": {
       "name": "Kai Wang",
@@ -28957,17 +28957,17 @@
     },
     "zimeng song": {
       "name": "Zimeng Song",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Tsinghua University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:22+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "wanqi xue": {
       "name": "Wanqi Xue",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Nanyang Technological University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:22+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "youzhi zhang": {
       "name": "Youzhi Zhang",
@@ -29077,17 +29077,17 @@
     },
     "tianyu gu": {
       "name": "Tianyu Gu",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Carnegie Mellon University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:22+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "rohit singh": {
       "name": "Rohit Singh",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "World Wildlife Fund",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:22+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "pavel naumov": {
       "name": "Pavel Naumov",
@@ -29287,10 +29287,10 @@
     },
     "filip grajek": {
       "name": "Filip Grajek",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Warsaw University of Technology",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:23+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "shuxin zhuang": {
       "name": "Shuxin Zhuang",
@@ -29310,10 +29310,10 @@
     },
     "luzhan yuan": {
       "name": "Luzhan Yuan",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Beijing University of Posts and Telecommunications",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:23+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "gaowei zhang": {
       "name": "Gaowei Zhang",
@@ -29325,17 +29325,17 @@
     },
     "yi wang": {
       "name": "Yi Wang",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Beijing University of Posts and Telecommunications",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:23+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "chin hui han": {
       "name": "Chin Hui Han",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "DSO National Laboratories",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:23+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "brian gauch": {
       "name": "Brian Gauch",
@@ -29377,10 +29377,10 @@
     },
     "karla rosas": {
       "name": "Karla Rosas",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Chile",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:23+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "hugo navarrete": {
       "name": "Hugo Navarrete",
@@ -29435,17 +29435,17 @@
     },
     "ziye tang": {
       "name": "Ziye Tang",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Carnegie Mellon University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:23+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "kai xu": {
       "name": "Kai Xu",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "National University of Defense Technology",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:23+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "kaiming xiao": {
       "name": "Kaiming Xiao",
@@ -29456,17 +29456,17 @@
     },
     "quanjun yin": {
       "name": "Quanjun Yin",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "National University of Defense Technology",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:23+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "yabing zha": {
       "name": "Yabing Zha",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "National University of Defense Technology",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:23+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "cheng zhu": {
       "name": "Cheng Zhu",
@@ -29477,10 +29477,10 @@
     },
     "weizhe chen": {
       "name": "Weizhe Chen",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Southern California",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:23+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "branislav bosansky": {
       "name": "Branislav Bošanský",
@@ -29513,10 +29513,10 @@
     },
     "sara marie mc carthy": {
       "name": "Sara Marie Mc Carthy",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Southern California",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:23+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "corine m laan": {
       "name": "Corine M. Laan",
@@ -29557,10 +29557,10 @@
     },
     "noga talmor": {
       "name": "Noga Talmor",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Bar-Ilan University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:23+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "noa agmon": {
       "name": "Noa Agmon",
@@ -29647,10 +29647,10 @@
     },
     "brown matthew": {
       "name": "Brown Matthew",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Southern California",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:23+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "thomas dana": {
       "name": "Thomas Dana",
@@ -29685,10 +29685,10 @@
     },
     "jiang albert xin": {
       "name": "Jiang Albert Xin",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Southern California",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:23+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "yadav amulya": {
       "name": "Yadav Amulya",
@@ -29793,10 +29793,10 @@
     },
     "yuxuan huang": {
       "name": "Yuxuan Huang",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Sun Yat-sen University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:24+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "chi k tse": {
       "name": "Chi K. Tse",
@@ -29815,10 +29815,10 @@
     },
     "d korzhyk": {
       "name": "D. Korzhyk",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Duke University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:24+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "z yin": {
       "name": "Z. Yin",
@@ -30082,10 +30082,10 @@
     },
     "kristal k trejo": {
       "name": "Kristal K. Trejo",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Instituto Politécnico Nacional",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:24+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "julio b clempner": {
       "name": "Julio B. Clempner",
@@ -30135,10 +30135,10 @@
     },
     "stamatios katsikas": {
       "name": "Stamatios Katsikas",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of St Andrews",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:24+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "kyle y lin": {
       "name": "Kyle Y. Lin",
@@ -30428,10 +30428,10 @@
     },
     "muhammad nasim bahar": {
       "name": "Muhammad Nasim Bahar",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Slovak University of Technology in Bratislava",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:25+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "richard gazdik": {
       "name": "Richard Gazdík",
@@ -30771,10 +30771,10 @@
     },
     "matus abaffy": {
       "name": "Matús Abaffy",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Masaryk University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:25+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "venil loyd noronha": {
       "name": "Venil Loyd Noronha",
@@ -30872,10 +30872,10 @@
     },
     "lantao yu": {
       "name": "Lantao Yu",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Stanford University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:25+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "yi wu": {
       "name": "Yi Wu",
@@ -30887,10 +30887,10 @@
     },
     "lucas joppa": {
       "name": "Lucas Joppa",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Microsoft",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:25+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "ariel rosenfeld": {
       "name": "Ariel Rosenfeld",
@@ -30967,10 +30967,10 @@
     },
     "satwik prabhu kumble": {
       "name": "Satwik Prabhu Kumble",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Delft University of Technology",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:25+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "dick epema": {
       "name": "Dick Epema",
@@ -31980,10 +31980,10 @@
     },
     "carlos barreto": {
       "name": "Carlos Barreto",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "KTH Royal Institute of Technology",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:28+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "olof reinert": {
       "name": "Olof Reinert",
@@ -31995,10 +31995,10 @@
     },
     "tobias wiesinger": {
       "name": "Tobias Wiesinger",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Umeå University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:28+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "ulrik franke": {
       "name": "Ulrik Franke",
@@ -32009,10 +32009,10 @@
     },
     "kota chin": {
       "name": "Kota Chin",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Tsukuba",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:28+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "keita emura": {
       "name": "Keita Emura",
@@ -33203,10 +33203,10 @@
     },
     "zahra batool": {
       "name": "Zahra Batool",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "École de Technologie Supérieure",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:30+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "sion israel sion": {
       "name": "Sion Israel Sion",
@@ -33298,17 +33298,17 @@
     },
     "kentaro sako": {
       "name": "Kentaro Sako",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Waseda University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:31+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "sachin meier": {
       "name": "Sachin Meier",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Georgetown University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:31+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "shreyas kumar": {
       "name": "Shreyas Kumar",
@@ -33901,10 +33901,10 @@
     },
     "thien nam dinh": {
       "name": "Thien-Nam Dinh",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Sandia National Laboratories",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:32+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "florentin rochet": {
       "name": "Florentin Rochet",
@@ -34285,10 +34285,10 @@
     },
     "jinjing liu": {
       "name": "Jinjing Liu",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Shenzhen Technology University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:32+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "jian zhao": {
       "name": "Jian Zhao",
@@ -34360,17 +34360,17 @@
     },
     "si hao liu": {
       "name": "Si-Hao Liu",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Southeast University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:32+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "xian jian jiang": {
       "name": "Xian-Jian Jiang",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Southeast University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:32+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "giacomo de nicola": {
       "name": "Giacomo De Nicola",
@@ -35654,10 +35654,10 @@
     },
     "stefan richter": {
       "name": "Stefan Richter",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Alberta",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:35+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "yixiang tan": {
       "name": "Yixiang Tan",
@@ -35924,10 +35924,10 @@
     },
     "lucy klinger": {
       "name": "Lucy Klinger",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "The University of Sydney",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:35+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "mengfan lyu": {
       "name": "Mengfan Lyu",
@@ -35954,10 +35954,10 @@
     },
     "frank pu": {
       "name": "Frank Pu",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "New York University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:35+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "vinci cheung": {
       "name": "Vinci Cheung",
@@ -35975,10 +35975,10 @@
     },
     "aryan soltani mohammadi": {
       "name": "Aryan Soltani Mohammadi",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Tehran",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:35+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "moein karami": {
       "name": "Moein Karami",
@@ -36082,10 +36082,10 @@
     },
     "nektarios evangelou": {
       "name": "Nektarios Evangelou",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Delft University of Technology",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:35+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "rowdy chotkan": {
       "name": "Rowdy Chotkan",
@@ -39648,10 +39648,10 @@
     },
     "jon ander medina": {
       "name": "Jon Ander Medina",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Vicomtech",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:42+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "raul orduna": {
       "name": "Raúl Orduna",
@@ -39882,10 +39882,10 @@
     },
     "ivan pustogarov": {
       "name": "Ivan Pustogarov",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Luxembourg",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:44+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "joshua ellul": {
       "name": "Joshua Ellul",
@@ -40063,10 +40063,10 @@
     },
     "petru neague": {
       "name": "Petru Neague",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Delft University of Technology",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:44+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "michael t goodrich": {
       "name": "Michael T. Goodrich",
@@ -40309,10 +40309,10 @@
     },
     "juan s borrero": {
       "name": "Juan S. Borrero",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Oklahoma State University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:45+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "leonardo lozano": {
       "name": "Leonardo Lozano",
@@ -41729,10 +41729,10 @@
     },
     "lisa eckey": {
       "name": "Lisa Eckey",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Technische Universität Darmstadt",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:48+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "artemios g voyiatzis": {
       "name": "Artemios G. Voyiatzis",
@@ -42717,10 +42717,10 @@
     },
     "nikhil shetty": {
       "name": "Nikhil Shetty",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of California, Berkeley",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:49+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "braden c soper": {
       "name": "Braden C. Soper",
@@ -43095,10 +43095,10 @@
     },
     "chitra muthukrishnan": {
       "name": "Chitra Muthukrishnan",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Wisconsin–Madison",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:49+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "ashish vulimiri": {
       "name": "Ashish Vulimiri",
@@ -43123,10 +43123,10 @@
     },
     "karthik lakshminarayanan": {
       "name": "Karthik Lakshminarayanan",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Google",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:49+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "zhe li": {
       "name": "Zhe Li",
@@ -43151,10 +43151,10 @@
     },
     "charles ellis": {
       "name": "Charles Ellis",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Memphis",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:49+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "sajjan shiva": {
       "name": "Sajjan Shiva",
@@ -43871,10 +43871,10 @@
     },
     "debin liu": {
       "name": "Debin Liu",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Indiana University Bloomington",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:53+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "ninghui li": {
       "name": "Ninghui Li",
@@ -43955,10 +43955,10 @@
     },
     "mingyi zhao": {
       "name": "Mingyi Zhao",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Snap",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:53+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "sasha romanosky": {
       "name": "Sasha Romanosky",
@@ -44677,10 +44677,10 @@
     },
     "benjamin edwards": {
       "name": "Benjamin Edwards",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "IBM",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:53+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "alexander furnas": {
       "name": "Alexander Furnas",
@@ -44762,10 +44762,10 @@
     },
     "edward colbert": {
       "name": "Edward Colbert",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "DEVCOM Army Research Laboratory",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:53+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "j leneutre": {
       "name": "J. Leneutre",
@@ -44903,10 +44903,10 @@
     },
     "yuemei hu": {
       "name": "Yuemei Hu",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Qufu Normal University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:55+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "xiaobo ma": {
       "name": "Xiaobo Ma",
@@ -45328,17 +45328,17 @@
     },
     "jinqing li": {
       "name": "Jinqing Li",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Changchun University of Science and Technology",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:55+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "huan wang": {
       "name": "Huan Wang",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Changchun University of Science and Technology",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:55+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "jianping zhao": {
       "name": "Jianping Zhao",
@@ -45594,10 +45594,10 @@
     },
     "steven rowe": {
       "name": "Steven Rowe",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Technische Universität Darmstadt",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T00:41:55+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "max muhlhauser": {
       "name": "Max Mühlhäuser",
@@ -46099,10 +46099,10 @@
     },
     "thanh hong nguyen": {
       "name": "Thanh Hong Nguyen",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Oregon",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T02:59:47+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "james pita": {
       "name": "James Pita",
@@ -46162,10 +46162,10 @@
     },
     "alexander v outkin": {
       "name": "Alexander V. Outkin",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Sandia National Laboratories",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T02:59:47+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "brandon k eames": {
       "name": "Brandon K. Eames",
@@ -46176,31 +46176,31 @@
     },
     "meghan a galiardi": {
       "name": "Meghan A. Galiardi",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Sandia National Laboratories",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T02:59:47+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "sarah walsh": {
       "name": "Sarah Walsh",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Georgia Institute of Technology",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T02:59:47+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "eric d vugrin": {
       "name": "Eric D. Vugrin",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Sandia National Laboratories",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T02:59:47+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "byron heersink": {
       "name": "Byron Heersink",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "The Ohio State University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T02:59:47+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "jacob hobbs": {
       "name": "Jacob Hobbs",
@@ -46218,10 +46218,10 @@
     },
     "carmela troncoso": {
       "name": "Carmela Troncoso",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "IMDEA Software Institute",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T02:59:47+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "sushil jajodia": {
       "name": "Sushil Jajodia",
@@ -46260,10 +46260,10 @@
     },
     "seung hyun kim": {
       "name": "Seung Hyun Kim",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Yonsei University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T02:59:47+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "qiu hong wang": {
       "name": "Qiu-Hong Wang",
@@ -46596,10 +46596,10 @@
     },
     "nevena vratonjic": {
       "name": "Nevena Vratonjic",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "École Polytechnique Fédérale de Lausanne",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T02:59:48+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "mehdi salehi": {
       "name": "Mehdi Salehi",
@@ -46631,17 +46631,17 @@
     },
     "milad nasr": {
       "name": "Milad Nasr",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Massachusetts Amherst",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T02:59:48+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "amir houmansadr": {
       "name": "Amir Houmansadr",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Massachusetts Amherst",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T02:59:48+00:00"
+      "at": "2026-11-12T04:25:53+00:00"
     },
     "samuel merten": {
       "name": "Samuel Merten",
@@ -46666,10 +46666,10 @@
     },
     "david klaska": {
       "name": "David Klaska",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Masaryk University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T02:59:48+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "praveen paruchuri": {
       "name": "Praveen Paruchuri",
@@ -47135,10 +47135,10 @@
     },
     "binru wang": {
       "name": "Binru Wang",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Nanjing University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T08:24:11+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "towhidul islam": {
       "name": "Towhidul Islam",
@@ -47212,17 +47212,17 @@
     },
     "sumayah a alrwais": {
       "name": "Sumayah A. Alrwais",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "King Saud University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T08:24:11+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "nektarios leontiadis": {
       "name": "Nektarios Leontiadis",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Carnegie Mellon University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T08:24:11+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "matthew finifter": {
       "name": "Matthew Finifter",
@@ -47289,10 +47289,10 @@
     },
     "ahmet salih buyukkayhan": {
       "name": "Ahmet Salih Buyukkayhan",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Northeastern University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T08:24:11+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "kaan onarlioglu": {
       "name": "Kaan Onarlioglu",
@@ -47359,17 +47359,17 @@
     },
     "yue yin": {
       "name": "Yue Yin",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Chinese Academy of Sciences",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T08:24:11+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "akash malbari": {
       "name": "Akash Malbari",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Pennsylvania State University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T08:24:11+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "jaehyun ha": {
       "name": "Jaehyun Ha",
@@ -48479,10 +48479,10 @@
     },
     "paolo palmieri": {
       "name": "Paolo Palmieri",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Delft University of Technology",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T08:24:15+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "michael chiu": {
       "name": "Michael Chiu",
@@ -48556,10 +48556,10 @@
     },
     "neal fultz": {
       "name": "Neal Fultz",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of California, Berkeley",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T08:24:15+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "jie han": {
       "name": "Jie Han",
@@ -49074,10 +49074,10 @@
     },
     "tomas lamser": {
       "name": "Tomáś Lamser",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Masaryk University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T08:24:17+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "francesco maria delle fave": {
       "name": "Francesco Maria Delle Fave",
@@ -49144,10 +49144,10 @@
     },
     "gerome miklau": {
       "name": "Gerome Miklau",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Massachusetts Amherst",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T08:24:17+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "yinqiu liu": {
       "name": "Yinqiu Liu",
@@ -49158,17 +49158,17 @@
     },
     "zhaokang yin": {
       "name": "Zhaokang Yin",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Sun Yat-sen University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T08:24:17+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "guang ye": {
       "name": "Guang Ye",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Sun Yat-sen University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T08:24:17+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "archit bhatnagar": {
       "name": "Archit Bhatnagar",
@@ -49368,24 +49368,24 @@
     },
     "athanasios n yannacopoulos": {
       "name": "Athanasios N. Yannacopoulos",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Athens University of Economics and Business",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T08:24:18+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "costas lambrinoudakis": {
       "name": "Costas Lambrinoudakis",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of the Aegean",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T08:24:18+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "stefanos gritzalis": {
       "name": "Stefanos Gritzalis",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of the Aegean",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T08:24:18+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "stylianos z xanthopoulos": {
       "name": "Stylianos Z. Xanthopoulos",
@@ -49396,10 +49396,10 @@
     },
     "sokratis k katsikas": {
       "name": "Sokratis K. Katsikas",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "University of Piraeus",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T08:24:18+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "brian hay": {
       "name": "Brian Hay",
@@ -49410,24 +49410,24 @@
     },
     "daniel bittleston": {
       "name": "Daniel Bittleston",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Carnegie Mellon University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T08:24:18+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "siyu gao": {
       "name": "Siyu Gao",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Carnegie Mellon University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T08:24:18+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "emily peterson": {
       "name": "Emily Peterson",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Carnegie Mellon University",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T08:24:18+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "john trezza": {
       "name": "John Trezza",
@@ -49452,17 +49452,17 @@
     },
     "steffen reidt": {
       "name": "Steffen Reidt",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Royal Holloway University of London",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T08:24:18+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "shane balfe": {
       "name": "Shane Balfe",
-      "affiliation": null,
-      "basis": "none",
+      "affiliation": "Royal Holloway University of London",
+      "basis": "byline",
       "model": "deepseek-flash",
-      "at": "2026-11-10T08:24:18+00:00"
+      "at": "2026-11-12T04:25:54+00:00"
     },
     "martijn de vos": {
       "name": "Martijn de Vos",
@@ -60673,58 +60673,52 @@
     }
   },
   "variants": {
-    "Adelaide University": "The University of Adelaide",
     "Board of Governors of the Federal Reserve System (U.S.)": "Board of Governors of the Federal Reserve System",
-    "Brazilian School of Economics and Finance, FGV/EPGE, Rio de Janeiro, Brazil": "Fundação Getulio Vargas",
-    "China Mobile (China)": "China Mobile",
-    "Chinese University of Hong Kong": "The Chinese University of Hong Kong",
+    "Federal Reserve": "Board of Governors of the Federal Reserve System",
     "City St George’s, University of London": "City St George's, University of London",
     "City, University of London": "City St George's, University of London",
     "Conservatoire national des arts et métiers": "Conservatoire National des Arts et Métiers",
-    "Cornell Tech": "Cornell University",
-    "Data61": "Commonwealth Scientific and Industrial Research Organisation",
     "EPFL": "École Polytechnique Fédérale de Lausanne",
+    "École polytechnique fédérale de Lausanne": "École Polytechnique Fédérale de Lausanne",
     "Facebook": "Meta (United States)",
-    "Federal Reserve": "Board of Governors of the Federal Reserve System",
-    "Fidelity Investments (United States)": "Fidelity Investments",
     "French National Centre for Scientific Research": "Centre National de la Recherche Scientifique",
     "Getulio Vargas Foundation": "Fundação Getulio Vargas",
+    "Google (United States)": "Google",
+    "Google DeepMind (United Kingdom)": "Google",
     "Hamad bin Khalifa University": "Hamad Bin Khalifa University",
-    "Helmholtz Center for Information Security": "CISPA Helmholtz Center for Information Security",
     "IBM (United States)": "IBM",
     "IBM Research": "IBM",
     "IBM Research - India": "IBM",
-    "INSA Lyon": "Institut National des Sciences Appliquées de Lyon",
     "Imperial College": "Imperial College London",
     "Indian Institute of Science Bangalore": "Indian Institute of Science",
     "Indiana University Bloomington": "Indiana University",
-    "Input Output (Singapore)": "Input Output",
-    "Institute for Infocomm Research": "Agency for Science, Technology and Research",
-    "International Institute of Information Technology Hyderabad": "International Institute of Information Technology, Hyderabad",
+    "Institut National des Sciences Appliquées de Lyon": "INSA Lyon",
+    "International Institute of Information Technology, Hyderabad": "International Institute of Information Technology Hyderabad",
     "Khalifa University of Science and Technology": "Khalifa University",
     "LMU Munich": "Ludwig-Maximilians-Universität München",
+    "Microsoft (United States)": "Microsoft",
+    "Microsoft Research (United Kingdom)": "Microsoft",
+    "Microsoft Research Asia (China)": "Microsoft",
+    "Morpho Labs": "Morpho (United States)",
     "National Research Council of Italy": "National Research Council",
-    "National Research University Higher School of Economics": "HSE University",
     "National Scientific and Technical Research Council": "Consejo Nacional de Investigaciones Científicas y Técnicas",
-    "Nicolaus Copernicus University": "Nicolaus Copernicus University in Toruń",
-    "Ollscoil na Gaillimhe – University of Galway": "University of Galway",
-    "Otto von Guericke University Magdeburg": "Otto-von-Guericke-Universität Magdeburg",
-    "Pennsylvania State University": "The Pennsylvania State University",
-    "Polytechnic University of Catalonia": "Universitat Politècnica de Catalunya",
+    "Nicolaus Copernicus University in Toruń": "Nicolaus Copernicus University",
+    "Otto-von-Guericke-Universität Magdeburg": "Otto von Guericke University Magdeburg",
     "Polytechnic University of Turin": "Politecnico di Torino",
     "Pontifical Catholic University of Chile": "Pontificia Universidad Católica de Chile",
-    "Pontifical Catholic University of Rio de Janeiro": "Pontifícia Universidade Católica do Rio de Janeiro",
+    "Pontifícia Universidade Católica do Rio de Janeiro": "Pontifical Catholic University of Rio de Janeiro",
     "Purdue University West Lafayette": "Purdue University",
-    "RMIT Vietnam": "RMIT University",
     "Rutgers, The State University of New Jersey": "Rutgers University",
-    "SUNY Geneseo": "State University of New York at Geneseo",
-    "Sorbonne University": "Sorbonne Université",
-    "Southwestern University of Economics and Finance": "Southwestern University of Finance and Economics",
-    "Technical University of Berlin": "Technische Universität Berlin",
-    "Technical University of Darmstadt": "Technische Universität Darmstadt",
+    "Sorbonne Université": "Sorbonne University",
+    "State University of New York at Geneseo": "SUNY Geneseo",
+    "Technische Universität Berlin": "Technical University of Berlin",
+    "Technische Universität Darmstadt": "Technical University of Darmstadt",
+    "The Chinese University of Hong Kong": "Chinese University of Hong Kong",
     "The Hong Kong Polytechnic University": "Hong Kong Polytechnic University",
     "The Hong Kong University of Science and Technology (Guangzhou)": "Hong Kong University of Science and Technology (Guangzhou)",
     "The Ohio State University": "Ohio State University",
+    "The Pennsylvania State University": "Pennsylvania State University",
+    "The University of Adelaide": "Adelaide University",
     "The University of Hong Kong": "University of Hong Kong",
     "The University of Melbourne": "University of Melbourne",
     "The University of Queensland": "University of Queensland",
@@ -60735,29 +60729,24 @@
     "The University of Texas at El Paso": "University of Texas at El Paso",
     "The University of Tokyo": "University of Tokyo",
     "The University of Western Australia": "University of Western Australia",
-    "Tokyo Institute of Technology": "Institute of Science Tokyo",
     "UC San Diego": "University of California, San Diego",
+    "UCLouvain": "Université Libre de Bruxelles",
     "UNSW Sydney": "University of New South Wales",
-    "Universidad de Alcalá": "University of Alcalá",
-    "Universidad de Buenos Aires": "University of Buenos Aires",
-    "Universidade Federal de Minas Gerais": "Federal University of Minas Gerais",
-    "Universidade Federal do Rio de Janeiro": "Federal University of Rio de Janeiro",
+    "Universitat Politècnica de Catalunya": "Polytechnic University of Catalonia",
     "Universitat Rovira i Virgili": "Rovira i Virgili University",
-    "University at Buffalo, State University of New York": "University at Buffalo",
+    "Universitat de les Illes Balears": "University of the Balearic Islands",
+    "University of Alcalá": "Universidad de Alcalá",
+    "University of Buenos Aires": "Universidad de Buenos Aires",
     "University of California San Diego": "University of California, San Diego",
-    "University of St.Gallen": "University of St. Gallen",
+    "University of Galway": "Ollscoil na Gaillimhe – University of Galway",
     "University of São Paulo": "Universidade de São Paulo",
-    "University of Wisconsin-Madison": "University of Wisconsin–Madison",
     "Universität Innsbruck": "University of Innsbruck",
-    "Université Paris Dauphine-PSL": "Université Paris Dauphine–PSL",
     "Université de Montréal": "University of Montreal",
     "Université de Strasbourg": "University of Strasbourg",
-    "Vicomtech": "Vicomtech Foundation",
+    "Université Paris Dauphine–PSL": "Université Paris Dauphine-PSL",
     "WU Vienna University of Economics and Business": "Vienna University of Economics and Business",
-    "Woxsen School of Business": "Woxsen University",
-    "École Supérieure des Sciences Économiques et Commerciales": "ESSEC Business School",
-    "École de Technologie Supérieure": "École de technologie supérieure",
-    "École polytechnique fédérale de Lausanne": "École Polytechnique Fédérale de Lausanne"
+    "École de technologie supérieure": "École de Technologie Supérieure",
+    "École Supérieure des Sciences Économiques et Commerciales": "ESSEC Business School"
   },
   "manual_variants": {
     "Cornell Tech": "Cornell University"

@@ -1232,6 +1232,3702 @@
       "code": null,
       "note": "Owner ruling 2026-11-11: rescued from ChatGPT unsure flag (R112)",
       "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3219166.3277555",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3219166.3277552",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3219166.3277550",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3219166.3277551",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1017/cbo9780511800481.025",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-032-18660-7_32",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1609/aaai.v36i11.21681",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "dblp:conf/atal/RileyKDMMP19",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "dblp:conf/atal/Gurcan22",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "dblp:conf/ifaamas/SeeGL25",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.65109/sgvh4520",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "dblp:conf/atal/KotsialouRDMMMP18",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3479722.3480995",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3318041.3355459",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3517745.3561448",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3719027.3765074",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3658644.3670315",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3662158.3662772",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.4230/lipics.aft.2023.3",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/s10479-023-05455-7",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/s10479-026-07436-y",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3779208.3806087",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Owner ruling 2026-11-11: cryptographic implementation of an auction/voting mechanism",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3779208.3805974",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3733815.3764043",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Owner ruling 2026-11-11: cryptographic implementation of an auction/voting mechanism",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.4230/lipics.disc.2022.29",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.4230/lipics.disc.2025.4",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/dsn64029.2025.00065",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/s10623-015-0148-5",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-031-51482-1_17",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-031-70903-6_13",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-032-38708-0_6",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-031-58734-4_2",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.econlet.2019.108727",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.econlet.2019.108831",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.econlet.2019.108834",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.econlet.2025.112540",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.econlet.2019.108935",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.econlet.2025.112723",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.econlet.2018.10.004",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.econlet.2015.02.029",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.econlet.2025.112673",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.econlet.2019.108818",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.ejor.2017.10.035",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/1351847x.2024.2314085",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/1351847x.2021.1886964",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-032-07024-1_23",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/0015198x.2025.2458054",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-030-51280-4_33",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-031-18283-9_13",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-642-32946-3_8",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-642-39884-1_36",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-030-51280-4_28",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-031-18283-9_15",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-030-51280-4_2",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-031-18283-9_26",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-031-18283-9_27",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-662-47854-7_1",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-662-64331-0_6",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1111/fima.12412",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1111/fire.12340",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-642-22006-7_24",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/eurosp63326.2025.00035",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/srds53918.2021.00013",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/sp54263.2024.00227",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/sp54263.2024.00254",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/sp46214.2022.9833731",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/tnse.2020.2982488",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/tdsc.2022.3219443",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/tifs.2026.3687759",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3832783.3834510",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "dblp:conf/ijcai/CarbonaraDSZ15",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "dblp:conf/ijcai/WangMZL15",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/ipdps.2008.4536440",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.ic.2023.105039",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-319-20028-6_21",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.im.2021.103555",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.im.2025.104160",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.24963/ijcai.2017/742",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "dblp:conf/ijcai/AllenBLP17",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1002/ijfe.70126",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.ijinfomgt.2023.102727",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.irfa.2026.105462",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.irfa.2021.101966",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.irfa.2018.12.002",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.irfa.2025.104546",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.irfa.2023.102916",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.irfa.2019.06.003",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.irfa.2018.03.004",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.irfa.2023.102915",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.irfa.2024.103662",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.irfa.2022.102309",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3589335.3651964",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.17705/1jais.00790",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/07421222.2022.2063555",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.jacceco.2026.101925",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.jbankfin.2020.105740",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.jbankfin.2022.106467",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.jbusres.2023.113796",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.jedc.2021.104158",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.jedc.2021.104172",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.jedc.2022.104496",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.jempfin.2018.08.004",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.jfineco.2025.104071",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.jfs.2023.101205",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.jimonfin.2024.103108",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.jimonfin.2025.103433",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.jimonfin.2019.06.006",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.jimonfin.2024.103235",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.jmoneco.2025.103764",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.25300/misq/2025/18501",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "dblp:conf/nips/FantiV17",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "dblp:conf/nsdi/TranMLS09",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.14722/ndss.2026.240481",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Owner ruling 2026-11-11: cryptographic implementation of an auction/voting mechanism",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.4230/lipics.opodis.2025.27",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "iacr-eprint:2020/1300",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.omega.2023.102869",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.omega.2024.103200",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.orl.2021.06.016",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "dblp:conf/podc/Shoker18",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.2478/popets-2020-0074",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/14697688.2024.2370311",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/14697688.2023.2187316",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/14697688.2023.2266448",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/14697688.2025.2477673",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/14697688.2022.2063166",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.respol.2026.105507",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.respol.2026.105537",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.respol.2026.105539",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.respol.2025.105404",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/s11156-022-01086-4",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-030-57990-6_1",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3712170.3712180",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3514221.3517855",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-642-36742-7_11",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.techfore.2024.123628",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.techfore.2022.121909",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.techfore.2021.120680",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.techfore.2020.120383",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.techfore.2020.120182",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.techfore.2020.120188",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.techfore.2021.120786",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.techfore.2019.119877",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.techfore.2021.121038",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.techfore.2020.120191",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1257/jep.20261513",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.tcs.2026.116070",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "dblp:conf/uss/RuaroGMMGKV25",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "iacr-eprint:2025/097",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "dblp:conf/uss/LubbertsenEW25",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-319-93387-0_36",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-031-95761-1_6",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/00036846.2020.1789549",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/00036846.2020.1752903",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/13504851.2024.2363997",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/13504851.2022.2102122",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/13504851.2021.2018125",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/13504851.2014.916379",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/13504851.2023.2275649",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/13504851.2026.2661001",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/13504851.2019.1673297",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/13504851.2024.2339375",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/13504851.2020.1859446",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/13504851.2019.1697420",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/13504851.2019.1619013",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/13504851.2022.2064417",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-031-20974-1_17",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3190836",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.comnet.2020.107367",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.comnet.2021.108424",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "iacr-eprint:2023/741",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/s42521-024-00115-2",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/s42521-026-00179-2",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3721139",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3598302",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.econmod.2026.107743",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.econmod.2020.05.003",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.econmod.2024.106782",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.econmod.2021.105643",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.econmod.2020.12.002",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.econmod.2019.07.023",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/s12525-024-00709-z",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.ememar.2022.100920",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.ememar.2023.101054",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.ememar.2022.100938",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-031-48806-1_14",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2022.103500",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2025.109114",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2018.05.008",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2025.109349",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2024.106531",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2022.103476",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2022.102696",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2021.102096",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2025.108134",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2025.108927",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2022.103131",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2018.07.010",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2023.103704",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2023.104598",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2022.102744",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2025.108528",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2019.06.002",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2022.103489",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2022.103515",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2022.103127",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2022.103072",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2025.106897",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2026.110901",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2026.110831",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2022.103216",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2022.103438",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2024.105750",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2026.110724",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2024.106705",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-662-63958-0_15",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1186/s40854-020-00176-3",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1186/s40854-026-00945-6",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1186/s40854-024-00690-8",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1186/s40854-024-00618-2",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1186/s40854-021-00291-9",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1186/s40854-024-00612-8",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.future.2026.108789",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.gfj.2021.100642",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/globecom48099.2022.10001051",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/globecom52923.2024.10900961",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3748699.3749809",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3582515.3609513",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/icbc54727.2022.9805566",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/icbc64466.2025.11114481",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/icbc64466.2025.11114610",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/icbc56567.2023.10174912",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3700838.3700840",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/icpads67057.2025.11323090",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/eurospw54576.2021.00046",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/icbc51069.2021.9461067",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/bloc.2019.8751232",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/icbc59979.2024.10634399",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/icbc59979.2024.10634344",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/icbc54727.2022.9805543",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/icbc56567.2023.10174924",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/trustcom60117.2023.00176",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/icws53863.2021.00100",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/msp.2010.178",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/msp.2015.137",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/msp.2010.88",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/tem.2025.3633831",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/tnsm.2024.3488090",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/tcss.2023.3247464",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/tcss.2024.3404590",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/tcss.2023.3287246",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/tem.2020.3030105",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/tnsm.2025.3577192",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/tnsm.2025.3573246",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1049/iet-ifs.2018.5496",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.23919/ifipnetworking57963.2023.10186408",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-030-65277-7_2",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/iscc58397.2023.10218300",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.ins.2021.09.040",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1111/itor.13353",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.iref.2023.01.006",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.iref.2026.105574",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.iref.2026.105531",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.iref.2020.09.015",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/iwqos52092.2021.9521324",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.jpdc.2011.06.004",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.jbef.2025.101043",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1017/s1744137420000107",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1017/s1744137421000138",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.intfin.2023.101851",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.intfin.2025.102123",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.intfin.2021.101289",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.5195/ledger.2019.170",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.5195/ledger.2020.167",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-031-67321-4_11",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.ribaf.2024.102654",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.ribaf.2026.103389",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.ribaf.2026.103609",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.ribaf.2024.102630",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.ribaf.2025.102784",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.ribaf.2025.102952",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1098/rsos.201446",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3412841.3441911",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-319-69084-1_25",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-642-05118-0_51",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1093/comjnl/bxag019",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.3905/jai.2021.1.131",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.najef.2019.101083",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.najef.2026.102654",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.najef.2026.102633",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.qref.2021.01.004",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.qref.2021.07.003",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.qref.2021.01.008",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.qref.2020.12.007",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.qref.2023.11.007",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.qref.2021.04.002",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.qref.2024.03.003",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.qref.2021.06.018",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.4230/oasics.tokenomics.2021.4",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.4230/oasics.tokenomics.2019.8",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2405.13156",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/tetc.2023.3315748",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2512.23439",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2311.08234",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:1807.05715",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2510.19491",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:1907.07247",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2402.04417",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2506.17236",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:1807.00649",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2410.21593",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:1707.04558",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2109.12167",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.2139/ssrn.4564717",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2112.03172",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2507.03258",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:1406.5440",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2605.02287",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2406.08605",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2007.15145",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:1903.09276",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2511.08641",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2112.11024",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2506.18189",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2506.17622",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2508.12138",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2401.01353",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2412.19384",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:1802.10185",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:1812.09966",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2409.07420",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "iacr-eprint:2023/1473",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "iacr-eprint:2022/409",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "iacr-eprint:2025/1965",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "iacr-eprint:2020/475",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.4018/979-8-3373-7310-2.ch003",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1086/727770",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/icdcs.1998.679836",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2605.23677",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:1402.2009",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2607.02795",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2510.21117",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2107.14312",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2410.23422",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2501.05535",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2302.06966",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2504.09971",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:1702.04421",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2411.09981",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2308.04159",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2210.16899",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/gbc60041.2025.11134455",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/bcca58897.2023.10338887",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/bcca62388.2024.10844386",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/bcca53669.2021.9656975",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/brains52497.2021.9569814",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/brains63024.2024.10732536",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/brains67003.2025.11302925",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/blockchain62396.2024.00036",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.bcra.2022.100089",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.bcra.2023.100149",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.bcra.2025.100291",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.bcra.2024.100239",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/brains59668.2023.10316768",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/brains52497.2021.9569833",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.3389/fbloc.2022.1083647",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.3389/fbloc.2026.2002131",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.3389/fbloc.2026.1942124",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/dapps69803.2026.00022",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1049/blc2.12090",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/bcca58897.2023.10338881",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/bcca66705.2025.11229705",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/bcca58897.2023.10338932",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/bcca66705.2025.11229505",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/bcca62388.2024.10844408",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-031-48731-6_5",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-031-48731-6_8",
+      "decision": "include",
+      "topics": [],
+      "code": null,
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1007/978-3-030-53356-4_4",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/metacom57706.2023.00084",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.31585/jbba-1-2-(4)2018",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.31585/jbba-1-2-(5)2018",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.2139/ssrn.4309744",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.2139/ssrn.4167978",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.2139/ssrn.3518736",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.2139/ssrn.6291818",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.2139/ssrn.4531670",
+      "decision": "exclude",
+      "topics": [],
+      "code": "application_domain",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.2139/ssrn.7401058",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_T",
+      "note": "Claude ruling 2026-11-11 under owner rules (review_confidence pass)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "dblp:conf/amcis/KimD21",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #14: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.econmod.2026.107826",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #36: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1002/fut.70069",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #39: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2024.106413",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #40: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/00036846.2020.1814944",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #41: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.econmod.2026.107923",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #42: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2023.104445",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #133: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.jcorpfin.2020.101679",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #134: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.3934/qfe.2022030",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #140: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.iref.2020.10.014",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #146: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.intfin.2022.101716",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #160: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.3905/jai.2019.1.069",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #162: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.3905/jai.2019.21.4.013",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #163: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2024.106195",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #165: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2026.110201",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #173: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.qref.2026.102156",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #175: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.24251/hicss.2024.550",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #184: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/b978-0-12-802117-0.00002-3",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #218: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "dblp:conf/amcis/ChansonRW18",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #220: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "dblp:conf/pacis/ChangML19",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #223: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.24251/hicss.2019.551",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #224: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.24251/hicss.2024.524",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #225: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.24251/hicss.2023.435",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #226: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.24251/hicss.2021.020",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #227: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "dblp:conf/ecis/SchaeferKS21",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #236: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "dblp:conf/ecis/KremserRSS19",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #237: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.3929/ethz-b-000463201",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #238: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "dblp:conf/ecis/AbbatemarcoRS18",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #239: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "dblp:conf/icis/ChansonGRW18",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #240: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "dblp:conf/icis/SchaeferKS21",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #241: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.5167/uzh-157908",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #244: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "dblp:conf/icis/RossiAGR25",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #245: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "dblp:conf/icis/SharmaAB21",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #246: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3543873.3587603",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #247: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.ribaf.2023.101878",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #256: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.jbusres.2019.07.036",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #305: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.jcorpfin.2022.102225",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #306: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.econlet.2022.110856",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #307: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.irfa.2022.102335",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #308: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.jbusres.2023.114224",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #309: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.bar.2024.101503",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #310: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1111/fire.70011",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #311: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2020.101858",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #326: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2021.102472",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #328: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.iref.2026.105181",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #329: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.pacfin.2026.103306",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #332: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1002/ijfe.70070",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #333: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/00036846.2026.2719625",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #334: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/00036846.2026.2717389",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #335: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.econlet.2022.110949",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #337: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/13504851.2023.2259595",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #345: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/tcns.2023.3272849",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #347: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.irfa.2026.105475",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #349: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2022.103374",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #350: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3785018",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #352: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.5195/ledger.2024.377",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #357: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.intfin.2025.102263",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #358: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/iscc65549.2025.11326523",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #359: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2610.13593",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #404: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.24251/hicss.2026.664",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #232: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.5167/uzh-193663",
+      "decision": "exclude",
+      "topics": [],
+      "code": "no_contribution",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #243: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.irfa.2019.101386",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #268: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.bjp.2013.12.010",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #276: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.cose.2014.05.006",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #281: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1287/mnsc.2021.4264",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #282: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.ejor.2023.05.003",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #313: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.insmatheco.2025.103167",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #314: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1080/1351847x.2022.2090267",
+      "decision": "exclude",
+      "topics": [],
+      "code": "single_side_E",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #346: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.24251/hicss.2026.827",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #353: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3646547.3689009",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #355: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1145/3038912.3052600",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #361: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2022.103329",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #368: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1016/j.frl.2022.102715",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #369: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "doi:10.1109/icdcs.2017.52",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #370: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2411.17353",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #410: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
+    },
+    {
+      "alias": "arxiv:2311.17929",
+      "decision": "exclude",
+      "topics": [],
+      "code": "forecasting_only",
+      "note": "Claude ruling 2026-11-11 under owner rules (monthly report proposal #411: price, sentiment, pure measurement or out of scope)",
+      "date": "2026-11-11"
     }
   ]
 }

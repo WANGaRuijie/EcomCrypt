@@ -28,12 +28,13 @@
   "include_when": [
     "The paper has a real E x T crossing: an E-side element (model, theorem, mechanism, incentive analysis, economic measurement) applied to, or arising from, a T-side object that is itself the subject of the paper.",
     "Topics that qualify: blockchain protocols with incentive/strategic analysis (including foundational protocols whose design rests on incentives, e.g. Bitcoin, Backbone with rewards, PoS); economics/finance of blockchains and crypto-assets; game theory or mechanism design for blockchain or cryptography; rational cryptography and rational adversaries; security games and the economics of security/attacks; game-theory- or mechanism-guided design of distributed/parallel/database/blockchain/cryptographic systems; DAO/on-chain governance with strategic analysis; MEV, transaction ordering and fee markets; AMMs/DEXs; staking, lending, liquidations, stablecoin design. Also: formal verification or model checking of game-theoretic/incentive properties (equilibria, incentive compatibility, rational behaviour) of blockchain, cryptographic, security or distributed protocols; rational verification; strategic logics and games on graphs used for such systems.",
-    "The crossing need not dominate the paper: a protocol paper with a genuine incentive-compatibility analysis, or an economics paper whose model is a blockchain/crypto system, both count."
+    "The crossing need not dominate the paper: a protocol paper with a genuine incentive-compatibility analysis, or an economics paper whose model is a blockchain/crypto system, both count.",
+    "Cryptographic, TEE or blockchain implementations of auctions, voting and other economic mechanisms count even without a new incentive analysis: the mechanism is the E-side element (e.g. private sealed-bid auctions at scale, sealed-bid auctions on confidential-compute blockchains, aggregator-based e-voting). Owner, 2026-11-11."
   ],
   "exclude_when": [
     {
       "code": "single_side_T",
-      "rule": "Pure cryptography, pure security, pure blockchain/systems engineering, consensus or performance work with no economic, strategic or incentive element. Formal verification of functional correctness or safety with no strategic/incentive element is single-side. An adversary, attacker or threat model is not by itself an E-side element: a security, consensus or attack paper qualifies only if it models or measures payoffs, costs, incentives, or rational/strategic behaviour."
+      "rule": "Pure cryptography, pure security, pure blockchain/systems engineering, consensus or performance work with no economic, strategic or incentive element. Formal verification of functional correctness or safety with no strategic/incentive element is single-side. An adversary, attacker or threat model is not by itself an E-side element: a security, consensus or attack paper qualifies only if it models or measures payoffs, costs, incentives, or rational/strategic behaviour. Audits with no economic incentive or mechanism are single-side: proofs of reserves or liabilities, smart-contract or code audits, fraud or scam detection, unless the paper models or measures the incentives or payoffs involved (owner, 2026-11-11)."
     },
     {
       "code": "single_side_E",
@@ -41,15 +42,15 @@
     },
     {
       "code": "application_domain",
-      "rule": "The E x T machinery is applied to ANOTHER domain rather than studied in itself: IoT, edge/fog/mobile-edge computing, vehicular/UAV/satellite networks, wireless/spectrum/5G-6G resource allocation, smart grid and energy trading, healthcare, supply chain, agriculture, logistics, carbon credits, federated learning or crowdsourcing incentive schemes, metaverse services, e-government, education. Example to exclude: 'a game-theoretic blockchain incentive scheme for edge computing offloading'. Not this code: research on blockchain's economic impact on another sector, such as Bitcoin miners' electricity demand response to hashprice. It does apply to using blockchain to improve energy or other sectors, and to letting the grid or another sector guide blockchain design."
+      "rule": "The E x T machinery is applied to ANOTHER domain rather than studied in itself: IoT, edge/fog/mobile-edge computing, vehicular/UAV/satellite networks, wireless/spectrum/5G-6G resource allocation, smart grid and energy trading, healthcare, supply chain, agriculture, logistics, carbon credits, federated learning or crowdsourcing incentive schemes, metaverse services, e-government, education. Example to exclude: 'a game-theoretic blockchain incentive scheme for edge computing offloading'. Not this code: research on blockchain's economic impact on another sector, such as Bitcoin miners' electricity demand response to hashprice. It does apply to using blockchain to improve energy or other sectors, and to letting the grid or another sector guide blockchain design. Also e-commerce, retail platforms and US or other stock markets when the crypto/blockchain machinery is only applied there (owner, 2026-11-11)."
     },
     {
       "code": "forecasting_only",
-      "rule": "Crypto price/return prediction, technical trading or ML forecasting without an economic mechanism, market-structure or incentive question."
+      "rule": "Crypto price/return prediction, technical trading or ML forecasting without an economic mechanism, market-structure or incentive question. Also excluded (owner, 2026-11-11): studies of crypto prices or returns alone (correlations, volatility, spillovers, hedging and portfolio roles, investor attention, market sentiment), time-series forecasting, and pure measurement or descriptive statistics with no economic mechanism, incentive or market-design question. Measurement of an incentive or mechanism (fees, MEV, block-building auctions, staking rewards) still counts."
     },
     {
       "code": "no_contribution",
-      "rule": "Tutorials, introductions, generic surveys, position pieces, editorials, book reviews. Exception: a systematization (SoK) at a peer-reviewed venue that organizes the E x T crossing itself. For a survey or SoK only, arXiv, SSRN and ePrint do not count as peer-reviewed venues. A paper with its own model, theorem, mechanism, data analysis or measurement is never no_contribution, and being a preprint or working paper is never a reason to exclude."
+      "rule": "Tutorials, introductions, generic surveys, position pieces, editorials, book reviews. Exception: a systematization (SoK) at a peer-reviewed venue that organizes the E x T crossing itself. For a survey or SoK only, arXiv, SSRN and ePrint do not count as peer-reviewed venues. A paper with its own model, theorem, mechanism, data analysis or measurement is never no_contribution, and being a preprint or working paper is never a reason to exclude. Abstracts of talks, lectures, tutorials and panels are always excluded (owner, 2026-11-11)."
     },
     {
       "code": "superficial",

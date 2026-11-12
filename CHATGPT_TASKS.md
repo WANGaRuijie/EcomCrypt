@@ -28,7 +28,7 @@
 - 对每个 venue 给出 `allow` / `deny` / `skip`（与本领域无关、书系、数据仓库等）三选一，理由一句话，附出版方或期刊主页 URL。`allow` 时给出建议的 `id`、`label`、完整名称、`group`（取值：EconCS, Blockchain, TCS, Systems, Security & Crypto, Econ, Finance, OR/MS, Data Management and Analytics, Interdisciplinary）、`kind`（journal/conference/workshop）。
 - 标准：拒收声誉差、门槛极低的期刊或会议；成立较晚、领域较小但正规的可以接受。不确定就 `skip` 并说明。
 - 产出 `.out/chatgpt/T2-venues-<日期>.json`。
-- 状态：等首次运行
+- 状态：停用（2026-11-11 主人决定：未登记 venue 直接淘汰，不再逐个裁定）
 
 ## T3 人工复核队列（每月跑完后）
 
